@@ -1,0 +1,78 @@
+Immersive Engineering:
+Coke Oven
+Alloy Smelter
+Blast Furnace
+Advanced Blast Furnace
+Metal Press
+Crusher
+Sheetmetal Tank
+Silo
+Assembler
+Auto Workbench
+Bottling Machine
+Squeezer
+Fermenter
+Refinery
+Diesel Generator
+Arc Furnace
+Lightning Rod
+Mixer
+Excavator
+
+Immersive Petroleum:
+Distillation Tower
+Pumpjack
+
+Immersive Tech:
+Distiller
+Solar Tower
+Solar Reflector
+Steam Turbine
+Boiler
+Alternator
+Advanced Coke Oven
+
+Magneticraft:
+Big Combustion Chamber
+Big Electric Furnace
+Big Steam Boiler
+Hydraulic Press
+Oil Heater
+Pumpjack
+Refinery
+Shelving Unit
+Sieve
+Solar Mirror
+Solar Panel
+Solar Tower
+Boiler
+Small Steam Engine
+Steam Turbine
+
+Mekanism:
+Teleporter
+Dynamic Tank
+Thermal Evaporation Tower
+Induction Matrix
+Big Turbine
+Big Boiler
+
+Mekanism Generators:
+Fusion Reactor
+
+NuclearCraft: Overhauled:
+Solid Fuel Fission Reactor
+Molten Salt Reactor
+Turbine
+Heat Exchanger
+Condenser
+
+Tech Reborn:
+Fusion Control Computer
+Implosion Compressor
+Industrial Blast Furnace
+Industrial Centrifuge
+Industrial Electrolyzer
+Industrial Grinder
+Industrial Sawmill
+Vacuum Freezer

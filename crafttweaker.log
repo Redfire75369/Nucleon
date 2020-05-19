@@ -1,0 +1,26 @@
+[PREINITIALIZATION][CLIENT][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
+Darkosto
+Diablo Crasher
+Pongo Sapiens
+Dan Goodman
+DreamThorn
+Freebi
+Jonathan McManus
+quaternary
+Robijnvogel
+realTIMematrix
+If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
+
+[PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit]]
+[PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [preinit]
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 2ms
+[PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [mekatweaker]]
+[PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [mekatweaker]
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 0ms
+[INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
+[INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
+[INITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [mekatweaker], [recipeevent | crafttweaker]]
+[INITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 0ms
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
+[AVAILABLE][CLIENT][INFO] Fixed the RecipeBook
