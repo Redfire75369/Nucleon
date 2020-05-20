@@ -56,6 +56,7 @@ val stringOre = [
 	"Titanium",
 	"Thorium",
 	"Tin",
+	"Trinitite",
 	"Tungsten",
 	"Uranium"
 //SILK_SORTING: END@Ore
@@ -342,8 +343,10 @@ val stringIngot = [
 	"Mithril",
 	"MixedMetal",
 	"Nickel",
+	"ObsidianSteel",
 	"Osmium",
 	"Platinum",
+	"Plutonium",
 	"PulsatingIron",
 	"RedstoneAlloy",
 	"RefinedGlowstone",
@@ -352,6 +355,7 @@ val stringIngot = [
 	"Shibuichi",
 	"SiCSiCCMC",
 	"Signalum",
+	"Silicon",
 	"SiliconCarbide",
 	"Silver",
 	"SlimePink",
@@ -363,6 +367,8 @@ val stringIngot = [
 	"Tin",
 	"TinSilver",
 	"Titanium",
+	"TitaniumAluminide",
+	"TitaniumIridium",
 	"Tough",
 	"Tungsten",
 	"Tungstensteel",
@@ -372,7 +378,19 @@ val stringIngot = [
 	"VividAlloy",
 	"Zinc",
 	"Zircaloy",
-	"Zirconium"
+	"Zirconium",
+	"Niobium",
+	"Hafnium",
+	"Sodium",
+	"Potassium",
+	"Calcium",
+	"Strontium",
+	"Yttrium",
+	"Neodymium",
+	"Germanium",
+	"TungstenCarbide",
+	"NiobiumTin",
+	"StainlessSteel"
 //SILK_SORTING: END@Ingot
 ] as string[];
 for ingot in stringIngot { 
@@ -392,6 +410,7 @@ val stringGem = [
 	"Coal",
 	"CrystalFlux",
 	"Diamond",
+	"Dilithium",
 	"Emerald",
 	"Fluix",
 	"Fluorite",
@@ -405,7 +424,9 @@ val stringGem = [
 	"Rhodocrosite",
 	"Ruby",
 	"Sapphire",
+	"Trinitite",
 	"Villiaumite",
+	"Witherite",
 	"YellowGarnet"
 //SILK_SORTING: END@Gem
 ] as string[];
@@ -457,6 +478,7 @@ val stringNugget = [
 	"DarkSteel",
 	"Dawnstone",
 	"Diamond",
+	"Dilithium",
 	"ElectricalSteel",
 	"Electrum",
 	"ElectrumFlux",
@@ -599,8 +621,7 @@ val stringDust = [
 	"DarkSteel",
 	"Dawnstone",
 	"Diamond",
-	"Dimensional",
-	"DimensionalShard",
+	"Dilithium",
 	"Diorite",
 	"ElectricalSteel",
 	"Electrum",
@@ -661,6 +682,7 @@ val stringDust = [
 	"Petrotheum",
 	"Phosphorous",
 	"Platinum",
+	"Plutonium",
 	"PotassiumFlouride",
 	"PotassiumHydroxide",
 	"Prismarine",
@@ -682,6 +704,7 @@ val stringDust = [
 	"Shibuichi",
 	"SiCSiCCMC",
 	"Signalum",
+	"Silicon",
 	"SiliconCarbide",
 	"Silver",
 	"Sodalite",
@@ -697,7 +720,10 @@ val stringDust = [
 	"Tin",
 	"TinSilver",
 	"Titanium",
+	"TitaniumAluminide",
+	"TitaniumIridium",
 	"Tough",
+	"Trinitite",
 	"Tungsten",
 	"Tungstensteel",
 	"Uranium",
@@ -706,11 +732,18 @@ val stringDust = [
 	"Villiaumite",
 	"VividAlloy",
 	"Wheat",
+	"Witherite",
 	"Wood",
 	"YellowGarnet",
 	"Zinc",
 	"Zircaloy",
-	"Zirconium"
+	"Zirconium",
+	"Niobium",
+	"Hafnium",
+	"Sodium",
+	"Potassium",
+	"Calcium",
+	"Strontium"
 //SILK_SORTING: END@Dust
 ] as string[];
 for dust in stringDust {
@@ -771,6 +804,7 @@ val stringDustSmall = [
 	"DarkSteel",
 	"Dawnstone",
 	"Diamond",
+	"Dilithium",
 	"Dimensional",
 	"DimensionalShard",
 	"Diorite",
@@ -920,6 +954,7 @@ val stringPlate = [
 	"DarkSteel",
 	"Dawnstone",
 	"Diamond",
+	"Dilithium",
 	"DU",
 	"ElectricalSteel",
 	"Electrum",
@@ -963,6 +998,7 @@ val stringPlate = [
 	"MixedMetal",
 	"Nickel",
 	"Obsidian",
+	"ObsidianSteel",
 	"Osmium",
 	"Peridot",
 	"Platinum",
@@ -993,6 +1029,8 @@ val stringPlate = [
 	"Tin",
 	"TinSilver",
 	"Titanium",
+	"TitaniumAluminide",
+	"TitaniumIridium",
 	"Tough",
 	"Tungsten",
 	"Tungstensteel",
@@ -1039,6 +1077,7 @@ val stringPlateDense = [
 	"DarkSteel",
 	"Dawnstone",
 	"Diamond",
+	"Dilithium",
 	"ElectricalSteel",
 	"Electrum",
 	"ElectrumFlux",
@@ -1158,6 +1197,7 @@ val stringRod = [
 	"DarkSteel",
 	"Dawnstone",
 	"Diamond",
+	"Dilithium",
 	"ElectricalSteel",
 	"Electrum",
 	"ElectrumFlux",
@@ -1225,6 +1265,8 @@ val stringRod = [
 	"Tin",
 	"TinSilver",
 	"Titanium",
+	"TitaniumAluminide",
+	"TitaniumIridium",
 	"Tough",
 	"Tungsten",
 	"Tungstensteel",
@@ -1270,6 +1312,7 @@ val stringGear = [
 	"DarkSteel",
 	"Dawnstone",
 	"Diamond",
+	"Dilithium",
 	"ElectricalSteel",
 	"Electrum",
 	"ElectrumFlux",
@@ -1339,6 +1382,8 @@ val stringGear = [
 	"Tin",
 	"TinSilver",
 	"Titanium",
+	"TitaniumAluminide",
+	"TitaniumIridium",
 	"Tough",
 	"Tungsten",
 	"Tungstensteel",
@@ -1361,7 +1406,8 @@ for gear in stringGear {
 global hashBlock as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringBlock = [
 //SILK_SORTING: BEGIN@Block
-	"Aluminium"
+	"Aluminium",
+	"Dilithium"
 //SILK_SORTING: END@Block
 ] as string[];
 for block in stringBlock {

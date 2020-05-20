@@ -76,16 +76,15 @@ recipes.removeShapeless(hashIngot["Bronze"], [
 	hashIngot["Copper"]
 ]);
 
+mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:metal:8>);
+mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:storage:8>);
+
+mods.techreborn.alloySmelter.removeAll();
+
 mods.techreborn.blastFurnace.removeInputRecipe(<minecraft:iron_ore>);
 mods.techreborn.blastFurnace.removeInputRecipe(<techreborn:ore:5>);
 mods.techreborn.blastFurnace.removeInputRecipe(<techreborn:dust:22> * 2);
 mods.techreborn.blastFurnace.removeInputRecipe(<techreborn:smalldust:23> * 8);
-mods.techreborn.compressor.removeInputRecipe(<techreborn:dust:65>);
-
-mods.techreborn.alloySmelter.removeRecipe(<techreborn:ingot:1>);
-mods.techreborn.alloySmelter.removeRecipe(<techreborn:ingot:2>);
-mods.techreborn.alloySmelter.removeRecipe(<techreborn:ingot:5>);
-mods.techreborn.alloySmelter.removeRecipe(<techreborn:ingot:6>);
 
 mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot>);
 mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot:3>);
@@ -94,6 +93,8 @@ mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot:12>);
 mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot:14>);
 mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot:15>);
 mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot:16>);
+
+mods.techreborn.compressor.removeInputRecipe(<techreborn:dust:65>);
 
 mods.techreborn.vacuumFreezer.removeRecipe(<techreborn:ingot:17>);
 
@@ -209,6 +210,9 @@ mods.magneticraft.Grinder.removeRecipe(<magneticraft:ores:4>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<immersive_energy:metal:2>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<immersive_energy:metal:3>);
 
+mods.techreborn.grinder.removeInputRecipe(<techreborn:ore:9>);
+mods.techreborn.grinder.removeInputRecipe(<techreborn:plates:20>);
+
 mods.techreborn.industrialGrinder.removeInputRecipe(<techreborn:ore:6>);
 mods.techreborn.industrialGrinder.removeInputRecipe(<techreborn:ore:9>);
 
@@ -274,6 +278,7 @@ for key, dictDust in hashDust {
 			mods.techreborn.grinder.removeInputRecipe(itemGem);
 		}
 		for itemDust in dictDust.items {
+			mods.immersiveengineering.Crusher.removeRecipe(itemDust);
 			mods.techreborn.grinder.removeRecipe(itemDust);
 		}
 	}
@@ -283,11 +288,14 @@ for key, dictDust in hashDust {
 			hashDustSmall[key]
 		]);
 	}
-	if (hashOre has key||hashIngot has key||hashGem has key) {
-		for itemDust in dictDust.items {
-			//mods.astralsorcery.Grindstone.removeRecipe(itemDust);
-			mods.nuclearcraft.Manufactory.removeRecipeWithOutput(itemDust);
-			mods.techreborn.grinder.removeRecipe(itemDust);
+	if (hashPlate has key) {
+		for itemPlate in hashPlate[key].items {
+			mods.techreborn.grinder.removeInputRecipe(itemPlate);
+		}
+	}
+	if (hashBlock has key) {
+		for itemBlock in hashBlock[key].items {
+			mods.techreborn.grinder.removeInputRecipe(itemBlock);
 		}
 	}
 }
@@ -400,6 +408,10 @@ for key, dictGear in hashGear {
 			[hashIngot[key], hashIngot["Iron"], hashIngot[key]],
 			[null, hashIngot[key], null]
 		]);
+		
+		for itemGear in dictGear.items {
+			mods.immersiveengineering.MetalPress.removeRecipe(itemGear);
+		}
 	}
 	if (hashGem has key) {
 		recipes.removeShaped(dictGear, [

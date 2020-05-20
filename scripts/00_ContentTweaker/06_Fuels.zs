@@ -5,10 +5,10 @@ import mods.contenttweaker.CreativeTab;
 import mods.contenttweaker.Item;
 import mods.contenttweaker.VanillaFactory;
 
-var typeList = ["tenerium", "impedium", "desdirium", "myterium", "reperium", "unorbtium"];
-var stateList = ["", "_nitride", "_oxide", "_zirconium_alloy"];
-var enrichList = ["low_enriched", "high_enriched"];
-var depletionList = ["", "_depleted"];
+var typeList = ["tenerium", "impedium", "desdirium", "myterium", "reperium", "unorbtium"] as string[];
+var stateList = ["", "_nitride", "_oxide", "_zirconium_alloy"] as string[];
+var enrichList = ["low_enriched", "high_enriched"] as string[];
+var depletionList = ["", "_depleted"] as string[];
 
 var isotopes = [] as Item[];
 var fuels = [] as Item[];
