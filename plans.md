@@ -44,31 +44,6 @@ For a complete overview of all quests, check this [spreadsheet](https://docs.goo
 - Craft Fabricator
 - Craft Boiler & Small Steam Engine
 
-<!--
-	Quest 15: Craft Solar Panel, Boiler and Small Steam Engine
-	Quest 17: Craft Big Steam Boiler, Steam Turbine and Solar Tower
-	Quest 18-20: Continue Magneticraft and IE, unlocking silver, nickel and gold along the way
-	Quest 21: Make HOP Graphite and Heavy Steel Plate
-	
-	Quest 22: Craft 4 Tree Fluid Extractors, Latex Processing Unit and Machine Frame(TR)
-	Quest 23: Craft 12 Plastic, then a Machine Case
-	Quest 24: Craft Protein Generator and Protein Reactor. Reward: Coal
-	Quest 25: Craft Bioreactor and Biofuel Generator
-	Quest 26: Craft Mob Grinder. Reward: Diamond,  Ingot
-	Quest 27: Make 10000mB Mob Essence
-	Quest 28-36: Continue TR, unlocking emerald, oil along the way
-	Quest 37: Make 360K NaK Coolant Cell
-	Quest 38: Start PneumaticCraft
-	Quest 39-43: Continue PneumaticCraft, unlocking platinum, tungsten and osmium
-	Quest 44: Make LPG
-	Quest 45: Start NuclearCraft and Mekanism
-	Quest 46-57: Continue NuclearCraft and Mekanism, unlocking Iridium and Titanium along the way
-	Quest 58: Make Rocket Fuel
-	Quest 59: Start Advanced Rocketry
-	Quest 59-66: Continue Advanced Rocketry
-	Quest 66-74: Reach Endgame
->
-
 ## Energy's Matter Progression
 Tier 0 - Molecular Transmutator <br/>
 Tier 1 - Uses most basic Fusion Reactor <br/>
@@ -227,3 +202,33 @@ Tier 6 - Black Hole Reactor
 
 #### Plate Bending Machine (Tech Reborn)
 - Ingots to Plates
+
+
+
+
+
+
+<!--
+	Quest 15: Craft Solar Panel, Boiler and Small Steam Engine
+	Quest 17: Craft Big Steam Boiler, Steam Turbine and Solar Tower
+	Quest 18-20: Continue Magneticraft and IE, unlocking silver, nickel and gold along the way
+	Quest 21: Make HOP Graphite and Heavy Steel Plate
+	
+	Quest 22: Craft 4 Tree Fluid Extractors, Latex Processing Unit and Machine Frame(TR)
+	Quest 23: Craft 12 Plastic, then a Machine Case
+	Quest 24: Craft Protein Generator and Protein Reactor. Reward: Coal
+	Quest 25: Craft Bioreactor and Biofuel Generator
+	Quest 26: Craft Mob Grinder. Reward: Diamond,  Ingot
+	Quest 27: Make 10000mB Mob Essence
+	Quest 28-36: Continue TR, unlocking emerald, oil along the way
+	Quest 37: Make 360K NaK Coolant Cell
+	Quest 38: Start PneumaticCraft
+	Quest 39-43: Continue PneumaticCraft, unlocking platinum, tungsten and osmium
+	Quest 44: Make LPG
+	Quest 45: Start NuclearCraft and Mekanism
+	Quest 46-57: Continue NuclearCraft and Mekanism, unlocking Iridium and Titanium along the way
+	Quest 58: Make Rocket Fuel
+	Quest 59: Start Advanced Rocketry
+	Quest 59-66: Continue Advanced Rocketry
+	Quest 66-74: Reach Endgame
+>
