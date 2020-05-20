@@ -643,7 +643,6 @@ minecraft:record_strad, Music Disc
 minecraft:record_ward, Music Disc
 minecraft:record_11, Music Disc
 minecraft:record_wait, Music Disc
-aenetvistool:net_visualizer, Network Visualization Tool
 ae2stuff:encoder, Pattern Encoder
 ae2stuff:grower, Crystal Growth Chamber
 ae2stuff:inscriber, Advanced Inscriber
@@ -1644,6 +1643,7 @@ extracells:pattern.fluid:0, ME Fluid Pattern: Umber Ale [WIP]
 extracells:pattern.fluid:0, ME Fluid Pattern: Absinthe
 extracells:pattern.fluid:0, ME Fluid Pattern: Snowpoff Vodka
 extracells:pattern.fluid:0, ME Fluid Pattern: Molten Antimony
+extracells:pattern.fluid:0, ME Fluid Pattern: Creeper Acid
 extracells:pattern.fluid:0, ME Fluid Pattern: Beryllium
 extracells:pattern.fluid:0, ME Fluid Pattern: Calcium
 extracells:pattern.fluid:0, ME Fluid Pattern: Calciumcarbonate
@@ -9073,6 +9073,12 @@ appliedenergistics2:facade:0, Cable Facade - Light Engineering Block
 appliedenergistics2:facade:0, Cable Facade - Heavy Engineering Block
 appliedenergistics2:facade:0, Cable Facade - Generator Block
 appliedenergistics2:facade:0, Cable Facade - Radiator Block
+appliedenergistics2:facade:0, Cable Facade - Thorium Ore
+appliedenergistics2:facade:0, Cable Facade - Tungsten Ore
+appliedenergistics2:facade:0, Cable Facade - Block of Thorium
+appliedenergistics2:facade:0, Cable Facade - Block of Tungsten
+appliedenergistics2:facade:0, Cable Facade - Thorium Sheetmetal
+appliedenergistics2:facade:0, Cable Facade - Tungsten Sheetmetal
 appliedenergistics2:facade:0, Cable Facade - Asphalt Concrete
 appliedenergistics2:facade:0, Cable Facade - Reinforced Coke Brick
 appliedenergistics2:facade:0, Cable Facade - Colored Block Clean
@@ -9106,8 +9112,61 @@ appliedenergistics2:facade:0, Cable Facade - Little Storage Block
 appliedenergistics2:facade:0, Cable Facade - tile.ltinput.name
 appliedenergistics2:facade:0, Cable Facade - tile.ltoutput.name
 appliedenergistics2:facade:0, Cable Facade - tile.fake_ice.name
-appliedenergistics2:facade:0, Cable Facade - tile.extra_trim.name
 appliedenergistics2:facade:0, Cable Facade - Inventory Cable
+appliedenergistics2:facade:0, Cable Facade - Copper Ore
+appliedenergistics2:facade:0, Cable Facade - Tin Ore
+appliedenergistics2:facade:0, Cable Facade - Lead Ore
+appliedenergistics2:facade:0, Cable Facade - Titanium Ore
+appliedenergistics2:facade:0, Cable Facade - Uranium Ore
+appliedenergistics2:facade:0, Cable Facade - Red Container
+appliedenergistics2:facade:0, Cable Facade - Green Container
+appliedenergistics2:facade:0, Cable Facade - Blue Container
+appliedenergistics2:facade:0, Cable Facade - Yellow Container
+appliedenergistics2:facade:0, Cable Facade - Steel Panel
+appliedenergistics2:facade:0, Cable Facade - Silver Steel Panel
+appliedenergistics2:facade:0, Cable Facade - Carbon Panel
+appliedenergistics2:facade:0, Cable Facade - Dark Scaffold
+appliedenergistics2:facade:0, Cable Facade - Nether Metal (Plate)
+appliedenergistics2:facade:0, Cable Facade - Nether Metal (Grate)
+appliedenergistics2:facade:0, Cable Facade - Nether Metal (Small Grate)
+appliedenergistics2:facade:0, Cable Facade - Nether Metal (Bloody Grey)
+appliedenergistics2:facade:0, Cable Facade - Nether Metal (Grey)
+appliedenergistics2:facade:0, Cable Facade - Nether Metal (Grey Tiles)
+appliedenergistics2:facade:0, Cable Facade - Nether Metal (Red Pillar)
+appliedenergistics2:facade:0, Cable Facade - Nether Metal (Dark Pillar)
+appliedenergistics2:facade:0, Cable Facade - Nether Metal (Red Panel)
+appliedenergistics2:facade:0, Cable Facade - Nether Metal (Lava Pillar)
+appliedenergistics2:facade:0, Cable Facade - Reinforced Concrete
+appliedenergistics2:facade:0, Cable Facade - Reinforced Concrete (Light)
+appliedenergistics2:facade:0, Cable Facade - Reinforced Concrete (Grey)
+appliedenergistics2:facade:0, Cable Facade - Reinforced Concrete (Dark)
+appliedenergistics2:facade:0, Cable Facade - Reinforced Concrete (Pipes)
+appliedenergistics2:facade:0, Cable Facade - Reinforced Concrete (Steel Bars)
+appliedenergistics2:facade:0, Cable Facade - Double Neon Lights
+appliedenergistics2:facade:0, Cable Facade - Double Neon Lights (Rotated)
+appliedenergistics2:facade:0, Cable Facade - Quad Neon Lights
+appliedenergistics2:facade:0, Cable Facade - Quad Neon Lights (Rotated)
+appliedenergistics2:facade:0, Cable Facade - Square Neon Light
+appliedenergistics2:facade:0, Cable Facade - Ammo Crate
+appliedenergistics2:facade:0, Cable Facade - Weapon Crate
+appliedenergistics2:facade:0, Cable Facade - Armor Crate
+appliedenergistics2:facade:0, Cable Facade - Medical Crate
+appliedenergistics2:facade:0, Cable Facade - Explosives Crate
+appliedenergistics2:facade:0, Cable Facade - Supply Crate
+appliedenergistics2:facade:0, Cable Facade - Supply Crate
+appliedenergistics2:facade:0, Cable Facade - Supply Crate
+appliedenergistics2:facade:0, Cable Facade - Supply Crate
+appliedenergistics2:facade:0, Cable Facade - Hardened Sand
+appliedenergistics2:facade:0, Cable Facade - Strange Glowing Eggs
+appliedenergistics2:facade:0, Cable Facade - Ore Cluster (Coal)
+appliedenergistics2:facade:0, Cable Facade - Ore Cluster (Common Metal)
+appliedenergistics2:facade:0, Cable Facade - Ore Cluster (Rare Metal)
+appliedenergistics2:facade:0, Cable Facade - Ore Cluster (Shiny Metal)
+appliedenergistics2:facade:0, Cable Facade - Ore Cluster (Uranium)
+appliedenergistics2:facade:0, Cable Facade - Ore Cluster (Common Gem)
+appliedenergistics2:facade:0, Cable Facade - Ore Cluster (Shiny Gem)
+appliedenergistics2:facade:0, Cable Facade - Ore Cluster (Nether Crystal)
+appliedenergistics2:facade:0, Cable Facade - Ore Cluster (Oil)
 appliedenergistics2:facade:0, Cable Facade - Copper Block
 appliedenergistics2:facade:0, Cable Facade - Lead Block
 appliedenergistics2:facade:0, Cable Facade - Silver Block
@@ -9135,12 +9194,12 @@ appliedenergistics2:facade:0, Cable Facade - Nickel Ore
 appliedenergistics2:facade:0, Cable Facade - Tin Block
 appliedenergistics2:facade:0, Cable Facade - Tin Ore
 appliedenergistics2:facade:0, Cable Facade - Hydrogel Block
-appliedenergistics2:facade:0, Cable Facade - Machine Block
-appliedenergistics2:facade:0, Cable Facade - Support Column (Y axis)
-appliedenergistics2:facade:0, Cable Facade - Pumpjack Pipe
 appliedenergistics2:facade:0, Cable Facade - Limestone
 appliedenergistics2:facade:0, Cable Facade - Burnt Limestone
 appliedenergistics2:facade:0, Cable Facade - Limestone Tiles
+appliedenergistics2:facade:0, Cable Facade - Machine Block
+appliedenergistics2:facade:0, Cable Facade - Support Column (Y axis)
+appliedenergistics2:facade:0, Cable Facade - Pumpjack Pipe
 appliedenergistics2:facade:0, Cable Facade - Chalcopyrite Ore (Copper)
 appliedenergistics2:facade:0, Cable Facade - Oil Source (Full)
 appliedenergistics2:facade:0, Cable Facade - Copper Block
@@ -10034,41 +10093,6 @@ enderio:item_gas_conduit:1, Pressurized Gas Conduit
 enderio:item_gas_conduit:2, Ender Gas Conduit
 gasconduits:item_gas_filter:0, Gas Filter
 enderio:item_fluid_conduit:0, Stellar Fluid Conduit
-enderutilities:asu:0, Adjustable Storage Unit
-enderutilities:barrel:0, Barrel
-enderutilities:draw_bridge:0, Drawbridge
-enderutilities:draw_bridge:1, Advanced Drawbridge
-enderutilities:ender_elevator:0, Ender Elevator (white)
-enderutilities:ender_elevator_slab:0, Ender Elevator Slab (white)
-enderutilities:ender_elevator_layer:0, Ender Elevator Layer (white)
-enderutilities:inserter:0, Inserter
-enderutilities:inserter:1, Inserter (Filtered)
-enderutilities:floor:0, Floor
-enderutilities:floor:1, Cracked Floor
-enderutilities:energy_bridge:0, Energy Bridge Resonator
-enderutilities:energy_bridge:1, Energy Bridge Receiver
-enderutilities:energy_bridge:2, Energy Bridge Transmitter
-enderutilities:machine_0:0, Ender Furnace
-enderutilities:machine_1:0, Ender Infuser
-enderutilities:machine_1:1, Tool Workstation
-enderutilities:machine_1:2, Creation Station
-enderutilities:machine_1:3, Advanced Quick Stacker
-enderutilities:molecular_exciter, tile.null.name
-enderutilities:msu:0, Massive Storage Unit
-enderutilities:msu:1, Massive Storage Bundle
-enderutilities:phasing:0, Phasing Block
-enderutilities:phasing:1, Phasing Block (inverted)
-enderutilities:frame, tile.null.name
-enderutilities:portal_panel, tile.null.name
-enderutilities:sound_block:0, Sound Block
-enderutilities:storage_0:0, Small Memory Chest
-enderutilities:storage_0:1, Memory Chest
-enderutilities:storage_0:2, Large Memory Chest
-enderutilities:storage_0:3, Handy Chest (Small)
-enderutilities:storage_0:4, Handy Chest (Normal)
-enderutilities:storage_0:5, Handy Chest (Large)
-enderutilities:storage_0:6, Handy Chest (Extended)
-enderutilities:storage_0:7, Junk Storage Unit
 enderutilities:endercapacitor:0, Ender Capacitor (Basic)
 enderutilities:endercapacitor:0, Ender Capacitor (Basic)
 enderutilities:endercapacitor:1, Ender Capacitor (Enhanced)
@@ -10140,6 +10164,41 @@ enderutilities:syringe:1, Paralyzer Syringe
 enderutilities:syringe:2, Stimulant Syringe
 enderutilities:syringe:3, Passifier Syringe
 enderutilities:void_pickaxe, Void Pickaxe
+enderutilities:asu:0, Adjustable Storage Unit
+enderutilities:barrel:0, Barrel
+enderutilities:draw_bridge:0, Drawbridge
+enderutilities:draw_bridge:1, Advanced Drawbridge
+enderutilities:ender_elevator:0, Ender Elevator (white)
+enderutilities:ender_elevator_slab:0, Ender Elevator Slab (white)
+enderutilities:ender_elevator_layer:0, Ender Elevator Layer (white)
+enderutilities:inserter:0, Inserter
+enderutilities:inserter:1, Inserter (Filtered)
+enderutilities:floor:0, Floor
+enderutilities:floor:1, Cracked Floor
+enderutilities:energy_bridge:0, Energy Bridge Resonator
+enderutilities:energy_bridge:1, Energy Bridge Receiver
+enderutilities:energy_bridge:2, Energy Bridge Transmitter
+enderutilities:machine_0:0, Ender Furnace
+enderutilities:machine_1:0, Ender Infuser
+enderutilities:machine_1:1, Tool Workstation
+enderutilities:machine_1:2, Creation Station
+enderutilities:machine_1:3, Advanced Quick Stacker
+enderutilities:molecular_exciter, tile.null.name
+enderutilities:msu:0, Massive Storage Unit
+enderutilities:msu:1, Massive Storage Bundle
+enderutilities:phasing:0, Phasing Block
+enderutilities:phasing:1, Phasing Block (inverted)
+enderutilities:frame, tile.null.name
+enderutilities:portal_panel, tile.null.name
+enderutilities:sound_block:0, Sound Block
+enderutilities:storage_0:0, Small Memory Chest
+enderutilities:storage_0:1, Memory Chest
+enderutilities:storage_0:2, Large Memory Chest
+enderutilities:storage_0:3, Handy Chest (Small)
+enderutilities:storage_0:4, Handy Chest (Normal)
+enderutilities:storage_0:5, Handy Chest (Large)
+enderutilities:storage_0:6, Handy Chest (Extended)
+enderutilities:storage_0:7, Junk Storage Unit
 fluxnetworks:flux, Flux
 fluxnetworks:fluxcore, Flux Core
 fluxnetworks:fluxconfigurator, Flux Configurator
@@ -10866,6 +10925,36 @@ immersiveengineering:steel_armor_feet, Steel Boots
 immersiveengineering:steel_armor_legs, Steel Leggings
 immersiveengineering:steel_armor_chest, Steel Chestplate
 immersiveengineering:steel_armor_head, Steel Helmet
+immersive_energy:ore:0, Thorium Ore
+immersive_energy:ore:1, Tungsten Ore
+immersive_energy:storage:0, Block of Thorium
+immersive_energy:storage:1, Block of Tungsten
+immersive_energy:sheetmetal:0, Thorium Sheetmetal
+immersive_energy:sheetmetal:1, Tungsten Sheetmetal
+immersive_energy:sheetmetal_slab:0, Thorium Sheetmetal Slab
+immersive_energy:sheetmetal_slab:1, Tungsten Sheetmetal Slab
+immersive_energy:metal_generators0, tile.immersive_energy.metal_generators0.name
+immersive_energy:metal:0, Thorium Ingot
+immersive_energy:metal:1, Tungsten Ingot
+immersive_energy:metal:2, Thorium Grit
+immersive_energy:metal:3, Tungsten Grit
+immersive_energy:metal:4, Thorium Nugget
+immersive_energy:metal:5, Tungsten Nugget
+immersive_energy:metal:6, Thorium Plate
+immersive_energy:metal:7, Tungsten Plate
+immersive_energy:material:0, Tungsten Rod
+immersive_energy:material:1, Solar Panel Array
+immersive_energy:stick_thorium, Thorium Rod
+immersive_energy:stick_uranium, Uranium Rod
+immersive_energy:power_armor_suit_body, Environmental Suit Torso [WIP]
+immersive_energy:power_armor_suit_head, Environmental Suit Helmet [WIP]
+immersive_energy:power_armor_suit_leggs, Environmental Suit Leggings [WIP]
+immersive_energy:power_armor_suit_boots, Environmental Suit Boots [WIP]
+immersive_energy:toolupgrade:0, Electric Wrench Addon
+immersive_energy:toolupgrade:1, Thermal Wrench Addon
+immersive_energy:toolupgrade:2, Magical Wrench Addon
+immersive_energy:toolupgrade:3, Wrench Capacitor Addon
+immersive_energy:hefty_wrench, Hefty Wrench
 immersivepetroleum:metal_device:0, Automatic Lubricator
 immersivepetroleum:metal_device:1, Portable Generator
 immersivepetroleum:stone_decoration, tile.immersivepetroleum.stone_decoration.name
@@ -11026,6 +11115,20 @@ notenoughwands:protection_wand, Protection Wand
 notenoughwands:master_protection_wand, Master Protection Wand
 notenoughwands:freezing_wand, Freezing Wand (WIP)
 notenoughwands:potion_wand, Potion Wand
+pneumaticcraft:logistic_frame_active_provider, Logistic Active Provider Frame
+pneumaticcraft:logistic_frame_passive_provider, Logistic Passive Provider Frame
+pneumaticcraft:logistic_frame_storage, Logistic Storage Frame
+pneumaticcraft:logistic_frame_default_storage, Logistic Default Storage Frame
+pneumaticcraft:logistic_frame_requester, Logistic Requester Frame
+pneumaticcraft:heat_frame, Heat Frame
+pneumaticcraft:spawner_agitator, Spawner Agitator
+pneumaticcraft:crop_support, Crop Support
+pneumaticcraft:transfer_gadget, Transfer Gadget
+pneumaticcraft:fluid.fuel, Gasoline
+pneumaticcraft:fluid.plastic, Plastic
+pneumaticcraft:fluid.etchacid, Etching Acid
+pneumaticcraft:fluid.kerosene, Kerosene
+pneumaticcraft:fluid.lpg, LPG
 pneumaticcraft:safety_tube_module, Safety Tube Module
 pneumaticcraft:pressure_gauge_module, Pressure Gauge Tube Module
 pneumaticcraft:flow_detector_module, Flow Detector Tube Module
@@ -11183,31 +11286,8 @@ pneumaticcraft:pneumatic_dynamo, Pneumatic Dynamo
 pneumaticcraft:fake_ice, tile.fake_ice.name
 pneumaticcraft:thermal_compressor, Thermal Compressor
 pneumaticcraft:drone_interface, Drone Interface
-pneumaticcraft:logistic_frame_active_provider, Logistic Active Provider Frame
-pneumaticcraft:logistic_frame_passive_provider, Logistic Passive Provider Frame
-pneumaticcraft:logistic_frame_storage, Logistic Storage Frame
-pneumaticcraft:logistic_frame_default_storage, Logistic Default Storage Frame
-pneumaticcraft:logistic_frame_requester, Logistic Requester Frame
-pneumaticcraft:heat_frame, Heat Frame
-pneumaticcraft:spawner_agitator, Spawner Agitator
-pneumaticcraft:crop_support, Crop Support
-pneumaticcraft:transfer_gadget, Transfer Gadget
-pneumaticcraft:fluid.etchacid, Etching Acid
-pneumaticcraft:fluid.fuel, Gasoline
-pneumaticcraft:fluid.kerosene, Kerosene
-pneumaticcraft:fluid.plastic, Plastic
-pneumaticcraft:fluid.lpg, LPG
 bq_rf:rf_station, RF Submission Station (RFSS)
 bq_standard:loot_chest, Loot Chest
-storagedrawersextra:extra_drawers:0, Basic Drawer
-storagedrawersextra:extra_drawers:1, Basic Drawer 1x2
-storagedrawersextra:extra_drawers:2, Basic Drawer 2x2
-storagedrawersextra:extra_drawers:3, Half Drawers 1x2
-storagedrawersextra:extra_drawers:4, Half Drawers 2x2
-storagedrawersextra:extra_trim_0, tile.extraTrim0.name
-storagedrawersextra:extra_trim_1, tile.extraTrim1.name
-storagedrawersextra:extra_trim_2, tile.extraTrim2.name
-storagedrawersextra:extra_trim_3, tile.extraTrim3.name
 superfactorymanager:cable_relay:0, Inventory Relay
 superfactorymanager:cable_relay:8, Advanced Inventory Relay
 superfactorymanager:cable_intake:0, Item Valve
@@ -11227,6 +11307,385 @@ superfactorymanager:cable_sign, Sign Updater
 superfactorymanager:disk, Memory Disc
 supersoundmuffler:sound_muffler_bauble, Super Sound Muffler
 supersoundmuffler:sound_muffler, Super Sound Muffler
+techguns:basicmachine:0, Ammo Press
+techguns:basicmachine:1, Metal Press
+techguns:basicmachine:2, Chemical Laboratory
+techguns:basicmachine:3, Turret
+techguns:simplemachine:8, Camo Bench
+techguns:simplemachine:9, Repair Bench
+techguns:simplemachine:10, Charging Station
+techguns:simplemachine:11, Blast Furnace
+techguns:simplemachine2:8, Grinder
+techguns:simplemachine2:9, Upgrade Bench
+techguns:multiblockmachine:0, Fabricator Housing
+techguns:multiblockmachine:1, Fabricator Glass
+techguns:multiblockmachine:2, Fabricator Controller
+techguns:multiblockmachine:3, Reaction Chamber Housing
+techguns:multiblockmachine:4, Reaction Chamber Glass
+techguns:multiblockmachine:5, Reaction Chamber Controller
+techguns:basicore:0, Copper Ore
+techguns:basicore:1, Tin Ore
+techguns:basicore:2, Lead Ore
+techguns:basicore:3, Titanium Ore
+techguns:basicore:4, Uranium Ore
+techguns:bioblob:0, Bioblob
+techguns:sandbags, Sandbags
+techguns:lamp0:0, Lamp (Yellow)
+techguns:lamp0:6, Lamp (White)
+techguns:lamp0:12, Lantern (Yellow)
+techguns:lamp0:13, Lantern (White)
+techguns:metalpanel:0, Red Container
+techguns:metalpanel:1, Green Container
+techguns:metalpanel:2, Blue Container
+techguns:metalpanel:3, Yellow Container
+techguns:metalpanel:4, Steel Panel
+techguns:metalpanel:5, Silver Steel Panel
+techguns:metalpanel:6, Carbon Panel
+techguns:metalpanel:7, Dark Scaffold
+techguns:nethermetal:0, Nether Metal (Plate)
+techguns:nethermetal:1, Nether Metal (Grate)
+techguns:nethermetal:2, Nether Metal (Small Grate)
+techguns:nethermetal:3, Nether Metal (Bloody Grey)
+techguns:nethermetal:4, Nether Metal (Grey)
+techguns:nethermetal:5, Nether Metal (Grey Tiles)
+techguns:nethermetal:6, Nether Metal (Red Pillar)
+techguns:nethermetal:7, Nether Metal (Dark Pillar)
+techguns:nethermetal:8, Nether Metal (Red Panel)
+techguns:nethermetal:9, Nether Metal (Lava Pillar)
+techguns:concrete:0, Reinforced Concrete
+techguns:concrete:1, Reinforced Concrete (Light)
+techguns:concrete:2, Reinforced Concrete (Grey)
+techguns:concrete:3, Reinforced Concrete (Dark)
+techguns:concrete:4, Reinforced Concrete (Pipes)
+techguns:concrete:5, Reinforced Concrete (Steel Bars)
+techguns:ladder0:8, Ladder (Metal)
+techguns:ladder0:9, Ladder (Shiny)
+techguns:ladder0:10, Ladder (Rusty)
+techguns:ladder0:11, Ladder (Carbon)
+techguns:door3x3, tile.techguns.door3x3.name
+techguns:camonet:0, Camo Netting (Woodland)
+techguns:camonet:1, Camo Netting (Desert)
+techguns:camonet:2, Camo Netting (Snow)
+techguns:camonet_top:0, Camo Netting Top (Woodland)
+techguns:camonet_top:1, Camo Netting Top (Desert)
+techguns:camonet_top:2, Camo Netting Top (Snow)
+techguns:bunkerdoor, tile.techguns.bunkerdoor.name
+techguns:stairs_metal:7, Steel Panel Stairs
+techguns:stairs_metal:15, Carbon Panel Stairs
+techguns:stairs_concrete:7, Reinforced Concrete Stairs (Dark)
+techguns:stairs_concrete:15, Reinforced Concrete Stairs (Light)
+techguns:tg_spawner:0, Monster Hole
+techguns:tg_spawner:1, Military Spawn Point
+techguns:neonlights:0, Double Neon Lights
+techguns:neonlights:1, Double Neon Lights (Rotated)
+techguns:neonlights:2, Quad Neon Lights
+techguns:neonlights:3, Quad Neon Lights (Rotated)
+techguns:neonlights:4, Square Neon Light
+techguns:military_crate:0, Ammo Crate
+techguns:military_crate:1, Weapon Crate
+techguns:military_crate:2, Armor Crate
+techguns:military_crate:3, Medical Crate
+techguns:military_crate:4, Explosives Crate
+techguns:military_crate:5, Supply Crate
+techguns:military_crate:6, Supply Crate
+techguns:military_crate:7, Supply Crate
+techguns:military_crate:8, Supply Crate
+techguns:explosive_charge:0, Mining Charge
+techguns:explosive_charge:1, Advanced Mining Charge
+techguns:sand_hard:0, Hardened Sand
+techguns:slimy:0, Strange Glowing Eggs
+techguns:slimyladder:3, Slimy Trail
+techguns:orecluster:0, Ore Cluster (Coal)
+techguns:orecluster:1, Ore Cluster (Common Metal)
+techguns:orecluster:2, Ore Cluster (Rare Metal)
+techguns:orecluster:3, Ore Cluster (Shiny Metal)
+techguns:orecluster:4, Ore Cluster (Uranium)
+techguns:orecluster:5, Ore Cluster (Common Gem)
+techguns:orecluster:6, Ore Cluster (Shiny Gem)
+techguns:orecluster:7, Ore Cluster (Nether Crystal)
+techguns:orecluster:8, Ore Cluster (Oil)
+techguns:oredrill:0, Ore Drill Frame
+techguns:oredrill:1, Ore Drill Scaffold
+techguns:oredrill:2, Ore Drill Rod
+techguns:oredrill:3, Ore Drill Engine
+techguns:oredrill:4, Ore Drill Controller
+techguns:block_creeper_acid, Creeper Acid
+techguns:itemshared:0, Stone Bullets
+techguns:itemshared:1, Pistol Rounds
+techguns:itemshared:2, Shotgun Rounds
+techguns:itemshared:3, Rifle Rounds
+techguns:itemshared:4, Sniper Rounds
+techguns:itemshared:5, 40mm Grenade
+techguns:itemshared:6, Advanced Rounds
+techguns:itemshared:7, Rocket
+techguns:itemshared:8, Rifle Rounds Stack
+techguns:itemshared:9, SMG Magazine
+techguns:itemshared:10, SMG Magazine (Empty)
+techguns:itemshared:11, Pistol Magazine
+techguns:itemshared:12, Pistol Magazine (Empty)
+techguns:itemshared:13, Assault Rifle Magazine
+techguns:itemshared:14, Assault Rifle Magazine (Empty)
+techguns:itemshared:15, LMG Magazine
+techguns:itemshared:16, LMG Magazine (Empty)
+techguns:itemshared:17, Minigun Ammo Drum
+techguns:itemshared:18, Minigun Ammo Drum (Empty)
+techguns:itemshared:19, AS50 Magazine
+techguns:itemshared:20, AS50 Magazine (Empty)
+techguns:itemshared:21, Advanced Magazine
+techguns:itemshared:22, Advanced Magazine (Empty)
+techguns:itemshared:23, Compressed Air Tank
+techguns:itemshared:24, Compressed Air Tank (Empty)
+techguns:itemshared:25, Bio Tank
+techguns:itemshared:26, Bio Tank (Empty)
+techguns:itemshared:27, Fuel Tank
+techguns:itemshared:28, Fuel Tank (Empty)
+techguns:itemshared:29, Energy Cell
+techguns:itemshared:30, Energy Cell (Empty)
+techguns:itemshared:31, Nuclear Power Cell
+techguns:itemshared:32, Nuclear Power Cell (Depleted)
+techguns:itemshared:33, Iron Receiver
+techguns:itemshared:34, Steel Receiver
+techguns:itemshared:35, Hardened Receiver
+techguns:itemshared:36, Carbon Receiver
+techguns:itemshared:37, Stone Barrel
+techguns:itemshared:38, Iron Barrel
+techguns:itemshared:39, Hardened Barrel
+techguns:itemshared:40, Carbon Barrel
+techguns:itemshared:41, Laser Barrel
+techguns:itemshared:42, Wooden Gun Stock
+techguns:itemshared:43, Plastic Gun Stock
+techguns:itemshared:44, Carbon Gun Stock
+techguns:itemshared:45, Steam Armor Plating
+techguns:itemshared:46, Iron Plate
+techguns:itemshared:47, Copper Plate
+techguns:itemshared:48, Tin Plate
+techguns:itemshared:49, Bronze Plate
+techguns:itemshared:50, Steel Plate
+techguns:itemshared:51, Obsidian Steel Plate
+techguns:itemshared:52, Lead Plate
+techguns:itemshared:53, Carbon Plate
+techguns:itemshared:54, Titanium Plate
+techguns:itemshared:55, Plastic Sheet
+techguns:itemshared:56, Rubber Bar
+techguns:itemshared:57, Mechanical Parts (Iron)
+techguns:itemshared:58, Mechanical Parts (Hardened)
+techguns:itemshared:59, Mechanical Parts (Carbon)
+techguns:itemshared:60, Heavy Cloth
+techguns:itemshared:61, Bio Mass
+techguns:itemshared:62, Copper Wire
+techguns:itemshared:63, Gold Wire
+techguns:itemshared:64, Carbon Fibers
+techguns:itemshared:65, Circuit Board
+techguns:itemshared:66, Elite Circuit Board
+techguns:itemshared:67, Power Armor Plating
+techguns:itemshared:68, Coil
+techguns:itemshared:69, Cybernetic Parts
+techguns:itemshared:70, Electric Engine
+techguns:itemshared:71, Laser Focus
+techguns:itemshared:72, Pump Mechanism
+techguns:itemshared:73, Rad Emitter
+techguns:itemshared:74, Sonic Emitter
+techguns:itemshared:75, TGX
+techguns:itemshared:76, Nether Charge
+techguns:itemshared:77, Treated Leather
+techguns:itemshared:78, Titanium Ore
+techguns:itemshared:79, Copper Ingot
+techguns:itemshared:80, Tin Ingot
+techguns:itemshared:81, Bronze Ingot
+techguns:itemshared:82, Lead Ingot
+techguns:itemshared:83, Steel Ingot
+techguns:itemshared:84, Obsidian Steel Ingot
+techguns:itemshared:85, Titanium Ingot
+techguns:itemshared:86, Copper Nugget
+techguns:itemshared:87, Lead Nugget
+techguns:itemshared:88, Steel Nugget
+techguns:itemshared:89, Gas Mask Filter
+techguns:itemshared:90, Glider Backpack
+techguns:itemshared:91, Glider Wing
+techguns:itemshared:92, Anti Gravity Core
+techguns:itemshared:93, Oxygen Mask
+techguns:itemshared:94, Machine Upgrade (Stack Operation)
+techguns:itemshared:95, Raw Rubber
+techguns:itemshared:96, Raw Plastic
+techguns:itemshared:97, Yellowcake
+techguns:itemshared:98, Enriched Uranium
+techguns:itemshared:99, Turret Armor (Iron)
+techguns:itemshared:100, Turret Armor (Steel)
+techguns:itemshared:101, Turret Armor (Obsidian Steel)
+techguns:itemshared:102, Turret Armor (Carbon)
+techguns:itemshared:103, Quartz Rod
+techguns:itemshared:104, Reaction Chamber Heatray Focus
+techguns:itemshared:105, Reaction Chamber UV Emitter
+techguns:itemshared:106, §6Shotgun Rounds (Incediary)
+techguns:itemshared:107, §6AS50 Magazine (Incediary)
+techguns:itemshared:108, §6Sniper Rounds (Incediary)
+techguns:itemshared:109, §6Pistol Rounds (Incediary)
+techguns:itemshared:110, §6Rifle Rounds (Incediary)
+techguns:itemshared:111, §6Rifle Rounds Stack (Incediary)
+techguns:itemshared:112, §6SMG Magazine (Incediary)
+techguns:itemshared:113, §6Pistol Magazine (Incediary)
+techguns:itemshared:114, §6Minigun Ammo Drum (Incediary)
+techguns:itemshared:115, §6Assault Rifle Magazine (Incendiary)
+techguns:itemshared:116, §6LMG Magazine (Incendiary)
+techguns:itemshared:117, Rocket (Tactical Nuke)
+techguns:itemshared:118, Small Nuclear Warhead
+techguns:itemshared:119, Mining Drill (Obsidian)
+techguns:itemshared:120, Mining Drill (Carbon)
+techguns:itemshared:121, Powerhammer Head (Obsidian)
+techguns:itemshared:122, Powerhammer Head (Carbon)
+techguns:itemshared:123, Chainsaw Blades (Obsidian)
+techguns:itemshared:124, Chainsaw Blades (Carbon)
+techguns:itemshared:125, Redstone Battery
+techguns:itemshared:126, Redstone Battery (Empty)
+techguns:itemshared:127, Gauss Rifle Slugs
+techguns:itemshared:128, Gauss Rifle Barrel
+techguns:itemshared:129, Shielded Titanium Barrel
+techguns:itemshared:130, Titanium Receiver
+techguns:itemshared:131, Plasma Generator
+techguns:itemshared:132, Working Gloves
+techguns:itemshared:133, Protective Fiber
+techguns:itemshared:134, Small Ore Drill (Steel)
+techguns:itemshared:135, Small Ore Drill (Obsidian Steel)
+techguns:itemshared:136, Small Ore Drill (Carbon)
+techguns:itemshared:137, Small Ore Drill (Steel)
+techguns:itemshared:138, Medium Ore Drill (Obsidian Steel)
+techguns:itemshared:139, Medium Ore Drill (Carbon)
+techguns:itemshared:140, Large Ore Drill (Steel)
+techguns:itemshared:141, Large Ore Drill (Obsidian Steel)
+techguns:itemshared:142, Large Ore Drill (Carbon)
+techguns:itemshared:143, §4AS50 Magazine (Explosive)
+techguns:itemshared:144, §4Sniper Rounds (Explosive)
+techguns:itemshared:145, §eRocket (High Velocity)
+techguns:itemshared:146, Infusion Bag
+techguns:itemshared:147, Armor Upgrade: Protection I
+techguns:itemshared:148, Armor Upgrade: Projectile Protection I
+techguns:itemshared:149, Armor Upgrade: Blast Protection I
+techguns:itemshared:150, Armor Upgrade: Protection II
+techguns:itemshared:151, Armor Upgrade: Projectile Protection II
+techguns:itemshared:152, Armor Upgrade: Blast Protection II
+techguns:itemshared:153, Armor Upgrade: Protection III
+techguns:itemshared:154, Armor Upgrade: Projectile Protection III
+techguns:itemshared:155, Armor Upgrade: Blast Protection III
+techguns:radaway, RadAway
+techguns:radpills, Anti-RAD Pills
+techguns:gasmask, Gas Mask
+techguns:glider, Glider
+techguns:jumppack, Jumppack
+techguns:scubatanks, Oxygen Tanks
+techguns:nightvisiongoggles, Nightvision Goggles
+techguns:jetpack, Jetpack
+techguns:tacticalmask, Tactical Mask
+techguns:antigravpack, Anti Gravity Device
+techguns:item_door3x3:0, Techdoor
+techguns:item_door3x3:1, Hangar Door (Up)
+techguns:item_door3x3:2, Hangar Door (Down)
+techguns:item_door3x3:3, Techdoor (Nether)
+techguns:item_bunkerdoor, Bunker Door
+techguns:combatknife, Combat Knife
+techguns:crowbar, Crowbar
+techguns:t1_combat_helmet, item.t1_combat_helmet.name
+techguns:t1_combat_chestplate, item.t1_combat_chestplate.name
+techguns:t1_combat_leggings, item.t1_combat_leggings.name
+techguns:t1_combat_boots, item.t1_combat_boots.name
+techguns:t1_scout_helmet, item.t1_scout_helmet.name
+techguns:t1_scout_chestplate, item.t1_scout_chestplate.name
+techguns:t1_scout_leggings, item.t1_scout_leggings.name
+techguns:t1_scout_boots, item.t1_scout_boots.name
+techguns:t1_miner_helmet, item.t1_miner_helmet.name
+techguns:t1_miner_chestplate, item.t1_miner_chestplate.name
+techguns:t1_miner_leggings, item.t1_miner_leggings.name
+techguns:t1_miner_boots, item.t1_miner_boots.name
+techguns:steam_helmet, item.steam_helmet.name
+techguns:steam_chestplate, item.steam_chestplate.name
+techguns:steam_leggings, item.steam_leggings.name
+techguns:steam_boots, item.steam_boots.name
+techguns:hazmat_helmet, item.hazmat_helmet.name
+techguns:hazmat_chestplate, item.hazmat_chestplate.name
+techguns:hazmat_leggings, item.hazmat_leggings.name
+techguns:hazmat_boots, item.hazmat_boots.name
+techguns:t2_combat_helmet, item.t2_combat_helmet.name
+techguns:t2_combat_chestplate, item.t2_combat_chestplate.name
+techguns:t2_combat_leggings, item.t2_combat_leggings.name
+techguns:t2_combat_boots, item.t2_combat_boots.name
+techguns:t2_commando_helmet, item.t2_commando_helmet.name
+techguns:t2_commando_chestplate, item.t2_commando_chestplate.name
+techguns:t2_commando_leggings, item.t2_commando_leggings.name
+techguns:t2_commando_boots, item.t2_commando_boots.name
+techguns:t2_riot_helmet, item.t2_riot_helmet.name
+techguns:t2_riot_chestplate, item.t2_riot_chestplate.name
+techguns:t2_riot_leggings, item.t2_riot_leggings.name
+techguns:t2_riot_boots, item.t2_riot_boots.name
+techguns:t3_combat_helmet, item.t3_combat_helmet.name
+techguns:t3_combat_chestplate, item.t3_combat_chestplate.name
+techguns:t3_combat_leggings, item.t3_combat_leggings.name
+techguns:t3_combat_boots, item.t3_combat_boots.name
+techguns:t3_power_helmet, item.t3_power_helmet.name
+techguns:t3_power_chestplate, item.t3_power_chestplate.name
+techguns:t3_power_leggings, item.t3_power_leggings.name
+techguns:t3_power_boots, item.t3_power_boots.name
+techguns:t3_miner_helmet, item.t3_miner_helmet.name
+techguns:t3_miner_chestplate, item.t3_miner_chestplate.name
+techguns:t3_miner_leggings, item.t3_miner_leggings.name
+techguns:t3_miner_boots, item.t3_miner_boots.name
+techguns:t3_exo_helmet, item.t3_exo_helmet.name
+techguns:t3_exo_chestplate, item.t3_exo_chestplate.name
+techguns:t3_exo_leggings, item.t3_exo_leggings.name
+techguns:t3_exo_boots, item.t3_exo_boots.name
+techguns:t2_beret, item.t2_beret.name
+techguns:t4_praetor_helmet, item.t4_praetor_helmet.name
+techguns:t4_praetor_chestplate, item.t4_praetor_chestplate.name
+techguns:t4_praetor_leggings, item.t4_praetor_leggings.name
+techguns:t4_praetor_boots, item.t4_praetor_boots.name
+techguns:t4_power_helmet, item.t4_power_helmet.name
+techguns:t4_power_chestplate, item.t4_power_chestplate.name
+techguns:t4_power_leggings, item.t4_power_leggings.name
+techguns:t4_power_boots, item.t4_power_boots.name
+techguns:riot_shield, Riot Shield
+techguns:ballistic_shield, Ballistic Shield
+techguns:advanced_shield, Advanced Shield
+techguns:handcannon, Hand Cannon
+techguns:sawedoff, Double Barrel Shotgun
+techguns:revolver, Revolver
+techguns:goldenrevolver, Golden Revolver
+techguns:thompson, Thompson SMG
+techguns:ak47, AKM
+techguns:boltaction, Bolt Action Rifle
+techguns:m4, M4 Assault Rifle
+techguns:m4_infiltrator, The Infiltrator
+techguns:pistol, Pistol
+techguns:combatshotgun, Combat Shotgun
+techguns:mac10, Mac 10
+techguns:flamethrower, Flamethrower
+techguns:rocketlauncher, Rocket Launcher
+techguns:grimreaper, Grim Reaper
+techguns:grenadelauncher, Grenade Launcher
+techguns:aug, AUG
+techguns:netherblaster, Nether Blaster
+techguns:biogun, Biogun
+techguns:teslagun, Tesla Gun
+techguns:lmg, Light Machine Gun
+techguns:minigun, Minigun
+techguns:as50, AS50 Sniper Rifle
+techguns:vector, Vector
+techguns:scar, SCAR
+techguns:lasergun, Laser Rifle
+techguns:blasterrifle, Blaster Rifle
+techguns:scatterbeamrifle, Blaster Shotgun
+techguns:sonicshotgun, Sonic Rifle
+techguns:pdw, PDW
+techguns:pulserifle, Pulse Rifle
+techguns:mibgun, De-Atomizer Pistol
+techguns:alienblaster, Alien Blaster
+techguns:powerhammer, Power Hammer
+techguns:chainsaw, Chainsaw
+techguns:nucleardeathray, Nuclear Death Ray
+techguns:gaussrifle, Gauss Rifle
+techguns:guidedmissilelauncher, Guided Missile-Launcher
+techguns:miningdrill, Mining Drill
+techguns:tfg, TFG 10K
+techguns:laserpistol, Laser Pistol
+techguns:stielgranate, Stick Grenade
+techguns:fraggrenade, Frag Grenade
 balancedclaytools:clay_pickaxe, Clay Pickaxe
 balancedclaytools:clay_axe, Clay Axe
 balancedclaytools:clay_shovel, Clay Shovel
@@ -11502,6 +11961,31 @@ embers:explosion_pedestal, Explosion Charm Pedestal
 embers:steam_engine, Steam Engine
 embers:mech_actuator, Mechanical Actuator
 hydrogel:hydrogel, Hydrogel Block
+threng:machine:0, Fluix Aggregator
+threng:machine:1, Pulse Centrifuge
+threng:machine:2, ME Circuit Etcher
+threng:machine:3, Preemptive Assembly Unit
+threng:machine:4, ME Level Maintainer
+threng:big_assembler:0, Mass Assembler Frame
+threng:big_assembler:1, Mass Assembler Vent
+threng:big_assembler:2, Mass Assembler Controller
+threng:big_assembler:3, MA Pattern Provider
+threng:big_assembler:4, MA Crafting Coprocessor
+threng:material:0, Fluix Steel
+threng:material:1, Carbonic Fluix Complex
+threng:material:2, Fluix-Plated Iron
+threng:material:3, Coal Dust
+threng:material:4, Fluix Logic Unit
+threng:material:5, Resonating Crystal
+threng:material:6, Massively Parallel Processor
+threng:material:7, Speculation Core (1x)
+threng:material:8, Speculation Core (2x)
+threng:material:9, Speculation Core (4x)
+threng:material:10, Speculation Core (8x)
+threng:material:11, Speculation Core (16x)
+threng:material:12, Speculation Core (32x)
+threng:material:13, Speculation Core (64x)
+threng:material:14, Speculative Processor
 magneticraft:ingots:2, Copper Ingot
 magneticraft:ingots:3, Lead Ingot
 magneticraft:ingots:4, Cobalt Ingot
@@ -11612,6 +12096,76 @@ magneticraft:steel_gear, item.magneticraft.steel_gear.name
 magneticraft:tungsten_gear, item.magneticraft.tungsten_gear.name
 magneticraft:inserter_upgrade:0, Inserter Upgrade: Speed
 magneticraft:inserter_upgrade:1, Inserter Upgrade: Stack
+magneticraft:conveyor_belt:0, Conveyor Belt
+magneticraft:inserter:0, Inserter
+magneticraft:water_generator:0, Water Generator
+magneticraft:feeding_trough:0, Wooden Feeding Trough
+magneticraft:pneumatic_tube:0, Pneumatic Tube
+magneticraft:pneumatic_restriction_tube:0, Restriction Pneumatic Tube
+magneticraft:relay:0, Relay
+magneticraft:filter:0, Filter
+magneticraft:transposer:0, Transposer
+magneticraft:limestone:0, Limestone
+magneticraft:limestone:1, Limestone Brick
+magneticraft:limestone:2, Limestone Cobble
+magneticraft:burnt_limestone:0, Burnt Limestone
+magneticraft:burnt_limestone:1, Burnt Limestone Brick
+magneticraft:burnt_limestone:2, Burnt Limestone Cobble
+magneticraft:tile_limestone:0, Limestone Tiles
+magneticraft:tile_limestone:1, Inverted Limestone Tiles
+magneticraft:tube_light:0, Tube Light
+magneticraft:multiblock_parts:0, Machine Block
+magneticraft:multiblock_parts:1, Electrical Machine Block
+magneticraft:multiblock_parts:2, Iron Grate Machine Block
+magneticraft:multiblock_parts:3, Striped Machine Block
+magneticraft:multiblock_parts:4, Copper Coil Machine Block
+magneticraft:multiblock_parts:5, Corrugate Iron Machine Block
+magneticraft:multiblock_column:0, Support Column (Y axis)
+magneticraft:pumpjack_drill:0, Pumpjack Pipe
+magneticraft:battery:0, Battery Block
+magneticraft:electric_furnace:0, Electric furnace
+magneticraft:infinite_energy:0, Infinite Energy
+magneticraft:air_bubble:0, Air Bubble
+magneticraft:airlock:0, Airlock
+magneticraft:thermopile:0, Thermopile
+magneticraft:wind_turbine:0, Wind turbine
+magneticraft:electric_heater:0, Electric Heater
+magneticraft:rf_heater:0, RF Heater
+magneticraft:rf_transformer:0, RF transformer
+magneticraft:electric_engine:0, Electric Engine
+magneticraft:combustion_chamber:0, Combustion Chamber
+magneticraft:steam_boiler:0, Boiler
+magneticraft:heat_pipe:0, Heat Pipe
+magneticraft:insulated_heat_pipe:0, Insulated Heat Pipe
+magneticraft:heat_sink:0, Heat sink
+magneticraft:gasification_unit:0, Gasification Unit
+magneticraft:brick_furnace:0, Brick furnace
+magneticraft:ores:0, Chalcopyrite Ore (Copper)
+magneticraft:ores:1, Galena Ore (Lead)
+magneticraft:ores:2, Cobaltite Ore (Cobalt)
+magneticraft:ores:3, Wolframite Ore (Tungsten)
+magneticraft:ores:4, Pyrite Ore (Sulfur)
+magneticraft:oil_source:0, Oil Source (Full)
+magneticraft:oil_source:10, Oil Source (Empty)
+magneticraft:storage_blocks:0, Copper Block
+magneticraft:storage_blocks:1, Lead Block
+magneticraft:storage_blocks:2, Cobalt Block
+magneticraft:storage_blocks:3, Tungsten Block
+magneticraft:storage_blocks:4, Sulfur Block
+magneticraft:connector:0, Electric Connector
+magneticraft:electric_pole:0, Electric Pole
+magneticraft:electric_cable:0, Electric cable
+magneticraft:tesla_tower:0, Tesla Tower
+magneticraft:energy_receiver:0, Energy Receiver
+magneticraft:electric_pole_transformer:0, Electric Pole Transformer
+magneticraft:small_tank:0, Small tank
+magneticraft:iron_pipe:0, Iron Pipe
+magneticraft:box:0, Wooden Box
+magneticraft:crushing_table:0, Crushing Table
+magneticraft:sluice_box:0, Sluice Box
+magneticraft:fabricator:0, Fabricator
+magneticraft:computer:0, Computer
+magneticraft:mining_robot:0, Mining Robot
 magneticraft:solar_panel:0, Solar Panel
 magneticraft:shelving_unit:0, Shelving Unit
 magneticraft:steam_engine:0, Small Steam Engine
@@ -11628,76 +12182,6 @@ magneticraft:big_combustion_chamber:0, Bigger Combustion Chamber
 magneticraft:big_steam_boiler:0, Bigger Steam Boiler
 magneticraft:steam_turbine:0, Steam Turbine
 magneticraft:big_electric_furnace:0, Bigger Electric Furnace
-magneticraft:battery:0, Battery Block
-magneticraft:electric_furnace:0, Electric furnace
-magneticraft:infinite_energy:0, Infinite Energy
-magneticraft:air_bubble:0, Air Bubble
-magneticraft:airlock:0, Airlock
-magneticraft:thermopile:0, Thermopile
-magneticraft:wind_turbine:0, Wind turbine
-magneticraft:electric_heater:0, Electric Heater
-magneticraft:rf_heater:0, RF Heater
-magneticraft:rf_transformer:0, RF transformer
-magneticraft:electric_engine:0, Electric Engine
-magneticraft:connector:0, Electric Connector
-magneticraft:electric_pole:0, Electric Pole
-magneticraft:electric_cable:0, Electric cable
-magneticraft:tesla_tower:0, Tesla Tower
-magneticraft:energy_receiver:0, Energy Receiver
-magneticraft:electric_pole_transformer:0, Electric Pole Transformer
-magneticraft:combustion_chamber:0, Combustion Chamber
-magneticraft:steam_boiler:0, Boiler
-magneticraft:heat_pipe:0, Heat Pipe
-magneticraft:insulated_heat_pipe:0, Insulated Heat Pipe
-magneticraft:heat_sink:0, Heat sink
-magneticraft:gasification_unit:0, Gasification Unit
-magneticraft:brick_furnace:0, Brick furnace
-magneticraft:multiblock_parts:0, Machine Block
-magneticraft:multiblock_parts:1, Electrical Machine Block
-magneticraft:multiblock_parts:2, Iron Grate Machine Block
-magneticraft:multiblock_parts:3, Striped Machine Block
-magneticraft:multiblock_parts:4, Copper Coil Machine Block
-magneticraft:multiblock_parts:5, Corrugate Iron Machine Block
-magneticraft:multiblock_column:0, Support Column (Y axis)
-magneticraft:pumpjack_drill:0, Pumpjack Pipe
-magneticraft:conveyor_belt:0, Conveyor Belt
-magneticraft:inserter:0, Inserter
-magneticraft:water_generator:0, Water Generator
-magneticraft:feeding_trough:0, Wooden Feeding Trough
-magneticraft:pneumatic_tube:0, Pneumatic Tube
-magneticraft:pneumatic_restriction_tube:0, Restriction Pneumatic Tube
-magneticraft:relay:0, Relay
-magneticraft:filter:0, Filter
-magneticraft:transposer:0, Transposer
-magneticraft:small_tank:0, Small tank
-magneticraft:iron_pipe:0, Iron Pipe
-magneticraft:box:0, Wooden Box
-magneticraft:crushing_table:0, Crushing Table
-magneticraft:sluice_box:0, Sluice Box
-magneticraft:fabricator:0, Fabricator
-magneticraft:computer:0, Computer
-magneticraft:mining_robot:0, Mining Robot
-magneticraft:limestone:0, Limestone
-magneticraft:limestone:1, Limestone Brick
-magneticraft:limestone:2, Limestone Cobble
-magneticraft:burnt_limestone:0, Burnt Limestone
-magneticraft:burnt_limestone:1, Burnt Limestone Brick
-magneticraft:burnt_limestone:2, Burnt Limestone Cobble
-magneticraft:tile_limestone:0, Limestone Tiles
-magneticraft:tile_limestone:1, Inverted Limestone Tiles
-magneticraft:tube_light:0, Tube Light
-magneticraft:ores:0, Chalcopyrite Ore (Copper)
-magneticraft:ores:1, Galena Ore (Lead)
-magneticraft:ores:2, Cobaltite Ore (Cobalt)
-magneticraft:ores:3, Wolframite Ore (Tungsten)
-magneticraft:ores:4, Pyrite Ore (Sulfur)
-magneticraft:oil_source:0, Oil Source (Full)
-magneticraft:oil_source:10, Oil Source (Empty)
-magneticraft:storage_blocks:0, Copper Block
-magneticraft:storage_blocks:1, Lead Block
-magneticraft:storage_blocks:2, Cobalt Block
-magneticraft:storage_blocks:3, Tungsten Block
-magneticraft:storage_blocks:4, Sulfur Block
 mcjtylib_ng:multipart, tile.mcjtylib_ng.multipart.name
 mystgears:gear_wood, item.gear_wood.name
 mystgears:gear_stone, item.gear_stone.name
@@ -12122,7 +12606,6 @@ jaopca:item_dusttrinitite, %s Dust
 jaopca:item_nuggetboron, %s Nugget
 jaopca:item_nuggetlithium, %s Nugget
 jaopca:item_nuggetmagnesium, %s Nugget
-jaopca:item_nuggetthorium, %s Nugget
 jaopca:item_nuggetcertusquartz, %s Nugget
 jaopca:item_nuggetchargedcertusquartz, %s Nugget
 jaopca:item_nuggetcoal, %s Nugget
@@ -12165,7 +12648,6 @@ jaopca:item_platecobalt, %s Plate
 jaopca:item_platelithium, %s Plate
 jaopca:item_platemagnesium, %s Plate
 jaopca:item_plateosmium, %s Plate
-jaopca:item_platethorium, %s Plate
 jaopca:item_platecertusquartz, %s Plate
 jaopca:item_platechargedcertusquartz, %s Plate
 jaopca:item_platedilithium, %s Plate
@@ -12183,10 +12665,7 @@ jaopca:item_sticknickel, %s Rod
 jaopca:item_stickosmium, %s Rod
 jaopca:item_stickplatinum, %s Rod
 jaopca:item_sticksilver, %s Rod
-jaopca:item_stickthorium, %s Rod
 jaopca:item_sticktin, %s Rod
-jaopca:item_sticktungsten, %s Rod
-jaopca:item_stickuranium, %s Rod
 jaopca:item_stickcertusquartz, %s Rod
 jaopca:item_stickchargedcertusquartz, %s Rod
 jaopca:item_stickcoal, %s Rod

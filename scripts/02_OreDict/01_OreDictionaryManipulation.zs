@@ -1,7 +1,5 @@
 #loader crafttweaker
-#loader crafttweaker
 #priority -0201
-#packmode theta sigma omega
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
@@ -56,13 +54,13 @@ function oreSynonym(toReplace as string, replaceWith as string) {
 /***** Ores *****/
 hashOre["CertusQuartz"].remove(<appliedenergistics2:charged_quartz_ore>);
 
-hashOre["Ender"].add(<tp:ender_ore>);
+//hashOre["Ender"].add(<tp:ender_ore>);
 //recipes.replaceAllOccurences(oreDict["oreEnderOre"], hashOre["Ender"]);
 
-hashOre["StygianIron"].add(<woot:stygianironore>);
+//hashOre["StygianIron"].add(<woot:stygianironore>);
 //recipes.replaceAllOccurences(<woot:stygianironore>, hashOre["StygianIron"]);
 
-hashOre["Wub"].add(<tp:wub_ore>);
+//hashOre["Wub"].add(<tp:wub_ore>);
 //recipes.replaceAllOccurences(oreDict["oreWubOre"], hashOre["Wub"]);
 
 if (!<ore:oreAluminum>.empty) {
@@ -115,10 +113,10 @@ if (!<ore:shardAluminum>.empty) {
 }
 
 /*****  Crystals *****/
-hashCrystal["Amber"].add(<cyclicmagic:crystallized_amber>);
+//hashCrystal["Amber"].add(<cyclicmagic:crystallized_amber>);
 //recipes.replaceAllOccurences(<cyclicmagic:crystallized_amber>, hashCrystal["Amber"]);
 
-hashCrystal["Obsidian"].add(<cyclicmagic:crystallized_obsidian>);
+//hashCrystal["Obsidian"].add(<cyclicmagic:crystallized_obsidian>);
 //recipes.replaceAllOccurences(<cyclicmagic:crystallized_obsidian>, hashCrystal["Obsidian"]);
 
 if (!<ore:crystalAluminum>.empty) {
@@ -129,31 +127,31 @@ if (!<ore:crystalAluminum>.empty) {
 }
 
 /***** Ingots *****/
-hashIngot["DarkSoularium"].add(<simplyjetpacks:metaitemmods:3>);
+//hashIngot["DarkSoularium"].add(<simplyjetpacks:metaitemmods:3>);
 //recipes.replaceAllOccurences(oreDict["ingot_dark_soularium"], hashIngot["DarkSoularium"]);
 
-hashIngot["Ender"].add(<extendedcrafting:material:36>);
+//hashIngot["Ender"].add(<extendedcrafting:material:36>);
 //recipes.replaceAllOccurences(<extendedcrafting:material:36>, hashIngot["Ender"]);
 
-hashIngot["EnderEnhanced"].add(<extendedcrafting:material:48>);
+//hashIngot["EnderEnhanced"].add(<extendedcrafting:material:48>);
 //recipes.replaceAllOccurences(<extendedcrafting:material:48>, hashIngot["EnderEnhanced"]);
 
-hashIngot["GlitchInfused"].add(<deepmoblearning:glitch_infused_ingot>);
+//hashIngot["GlitchInfused"].add(<deepmoblearning:glitch_infused_ingot>);
 //recipes.replaceAllOccurences(<deepmoblearning:glitch_infused_ingot>, hashIngot["GlitchInfused"]);
 
-hashIngot["MeatCooked"].add(<industrialmeat:cooked_meat_ingot>);
+//hashIngot["MeatCooked"].add(<industrialmeat:cooked_meat_ingot>);
 //recipes.replaceAllOccurences(<industrialmeat:cooked_meat_ingot>, hashIngot["MeatCooked"]);
 
-hashIngot["MeatRaw"].add(<industrialmeat:raw_meat_ingot>);
+//hashIngot["MeatRaw"].add(<industrialmeat:raw_meat_ingot>);
 //recipes.replaceAllOccurences(<industrialmeat:raw_meat_ingot>, hashIngot["MeatRaw"]);
 
-hashIngot["SlimePink"].add(<industrialforegoing:pink_slime_ingot>);
+//hashIngot["SlimePink"].add(<industrialforegoing:pink_slime_ingot>);
 //recipes.replaceAllOccurences(<industrialforegoing:pink_slime_ingot>, hashIngot["SlimePink"]);
 
-hashIngot["Spectre"].add(<randomthings:ingredient:3>);
+//hashIngot["Spectre"].add(<randomthings:ingredient:3>);
 //recipes.replaceAllOccurences(<randomthings:ingredient:3>, hashIngot["Spectre"]);
 
-hashIngot["StygianIron"].add(<woot:stygianironingot>);
+//hashIngot["StygianIron"].add(<woot:stygianironingot>);
 //recipes.replaceAllOccurences(<woot:stygianironingot>, hashIngot["StygianIron"]);
 
 if (!<ore:ingotAluminum>.empty) {
@@ -170,7 +168,7 @@ hashGem["Charcoal"].add(<minecraft:coal:1>);
 /***** Clathrates *****/
 
 /***** Nuggets *****/
-hashNugget["MeatRaw"].add(<industrialmeat:raw_meat_nugget>);
+//hashNugget["MeatRaw"].add(<industrialmeat:raw_meat_nugget>);
 //recipes.replaceAllOccurences(<industrialmeat:raw_meat_nugget>, hashNugget["MeatRaw"]);
 
 if (!<ore:nuggetAluminum>.empty) {
@@ -185,7 +183,7 @@ if (!<ore:nuggetAluminum>.empty) {
 //recipes.replaceAllOccurences(oreDict["dustEnder"], hashDust["EnderPearl"]);
 //recipes.replaceAllOccurences(oreDict["dustNetherQuartz"], hash["Quartz"]);
 
-hashDust["BloodInfusedGlowstone"].add(<bloodarsenal:base_item:2>);
+//hashDust["BloodInfusedGlowstone"].add(<bloodarsenal:base_item:2>);
 //recipes.replaceAllOccurences(<bloodarsenal:base_item:2>, hashDust["BloodInfusedGlowstone"]);
 
 hashDust["Ember"].add(<embers:dust_ember>);
@@ -194,22 +192,22 @@ hashDust["Ember"].add(<embers:dust_ember>);
 hashDust["Flux"].add(<fluxnetworks:flux>);
 //recipes.replaceAllOccurences(<fluxnetworks:flux>, hashDust["Flux"]);
 
-hashDust["Illumination"].add(<astralsorcery:itemusabledust>);
+//hashDust["Illumination"].add(<astralsorcery:itemusabledust>);
 //recipes.replaceAllOccurences(<astralsorcery:itemusabledust>, hashDust["Illumination"]);
 
 hashDust["Metallurgic"].add(<embers:dust_metallurgic>);
 //recipes.replaceAllOccurences(<embers:dust_metallurgic>, hashDust["Metallurgic"]);
 
-hashDust["Nocturnal"].add(<astralsorcery:itemusabledust:1>);
+//hashDust["Nocturnal"].add(<astralsorcery:itemusabledust:1>);
 //recipes.replaceAllOccurences(<astralsorcery:itemusabledust:1>, hashDust["Nocturnal"]);
 
-hashDust["Soot"].add(<deepmoblearning:soot_covered_redstone>);
+//hashDust["Soot"].add(<deepmoblearning:soot_covered_redstone>);
 //recipes.replaceAllOccurences(<deepmoblearning:soot_covered_redstone>, hashDust["Soot"]);
 
-hashDust["StygianIron"].add(<woot:stygianirondust>);
+//hashDust["StygianIron"].add(<woot:stygianirondust>);
 //recipes.replaceAllOccurences(<woot:stygianirondust>, hashDust["StygianIron"]);
 
-hashDust["Wither"].add(<darkutils:material>);
+//hashDust["Wither"].add(<darkutils:material>);
 //recipes.replaceAllOccurences(<darkutils:material>, hashDust["Wither"]);
 
 if (!<ore:dustAluminum>.empty) {
@@ -227,16 +225,8 @@ if (!<ore:dustSmallAluminum>.empty) {
     //recipes.replaceAllOccurences(oreDict["dustSmallAluminum"], hashDustSmall["Aluminium"]);
 }
 
-/***** Tiny Dusts *****/
-if (!<ore:dustTinyAluminum>.empty) {
-    for item in oreDict["dustTinyAluminum"].items {
-        hashDustTiny["Aluminium"].add(item);
-    }
-    //recipes.replaceAllOccurences(oreDict["dustTinyAluminum"], hashDustTiny["Aluminium"]);
-}
-
 /***** Plates *****/
-hashPlate["StygianIron"].add(<woot:stygianironplate>);
+//hashPlate["StygianIron"].add(<woot:stygianironplate>);
 //recipes.replaceAllOccurences(<woot:stygianironplate>, hashPlate["StygianIron"]);
 
 if (!<ore:plateAluminum>.empty) {
@@ -288,31 +278,31 @@ if (!<ore:gearAluminum>.empty) {
 
 /********** Blocks **********/
 /***** Blocks *****/
-hashBlock["BloodInfusedIron"].add(<bloodarsenal:blood_infused_iron_block>);
+//hashBlock["BloodInfusedIron"].add(<bloodarsenal:blood_infused_iron_block>);
 //recipes.replaceAllOccurences(<bloodarsenal:blood_infused_iron_block>, hashBlock["BloodInfusedIron"]);
 
-hashBlock["Ender"].add(<extendedcrafting:storage:5>);
+//hashBlock["Ender"].add(<extendedcrafting:storage:5>);
 //recipes.replaceAllOccurences(<extendedcrafting:storage:5>, hashBlock["Ender"]);
 
-hashBlock["EnderEnhanced"].add(<extendedcrafting:storage:7>);
+//hashBlock["EnderEnhanced"].add(<extendedcrafting:storage:7>);
 //recipes.replaceAllOccurences(<extendedcrafting:storage:7>, hashBlock["EnderEnhanced"]);
 
-hashBlock["EnderStar"].add(<extendedcrafting:storage:6>);
+//hashBlock["EnderStar"].add(<extendedcrafting:storage:6>);
 //recipes.replaceAllOccurences(<extendedcrafting:storage:6>, hashBlock["EnderStar"]);
 
-hashBlock["Flux"].add(<fluxnetworks:fluxblock>);
+//hashBlock["Flux"].add(<fluxnetworks:fluxblock>);
 //recipes.replaceAllOccurences(<fluxnetworks:fluxblock>, hashBlock["Flux"]);
 
-hashBlock["GlitchInfused"].add(<deepmoblearning:infused_ingot_block>);
+//hashBlock["GlitchInfused"].add(<deepmoblearning:infused_ingot_block>);
 //recipes.replaceAllOccurences(<deepmoblearning:infused_ingot_block>, hashBlock["GlitchInfused"]);
 
-hashBlock["MeatCooked"].add(<industrialmeat:cooked_meat_block>);
+//hashBlock["MeatCooked"].add(<industrialmeat:cooked_meat_block>);
 //recipes.replaceAllOccurences(<industrialmeat:cooked_meat_block>, hashBlock["MeatCooked"]);
 
-hashBlock["MeatRaw"].add(<industrialmeat:raw_meat_block>);
+//hashBlock["MeatRaw"].add(<industrialmeat:raw_meat_block>);
 //recipes.replaceAllOccurences(<industrialmeat:raw_meat_block>, hashBlock["MeatRaw"]);
 
-hashBlock["StygianIron"].add(<woot:stygianiron>);
+//hashBlock["StygianIron"].add(<woot:stygianiron>);
 //recipes.replaceAllOccurences(<woot:stygianiron>, hashBlock["StygianIron"]);
 
 if (!<ore:blockAluminum>.empty) {

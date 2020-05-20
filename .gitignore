@@ -8,14 +8,17 @@ resourcepacks/**
 saves/**
 screenshots/**
 
-*.cfg
 *.log
 !crafttweaker.log
 *.dll
 *.jar
 *.jar.meta
-*.json
 *.sqlite
 
 .curseclient
+.ReAuth.cfg
 options.txt
+minecraftinstance.json
+patchouli_data.json
+usercache.json
+usernamecache.json

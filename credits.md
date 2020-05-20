@@ -34,12 +34,12 @@
 - Platinum Technician Coin
 - Pile of Wood
 
-## Patchouli
+## Patchouli Guides
 
 ### NuclearCraft: Overhauled
 
 #### Thalzamar
-
+- Turbine
 
 ## Translation
 

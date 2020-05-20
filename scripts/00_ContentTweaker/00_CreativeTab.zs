@@ -1,6 +1,5 @@
 #loader contenttweaker
 #priority -0000
-#packmode theta sigma omega
 #debug
 
 import mods.contenttweaker.CreativeTab;

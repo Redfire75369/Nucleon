@@ -1,6 +1,5 @@
 #loader mekatweaker
-#priority -00100
-#packmode theta sigma omega
+#priority -0100
 
 import mods.mekatweaker.InfuserType;
 

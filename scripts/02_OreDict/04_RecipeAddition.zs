@@ -1,6 +1,6 @@
 #loader crafttweaker
 #priority -0204
-#packmode theta sigma omega
+#norun
 
 /*** Ores ***/
 for key, dictOre in hashOre {

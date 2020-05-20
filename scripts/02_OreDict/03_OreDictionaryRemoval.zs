@@ -1,6 +1,5 @@
 #loader crafttweaker
 #priority -0203
-#packmode theta sigma omega
 
 import crafttweaker.item.IItemStack;
 
