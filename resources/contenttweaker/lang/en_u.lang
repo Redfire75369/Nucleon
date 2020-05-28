@@ -1,0 +1,31 @@
+itemGroup.coins=ContentTweaker Coins
+itemGroup.fuels=ContentTweaker Fuels
+itemGroup.other=ContentTweaker Others
+
+item.contenttweaker.part.coin_bronze.name=Bronze %s Coin
+item.contenttweaker.part.coin_silver.name=Silver %s Coin
+item.contenttweaker.part.coin_gold.name=Gold %s Coin
+item.contenttweaker.part.coin_platinum.name=Platinum%s Coin
+
+item.contenttweaker.low_grade_charcoal.name=Low Grade Charcoal
+item.contenttweaker.medium_grade_charcoal.name=Medium Grade Charcoal
+item.contenttweaker.wood_pile.name=Pile of Wood
+item.contenttweaker.file.name=Engineer's File
+item.contenttweaker.wrench.name=Engineer's Wrench
+
+item.contenttweaker.item_circuit_tier_1.name=Item Circuit I
+item.contenttweaker.item_circuit_tier_2.name=Item Circuit II
+item.contenttweaker.item_circuit_tier_3.name=Item Circuit III
+item.contenttweaker.item_circuit_tier_4.name=Item Circuit IV
+item.contenttweaker.fluid_circuit_tier_1.name=Fluid Circuit I
+item.contenttweaker.fluid_circuit_tier_2.name=Fluid Circuit II
+item.contenttweaker.fluid_circuit_tier_3.name=Fluid Circuit III
+item.contenttweaker.fluid_circuit_tier_4.name=Fluid Circuit IV
+
+item.contenttweaker.compressed_chest.name=Compressed Chest
+item.contenttweaker.reinforced_leather.name=Reinforced Leather
+item.contenttweaker.reinforced_string.name=Reinforced String
+item.contenttweaker.steel_bars.name=Steel Bars
+item.contenttweaker.wood_glue.name=Wood Glue
+
+tile.contenttweaker.regolith.name= Asteroid Regolith

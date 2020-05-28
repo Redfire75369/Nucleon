@@ -58,25 +58,24 @@ Tier 6 - Black Hole Reactor
 
 ## CraftTweaker
 
+### ContentTweaker
+
+#### Items
+
 ### Unwanted Recipes
 
-#### Quartz Grindstone
-- Crystals(Mek Ore Processing) to Dusts
-- Ender Pearl/Resonant Clathrate to Ender Dust
-- Sky Stone to Sky Stone Dust
+- Charcoals to Graphite Ingot
 
 #### Stamper (Embers)
+**Note: Need to add hashMolten properly before testing**
 - Molten Liquid to Gears
 - Molten Metals to Ingots
 - Molten Metals to Plates
 - Molten Metals to Nuggets
 
-#### Crusher (Immersive Engineering)
-- Coal Coke to Coke Dust
-- Block of Coal Coke to Coke Dusts
-
 #### Crushing Table(Magneticraft)
-- Steel Ingot to Double Steel Plate
+- Steel Ingot to Double Steel Plate ✅
+
 - Metal Blocks to Double Plates
 
 - Boron Ingot to Boron Plate
@@ -144,16 +143,26 @@ Tier 6 - Black Hole Reactor
 - Titanium Rocky Chunk to Titanium Chunk
 - Uranium Rocky Chunk to Uranium Chunk
 
-#### Combiner (Mekanism)
-- Coal to Coal Ore
+#### Chemical Crystallizer (Mekanism)
+- Clean Cobalt Slurry to Cobalt Crystal ✅
+- Clean Magnesium Slurry to Magnesium Crystal ✅ 
+- Clean Mithril Slurry to Mithril Crystal ✅
+- Clean Nickel Slurry to Nickel Crystal ✅
+- Clean Platinum Slurry to Platinum Crystal ✅
+- Clean Thorium Slurry to Thorium Crystal ✅
+- Clean Titanium Slurry to Titanium Crystal ✅
+- Clean Tungsten Slurry to Tungsten Crystal ✅
+- Clean Uranium Slurry to Uranium Crystal ✅
+- Clean Aluminium Slurry to Aluminium Crystal ✅
+- Clean Boron Slurry to Boron Crystal ✅
 
-#### Chemical Crystallizer
-- Clean Cobalt Slurry to Cobalt Crystal
-- Clean Titanium Slurry to Titanium Crystal
+#### Combiner (Mekanism)
+- Obsidian Dust to Obsidian
 
 #### Enrichment Chamber (Mekanism)
-- Gem Dusts to Gems
-- AE2 Crystal Seeds to Pure Crystals
+- Gem Dusts to Gems ✅
+
+- AE2 Crystal Seeds to Pure Crystals ✅
 
 #### Manufactory (NuclearCraft)
 - Coal to Pulverized Coal
@@ -166,46 +175,51 @@ Tier 6 - Black Hole Reactor
 - Coke Dusts to HOP Graphite Dust
 - Certus Quartz Crystal to Certus Quartz Dust
 - Fluix Crystal to Fluix Dust
+- Witherite to Witherite Dust
 - Aluminium Ore to Pulverized Aluminum
 - Aluminium Ingot to Pulverized Aluminum
-- Chrome Ingot to Chrome Dust
+- Chrome Ingot to Chrome Dust 
 
 #### Pressurizer (NuclearCraft)
+- Gem Dusts to Gems ✅
+
 - Graphite Dust to Coal
 - Graphite Ingot to Pyrolytic Carbon
-- Ender Dust to Ender Pearl
-- Carbon Mesh to Carbon Plate
+- Carbon Mesh/Carbon Brick to Carbon Plate
 - Aluminum Ingot to Aluminum Plate
 - Aluminium Plates to Dense Aluminium Plate
-
-- Gem Dusts to Gems
+- Chrome Ingot to Chrome Plate
+- Chrome Plates to Dense Chrome Plate
+- Rhodocrosite to Rhodocrosite Plate
+- Rhodocrosite Plate to Dense Rhodocrosite Plate
 
 #### Compressor (Tech Reborn)
-- Advanced Alloy Ingot to Advanced Alloy Plate
-- Carbon Mesh to Carbon Plate
-- Wood Planks to Wood Plate
-- Coke Dust to HOP Graphite Dust
+- Gems to Gem Plates ✅
+- Gem Dusts to Gem Plates ✅
 
-- Gems to Gem Plates
-- Gem Dusts to Gem Plates
+- Advanced Alloy Ingot to Advanced Alloy Plate ✅
+- Carbon Mesh to Carbon Plate ✅
+- Wood Planks to Wood Plate ✅
+- Coke Dust to HOP Graphite Dust ✅
 
 #### Grinder (Tech Reborn)
-- Storage Blocks to Dusts
+- Obsidian Plate to Obsidian Dust
+- Lazurite Plate to Lazurite Dust
+- Block of Chrome to Chrome Dust
+- Sulfur Block to Sulfur Dust
 
 #### Implosion Compressor (Tech Reborn)
-- Redstone Blocks to Red Garnet Dust
+- Gem Dusts to Gems ✅
+
+- Redstone Blocks to Red Garnet Dust ✅
 
 #### Industrial Blast Furnace (Tech Reborn)
-- Galena Dust to Silver and Lead Ingot
-- Iridium Dust to Iridium Ingot
-- Piles of Iridium Dust to Iridium Ingot
+- Galena Dust to Silver and Lead Ingot ✅
+- Iridium Dust to Iridium Ingot ✅
+- Piles of Iridium Dust to Iridium Ingot ✅
 
 #### Plate Bending Machine (Tech Reborn)
-- Ingots to Plates
-
-
-
-
+- Ingots to Plates ✅
 
 
 <!--

@@ -154,7 +154,6 @@ for key, dictGem in hashGem {
 		mods.mekanism.enrichment.removeRecipe(hashOre[key], dictGem);
 		mods.nuclearcraft.Manufactory.removeRecipeWithInput(hashOre[key]);
 		mods.nuclearcraft.Manufactory.removeRecipeWithOutput(dictGem);
-		
 		mods.techreborn.industrialGrinder.removeInputRecipe(hashOre[key]);
 		for itemOre in hashOre[key].items {
 			mods.appliedenergistics2.Grinder.removeRecipe(itemOre);
@@ -244,6 +243,11 @@ for key, dictDust in hashDust {
 	}
 	if (hashDustDirty has key) {
 		mods.mekanism.enrichment.removeRecipe(hashDustDirty[key], dictDust);
+	}
+	if (hashCrystal has key) {
+		for itemCrystal in hashCrystal[key].items {
+			mods.appliedenergistics2.Grinder.removeRecipe(itemCrystal);
+		}
 	}
 	if (hashIngot has key) {
 		recipes.removeShapeless(dictDust, [

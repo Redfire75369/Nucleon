@@ -12,82 +12,11 @@ import mods.mekanism.MekanismHelper.getGas;
 global sand as IItemStack = <minecraft:sand> as IItemStack;
 global cinnabar as IItemStack = <thermalfoundation:material:866> as IItemStack;
 
-/******************** Assigning a HashMap for each Ore Dictionaries ********************/
-/********** Items **********/
-/***** Ores *****/
-global hashOre as IOreDictEntry[string] = {} as IOreDictEntry[string];
-val stringOre = [
-//SILK_SORTING: BEGIN@Ore
-	"Aluminium",
-	"Bauxite",
-	"Boron",
-	"CertusQuartz",
-	"ChargedCertusQuartz",
-	"Cinnabar",
-	"Coal",
-	"Cobalt",
-	"Copper",
-	"Diamond",
-	"Dilithium",
-	"Emerald",
-	"Galena",
-	"Garnet",
-	"Gold",
-	"Iridium",
-	"Iron",
-	"Lapis",
-	"Lead",
-	"Lithium",
-	"Magnesium",
-	"Mithril",
-	"Nickel",
-	"Osmium",
-	"Peridot",
-	"Platinum",
-	"Pyrite",
-	"Quartz",
-	"Redstone",
-	"Ruby",
-	"Sapphire",
-	"Sheldonite",
-	"Silver",
-	"Sodalite",
-	"Sphalerite",
-	"Titanium",
-	"Thorium",
-	"Tin",
-	"Trinitite",
-	"Tungsten",
-	"Uranium"
-//SILK_SORTING: END@Ore
-] as string[];
-for ore in stringOre {
-	hashOre[ore] = oreDict["ore" ~ ore];
-}
-
-/***** Clathrate Ores *****/
-global hashOreClathrate as IOreDictEntry[string] = {} as IOreDictEntry[string];
-val stringOreClathrate = [
-
-	"Ender",
-	"Glowstone",
-	"Oil",
-	"Redstone" 
-
-] as string[];
-for oreClathrate in stringOreClathrate{ 
-	hashOreClathrate[oreClathrate] = oreDict["ore" ~ oreClathrate ~ "Clathrate"];
-}
-
-/***** Chunks *****/
-global hashChunk as IOreDictEntry[string] = {} as IOreDictEntry[string];
-val stringChunk = [
-
+val ingotOres = [
 	"Aluminium",
 	"Boron",
 	"Cobalt",
 	"Copper",
-	"Draconium",
 	"Gold",
 	"Iridium",
 	"Iron",
@@ -104,1331 +33,359 @@ val stringChunk = [
 	"Titanium",
 	"Tungsten",
 	"Uranium"
-
 ] as string[];
-for chunk in stringChunk {
-	hashChunk[chunk] = oreDict["chunk" ~ chunk];
-}
 
-/***** Rocky Chunks *****/
-global hashChunkRocky as IOreDictEntry[string] = {} as IOreDictEntry[string];
-val stringChunkRocky = [
-
-	"Aluminium",
-	"Boron",
-	"Cobalt",
-	"Copper",
-	"Draconium",
-	"Gold",
-	"Iridium",
-	"Iron",
-	"Lead",
-	"Lithium",
-	"Magnesium",
-	"Mithril",
-	"Nickel",
-	"Osmium",
-	"Platinum",
-	"Silver",
-	"Thorium",
-	"Tin",
-	"Titanium",
-	"Tungsten",
-	"Uranium"
-
-] as string[];
-for chunkRocky in stringChunkRocky {
-	hashChunkRocky[chunkRocky] = oreDict["rockyChunk" ~ chunkRocky];
-}
-
-/***** Dirty Dusts *****/
-global hashDustDirty as IOreDictEntry[string] = {} as IOreDictEntry[string];
-val stringDustDirty = [
-//SILK_SORTING: BEGIN@DirtyDust
-	"Aluminium",
-	"Boron",
-	"Cobalt",
-	"Copper",
-	"Draconium",
-	"Gold",
-	"Iridium",
-	"Iron",
-	"Lead",
-	"Lithium",
-	"Magnesium",
-	"Mithril",
-	"Nickel",
-	"Osmium",
-	"Platinum",
-	"Silver",
-	"Thorium",
-	"Tin",
-	"Titanium",
-	"Tungsten",
-	"Uranium" 
-//SILK_SORTING: END@DirtyDust
-] as string[];
-for dustDirty in stringDustDirty {
-	hashDustDirty[dustDirty] = oreDict["dustDirty" ~ dustDirty];
-}
-
-/***** Clumps *****/
-global hashClump as IOreDictEntry[string] = {} as IOreDictEntry[string];
-val stringClump = [
-//SILK_SORTING: BEGIN@Clump
-	"Aluminium",
-	"Boron",
-	"Cobalt",
-	"Copper",
-	"Draconium",
-	"Gold",
-	"Iridium",
-	"Iron",
-	"Lead",
-	"Lithium",
-	"Magnesium",
-	"Mithril",
-	"Nickel",
-	"Osmium",
-	"Platinum",
-	"Silver",
-	"Thorium",
-	"Tin",
-	"Titanium",
-	"Tungsten",
-	"Uranium"
-//SILK_SORTING: END@Clump
-] as string[];
-for clump in stringClump {
-	hashClump[clump] = oreDict["clump" ~ clump];
-}
-
-/***** Shards *****/
-global hashShard as IOreDictEntry[string] = {} as IOreDictEntry[string];
-val stringShard = [
-//SILK_SORTING: BEGIN@Shard
-	"Aluminium",
-	"Boron",
-	"Cobalt",
-	"Copper",
-	"Draconium",
-	"Gold",
-	"Iridium",
-	"Iron",
-	"Lead",
-	"Lithium",
-	"Magnesium",
-	"Mithril",
-	"Nickel",
-	"Osmium",
-	"Platinum",
-	"Silver",
-	"Thorium",
-	"Tin",
-	"Titanium",
-	"Tungsten",
-	"Uranium"
-//SILK_SORTING: END@Shard
-] as string[];
-for shard in stringShard {
-	hashShard[shard] = oreDict["shard" ~ shard];
-}
-
-
-/***** Crystals *****/
-global hashCrystal as IOreDictEntry[string] = {} as IOreDictEntry[string];
-val stringCrystal = [
-//SILK_SORTING: BEGIN@Crystal
-	"Aluminium",
-	"Boron",
-	"Cobalt",
-	"Copper",
-	"Draconium",
-	"Fluix",
-	"Gold",
-	"Iridium",
-	"Iron",
-	"Lead",
-	"Lithium",
-	"Magnesium",
-	"Mithril",
-	"Nickel",
-	"Osmium",
-	"Platinum",
-	"PureCertusQuartz",
-	"PureFluix",
-	"PureNetherQuartz",
-	"Silver",
-	"Slag",
-	"SlagRich",
-	"Thorium",
-	"Tin",
-	"Titanium",
-	"Tungsten",
-	"Uranium"
-//SILK_SORTING: END@Crystal
-] as string[];
-for crystal in stringCrystal {
-	hashCrystal[crystal] = oreDict["crystal" ~ crystal];
-}
-
-/***** Ingots *****/
-global hashIngot as IOreDictEntry[string] = {} as IOreDictEntry[string];
-val stringIngot = [
-//SILK_SORTING: BEGIN@Ingot
-	"Adaminite",
+val ingotOreless = [
 	"AdvancedAlloy",
-	"Aluminium",
 	"Antimony",
 	"Beryllium",
-	"Boron",
-	"Boron10",
-	"Boron11",
 	"Brass",
-	"Brick",
-	"BrickNether",
-	"BrickNetherGlazed",
-	"BrickSeared",
 	"Bronze",
-	"Chocolate",
+	"Calcium",
 	"Chrome",
-	"Cobalt",
-	"CocoaButter",
 	"ConductiveIron",
 	"Constantan",
 	"ConstructionAlloy",
-	"Copper",
 	"CrudeSteel",
 	"CrystallineAlloy",
 	"CrystallinePinkSlime",
-	"DarkChocolate",
 	"DarkSteel",
 	"Dawnstone",
 	"ElectricalSteel",
 	"Electrum",
 	"ElectrumFlux",
 	"Enderium",
-	"EnderiumBase",
 	"EndSteel",
 	"EnergeticAlloy",
 	"EnergeticSilver",
 	"Extreme",
 	"Ferroboron",
-	"Gold",
+	"Germanium",
 	"Graphite",
+	"Hafnium",
 	"HardCarbon",
 	"HOPGraphite",
 	"HotTungstensteel",
 	"HSLASteel",
 	"Invar",
-	"Iridium",
 	"IridiumAlloy",
-	"Iron",
 	"IronCompressed",
-	"Lead",
-	"LeadPlatinum",
-	"Lithium",
-	"Lithium6",
-	"Lithium7",
 	"LithiumManganeseDioxide",
 	"Lumium",
-	"Magnesium",
 	"MagnesiumDiboride",
 	"Manganese",
 	"ManganeseDioxide",
 	"ManganeseOxide",
-	"MeatCooked",
-	"MeatRaw",
 	"MelodicAlloy",
-	"Mithril",
 	"MixedMetal",
-	"Nickel",
+	"Neodymium",
+	"Niobium",
+	"NiobiumTin",
 	"ObsidianSteel",
-	"Osmium",
-	"Platinum",
 	"Plutonium",
+	"Potassium",
 	"PulsatingIron",
 	"RedstoneAlloy",
 	"RefinedGlowstone",
 	"RefinedIron",
 	"RefinedObsidian",
-	"Shibuichi",
 	"SiCSiCCMC",
 	"Signalum",
 	"Silicon",
 	"SiliconCarbide",
-	"Silver",
-	"SlimePink",
+	"Sodium",
 	"Soularium",
+	"StainlessSteel",
 	"Steel",
 	"StellarAlloy",
+	"Strontium",
 	"Thermoconducting",
-	"Thorium",
-	"Tin",
-	"TinSilver",
-	"Titanium",
 	"TitaniumAluminide",
 	"TitaniumIridium",
 	"Tough",
-	"Tungsten",
+	"TungstenCarbide",
 	"Tungstensteel",
-	"UnsweetenedChocolate",
-	"Uranium",
 	"VibrantAlloy",
 	"VividAlloy",
+	"Yttrium",
 	"Zinc",
 	"Zircaloy",
-	"Zirconium",
-	"Niobium",
-	"Hafnium",
-	"Sodium",
-	"Potassium",
-	"Calcium",
-	"Strontium",
-	"Yttrium",
-	"Neodymium",
-	"Germanium",
-	"TungstenCarbide",
-	"NiobiumTin",
-	"StainlessSteel"
-//SILK_SORTING: END@Ingot
+	"Zirconium"
 ] as string[];
-for ingot in stringIngot { 
-	hashIngot[ingot] = oreDict["ingot" ~ ingot];
-}
 
-/***** Gems *****/
-global hashGem as IOreDictEntry[string] = {} as IOreDictEntry[string];
-val stringGem = [
-//SILK_SORTING: BEGIN@Gem
-	"BoronArsenide",
-	"BoronNitride",
-	"Carobbiite",
+val gemOres = [
 	"CertusQuartz",
-	"Charcoal",
-	"ChargedCertusQuartz",
 	"Coal",
-	"CrystalFlux",
 	"Diamond",
 	"Dilithium",
 	"Emerald",
-	"Fluix",
-	"Fluorite",
-	"Garnet",
-	"Gelid",
 	"Lapis",
 	"Peridot",
-	"Prismarine",
 	"Quartz",
-	"RedGarnet",
-	"Rhodocrosite",
 	"Ruby",
 	"Sapphire",
-	"Trinitite",
+	"Trinitite"
+] as string[];
+
+val gemOreless = [
+	"BoronArsenide",
+	"BoronNitride",
+	"Carobbiite",
+	"Charcoal",
+	"ChargedCertusQuartz",
+	"CrystalFlux",
+	"Fluix",
+	"Fluorite",
+	"RedGarnet",
+	"Rhodocrosite",
 	"Villiaumite",
 	"Witherite",
 	"YellowGarnet"
-//SILK_SORTING: END@Gem
 ] as string[];
-for gem in stringGem {
-	hashGem[gem] = oreDict["gem" ~ gem];
-}
 
-/***** Clathrates *****/
-global hashClathrate as IOreDictEntry[string] = {} as IOreDictEntry[string];
-val stringClathrate = [
-//SILK_SORTING: BEGIN@Clathrate
+val dustOres = [
+	"Bauxite",
+	"Cinnabar",
+	"Galena",
+	"Pyrite",
+	"Redstone",
+	"Sheldonite",
+	"Sodalite",
+	"Sphalerite",
+	"Sulfur"
+] as string[];
+
+/*** Ores ***/
+global hashOre as IOreDictEntry[string] = {} as IOreDictEntry[string];
+for key in ingotOres {
+	hashOre[key] = oreDict["ore" ~ key];
+}
+for key in gemOres {
+	hashOre[key] = oreDict["ore" ~ key];
+}
+for key in dustOres {
+	hashOre[key] = oreDict["ore" ~ key];
+}
+hashOre["ChargedCertusQuartz"] = oreDict["oreChargedCertusQuartz"];
+
+/*** Clathrate Ores ***/
+global hashOreClathrate as IOreDictEntry[string] = {} as IOreDictEntry[string];
+val stringOreClathrate = [
 	"Ender",
 	"Glowstone",
 	"Oil",
 	"Redstone"
-//SILK_SORTING: END@Clathrate
 ] as string[];
-for clathrate in stringClathrate{ 
+for oreClathrate in stringOreClathrate{
+	hashOreClathrate[oreClathrate] = oreDict["oreClathrate" ~ oreClathrate];
+}
+
+/*** Chunks ***/
+global hashChunk as IOreDictEntry[string] = {} as IOreDictEntry[string];
+for key in ingotOres {
+	hashChunk[key] = oreDict["chunk" ~ key];
+}
+
+/*** Rocky Chunks ***/
+global hashChunkRocky as IOreDictEntry[string] = {} as IOreDictEntry[string];
+for key in ingotOres {
+	hashChunkRocky[key] = oreDict["chunkRocky" ~ key];
+}
+
+/*** Dirty Dusts ***/
+global hashDustDirty as IOreDictEntry[string] = {} as IOreDictEntry[string];
+for key in ingotOres {
+	hashDustDirty[key] = oreDict["dustDirty" ~ key];
+}
+
+/*** Clumps ***/
+global hashClump as IOreDictEntry[string] = {} as IOreDictEntry[string];
+for key in ingotOres {
+	hashClump[key] = oreDict["clump" ~ key];
+}
+
+/*** Shards ***/
+global hashShard as IOreDictEntry[string] = {} as IOreDictEntry[string];
+for key in ingotOres {
+	hashShard[key] = oreDict["shard" ~ key];
+}
+
+/*** Crystals ***/
+global hashCrystal as IOreDictEntry[string] = {} as IOreDictEntry[string];
+for key in ingotOres {
+	hashCrystal[key] = oreDict["crystal" ~ key];
+}
+
+/*** Ingots ***/
+global hashIngot as IOreDictEntry[string] = {} as IOreDictEntry[string];
+for key in ingotOres {
+	hashIngot[key] = oreDict["ingot" ~ key];
+}
+for key in ingotOreless {
+	hashIngot[key] = oreDict["ingot" ~ key];
+}
+hashIngot["Graphite"] = oreDict["ingotGraphite"];
+hashIngot["ObsidanSteel"] = oreDict["ingotObsidianSteel"];
+
+/*** Gems ***/
+global hashGem as IOreDictEntry[string] = {} as IOreDictEntry[string];
+for key in gemOres {
+	hashGem[key] = oreDict["gem" ~ key];
+}
+for key in gemOreless {
+	hashGem[key] = oreDict["gem" ~ key];
+}
+hashGem["ChargedCertusQuartz"] = oreDict["gemChargedCertusQuartz"];
+
+/*** Clathrates ***/
+global hashClathrate as IOreDictEntry[string] = {} as IOreDictEntry[string];
+val stringClathrate = [
+	"Ender",
+	"Glowstone",
+	"Oil",
+	"Redstone"
+] as string[];
+for clathrate in stringClathrate{
 	hashClathrate[clathrate] = oreDict["clathrate" ~ clathrate];
 }
 
-/***** Nuggets *****/
+/*** Nuggets ***/
 global hashNugget as IOreDictEntry[string] = {} as IOreDictEntry[string];
-val stringNugget = [
-//SILK_SORTING: BEGIN@Nugget
-	"AdvancedAlloy",
-	"Aluminium",
-	"Boron",
-	"Boron10",
-	"Boron11",
-	"BoronArsenide",
-	"BoronNitride",
-	"Brass",
-	"Bronze",
-	"Carobbiite",
-	"CertusQuartz",
-	"ChargedCertusQuartz",
-	"Chrome",
-	"Coal",
-	"Cobalt",
-	"ConductiveIron",
-	"Constantan",
-	"ConstructionAlloy",
-	"Copper",
-	"CrudeSteel",
-	"CrystalFlux",
-	"CrystallineAlloy",
-	"CrystallinePinkSlime",
-	"DarkSteel",
-	"Dawnstone",
-	"Diamond",
-	"Dilithium",
-	"ElectricalSteel",
-	"Electrum",
-	"ElectrumFlux",
-	"Emerald",
-	"Enderium",
-	"Enderpearl",
-	"EndSteel",
-	"EnergeticAlloy",
-	"EnergeticSilver",
-	"Extreme",
-	"Ferroboron",
-	"Fluix",
-	"Fluorite",
-	"Garnet",
-	"Gold",
-	"Graphite",
-	"HardCarbon",
-	"HOPGraphite",
-	"HotTungstensteel",
-	"HSLASteel",
-	"Invar",
-	"Iridium",
-	"IridiumAlloy",
-	"Iron",
-	"Lapis",
-	"Lead",
-	"LeadPlatinum",
-	"Lithium",
-	"Lithium6",
-	"Lithium7",
-	"LithiumManganeseDioxide",
-	"Lumium",
-	"Magnesium",
-	"MagnesiumDiboride",
-	"Manganese",
-	"ManganeseDioxide",
-	"ManganeseOxide",
-	"Meat",
-	"MeatRaw",
-	"MelodicAlloy",
-	"Mithril",
-	"MixedMetal",
-	"Nickel",
-	"Obsidian",
-	"Osmium",
-	"Peridot",
-	"Platinum",
-	"Prismarine",
-	"PulsatingIron",
-	"Quartz",
-	"RedGarnet",
-	"RedstoneAlloy",
-	"RefinedGlowstone",
-	"RefinedIron",
-	"RefinedObsidian",
-	"Rhodocrosite",
-	"Ruby",
-	"Sapphire",
-	"Shibuichi",
-	"SiCSiCCMC",
-	"Signalum",
-	"SiliconCarbide",
-	"Silver",
-	"Soularium",
-	"Steel",
-	"StellarAlloy",
-	"Thermoconducting",
-	"Thorium",
-	"Tin",
-	"TinSilver",
-	"Titanium",
-	"Tough",
-	"Tungsten",
-	"Tungstensteel",
-	"Uranium",
-	"VibrantAlloy",
-	"Villiaumite",
-	"VividAlloy",
-	"YellowGarnet",
-	"Zinc",
-	"Zircaloy",
-	"Zirconium"
-//SILK_SORTING: END@Nugget
-] as string[];
-for nugget in stringNugget {
-	hashNugget[nugget] = oreDict["nugget" ~ nugget];
+for key in ingotOres {
+	hashNugget[key] = oreDict["nugget" ~ key];
+}
+for key in ingotOreless {
+	hashNugget[key] = oreDict["nugget" ~ key];
+}
+for key in gemOres {
+	hashNugget[key] = oreDict["nugget" ~ key];
+}
+for key in gemOreless {
+	hashNugget[key] = oreDict["nugget" ~ key];
 }
 
-/***** Dusts *****/
+/*** Dusts ***/
 global hashDust as IOreDictEntry[string] = {} as IOreDictEntry[string];
-val stringDust = [
-//SILK_SORTING: BEGIN@Dust
-	"AdvancedAlloy",
-	"Aerotheum",
-	"Almandine",
-	"Alugentum",
-	"Aluminium",
-	"Andesite",
-	"Andradite",
-	"Ash",
-	"Arsenic",
-	"Basalt",
-	"Basalz",
-	"Bauxite",
-	"Bedrock",
-	"Beryllium",
-	"Blaze",
-	"Blitz",
-	"Blizz",
-	"Borax",
-	"Boron",
-	"BoronArsenide",
-	"BoronNitride",
-	"Brass",
-	"Bronze",
-	"Calcite",
-	"CalciumSulfate",
-	"CarbonManganese",
-	"Carobbiite",
-	"CertusQuartz",
-	"Charcoal",
-	"ChargedCertusQuartz",
-	"Chrome",
-	"Cinnabar",
-	"Coal",
-	"Cobalt",
-	"Cocoa",
-	"Coke",
-	"ConductiveIron",
-	"Constantan",
-	"ConstructionAlloy",
-	"Copper",
-	"CrudeSteel",
-	"Cryotheum",
-	"CrystalBinder",
-	"CrystalFlux",
-	"CrystallineAlloy",
-	"CrystallinePinkSlime",
-	"DarkAshes",
-	"DarkSteel",
-	"Dawnstone",
-	"Diamond",
-	"Dilithium",
-	"Diorite",
-	"ElectricalSteel",
-	"Electrum",
-	"ElectrumFlux",
-	"Ember",
-	"Emerald",
-	"EnderEye",
-	"Enderium",
-	"EnderPearl",
-	"EndSteel",
-	"Endstone",
-	"Energetic",
-	"EnergeticAlloy",
-	"EnergeticSilver",
-	"Extreme",
-	"Ferroboron",
-	"Fluix",
-	"Fluorite",
-	"Flux",
-	"Galena",
-	"Garnet",
-	"Gelid",
-	"Glowstone",
-	"Gold",
-	"Granite",
-	"Graphite",
-	"Grossular",
-	"HardCarbon",
-	"HOPGraphite",
-	"HotTungstensteel",
-	"HSLASteel",
-	"Invar",
-	"Iridium",
-	"IridiumAlloy",
-	"Iron",
-	"Lapis",
-	"Lazurite",
-	"Lead",
-	"LeadPlatinum",
-	"Lithium",
-	"LithiumManganeseDioxide",
-	"Lumium",
-	"Magnesium",
-	"MagnesiumDiboride",
-	"Manganese",
-	"ManganeseDioxide",
-	"ManganeseOxide",
-	"Marble",
-	"MelodicAlloy",
-	"Metallurgic",
-	"Mithril",
-	"MixedMetal",
-	"Netherrack",
-	"Nickel",
-	"Obsidian",
-	"Osmium",
-	"Peridot",
-	"Petrotheum",
-	"Phosphorous",
-	"Platinum",
-	"Plutonium",
-	"PotassiumFlouride",
-	"PotassiumHydroxide",
-	"Prismarine",
-	"PulsatingIron",
-	"Pyrite",
-	"Pyrope",
-	"Pyrotheum",
-	"Quartz",
-	"RedGarnet",
-	"Redstone",
-	"RedstoneAlloy",
-	"RefinedGlowstone",
-	"RefinedIron",
-	"RefinedObsidian",
-	"Rhodocrosite",
-	"Ruby",
-	"Salt",
-	"Sapphire",
-	"Shibuichi",
-	"SiCSiCCMC",
-	"Signalum",
-	"Silicon",
-	"SiliconCarbide",
-	"Silver",
-	"Sodalite",
-	"SodiumFlouride",
-	"SodiumHydroxide",
-	"Soularium",
-	"Spessartine",
-	"Sphalerite",
-	"Steel",
-	"StellarAlloy",
-	"Thermoconducting",
-	"Thorium",
-	"Tin",
-	"TinSilver",
-	"Titanium",
-	"TitaniumAluminide",
-	"TitaniumIridium",
-	"Tough",
-	"Trinitite",
-	"Tungsten",
-	"Tungstensteel",
-	"Uranium",
-	"Uvarovite",
-	"VibrantAlloy",
-	"Villiaumite",
-	"VividAlloy",
-	"Wheat",
-	"Witherite",
-	"Wood",
-	"YellowGarnet",
-	"Zinc",
-	"Zircaloy",
-	"Zirconium",
-	"Niobium",
-	"Hafnium",
-	"Sodium",
-	"Potassium",
-	"Calcium",
-	"Strontium"
-//SILK_SORTING: END@Dust
-] as string[];
-for dust in stringDust {
-	hashDust[dust] = oreDict["dust" ~ dust];
+for key in ingotOres {
+	hashDust[key] = oreDict["dust" ~ key];
+}
+for key in ingotOreless {
+	hashDust[key] = oreDict["dust" ~ key];
+}
+for key in gemOres {
+	hashDust[key] = oreDict["dust" ~ key];
+}
+for key in gemOreless {
+	hashDust[key] = oreDict["dust" ~ key];
+}
+for key in dustOres {
+	hashDust[key] = oreDict["dust" ~ key];
 }
 
-/***** Small Dusts *****/
+/*** Small Dusts ***/
 global hashDustSmall as IOreDictEntry[string] = {} as IOreDictEntry[string];
-val stringDustSmall = [
-//SILK_SORTING: BEGIN@SmallDust
-	"AdvancedAlloy",
-	"Aerotheum",
-	"Almandine",
-	"Alugentum",
-	"Aluminium",
-	"Andesite",
-	"Andradite",
-	"Ash",
-	"Arsenic",
-	"Basalt",
-	"Basalz",
-	"Bauxite",
-	"Bedrock",
-	"Beryllium",
-	"Blaze",
-	"Blitz",
-	"Blizz",
-	"Borax",
-	"Boron",
-	"BoronArsenide",
-	"BoronNitride",
-	"Brass",
-	"Bronze",
-	"Calcite",
-	"CalciumSulfate",
-	"CarbonManganese",
-	"Carobbiite",
-	"CertusQuartz",
-	"Charcoal",
-	"ChargedCertusQuartz",
-	"Chrome",
-	"Cinnabar",
-	"Coal",
-	"Cobalt",
-	"Cocoa",
-	"Coke",
-	"ConductiveIron",
-	"Constantan",
-	"ConstructionAlloy",
-	"Copper",
-	"CrudeSteel",
-	"Cryotheum",
-	"CrystalBinder",
-	"CrystalFlux",
-	"CrystallineAlloy",
-	"CrystallinePinkSlime",
-	"DarkAshes",
-	"DarkSteel",
-	"Dawnstone",
-	"Diamond",
-	"Dilithium",
-	"Dimensional",
-	"DimensionalShard",
-	"Diorite",
-	"ElectricalSteel",
-	"Electrum",
-	"ElectrumFlux",
-	"Ember",
-	"Emerald",
-	"EnderEye",
-	"Enderium",
-	"EnderPearl",
-	"EndSteel",
-	"Endstone",
-	"Energetic",
-	"EnergeticAlloy",
-	"EnergeticSilver",
-	"Extreme",
-	"Ferroboron",
-	"Fluix",
-	"Fluorite",
-	"Flux",
-	"Galena",
-	"Garnet",
-	"Gelid",
-	"Glowstone",
-	"Gold",
-	"Granite",
-	"Graphite",
-	"Grossular",
-	"HardCarbon",
-	"HOPGraphite",
-	"HotTungstensteel",
-	"HSLASteel",
-	"Invar",
-	"Iridium",
-	"IridiumAlloy",
-	"Iron",
-	"Lapis",
-	"Lazurite",
-	"Lead",
-	"LeadPlatinum",
-	"Lithium",
-	"LithiumManganeseDioxide",
-	"Lumium",
-	"Magnesium",
-	"MagnesiumDiboride",
-	"Manganese",
-	"ManganeseDioxide",
-	"ManganeseOxide",
-	"Marble",
-	"MelodicAlloy",
-	"Metallurgic",
-	"Mithril",
-	"MixedMetal",
-	"Netherrack",
-	"Nickel",
-	"Obsidian",
-	"Osmium",
-	"Peridot",
-	"Petrotheum",
-	"Phosphorous",
-	"Platinum",
-	"PotassiumFlouride",
-	"PotassiumHydroxide",
-	"Prismarine",
-	"PulsatingIron",
-	"Pyrite",
-	"Pyrope",
-	"Pyrotheum",
-	"Quartz",
-	"RedGarnet",
-	"Redstone",
-	"RedstoneAlloy",
-	"RefinedGlowstone",
-	"RefinedIron",
-	"RefinedObsidian",
-	"Rhodocrosite",
-	"Ruby",
-	"Salt",
-	"Sapphire",
-	"Shibuichi",
-	"SiCSiCCMC",
-	"Signalum",
-	"SiliconCarbide",
-	"Sodalite",
-	"SodiumFlouride",
-	"SodiumHydroxide",
-	"Soularium",
-	"Spessartine",
-	"Sphalerite",
-	"Steel",
-	"StellarAlloy",
-	"Thermoconducting",
-	"Thorium",
-	"Tin",
-	"TinSilver",
-	"Titanium",
-	"Tough",
-	"Tungsten",
-	"Tungstensteel",
-	"Uranium",
-	"Uvarovite",
-	"VibrantAlloy",
-	"Villiaumite",
-	"VividAlloy",
-	"Wheat",
-	"Wood",
-	"YellowGarnet",
-	"Zinc",
-	"Zircaloy",
-	"Zirconium"
-//SILK_SORTING: END@SmallDust
-] as string[];
-for dustSmall in stringDustSmall {
-	hashDustSmall[dustSmall] = oreDict["dustSmall" ~ dustSmall];
+for key in ingotOres {
+	hashDustSmall[key] = oreDict["dustSmall" ~ key];
+}
+for key in ingotOreless {
+	hashDustSmall[key] = oreDict["dustSmall" ~ key];
+}
+for key in gemOres {
+	hashDustSmall[key] = oreDict["dustSmall" ~ key];
+}
+for key in gemOreless {
+	hashDustSmall[key] = oreDict["dustSmall" ~ key];
 }
 
-/***** Plates *****/
+/*** Plates ***/
 global hashPlate as IOreDictEntry[string] = {} as IOreDictEntry[string];
-val stringPlate = [
-//SILK_SORTING: BEGIN@Plate
-	"Advanced",
-	"AdvancedAlloy",
-	"Aluminium",
-	"Basic",
-	"Boron",
-	"BoronArsenide",
-	"BoronNitride",
-	"Brass",
-	"Bronze",
-	"Caminite",
-	"Carbon",
-	"Carobbiite",
-	"CertusQuartz",
-	"ChargedCertusQuartz",
-	"Chrome",
-	"Coal",
-	"Cobalt",
-	"ConductiveIron",
-	"Constantan",
-	"ConstructionAlloy",
-	"Copper",
-	"CrudeSteel",
-	"CrystalFlux",
-	"CrystallineAlloy",
-	"CrystallinePinkSlime",
-	"DarkSteel",
-	"Dawnstone",
-	"Diamond",
-	"Dilithium",
-	"DU",
-	"ElectricalSteel",
-	"Electrum",
-	"ElectrumFlux",
-	"Elite",
-	"Emerald",
-	"Enderium",
-	"EndSteel",
-	"EnergeticAlloy",
-	"EnergeticSilver",
-	"Extreme",
-	"Ferroboron",
-	"Fluix",
-	"Fluorite",
-	"Garnet",
-	"Gold",
-	"Graphite",
-	"HardCarbon",
-	"HOPGraphite",
-	"HotTungstensteel",
-	"HSLASteel",
-	"Invar",
-	"Iridium",
-	"IridiumAlloy",
-	"Iron",
-	"Lapis",
-	"Lazurite",
-	"Lead",
-	"LeadPlatinum",
-	"Lithium",
-	"LithiumManganeseDioxide",
-	"Lumium",
-	"Magnalium",
-	"Magnesium",
-	"MagnesiumDiboride",
-	"Manganese",
-	"ManganeseDioxide",
-	"ManganeseOxide",
-	"MelodicAlloy",
-	"Mithril",
-	"MixedMetal",
-	"Nickel",
-	"Obsidian",
-	"ObsidianSteel",
-	"Osmium",
-	"Peridot",
-	"Platinum",
-	"Prismarine",
-	"PulsatingIron",
-	"Quartz",
-	"RawCaminite",
-	"RedGarnet",
-	"Redstone",
-	"RedstoneAlloy",
-	"RefinedGlowstone",
-	"RefinedIron",
-	"RefinedObsidian",
-	"Rhodocrosite",
-	"Ruby",
-	"Sapphire",
-	"Shibuichi",
-	"SiCSiCCMC",
-	"Signalum",
-	"Silicon",
-	"SiliconCarbide",
-	"Silver",
-	"Soularium",
-	"Steel",
-	"StellarAlloy",
-	"Thermoconducting",
-	"Thorium",
-	"Tin",
-	"TinSilver",
-	"Titanium",
-	"TitaniumAluminide",
-	"TitaniumIridium",
-	"Tough",
-	"Tungsten",
-	"Tungstensteel",
-	"Uranium",
-	"VibrantAlloy",
-	"Villiaumite",
-	"VividAlloy",
-	"YellowGarnet",
-	"Zinc",
-	"Zircaloy",
-	"Zirconium" 
-//SILK_SORTING: END@Plate
-] as string[];
-for plate in stringPlate {
-	hashPlate[plate] = oreDict["plate" ~ plate];
+for key in ingotOres {
+	hashPlate[key] = oreDict["plate" ~ key];
 }
+for key in ingotOreless {
+	hashPlate[key] = oreDict["plate" ~ key];
+}
+for key in gemOres {
+	hashPlate[key] = oreDict["plate" ~ key];
+}
+for key in gemOreless {
+	hashPlate[key] = oreDict["plate" ~ key];
+}
+hashPlate["Graphite"] = oreDict["plateGraphite"];
+hashPlate["ObsidanSteel"] = oreDict["plateObsidianSteel"];
 
-/***** Dense Plates *****/
+/*** Dense Plates ***/
 global hashPlateDense as IOreDictEntry[string] = {} as IOreDictEntry[string];
-val stringPlateDense = [
-//SILK_SORTING: BEGIN@DensePlate
-	"AdvancedAlloy",
-	"Aluminium",
-	"Boron",
-	"BoronArsenide",
-	"BoronNitride",
-	"Brass",
-	"Bronze",
-	"Carbon",
-	"Carobbiite",
-	"CertusQuartz",
-	"ChargedCertusQuartz",
-	"Chrome",
-	"Coal",
-	"Cobalt",
-	"ConductiveIron",
-	"Constantan",
-	"ConstructionAlloy",
-	"Copper",
-	"CrudeSteel",
-	"CrystalFlux",
-	"CrystallineAlloy",
-	"CrystallinePinkSlime",
-	"DarkSteel",
-	"Dawnstone",
-	"Diamond",
-	"Dilithium",
-	"ElectricalSteel",
-	"Electrum",
-	"ElectrumFlux",
-	"Emerald",
-	"Enderium",
-	"EndSteel",
-	"EnergeticAlloy",
-	"EnergeticSilver",
-	"Extreme",
-	"Ferroboron",
-	"Fluix",
-	"Fluorite",
-	"Garnet",
-	"Gold",
-	"Graphite",
-	"HardCarbon",
-	"HOPGraphite",
-	"HotTungstensteel",
-	"HSLASteel",
-	"Invar",
-	"Iridium",
-	"IridiumAlloy",
-	"Iron",
-	"Lapis",
-	"Lazurite",
-	"Lead",
-	"LeadPlatinum",
-	"Lithium",
-	"LithiumManganeseDioxide",
-	"Lumium",
-	"Magnalium",
-	"Magnesium",
-	"MagnesiumDiboride",
-	"Manganese",
-	"ManganeseDioxide",
-	"ManganeseOxide",
-	"MelodicAlloy",
-	"Mithril",
-	"MixedMetal",
-	"Nickel",
-	"Obsidian",
-	"Osmium",
-	"Peridot",
-	"Platinum",
-	"Prismarine",
-	"PulsatingIron",
-	"Quartz",
-	"RedGarnet",
-	"Redstone",
-	"RedstoneAlloy",
-	"RefinedGlowstone",
-	"RefinedIron",
-	"RefinedObsidian",
-	"Rhodocrosite",
-	"Ruby",
-	"Sapphire",
-	"Shibuichi",
-	"SiCSiCCMC",
-	"Signalum",
-	"Silicon",
-	"SiliconCarbide",
-	"Silver",
-	"Soularium",
-	"Steel",
-	"StellarAlloy",
-	"Thermoconducting",
-	"Thorium",
-	"Tin",
-	"TinSilver",
-	"Titanium",
-	"Tough",
-	"Tungsten",
-	"Tungstensteel",
-	"Uranium", 
-	"VibrantAlloy",
-	"Villiaumite",
-	"VividAlloy",
-	"YellowGarnet",
-	"Zinc",
-	"Zircaloy",
-	"Zirconium" 
-//SILK_SORTING: END@DensePlate
-] as string[];
-for plateDense in stringPlateDense {
-	hashPlateDense[plateDense] = oreDict["plateDense" ~ plateDense];
+for key in ingotOres {
+	hashPlateDense[key] = oreDict["plateDense" ~ key];
+}
+for key in ingotOreless {
+	hashPlateDense[key] = oreDict["plateDense" ~ key];
+}
+for key in gemOres {
+	hashPlateDense[key] = oreDict["plateDense" ~ key];
+}
+for key in gemOreless {
+	hashPlateDense[key] = oreDict["plateDense" ~ key];
 }
 
-/***** Rods *****/
+/*** Rods ***/
 global hashRod as IOreDictEntry[string] = {} as IOreDictEntry[string];
-val stringRod = [
-//SILK_SORTING: BEGIN@Stick
-	"AdvancedAlloy",
-	"Aluminium",
-	"Basalz",
-	"Blaze",
-	"Blitz",
-	"Blizz",
-	"Boron",
-	"BoronArsenide",
-	"BoronNitride",
-	"Brass",
-	"Bronze",
-	"Carobbiite",
-	"CertusQuartz",
-	"ChargedCertusQuartz",
-	"Chrome",
-	"Coal",
-	"Cobalt",
-	"ConductiveIron",
-	"Constantan",
-	"ConstructionAlloy",
-	"Copper",
-	"CrudeSteel",
-	"CrystalFlux",
-	"CrystallineAlloy",
-	"CrystallinePinkSlime",
-	"DarkSteel",
-	"Dawnstone",
-	"Diamond",
-	"Dilithium",
-	"ElectricalSteel",
-	"Electrum",
-	"ElectrumFlux",
-	"Emerald",
-	"Enderium",
-	"EndSteel",
-	"EnergeticAlloy",
-	"EnergeticSilver",
-	"Extreme",
-	"Ferroboron",
-	"Fluix",
-	"Fluorite",
-	"Garnet",
-	"Gold",
-	"Graphite",
-	"HardCarbon",
-	"HOPGraphite",
-	"HotTungstensteel",
-	"HSLASteel",
-	"Invar",
-	"Iridium",
-	"IridiumAlloy",
-	"Iron",
-	"Lapis",
-	"Lead",
-	"LeadPlatinum",
-	"Lithium",
-	"LithiumManganeseDioxide",
-	"Lumium",
-	"Magnesium",
-	"MagnesiumDiboride",
-	"Manganese",
-	"ManganeseDioxide",
-	"ManganeseOxide",
-	"MelodicAlloy",
-	"Mithril",
-	"MixedMetal",
-	"Nickel",
-	"Obsidian",
-	"Osmium",
-	"Peridot",
-	"Platinum",
-	"PulsatingIron",
-	"Quartz",
-	"RedGarnet",
-	"RedstoneAlloy",
-	"RefinedGlowstone",
-	"RefinedIron",
-	"RefinedObsidian",
-	"Rhodocrosite",
-	"Ruby",
-	"Sapphire",
-	"Shibuichi",
-	"SiCSiCCMC",
-	"Signalum",
-	"SiliconCarbide",
-	"Silver",
-	"Soularium",
-	"Steel",
-	"StellarAlloy",
-	"Superium",
-	"Supremium",
-	"Thermoconducting",
-	"Thorium",
-	"Tin",
-	"TinSilver",
-	"Titanium",
-	"TitaniumAluminide",
-	"TitaniumIridium",
-	"Tough",
-	"Tungsten",
-	"Tungstensteel",
-	"Uranium",
-	"VibrantAlloy",
-	"Villiaumite",
-	"VividAlloy",
-	"YellowGarnet",
-	"Zinc",
-	"Zircaloy",
-	"Zirconium" 
-//SILK_SORTING: END@Stick
-] as string[];
-for rod in stringRod {
-	hashRod[rod] = oreDict["rod" ~ rod];
+for key in ingotOres {
+	hashRod[key] = oreDict["rod" ~ key];
+}
+for key in ingotOreless {
+	hashRod[key] = oreDict["rod" ~ key];
+}
+for key in gemOres {
+	hashRod[key] = oreDict["rod" ~ key];
+}
+for key in gemOreless {
+	hashRod[key] = oreDict["rod" ~ key];
 }
 
-/***** Gears *****/
+/*** Gears ***/
 global hashGear as IOreDictEntry[string] = {} as IOreDictEntry[string];
-val stringGear = [
-//SILK_SORTING: BEGIN@Gear
-	"AdvancedAlloy",
-	"Aluminium",
-	"Boron",
-	"BoronArsenide",
-	"BoronNitride",
-	"Brass",
-	"Bronze",
-	"Carobbiite",
-	"CertusQuartz",
-	"ChargedCertusQuartz",
-	"Chrome",
-	"Coal",
-	"Cobalt",
-	"ConductiveIron",
-	"Constantan",
-	"ConstructionAlloy",
-	"Copper",
-	"CrudeSteel",
-	"CrystalFlux",
-	"CrystallineAlloy",
-	"CrystallinePinkSlime",
-	"DarkSteel",
-	"Dawnstone",
-	"Diamond",
-	"Dilithium",
-	"ElectricalSteel",
-	"Electrum",
-	"ElectrumFlux",
-	"Emerald",
-	"Enderium",
-	"EndSteel",
-	"EnergeticAlloy",
-	"EnergeticSilver",
-	"Extreme",
-	"Ferroboron",
-	"Fluix",
-	"Fluorite",
-	"Flux",
-	"Garnet",
-	"Gold",
-	"Graphite",
-	"HardCarbon",
-	"HOPGraphite",
-	"HotTungstensteel",
-	"HSLASteel",
-	"Invar",
-	"Iridium",
-	"IridiumAlloy",
-	"Iron",
-	"Lapis",
-	"Lead",
-	"LeadPlatinum",
-	"Lithium",
-	"LithiumManganeseDioxide",
-	"Lumium",
-	"Magnesium",
-	"MagnesiumDiboride",
-	"Manganese",
-	"ManganeseDioxide",
-	"ManganeseOxide",
-	"MelodicAlloy",
-	"Mithril",
-	"MixedMetal",
-	"Nickel",
-	"Osmium",
-	"Peridot",
-	"Platinum",
-	"PulsatingIron",
-	"Quartz",
-	"RedGarnet",
-	"Redstone",
-	"RedstoneInverted",
-	"RedstoneAlloy",
-	"RefinedGlowstone",
-	"RefinedIron",
-	"RefinedObsidian",
-	"Rhodocrosite",
-	"Ruby",
-	"Sapphire",
-	"Shibuichi",
-	"SiCSiCCMC",
-	"Signalum",
-	"SiliconCarbide",
-	"Silver",
-	"Soularium",
-	"Steel",
-	"StellarAlloy",
-	"Superium",
-	"Supremium",
-	"Thermoconducting",
-	"Thorium",
-	"Tin",
-	"TinSilver",
-	"Titanium",
-	"TitaniumAluminide",
-	"TitaniumIridium",
-	"Tough",
-	"Tungsten",
-	"Tungstensteel",
-	"Uranium",
-	"VibrantAlloy",
-	"Villiaumite",
-	"VividAlloy",
-	"YellowGarnet",
-	"Zinc",
-	"Zircaloy",
-	"Zirconium" 
-//SILK_SORTING: END@Gear
-] as string[];
-for gear in stringGear {
-	hashGear[gear] = oreDict["gear" ~ gear];
+for key in ingotOres {
+	hashGear[key] = oreDict["gear" ~ key];
+}
+for key in ingotOreless {
+	hashGear[key] = oreDict["gear" ~ key];
+}
+for key in gemOres {
+	hashGear[key] = oreDict["gear" ~ key];
+}
+for key in gemOreless {
+	hashGear[key] = oreDict["gear" ~ key];
 }
 
-/********** Blocks **********/
-/***** Blocks *****/
+/*** Blocks ***/
 global hashBlock as IOreDictEntry[string] = {} as IOreDictEntry[string];
-val stringBlock = [
-//SILK_SORTING: BEGIN@Block
-	"Aluminium",
-	"Dilithium"
-//SILK_SORTING: END@Block
-] as string[];
-for block in stringBlock {
-	hashBlock[block] = oreDict["block" ~ block];
+for key in ingotOres {
+	hashBlock[key] = oreDict["block" ~ key];
+}
+for key in ingotOreless {
+	hashBlock[key] = oreDict["block" ~ key];
+}
+for key in gemOres {
+	hashBlock[key] = oreDict["block" ~ key];
+}
+for key in gemOreless {
+	hashBlock[key] = oreDict["block" ~ key];
+}
+for key in dustOres {
+	hashBlock[key] = oreDict["block" ~ key];
 }
 
-
-/********** Liquids **********/
-/***** Liquids *****/
-
-/***** Molten *****/
+/*** Molten ***/
 global hashMolten as ILiquidStack[string] = {} as ILiquidStack[string];
 val stringMolten = [
 	
 ] as string[];
 
-/********** Gases **********/
-/***** Other Gases *****/
+/*** Other Gases ***/
 global hashGas as IGasStack[string] = {} as IGasStack[string];
 val stringGas = [
- 
 	"Brine",
 	"Chlorine",
 	"Deuterium",
@@ -1445,7 +402,6 @@ val stringGas = [
 	"SulfurTrioxide",
 	"Tritium",
 	"Water"
-	
 ] as string[];
 for gas in stringGas {
 	hashGas[gas] = getGas(gas.toLowerCase);
@@ -1457,32 +413,10 @@ hashGas["SulfurDioxide"] = getGas("sulfurdioxide");
 hashGas["SulfuricAcid"] = getGas("sulfuricacid");
 hashGas["SulfurTrioxide"] = getGas("sulfurtrioxide");
 
-/***** Slurry *****/
+/*** Slurry ***/
 global hashSlurry as IGasStack[string] = {} as IGasStack[string];
-val stringSlurry = [
-
-	"Aluminium",
-	"Boron",
-	"Copper",
-	"Gold",
-	"Iridium",
-	"Iron",
-	"Lead",
-	"Lithium",
-	"Magnesium",
-	"Mithril",
-	"Nickel",
-	"Osmium",
-	"Platinum",
-	"Silver",
-	"Thorium",
-	"Tin",
-	"Tungsten",
-	"Uranium"
-
-] as string[];
-for slurry in stringSlurry {
-	hashSlurry[slurry] = getGas("slurry" ~ slurry);
+for key in ingotOres {
+	hashSlurry[key] = getGas("slurry" ~ key);
 }
 hashSlurry["Copper"] = getGas("copper");
 hashSlurry["Gold"] = getGas("gold");
@@ -1492,32 +426,10 @@ hashSlurry["Osmium"] = getGas("osmium");
 hashSlurry["Silver"] = getGas("silver");
 hashSlurry["Tin"] = getGas("tin");
 
-/***** Clean Slurry *****/
+/*** Clean Slurry ***/
 global hashSlurryClean as IGasStack[string] = {} as IGasStack[string];
-val stringSlurryClean = [
-	
-	"Aluminium",
-	"Boron",
-	"Copper",
-	"Gold",
-	"Iridium",
-	"Iron",
-	"Lead",
-	"Lithium",
-	"Magnesium",
-	"Mithril",
-	"Nickel",
-	"Osmium",
-	"Platinum",
-	"Silver",
-	"Thorium",
-	"Tin",
-	"Tungsten",
-	"Uranium"
-	
-] as string[];
-for slurryClean in stringSlurryClean {
-	hashSlurryClean[slurryClean] = getGas("slurryClean" ~ slurryClean);
+for key in ingotOres {
+	hashSlurry[key] = getGas("slurryClean" ~ key);
 }
 hashSlurryClean["Copper"] = getGas("cleanCopper");
 hashSlurryClean["Gold"] = getGas("cleanGold");

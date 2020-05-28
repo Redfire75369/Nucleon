@@ -1,0 +1,27 @@
+[
+	{
+		"name": "rockyChunk",
+		"type": "item",
+		"ore_types": [
+			"ingot",
+		]
+	},
+	{
+		"name": "chunk",
+		"type": "item",
+		"ore_types": [
+			"ingot"
+		]
+	},
+	{
+        "name": "dustSmall",
+        "type": "item",
+        "ore_types": [
+			"ingot",
+			"ingot_oreless",
+			"gem",
+			"gem_oreless",
+			"dust"
+		]
+	}
+]

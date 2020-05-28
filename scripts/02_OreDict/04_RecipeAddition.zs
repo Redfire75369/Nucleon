@@ -57,6 +57,10 @@ for key, dictCrystal in hashCrystal {
 }
 
 /*** Ingots ***/
+var tier1Ingots = [] as string[];
+var tier2Ingots = [] as string[];
+var tier3Ingots = [] as string[];
+
 for key, dictIngot in hashIngot {
 	if (hashOre has key) {
 		furnace.addRecipe(dictIngot.firstItem, hashOre[key], 0.05);
@@ -119,7 +123,7 @@ for key, dictDust in hashDust {
 		mods.mekanism.enrichment.addRecipe(dictDust.firstItem, hashDustDirty[key]);
 	}
 	if (hashDustSmall has key) {
-		recipes.addShaped(key.toLowerCase ~ "_dust_from_smalldust", dictDust.firstItem, [
+		recipes.addShaped(key.toLowerCase() ~ "_dust_from_smalldust", dictDust.firstItem, [
 			[hashDustSmall[key], hashDustSmall[key]],
 			[hashDustSmall[key], hashDustSmall[key]]
 		]);
@@ -136,36 +140,41 @@ for key, dictDustSmall in hashDustSmall {
 }
 
 /*** Plates ***/
-var tier1Plates = [] as String[];
-var tier2Plates = [] as String[];
+var tier1Plates = [] as string[];
+var tier2Plates = [] as string[];
+var tier3Plates = [] as string[];
 
 for key, dictPlate in hashPlate {
 	if (hashIngot has key) {
-		recipes.addShapeless(key ~ "_plate_from_ingot_embers", dictPlate.firstItem,[
-			hashIngot[key], hashIngot[key], <embers:tinker_hammer>
-		]);
-		recipes.addShapeless(key ~ "_plate_from_ingot_immersivengineering", dictPlate.firstItem,[
-			hashIngot[key], hashIngot[key], <immersiveengineering:tool>.transformDamage(1);
-		]);
-		
+		if (!(tier3Plates has key || tier2Plates has key || tier1Plates has key)) {
+			recipes.addShapeless(key ~ "_plate_from_ingot_embers", dictPlate.firstItem,[
+				hashIngot[key], hashIngot[key], <embers:tinker_hammer>
+			]);
+			recipes.addShapeless(key ~ "_plate_from_ingot_immersivengineering", dictPlate.firstItem,[
+				hashIngot[key], hashIngot[key], <immersiveengineering:tool>.transformDamage(1);
+			]);
+		}
 		if (tier1Plates has key) {
 			mods.immersiveengineering.MetalPress(dictPlate.firstItem * 2, hashIngot[key] * 3, <immersiveengineering:mold>, 512);
 			mods.techreborn.plateBendingMachine.addRecipe(dictPlate.firstItem * 2, hashIngot[key] * 3, 10, 32);
 			mods.nuclearcraft.Pressurizer.addRecipe(hashIngot[key], dictPlate.firstItem);
 		}
-		if (tier2Plates has key) {
+		if (tier2Plates has key || tier1Plates has key) {
 			mods.nuclearcraft.Pressurizer.addRecipe(hashIngot[key] * 3, dictPlate.firstItem * 2);
 		}
-		if (tier3Plates has key) {
+		if (tier3Plates has key || tier2Plates has key || tier1Plates has key) {
 			
 		}
 	}
 	if (hashGem has key) {
+		if (!(tier3Plates has key || tier2Plates has key || tier1Plates has key)) {
+			
+		}
 		if (tier1Plates has key) {
 			mods.immersiveengineering.MetalPress(dictPlate.firstItem * 2, hashGem[key] * 3, <immersiveengineering:mold>, 512);
 			mods.techreborn.plateBendingMachine.addRecipe(dictPlate.firstItem * 2, hashGem[key] * 3, 10, 32);
 		}
-		if (tier2Plates has key || tier1Plates) {
+		if (tier2Plates has key || tier1Plates has key) {
 			mods.nuclearcraft.Pressurizer.addRecipe(hashGem[key], dictPlate.firstItem);
 		}
 		if (tier3Plates has key || tier2Plates has key || tier1Plates has key) {

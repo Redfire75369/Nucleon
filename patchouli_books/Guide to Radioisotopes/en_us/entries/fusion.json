@@ -1,0 +1,11 @@
+{
+    "name": "Fusion Reactors",
+    "icon": "nuclearcraft:fusion_controller",
+    "category": "patchouli:multiblocks",
+    "pages": [
+        {
+            "type": "text",
+            "text": ""
+        }
+    ]
+}

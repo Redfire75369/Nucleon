@@ -1,0 +1,11 @@
+{
+    "name": "Ores and Ingots",
+    "icon": "nuclearcraft:ingot:10",
+    "category": "patchouli:basics",
+    "pages": [
+        {
+            "type": "text",
+            "text": ""
+        }
+    ]
+}

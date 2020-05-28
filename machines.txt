@@ -1,0 +1,66 @@
+Advanced Rocketry:
+- Lathe
+- Small Plate Press
+- etc.
+
+Immersive Engineering:
+Advanced Blast Furnace
+Alloy Kiln
+Arc Furnace
+Assembler
+Auto Workbench
+Blast Furnace
+Bottling Machine
+Coke Oven
+Crusher
+Excavator
+Fermenter
+Metal Press
+Mixer
+Sheetmetal Tank
+Silo
+Squeezer
+Refinery
+
+Immersive Petroleum:
+Distillation Tower
+
+Immersive Tech:
+Advanced Coke Oven
+Alternator
+Distiller
+Solar Reflector
+Solar Tower
+
+Magneticraft:
+Big Electric Furnace
+Grinder
+Hydraulic Press
+Oil Heater
+Refinery
+Sieve
+Sluice Box
+Solar Panel
+Solar Tower
+
+Mekanism:
+Chemical Crystallizer
+Chemical Dissolution Chamber
+Chemical Infuser
+Chemical Injection Chamber + Upgrades
+Chemical Oxidizer
+Chemical Washer
+Combiner + Upgrades
+Crusher + Upgrades
+Electrolytic Seperator
+Energized Smelter + Upgrades
+Enrichment Chamber + Upgrades
+Metallurgic Infuser + Upgrades
+Osmium Compressor + Upgrades
+Precision Sawmill + Upgrades
+Pressurized Reaction Chamber
+Purification Chamber + Upgrades
+Rotary Condensentrator
+Seismic Vibrator
+Solar Neutron Activator
+Thermal Evaporation Tower
