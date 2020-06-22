@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "name": "medic",
+      "entries": [
+        {
+          "entryName": "techguns:blocks/military_crate_medical",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "techguns:blocks/military_crate_medical"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 6.0
+      }
+    },
+    {
+      "name": "armor",
+      "entries": [
+        {
+          "entryName": "techguns:blocks/military_crate_armor",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "techguns:blocks/military_crate_armor"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 4.0
+      }
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+immersiveengineering:metal_decoration1:1, immersiveengineering:metal_decoration1:1, immersiveengineering:metal_decoration1:1
+immersiveengineering:metal_decoration1:1, immersiveengineering:metal_device1:6, immersiveengineering:metal_device1:6
+immersiveengineering:metal_decoration0:4, immersiveengineering:metal_decoration1:1, immersiveengineering:metal_decoration1:1
+.
+immersiveengineering:wooden_device0:1, immersiveengineering:wooden_device0:1, minecraft:air:*
+immersiveengineering:wooden_device0:1, keyBlock, minecraft:air:*
+immersiveengineering:metal_decoration0:3, minecraft:air:*, immersiveengineering:metal_decoration0:4
+.
+immersiveengineering:metal_decoration1:0, immersiveengineering:metal_decoration1:0, minecraft:air:*
+immersiveengineering:metal_decoration1:0, minecraft:piston:0, minecraft:air:*
+minecraft:air:*, minecraft:air:*, minecraft:air:*

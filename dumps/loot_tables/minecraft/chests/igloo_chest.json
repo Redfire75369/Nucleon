@@ -1,0 +1,194 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:apple",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:apple"
+        },
+        {
+          "entryName": "minecraft:coal",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:coal"
+        },
+        {
+          "entryName": "minecraft:gold_nugget",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_nugget"
+        },
+        {
+          "entryName": "minecraft:stone_axe",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:stone_axe"
+        },
+        {
+          "entryName": "minecraft:rotten_flesh",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:rotten_flesh"
+        },
+        {
+          "entryName": "minecraft:emerald",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:emerald"
+        },
+        {
+          "entryName": "minecraft:wheat",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:wheat"
+        },
+        {
+          "entryName": "notenoughwands:teleportation_wand",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:teleportation_wand"
+        },
+        {
+          "entryName": "notenoughwands:building_wand",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:building_wand"
+        },
+        {
+          "entryName": "notenoughwands:swapping_wand",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:swapping_wand"
+        },
+        {
+          "entryName": "notenoughwands:capturing_wand",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:capturing_wand"
+        },
+        {
+          "entryName": "notenoughwands:illumination_wand",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:illumination_wand"
+        },
+        {
+          "entryName": "notenoughwands:displacement_wand",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:displacement_wand"
+        },
+        {
+          "entryName": "notenoughwands:moving_wand",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:moving_wand"
+        },
+        {
+          "entryName": "notenoughwands:acceleration_wand",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:acceleration_wand"
+        },
+        {
+          "entryName": "notenoughwands:protection_wand",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:protection_wand"
+        },
+        {
+          "entryName": "notenoughwands:potion_wand",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:potion_wand"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 8.0
+      }
+    },
+    {
+      "name": "pool1",
+      "entries": [
+        {
+          "entryName": "minecraft:golden_apple",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_apple"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "lootPool_techreborn:chests/igloo_chest",
+      "entries": [
+        {
+          "entryName": "lootEntry_techreborn:chests/igloo_chest",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "techreborn:chests/igloo_chest"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

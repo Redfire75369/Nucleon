@@ -1,0 +1,206 @@
+{
+  "pools": [
+    {
+      "name": "techreborn",
+      "entries": [
+        {
+          "entryName": "aluminium_ingot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techreborn:ingot"
+        },
+        {
+          "entryName": "brass_ingot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techreborn:ingot"
+        },
+        {
+          "entryName": "electrum_ingot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 5.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techreborn:ingot"
+        },
+        {
+          "entryName": "invar_ingot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 6.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techreborn:ingot"
+        },
+        {
+          "entryName": "nickel_ingot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 9.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techreborn:ingot"
+        },
+        {
+          "entryName": "steel_ingot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 12.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techreborn:ingot"
+        },
+        {
+          "entryName": "zinc_ingot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 18.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techreborn:ingot"
+        },
+        {
+          "entryName": "reinforced_frame",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techreborn:machine_frame"
+        },
+        {
+          "entryName": "data_control_circuit",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techreborn:machine_frame"
+        },
+        {
+          "entryName": "data_storage_circuit",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techreborn:part"
+        },
+        {
+          "entryName": "empty",
+          "weight": 20,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

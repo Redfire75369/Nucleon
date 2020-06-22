@@ -1,0 +1,140 @@
+{
+  "pools": [
+    {
+      "name": "cyberneticparts",
+      "entries": [
+        {
+          "entryName": "techguns:itemshared",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "data": 69.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:itemshared"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "riflerounds",
+      "entries": [
+        {
+          "entryName": "techguns:itemshared",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 8.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 4.0,
+                "max": 8.0
+              },
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:itemshared"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "rockets",
+      "entries": [
+        {
+          "entryName": "techguns:itemshared",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "data": 7.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:itemshared"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "ironblocks",
+      "entries": [
+        {
+          "entryName": "minecraft:iron_block",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:iron_block"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

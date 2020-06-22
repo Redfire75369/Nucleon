@@ -1,0 +1,104 @@
+{
+  "pools": [
+    {
+      "name": "kaboom",
+      "entries": [
+        {
+          "entryName": "rockets",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 7.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "techguns:itemshared"
+        },
+        {
+          "entryName": "grenade_40mm",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 5.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "techguns:itemshared"
+        },
+        {
+          "entryName": "techguns:stielgranate",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "techguns:stielgranate"
+        },
+        {
+          "entryName": "techguns:fraggrenade",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "techguns:fraggrenade"
+        },
+        {
+          "entryName": "techguns:rocketlauncher",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:rocketlauncher"
+        },
+        {
+          "entryName": "techguns:grenadelauncher",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:grenadelauncher"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

@@ -37,6 +37,7 @@ val ingotOres = [
 
 val ingotOreless = [
 	"AdvancedAlloy",
+	"AdvancedElectronicAlloy",
 	"Antimony",
 	"Beryllium",
 	"Brass",
@@ -60,6 +61,7 @@ val ingotOreless = [
 	"EnergeticSilver",
 	"Extreme",
 	"Ferroboron",
+	"GelidEnderium",
 	"Germanium",
 	"Graphite",
 	"Hafnium",
@@ -69,7 +71,6 @@ val ingotOreless = [
 	"HSLASteel",
 	"Invar",
 	"IridiumAlloy",
-	"IronCompressed",
 	"LithiumManganeseDioxide",
 	"Lumium",
 	"MagnesiumDiboride",
@@ -81,6 +82,7 @@ val ingotOreless = [
 	"Neodymium",
 	"Niobium",
 	"NiobiumTin",
+	"NiobiumTitanium",
 	"ObsidianSteel",
 	"Plutonium",
 	"Potassium",
@@ -99,6 +101,7 @@ val ingotOreless = [
 	"Steel",
 	"StellarAlloy",
 	"Strontium",
+	"Terne",
 	"Thermoconducting",
 	"TitaniumAluminide",
 	"TitaniumIridium",
@@ -119,8 +122,10 @@ val gemOres = [
 	"Diamond",
 	"Dilithium",
 	"Emerald",
+	"Fluorite",
 	"Lapis",
 	"Peridot",
+	"Phosphorus",
 	"Quartz",
 	"Ruby",
 	"Sapphire",
@@ -135,7 +140,6 @@ val gemOreless = [
 	"ChargedCertusQuartz",
 	"CrystalFlux",
 	"Fluix",
-	"Fluorite",
 	"RedGarnet",
 	"Rhodocrosite",
 	"Villiaumite",
@@ -149,6 +153,7 @@ val dustOres = [
 	"Galena",
 	"Pyrite",
 	"Redstone",
+	"Salt",
 	"Sheldonite",
 	"Sodalite",
 	"Sphalerite",
@@ -189,7 +194,7 @@ for key in ingotOres {
 /*** Rocky Chunks ***/
 global hashChunkRocky as IOreDictEntry[string] = {} as IOreDictEntry[string];
 for key in ingotOres {
-	hashChunkRocky[key] = oreDict["chunkRocky" ~ key];
+	hashChunkRocky[key] = oreDict["rockyChunk" ~ key];
 }
 
 /*** Dirty Dusts ***/
@@ -224,7 +229,10 @@ for key in ingotOres {
 for key in ingotOreless {
 	hashIngot[key] = oreDict["ingot" ~ key];
 }
-hashIngot["Graphite"] = oreDict["ingotGraphite"];
+hashIngot["Carbon"] = oreDict["ingotCarbon"];
+hashIngot["Ender"] = oreDict["ingotEnder"];
+hashIngot["EnderEnhanced"] = oreDict["ingotEnderEnhanced"];
+hashIngot["IronCompressed"] = oreDict["ingotIronCompressed"];
 hashIngot["ObsidanSteel"] = oreDict["ingotObsidianSteel"];
 
 /*** Gems ***/
@@ -236,6 +244,9 @@ for key in gemOreless {
 	hashGem[key] = oreDict["gem" ~ key];
 }
 hashGem["ChargedCertusQuartz"] = oreDict["gemChargedCertusQuartz"];
+hashGem["ChargedRedGarnet"] = oreDict["gemChargedRedGarnet"];
+hashGem["ChargedSapphire"] = oreDict["gemChargedSapphire"];
+hashGem["ChargedYellowGarnet"] = oreDict["gemChargedYellowGarnet"];
 
 /*** Clathrates ***/
 global hashClathrate as IOreDictEntry[string] = {} as IOreDictEntry[string];
@@ -281,6 +292,8 @@ for key in gemOreless {
 for key in dustOres {
 	hashDust[key] = oreDict["dust" ~ key];
 }
+hashDust["Obsidian"] = oreDict["dustObsidian"];
+hashDust["Wood"] = oreDict["dustWood"];
 
 /*** Small Dusts ***/
 global hashDustSmall as IOreDictEntry[string] = {} as IOreDictEntry[string];
@@ -311,8 +324,9 @@ for key in gemOres {
 for key in gemOreless {
 	hashPlate[key] = oreDict["plate" ~ key];
 }
-hashPlate["Graphite"] = oreDict["plateGraphite"];
+hashPlate["Carbon"] = oreDict["plateCarbon"];
 hashPlate["ObsidanSteel"] = oreDict["plateObsidianSteel"];
+hashPlate["Wood"] = oreDict["plateWood"];
 
 /*** Dense Plates ***/
 global hashPlateDense as IOreDictEntry[string] = {} as IOreDictEntry[string];
@@ -358,6 +372,9 @@ for key in gemOres {
 for key in gemOreless {
 	hashGear[key] = oreDict["gear" ~ key];
 }
+hashGear["IronCompressed"] = oreDict["gearIronCompressed"];
+hashGear["Stone"] = oreDict["gearStone"];
+hashGear["Wood"] = oreDict["gearWood"];
 
 /*** Blocks ***/
 global hashBlock as IOreDictEntry[string] = {} as IOreDictEntry[string];
@@ -376,6 +393,9 @@ for key in gemOreless {
 for key in dustOres {
 	hashBlock[key] = oreDict["block" ~ key];
 }
+hashBlock["Ender"] = oreDict["blockEnder"];
+hashBlock["EnderEnhanced"] = oreDict["blockEnderEnhanced"];
+hashBlock["IronCompressed"] = oreDict["blockIronCompressed"];
 
 /*** Molten ***/
 global hashMolten as ILiquidStack[string] = {} as ILiquidStack[string];
@@ -429,7 +449,7 @@ hashSlurry["Tin"] = getGas("tin");
 /*** Clean Slurry ***/
 global hashSlurryClean as IGasStack[string] = {} as IGasStack[string];
 for key in ingotOres {
-	hashSlurry[key] = getGas("slurryClean" ~ key);
+	hashSlurryClean[key] = getGas("slurryClean" ~ key);
 }
 hashSlurryClean["Copper"] = getGas("cleanCopper");
 hashSlurryClean["Gold"] = getGas("cleanGold");

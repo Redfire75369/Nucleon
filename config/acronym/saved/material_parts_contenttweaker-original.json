@@ -1,3 +1,33 @@
 {
-  "materialMappings": {}
+  "materialMappings": {
+    "hunter_coin_gold": 14,
+    "environmentalist_coin_bronze": 8,
+    "magician_coin_silver": 17,
+    "hunter_coin_bronze": 12,
+    "technician_coin_platinum": 27,
+    "nuclear_coin_bronze": 20,
+    "magician_coin_bronze": 16,
+    "chemist_coin_bronze": 0,
+    "technician_coin_gold": 26,
+    "environmentalist_coin_silver": 9,
+    "hunter_coin_platinum": 15,
+    "nuclear_coin_platinum": 23,
+    "nuclear_coin_gold": 22,
+    "nuclear_coin_silver": 21,
+    "chemist_coin_platinum": 3,
+    "terne_ingot": 28,
+    "magician_coin_platinum": 19,
+    "farming_coin_platinum": 7,
+    "technician_coin_silver": 25,
+    "technician_coin_bronze": 24,
+    "environmentalist_coin_gold": 10,
+    "chemist_coin_gold": 2,
+    "farming_coin_gold": 6,
+    "farming_coin_bronze": 4,
+    "chemist_coin_silver": 1,
+    "magician_coin_gold": 18,
+    "farming_coin_silver": 5,
+    "hunter_coin_silver": 13,
+    "environmentalist_coin_platinum": 11
+  }
 }

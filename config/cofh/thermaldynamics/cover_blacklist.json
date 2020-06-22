@@ -47,5 +47,19 @@
 	{"block": "minecraft:acacia_fence", "meta": 0},
 	{"block": "minecraft:end_rod", "meta": 0},
 	{"block": "minecraft:chorus_plant", "meta": 0},
-	{"block": "minecraft:chorus_flower", "meta": 0}
+	{"block": "minecraft:chorus_flower", "meta": 0},
+	{"block": "advancedliftingmethods:double_acacia_stairs", "meta": 0},
+	{"block": "advancedliftingmethods:double_birch_stairs", "meta": 0},
+	{"block": "advancedliftingmethods:double_brick_stairs", "meta": 0},
+	{"block": "advancedliftingmethods:double_cobblestone_stairs", "meta": 0},
+	{"block": "advancedliftingmethods:double_dark_oak_stairs", "meta": 0},
+	{"block": "advancedliftingmethods:double_jungle_stairs", "meta": 0},
+	{"block": "advancedliftingmethods:double_nether_brick_stairs", "meta": 0},
+	{"block": "advancedliftingmethods:double_oak_stairs", "meta": 0},
+	{"block": "advancedliftingmethods:double_purpur_stairs", "meta": 0},
+	{"block": "advancedliftingmethods:double_quartz_stairs", "meta": 0},
+	{"block": "advancedliftingmethods:double_red_sandstone_stairs", "meta": 0},
+	{"block": "advancedliftingmethods:double_sandstone_stairs", "meta": 0},
+	{"block": "advancedliftingmethods:double_spruce_brick_stairs", "meta": 0},
+	{"block": "advancedliftingmethods:double_stone_brick_stairs", "meta": 0}
 ]

@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "name": "gun",
+      "entries": [
+        {
+          "entryName": "techguns:revolver",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:revolver"
+        },
+        {
+          "entryName": "techguns:thompson",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:thompson"
+        },
+        {
+          "entryName": "techguns:ak47",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:ak47"
+        },
+        {
+          "entryName": "techguns:boltaction",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:boltaction"
+        },
+        {
+          "entryName": "techguns:m4",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:m4"
+        },
+        {
+          "entryName": "techguns:pistol",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:pistol"
+        },
+        {
+          "entryName": "techguns:combatshotgun",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:combatshotgun"
+        },
+        {
+          "entryName": "techguns:mac10",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:mac10"
+        },
+        {
+          "entryName": "techguns:aug",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:aug"
+        },
+        {
+          "entryName": "techguns:flamethrower",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:flamethrower"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

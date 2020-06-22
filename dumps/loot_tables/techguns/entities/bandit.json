@@ -1,0 +1,237 @@
+{
+  "pools": [
+    {
+      "name": "heavycloth",
+      "entries": [
+        {
+          "entryName": "techguns:itemshared",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.2,
+              "looting_multiplier": 0.05,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 60.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:itemshared"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "iron_ingot",
+      "entries": [
+        {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.2,
+              "looting_multiplier": 0.05,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "gunpowder",
+      "entries": [
+        {
+          "entryName": "minecraft:gunpowder",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.2,
+              "looting_multiplier": 0.05,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:gunpowder"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "shotgunrounds",
+      "entries": [
+        {
+          "entryName": "techguns:itemshared",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.2,
+              "looting_multiplier": 0.1,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:itemshared"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "pistolrounds",
+      "entries": [
+        {
+          "entryName": "techguns:itemshared",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.2,
+              "looting_multiplier": 0.1,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:itemshared"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "riflerounds",
+      "entries": [
+        {
+          "entryName": "techguns:itemshared",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.2,
+              "looting_multiplier": 0.1,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:itemshared"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

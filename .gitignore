@@ -1,6 +1,8 @@
 .mixin.out/**
 crash-reports/**
 downloads/**
+exports/**
+generated/**
 logs/**
 maps/**
 mods/**
@@ -17,7 +19,11 @@ screenshots/**
 
 .curseclient
 .ReAuth.cfg
+
+seen_buildersbag_addons.txt
+
 options.txt
+knownkeys.txt
 minecraftinstance.json
 patchouli_data.json
 usercache.json

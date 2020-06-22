@@ -1,0 +1,11 @@
+immersiveengineering:metal_decoration0:4, immersiveengineering:metal_decoration1:1, immersiveengineering:metal_decoration1:1, immersiveengineering:metal_decoration1:1, immersiveengineering:metal_decoration1:1,  
+immersiveengineering:metal_decoration0:4, immersiveengineering:metal_decoration1:1, immersiveengineering:metal_decoration0:4, immersiveengineering:metal_decoration1:1, immersiveengineering:metal_decoration0:4
+immersiveengineering:metal_decoration0:4, immersiveengineering:metal_decoration1:1, immersiveengineering:metal_decoration0:4, immersiveengineering:metal_decoration1:1, immersiveengineering:metal_decoration0:4
+.
+minecraft:air:*, immersiveengineering:metal_decoration1:0, immersiveengineering:metal_decoration1:0, immersiveengineering:metal_decoration1:0,  immersiveengineering:metal_decoration0:4
+immersiveengineering:metal_decoration0:4, immersiveengineering:metal_decoration1:0, immersiveengineering:metal_decoration0:4, immersiveengineering:metal_decoration1:0, immersiveengineering:metal_decoration0:4
+immersiveengineering:metal_decoration0:3, immersiveengineering:metal_decoration1:0, keyBlock, immersiveengineering:metal_decoration1:0,  immersiveengineering:metal_decoration0:4
+.
+minecraft:air:*, minecraft:hopper:0, minecraft:hopper:0, minecraft:hopper:0, minecraft:air:*
+minecraft:air:*, minecraft:hopper:0, minecraft:hopper:0, minecraft:hopper:0, minecraft:air:*
+minecraft:air:*, minecraft:hopper:0, minecraft:hopper:0, minecraft:hopper:0, minecraft:air:*

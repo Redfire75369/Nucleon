@@ -6,13 +6,16 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.VanillaFactory;
 
 /*** Item/Fluid Circuits ***/
-val typeList = ["item", "fluid"] as string[];
-val tiers = 4 as int;
+val tiersItem = 4 as int;
+val tiersFluid = 3 as int;
+val tiersGas = 4 as int;
 
-for type in typeList {
-	for tier in 1 to tiers {
-		val circuit = VanillaFactory.createItem(type ~ "circuit_tier" ~ tier);
-		circuit.creativeTab = <creativetab:other> as CreativeTab;
-		circuit.register();
-	}
+for tier in 1 to (tiersItem + 1) {
+	item.addItem("item_circuit_tier" ~ tier);
+}
+for tier in 1 to (tiersFluid + 1) {
+	item.addItem("fluid_circuit_tier" ~ tier);
+}
+for tier in 1 to (tiersGas + 1) {
+	item.addItem("gas_circuit_tier" ~ tier);
 }

@@ -1,0 +1,420 @@
+{
+  "pools": [
+    {
+      "name": "resources",
+      "entries": [
+        {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 12.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "entryName": "minecraft:gunpowder",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gunpowder"
+        },
+        {
+          "entryName": "heavy_cloth",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 60.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 4.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "techguns:itemshared"
+        },
+        {
+          "entryName": "plastic_sheet",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 55.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 3.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "techguns:itemshared"
+        },
+        {
+          "entryName": "rubber_bar",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 56.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 2.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "techguns:itemshared"
+        },
+        {
+          "entryName": "ingot_obsidian",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 84.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "techguns:itemshared"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "gun",
+      "entries": [
+        {
+          "entryName": "techguns:revolver",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:revolver"
+        },
+        {
+          "entryName": "techguns:thompson",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:thompson"
+        },
+        {
+          "entryName": "techguns:boltaction",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:boltaction"
+        },
+        {
+          "entryName": "techguns:m4",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:m4"
+        },
+        {
+          "entryName": "techguns:pistol",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:pistol"
+        },
+        {
+          "entryName": "techguns:combatshotgun",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:combatshotgun"
+        },
+        {
+          "entryName": "techguns:mac10",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:mac10"
+        },
+        {
+          "entryName": "techguns:aug",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:aug"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 2.0
+      }
+    },
+    {
+      "name": "armor",
+      "entries": [
+        {
+          "entryName": "techguns:t1_combat_helmet",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:t1_combat_helmet"
+        },
+        {
+          "entryName": "techguns:t1_combat_chestplate",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:t1_combat_chestplate"
+        },
+        {
+          "entryName": "techguns:t1_combat_leggings",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:t1_combat_leggings"
+        },
+        {
+          "entryName": "techguns:t1_combat_boots",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:t1_combat_boots"
+        },
+        {
+          "entryName": "techguns:t2_combat_helmet",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:t2_combat_helmet"
+        },
+        {
+          "entryName": "techguns:t2_combat_chestplate",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:t2_combat_chestplate"
+        },
+        {
+          "entryName": "techguns:t2_combat_leggings",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:t2_combat_leggings"
+        },
+        {
+          "entryName": "techguns:t2_combat_boots",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:t2_combat_boots"
+        },
+        {
+          "entryName": "techguns:t2_commando_helmet",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:t2_commando_helmet"
+        },
+        {
+          "entryName": "techguns:t2_commando_chestplate",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:t2_commando_chestplate"
+        },
+        {
+          "entryName": "techguns:t2_commando_leggings",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:t2_commando_leggings"
+        },
+        {
+          "entryName": "techguns:t2_commando_boots",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:t2_commando_boots"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "ammo",
+      "entries": [
+        {
+          "entryName": "pistol_rounds",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "techguns:itemshared"
+        },
+        {
+          "entryName": "shotgun_rounds",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 4.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "techguns:itemshared"
+        },
+        {
+          "entryName": "rifle_rounds",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "techguns:itemshared"
+        },
+        {
+          "entryName": "smg_magazine",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 9.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "techguns:itemshared"
+        },
+        {
+          "entryName": "pistol_magazine",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 11.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "techguns:itemshared"
+        },
+        {
+          "entryName": "ar_magazine",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 13.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "techguns:itemshared"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 4.0
+      }
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

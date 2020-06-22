@@ -1,0 +1,210 @@
+{
+  "pools": [
+    {
+      "name": "techreborn",
+      "entries": [
+        {
+          "entryName": "bronze_ingot",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techreborn:ingot"
+        },
+        {
+          "entryName": "copper_ingot",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techreborn:ingot"
+        },
+        {
+          "entryName": "lead_ingot",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 8.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techreborn:ingot"
+        },
+        {
+          "entryName": "silver_ingot",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 11.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techreborn:ingot"
+        },
+        {
+          "entryName": "tin_ingot",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 13.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techreborn:ingot"
+        },
+        {
+          "entryName": "refined_iron_ingot",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 19.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techreborn:ingot"
+        },
+        {
+          "entryName": "advanced_alloy_ingot",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 20.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techreborn:ingot"
+        },
+        {
+          "entryName": "mixed_metal_ingot",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 21.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techreborn:ingot"
+        },
+        {
+          "entryName": "basic_frame",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techreborn:machine_frame"
+        },
+        {
+          "entryName": "basic_circuit",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 29.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techreborn:part"
+        },
+        {
+          "entryName": "empty",
+          "weight": 50,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

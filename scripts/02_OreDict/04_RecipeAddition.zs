@@ -5,14 +5,14 @@
 /*** Ores ***/
 for key, dictOre in hashOre {
 	if (hashGem has key) {
-		mods.mekanism.combiner.addRecipe(hashGem[key] * 8, <minecraft:cobblestone>, dictOre.firstItem);
+		mods.mekanism.combiner.addRecipe(hashGem[key] * 16, <minecraft:cobblestone>, dictOre.firstItem);
 	} else if (hashDust has key) {
-		mods.mekanism.combiner.addRecipe(hashDust[key] * 8, <minecraft:cobblestone>, dictOre.firstItem);
+		mods.mekanism.combiner.addRecipe(hashDust[key] * 16, <minecraft:cobblestone>, dictOre.firstItem);
 	}
 }
 
 /*Clathrate Ores */
-// Hardcoded since different Clathrate Ores have different base blocks
+// Will be Hardcoded since different Clathrate Ores have different base blocks
 
 /*** Chunks ***/
 for key, dictChunk in hashChunk {

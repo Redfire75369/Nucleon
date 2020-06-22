@@ -1,0 +1,81 @@
+{
+  "pools": [
+    {
+      "name": "goldenrevolver",
+      "entries": [
+        {
+          "entryName": "techguns:goldenrevolver",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.5,
+              "looting_multiplier": 0.05,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "techguns:goldenrevolver"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "pistolrounds",
+      "entries": [
+        {
+          "entryName": "techguns:itemshared",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.5,
+              "looting_multiplier": 0.05,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 17.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:itemshared"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

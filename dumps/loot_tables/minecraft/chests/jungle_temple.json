@@ -1,0 +1,247 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:diamond",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond"
+        },
+        {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "entryName": "minecraft:gold_ingot",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "entryName": "minecraft:emerald",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:emerald"
+        },
+        {
+          "entryName": "minecraft:bone",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bone"
+        },
+        {
+          "entryName": "minecraft:rotten_flesh",
+          "weight": 16,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:rotten_flesh"
+        },
+        {
+          "entryName": "minecraft:saddle",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:saddle"
+        },
+        {
+          "entryName": "minecraft:iron_horse_armor",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_horse_armor"
+        },
+        {
+          "entryName": "minecraft:golden_horse_armor",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_horse_armor"
+        },
+        {
+          "entryName": "minecraft:diamond_horse_armor",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:diamond_horse_armor"
+        },
+        {
+          "entryName": "minecraft:book",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "entryName": "notenoughwands:teleportation_wand",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:teleportation_wand"
+        },
+        {
+          "entryName": "notenoughwands:building_wand",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:building_wand"
+        },
+        {
+          "entryName": "notenoughwands:swapping_wand",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:swapping_wand"
+        },
+        {
+          "entryName": "notenoughwands:capturing_wand",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:capturing_wand"
+        },
+        {
+          "entryName": "notenoughwands:illumination_wand",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:illumination_wand"
+        },
+        {
+          "entryName": "notenoughwands:displacement_wand",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:displacement_wand"
+        },
+        {
+          "entryName": "notenoughwands:moving_wand",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:moving_wand"
+        },
+        {
+          "entryName": "notenoughwands:acceleration_wand",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:acceleration_wand"
+        },
+        {
+          "entryName": "notenoughwands:protection_wand",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:protection_wand"
+        },
+        {
+          "entryName": "notenoughwands:potion_wand",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:potion_wand"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 6.0
+      }
+    },
+    {
+      "name": "pneumaticcraft_inject_pool",
+      "entries": [
+        {
+          "entryName": "pneumaticcraft_inject_entry",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "pneumaticcraft:inject/simple_dungeon_loot"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "lootPool_techreborn:chests/jungle_temple",
+      "entries": [
+        {
+          "entryName": "lootEntry_techreborn:chests/jungle_temple",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "techreborn:chests/jungle_temple"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

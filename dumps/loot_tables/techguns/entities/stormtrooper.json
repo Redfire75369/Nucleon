@@ -1,0 +1,201 @@
+{
+  "pools": [
+    {
+      "name": "plasticsheet",
+      "entries": [
+        {
+          "entryName": "techguns:itemshared",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.2,
+              "looting_multiplier": 0.05,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 55.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:itemshared"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "ingotobsidiansteel",
+      "entries": [
+        {
+          "entryName": "techguns:itemshared",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.2,
+              "looting_multiplier": 0.05,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "data": 84.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:itemshared"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "redstone",
+      "entries": [
+        {
+          "entryName": "minecraft:redstone",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.3,
+              "looting_multiplier": 0.05,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:redstone"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "circuitboard",
+      "entries": [
+        {
+          "entryName": "techguns:itemshared",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.1,
+              "looting_multiplier": 0.05,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "data": 65.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:itemshared"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "energycell",
+      "entries": [
+        {
+          "entryName": "techguns:itemshared",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.1,
+              "looting_multiplier": 0.05,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "data": 29.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:itemshared"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

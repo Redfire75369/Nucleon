@@ -1,6 +1,7 @@
 #loader crafttweaker
 #priority -0202
 
+val byproducts as string[string] = {} as string[string];
 
 /*** Ores ***/
 //recipes.removeShapeless(<woot:stygianironore>);
@@ -16,20 +17,16 @@ for key, dictOre in hashOre {
 /*** Chunks ***/
 for key, dictChunk in hashChunk {
 	if (hashChunkRocky has key) {
-		for itemChunkRocky in hashChunkRocky[key].items {
-			mods.magneticraft.Sieve.removeRecipe(itemChunkRocky);
-			mods.magneticraft.SluiceBox.removeRecipe(itemChunkRocky);
-		}
+		mods.magneticraft.Sieve.removeRecipe(hashChunkRocky[key].firstItem);
+		mods.magneticraft.SluiceBox.removeRecipe(hashChunkRocky[key].firstItem);
 	}
 }
 
 /*** Rocky Chunks ***/
 for key, dictChunkRocky in hashChunkRocky {
 	if (hashOre has key) {
-		for itemOre in hashOre[key].items {
-			mods.magneticraft.CrushingTable.removeRecipe(itemOre);
-			mods.magneticraft.Grinder.removeRecipe(itemOre);
-		}
+		mods.magneticraft.CrushingTable.removeRecipe(hashOre[key].firstItem);
+		mods.magneticraft.Grinder.removeRecipe(hashOre[key].firstItem);
 	}
 }
 
@@ -71,42 +68,17 @@ for key, dictCrystal in hashCrystal {
 }
 
 /*** Ingots ***/
-recipes.removeShapeless(hashIngot["Bronze"], [
-	hashIngot["Tin"], hashIngot["Copper"], hashIngot["Copper"], 
-	hashIngot["Copper"]
-]);
+recipes.removeShapeless(hashIngot["Bronze"]);
+recipes.removeShaped(hashIngot["Graphite"]);
 
 mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:metal:8>);
 mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:storage:8>);
 
-mods.techreborn.alloySmelter.removeAll();
-
-mods.techreborn.blastFurnace.removeInputRecipe(<minecraft:iron_ore>);
-mods.techreborn.blastFurnace.removeInputRecipe(<techreborn:ore:5>);
-mods.techreborn.blastFurnace.removeInputRecipe(<techreborn:dust:22> * 2);
-mods.techreborn.blastFurnace.removeInputRecipe(<techreborn:smalldust:23> * 8);
-
-mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot>);
-mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot:3>);
-mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot:6>);
-mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot:12>);
-mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot:14>);
-mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot:15>);
-mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot:16>);
-
 mods.techreborn.compressor.removeInputRecipe(<techreborn:dust:65>);
-
 mods.techreborn.vacuumFreezer.removeRecipe(<techreborn:ingot:17>);
 
 for key, dictIngot in hashIngot {
 	if (hashOre has key) {
-		recipes.removeShapeless(dictIngot, [
-			hashOre[key], hashDust["Pyrotheum"]
-		]);
-		recipes.removeShapeless(dictIngot, [
-			hashOre[key], hashDust["Petrotheum"], hashDust["Pyrotheum"]
-		]);
-		
 		for itemIngot in dictIngot.items {
 			furnace.remove(itemIngot);
 			mods.immersiveengineering.ArcFurnace.removeRecipe(itemIngot);
@@ -131,7 +103,6 @@ for key, dictIngot in hashIngot {
 		
 		for itemIngot in dictIngot.items {
 			furnace.remove(itemIngot);
-			mods.immersiveengineering.ArcFurnace.removeRecipe(itemIngot);
 		}
 	}
 	if (hashBlock has key) {
@@ -151,16 +122,14 @@ furnace.remove(<minecraft:quartz>);
 
 for key, dictGem in hashGem {
 	if (hashOre has key) {
+		mods.magneticraft.Grinder.removeRecipe(hashOre[key].firstItem);
 		mods.mekanism.enrichment.removeRecipe(hashOre[key], dictGem);
 		mods.nuclearcraft.Manufactory.removeRecipeWithInput(hashOre[key]);
 		mods.nuclearcraft.Manufactory.removeRecipeWithOutput(dictGem);
-		mods.techreborn.industrialGrinder.removeInputRecipe(hashOre[key]);
 		for itemOre in hashOre[key].items {
 			mods.appliedenergistics2.Grinder.removeRecipe(itemOre);
 			mods.immersiveengineering.Crusher.removeRecipesForInput(itemOre);
-			mods.magneticraft.Grinder.removeRecipe(itemOre);
 			mods.techreborn.grinder.removeInputRecipe(itemOre);
-			mods.techreborn.industrialGrinder.removeInputRecipe(itemOre);
 		}
 		for itemGem in dictGem.items {
 			furnace.remove(itemGem);
@@ -168,13 +137,12 @@ for key, dictGem in hashGem {
 			//mods.astralsorcery.Grindstone.removeRecipe(itemGem);
 			mods.immersiveengineering.ArcFurnace.removeRecipe(itemGem);
 			mods.techreborn.grinder.removeRecipe(itemGem);
-			mods.techreborn.industrialGrinder.removeRecipe(itemGem);
 		}
 	}
 	if (hashDust has key) {
+		mods.mekanism.enrichment.removeRecipe(hashDust[key], dictGem);
 		for itemGem in dictGem.items {
 			furnace.remove(itemGem);
-			mods.techreborn.implosionCompressor.removeRecipe(itemGem);
 		}
 	}
 }
@@ -209,24 +177,19 @@ mods.magneticraft.Grinder.removeRecipe(<magneticraft:ores:4>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<immersive_energy:metal:2>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<immersive_energy:metal:3>);
 
-mods.techreborn.grinder.removeInputRecipe(<techreborn:ore:9>);
-mods.techreborn.grinder.removeInputRecipe(<techreborn:plates:20>);
+mods.techreborn.compressor.removeInputRecipe(<immersiveengineering:material:17>);
 
-mods.techreborn.industrialGrinder.removeInputRecipe(<techreborn:ore:6>);
-mods.techreborn.industrialGrinder.removeInputRecipe(<techreborn:ore:9>);
+mods.techreborn.grinder.removeInputRecipe(<magneticraft:storage_blocks:4>);
+mods.techreborn.grinder.removeInputRecipe(<techreborn:ore:9>);
+mods.techreborn.grinder.removeInputRecipe(<techreborn:plates:9>);
+mods.techreborn.grinder.removeInputRecipe(<techreborn:plates:10>);
+mods.techreborn.grinder.removeInputRecipe(<techreborn:plates:20>);
+mods.techreborn.grinder.removeInputRecipe(<techreborn:storage:3>);
 
 for key, dictDust in hashDust {
 	if (hashOre has key) {
-		recipes.removeShapeless(dictDust, [
-			hashOre[key], hashDust["Petrotheum"]
-		]);
-		recipes.removeShapeless(dictDust, [
-			hashOre[key], <immersiveengineering:tool>
-		]);
-		
 		mods.mekanism.enrichment.removeRecipe(hashOre[key], dictDust);
 		mods.nuclearcraft.Manufactory.removeRecipeWithInput(hashOre[key]);
-		mods.techreborn.industrialGrinder.removeInputRecipe(hashOre[key]);
 		for itemOre in hashOre[key].items {
 			mods.appliedenergistics2.Grinder.removeRecipe(itemOre);
 			//mods.bloodmagic.AlchemyTable.removeRecipe([itemOre, <bloodmagic:cutting_fluid>]);
@@ -234,11 +197,9 @@ for key, dictDust in hashDust {
 			//mods.integrateddynamics.MechanicalSqueezer.removeRecipe(itemOre);
 			//mods.integrateddynamics.Squeezer.removeRecipe(itemOre);
 			mods.techreborn.grinder.removeInputRecipe(itemOre);
-			mods.techreborn.industrialGrinder.removeInputRecipe(itemOre);
 		}
 		for itemDust in dictDust.items {
 			mods.techreborn.grinder.removeRecipe(itemDust);
-			mods.techreborn.industrialGrinder.removeRecipe(itemDust);
 		}
 	}
 	if (hashDustDirty has key) {
@@ -305,8 +266,6 @@ for key, dictDust in hashDust {
 }
 
 /*** Small Dusts ***/
-mods.techreborn.industrialGrinder.removeInputRecipe(<techreborn:ore:4>);
-
 mods.techreborn.industrialElectrolyzer.removeRecipe(<techreborn:smalldust:10>);
 mods.techreborn.industrialElectrolyzer.removeRecipe(<techreborn:smalldust:54>);
 mods.techreborn.industrialElectrolyzer.removeRecipe(<techreborn:smalldust:59>);
@@ -324,16 +283,11 @@ for key, dictDustSmall in hashDustSmall {
 }
 
 /*** Plates ***/
-mods.techreborn.blastFurnace.removeRecipe(<techreborn:plates:11>);
-
 mods.techreborn.compressor.removeRecipe(<techreborn:plates:2>);
+mods.techreborn.compressor.removeRecipe(<techreborn:plates:3>);
 mods.techreborn.compressor.removeRecipe(<techreborn:plates:9>);
 mods.techreborn.compressor.removeRecipe(<techreborn:plates:10>);
-mods.techreborn.compressor.removeRecipe(<techreborn:plates:15>);
-mods.techreborn.compressor.removeRecipe(<techreborn:plates:16>);
 mods.techreborn.compressor.removeRecipe(<techreborn:plates:36>);
-
-mods.techreborn.implosionCompressor.removeRecipe(<techreborn:plates:38>);
 
 for key, dictPlate in hashPlate {
 	if (hashIngot has key) {
@@ -344,20 +298,16 @@ for key, dictPlate in hashPlate {
 			[hashIngot[key], <immersiveengineering:tool>
 		]);
 		
+		mods.magneticraft.HydraulicPress.removeRecipe(hashIngot[key].firstItem, 0);
 		mods.nuclearcraft.Pressurizer.removeRecipeWithOutput(dictPlate);
 		for itemPlate in dictPlate.items {
 			mods.immersiveengineering.MetalPress.removeRecipe(itemPlate);
-			mods.techreborn.plateBendingMachine.removeRecipe(itemPlate);
-		}
-		for itemIngot in hashIngot[key].items {
-			mods.magneticraft.HydraulicPress.removeRecipe(itemIngot, 0);
 		}
 	}
 	if (hashGem has key) {
 		mods.nuclearcraft.Pressurizer.removeRecipeWithOutput(dictPlate);
 		for itemPlate in dictPlate.items {
 			mods.immersiveengineering.MetalPress.removeRecipe(itemPlate);
-			mods.techreborn.plateBendingMachine.removeRecipe(itemPlate);
 		}
 	}
 	if (hashMolten has key) {
@@ -371,12 +321,6 @@ for key, dictPlate in hashPlate {
 for key, dictPlateDense in hashPlateDense {
 	if (hashPlate has key) {
 		mods.nuclearcraft.Pressurizer.removeRecipeWithOutput(dictPlateDense);
-		for itemPlate in hashPlate[key].items {
-			mods.techreborn.plateBendingMachine.removeInputRecipe(itemPlate);
-		}
-		for itemPlateDense in dictPlateDense.items {
-			mods.techreborn.plateBendingMachine.removeRecipe(itemPlateDense);
-		}
 	}
 }
 
@@ -407,22 +351,14 @@ for key, dictRod in hashRod {
 /*** Gears ***/
 for key, dictGear in hashGear {
 	if (hashIngot has key) {
-		recipes.removeShaped(dictGear, [
-			[null, hashIngot[key], null],
-			[hashIngot[key], hashIngot["Iron"], hashIngot[key]],
-			[null, hashIngot[key], null]
-		]);
+		recipes.removeShaped(dictGear);
 		
 		for itemGear in dictGear.items {
 			mods.immersiveengineering.MetalPress.removeRecipe(itemGear);
 		}
 	}
 	if (hashGem has key) {
-		recipes.removeShaped(dictGear, [
-			[null, hashGem[key], null],
-			[hashGem[key], hashIngot["Iron"], hashGem[key]],
-			[null, hashGem[key], null]
-		]);
+		recipes.removeShaped(dictGear);
 	}
 }
 
@@ -453,3 +389,16 @@ for key, dictBlock in hashBlock {
 		]);
 	}
 }
+
+/*** Others ***/
+mods.techreborn.alloySmelter.removeAll();
+mods.techreborn.blastFurnace.removeAll();
+mods.techreborn.implosionCompressor.removeAll();
+mods.techreborn.industrialGrinder.removeAll();
+mods.techreborn.plateBendingMachine.removeAll();
+
+mods.magneticraft.CrushingTable.removeRecipe(hashIngot["Steel"].firstItem);
+mods.mekanism.combiner.removeRecipe(<minecraft:obsidian>, hashDust["Obsidian"], hashBlock["Cobblestone"]);
+
+mods.techguns.Grinder.removeRecipe(<techguns:guidedmissilelauncher>);
+mods.techguns.MetalPress.removeRecipe(<techguns:itemshared:62>);

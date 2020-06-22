@@ -1,0 +1,97 @@
+{
+  "pools": [
+    {
+      "name": "iron_ingot",
+      "entries": [
+        {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.2,
+              "looting_multiplier": 0.05,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": 1.0,
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "heavycloth",
+      "entries": [
+        {
+          "entryName": "techguns:itemshared",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.2,
+              "looting_multiplier": 0.05,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "data": 60.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:itemshared"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "coal",
+      "entries": [],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    },
+    {
+      "name": "gunpowder",
+      "entries": [],
+      "rolls": 1.0
+    },
+    {
+      "name": "redstone",
+      "entries": [],
+      "rolls": 1.0
+    }
+  ]
+}

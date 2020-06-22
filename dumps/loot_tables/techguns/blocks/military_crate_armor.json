@@ -1,0 +1,102 @@
+{
+  "pools": [
+    {
+      "name": "armor",
+      "entries": [
+        {
+          "entryName": "techguns:t1_combat_helmet",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:t1_combat_helmet"
+        },
+        {
+          "entryName": "techguns:t1_combat_chestplate",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:t1_combat_chestplate"
+        },
+        {
+          "entryName": "techguns:t1_combat_leggings",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:t1_combat_leggings"
+        },
+        {
+          "entryName": "techguns:t1_combat_boots",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:t1_combat_boots"
+        },
+        {
+          "entryName": "techguns:t2_combat_helmet",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:t2_combat_helmet"
+        },
+        {
+          "entryName": "techguns:t2_combat_chestplate",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:t2_combat_chestplate"
+        },
+        {
+          "entryName": "techguns:t2_combat_leggings",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:t2_combat_leggings"
+        },
+        {
+          "entryName": "techguns:t2_combat_boots",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:t2_combat_boots"
+        },
+        {
+          "entryName": "techguns:t2_commando_helmet",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:t2_commando_helmet"
+        },
+        {
+          "entryName": "techguns:t2_commando_chestplate",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:t2_commando_chestplate"
+        },
+        {
+          "entryName": "techguns:t2_commando_leggings",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:t2_commando_leggings"
+        },
+        {
+          "entryName": "techguns:t2_commando_boots",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "techguns:t2_commando_boots"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

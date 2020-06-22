@@ -1,0 +1,78 @@
+itemGroup.coins=ContentTweaker Coins
+itemGroup.fuels=ContentTweaker Fuels
+itemGroup.other=ContentTweaker Others
+
+contenttweaker.part.coin_bronze.name=Bronze %s Coin
+contenttweaker.part.coin_silver.name=Silver %s Coin
+contenttweaker.part.coin_gold.name=Gold %s Coin
+contenttweaker.part.coin_platinum.name=Platinum%s Coin
+
+item.contenttweaker.blue_paper.name=Blue Paper
+item.contenttweaker.dust_bedrock.name=Bedrock Dust
+item.contenttweaker.dust_lapis.name=Lapis Lazuli Dust
+item.contenttweaker.file.name=Engineer's File
+item.contenttweaker.gem_charged_red_garnet.name=Charged Red Garnet
+item.contenttweaker.gem_charged_sapphire.name=Charged Sapphire
+item.contenttweaker.gem_charged_yellow_garnet.name=Charged Yellow Garnet
+item.contenttweaker.low_grade_charcoal.name=Low Grade Charcoal
+item.contenttweaker.mech_archaic_circuit.name=Mechanical Archaic Circuit
+item.contenttweaker.medium_grade_charcoal.name=Medium Grade Charcoal
+item.contenttweaker.nugget_ender_pearl.name=Ender Pearl Nugget
+item.contenttweaker.sandpaper.name=Sandpaper
+item.contenttweaker.sealant.name=Sealant
+item.contenttweaker.shoddy_piston.name=Shoddy Piston
+item.contenttweaker.reinforced_stone_gear.name=Reinforced Stone Gear
+item.contenttweaker.wood_coil.name=Wooden Wire Spool
+item.contenttweaker.wood_pile.name=Pile of Wood
+
+item.contenttweaker.item_circuit_tier1.name=Item Circuit I
+item.contenttweaker.item_circuit_tier2.name=Item Circuit II
+item.contenttweaker.item_circuit_tier3.name=Item Circuit III
+item.contenttweaker.item_circuit_tier4.name=Item Circuit IV
+item.contenttweaker.fluid_circuit_tier1.name=Fluid Circuit I
+item.contenttweaker.fluid_circuit_tier2.name=Fluid Circuit II
+item.contenttweaker.fluid_circuit_tier3.name=Fluid Circuit III
+item.contenttweaker.gas_circuit_tier1.name=Gas Circuit I
+item.contenttweaker.gas_circuit_tier2.name=Gas Circuit II
+item.contenttweaker.gas_circuit_tier3.name=Gas Circuit III
+item.contenttweaker.gas_circuit_tier4.name=Gas Circuit IV
+
+item.contenttweaker.compressed_chest.name=Compressed Chest
+item.contenttweaker.reinforced_leather.name=Reinforced Leather
+item.contenttweaker.steel_bars.name=Steel Bars
+item.contenttweaker.wire_refined_iron.name=Refined Iron Wire
+item.contenttweaker.wood_glue.name=Wood Glue
+
+tile.contenttweaker.block_low_grade_charcoal.name=Block of Low Grade Charcoal
+tile.contenttweaker.block_medium_grade_charcoal.name=Block of Medium Grade Charcoal
+tile.contenttweaker.regolith.name=Asteroid Regolith
+
+fluid.ashen_stone=Molten Ashen Stone
+fluid.stone=Molten Stone
+
+fluid.diluted_hydrochloric_acid=Diluted Hydrochloric Acid
+fluid.diluted_hydrofluoric_acid=Diluted Hydrofluoric Acid
+fluid.diluted_nitric_acid=Diluted Nitric Acid
+fluid.diluted_sulfuric_acid=Diluted Sulfuric Acid
+fluid.concentrated_hydrochloric_acid=Concentrated Hydrochloric Acid
+fluid.concentrated_hydrofluoric_acid=Concentrated Hydrofluoric Acid
+fluid.concentrated_nitric_acid=Concentrated Nitric Acid
+fluid.concentrated_sulfuric_acid=Concentrated Sulfuric Acid
+
+fluid.heavy_oil=Heavy Oil
+fluid.light_oil=Light Oil
+fluid.sulfuric_heavy_oil=Sulfuric Heavy Oil
+fluid.sulfuric_light_oil=Sulfuric Light Oil
+fluid.sulfuric_naphtha=Sulfuric Naphtha
+
+fluid.polyethylene=Molten Polyethylene
+fluid.polytetrafluoroethylene=Molten Polytetrafluoroethylene
+fluid.polybenzimidazole=Molten Polybenzimidazole
+fluid.rubber=Molten Rubber
+fluid.silicone_rubber=Molten Silicone Rubber
+
+fluid.cetane_diesel=Cetane-boosted Diesel
+fluid.chloroform=Chloroform
+fluid.hydrogen_sulfide=Hydrogen Sulfide
+fluid.nitrotoluene=Nitrotoluene
+fluid.toluene=Toluene

@@ -1,0 +1,74 @@
+{
+  "pools": [
+    {
+      "name": "gun",
+      "entries": [
+        {
+          "entryName": "techguns:blocks/military_crate_gun",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "techguns:blocks/military_crate_gun"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      }
+    },
+    {
+      "name": "generic",
+      "entries": [
+        {
+          "entryName": "techguns:blocks/military_crate_generic",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "techguns:blocks/military_crate_generic"
+        }
+      ],
+      "rolls": {
+        "min": 3.0,
+        "max": 6.0
+      }
+    },
+    {
+      "name": "ammo",
+      "entries": [
+        {
+          "entryName": "techguns:blocks/military_crate_ammo",
+          "weight": 3,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "techguns:blocks/military_crate_ammo"
+        },
+        {
+          "entryName": "techguns:blocks/military_crate_explosives",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "techguns:blocks/military_crate_explosives"
+        },
+        {
+          "entryName": "techguns:blocks/military_crate_armor",
+          "weight": 2,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "techguns:blocks/military_crate_armor"
+        }
+      ],
+      "rolls": {
+        "min": 3.0,
+        "max": 6.0
+      }
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

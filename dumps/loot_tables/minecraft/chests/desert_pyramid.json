@@ -1,0 +1,521 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:diamond",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond"
+        },
+        {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "entryName": "minecraft:gold_ingot",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "entryName": "minecraft:emerald",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:emerald"
+        },
+        {
+          "entryName": "minecraft:bone",
+          "weight": 25,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bone"
+        },
+        {
+          "entryName": "minecraft:spider_eye",
+          "weight": 25,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:spider_eye"
+        },
+        {
+          "entryName": "minecraft:rotten_flesh",
+          "weight": 25,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:rotten_flesh"
+        },
+        {
+          "entryName": "minecraft:saddle",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:saddle"
+        },
+        {
+          "entryName": "minecraft:iron_horse_armor",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_horse_armor"
+        },
+        {
+          "entryName": "minecraft:golden_horse_armor",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_horse_armor"
+        },
+        {
+          "entryName": "minecraft:diamond_horse_armor",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:diamond_horse_armor"
+        },
+        {
+          "entryName": "minecraft:book",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "entryName": "minecraft:golden_apple",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "entryName": "minecraft:golden_apple#0",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "entryName": "empty",
+          "weight": 15,
+          "quality": 0,
+          "type": "empty"
+        },
+        {
+          "entryName": "notenoughwands:teleportation_wand",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:teleportation_wand"
+        },
+        {
+          "entryName": "notenoughwands:building_wand",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:building_wand"
+        },
+        {
+          "entryName": "notenoughwands:swapping_wand",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:swapping_wand"
+        },
+        {
+          "entryName": "notenoughwands:capturing_wand",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:capturing_wand"
+        },
+        {
+          "entryName": "notenoughwands:illumination_wand",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:illumination_wand"
+        },
+        {
+          "entryName": "notenoughwands:displacement_wand",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:displacement_wand"
+        },
+        {
+          "entryName": "notenoughwands:moving_wand",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:moving_wand"
+        },
+        {
+          "entryName": "notenoughwands:acceleration_wand",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:acceleration_wand"
+        },
+        {
+          "entryName": "notenoughwands:protection_wand",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:protection_wand"
+        },
+        {
+          "entryName": "notenoughwands:potion_wand",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "notenoughwands:potion_wand"
+        },
+        {
+          "entryName": "nuclearcraft:dominos",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "nuclearcraft:dominos"
+        },
+        {
+          "entryName": "nuclearcraft:milk_chocolate",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "nuclearcraft:milk_chocolate"
+        },
+        {
+          "entryName": "nuclearcraft:marshmallow",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "nuclearcraft:marshmallow"
+        },
+        {
+          "entryName": "nuclearcraft:smore",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "nuclearcraft:smore"
+        },
+        {
+          "entryName": "nuclearcraft:record_end_of_the_world",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "nuclearcraft:record_end_of_the_world"
+        },
+        {
+          "entryName": "nuclearcraft:record_money_for_nothing",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "nuclearcraft:record_money_for_nothing"
+        },
+        {
+          "entryName": "nuclearcraft:record_wanderer",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "nuclearcraft:record_wanderer"
+        },
+        {
+          "entryName": "nuclearcraft:record_hyperspace",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "nuclearcraft:record_hyperspace"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0
+      }
+    },
+    {
+      "name": "pool1",
+      "entries": [
+        {
+          "entryName": "minecraft:bone",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bone"
+        },
+        {
+          "entryName": "minecraft:gunpowder",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gunpowder"
+        },
+        {
+          "entryName": "minecraft:rotten_flesh",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:rotten_flesh"
+        },
+        {
+          "entryName": "minecraft:string",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:string"
+        },
+        {
+          "entryName": "minecraft:sand",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:sand"
+        }
+      ],
+      "rolls": 4.0
+    },
+    {
+      "name": "pneumaticcraft_inject_pool",
+      "entries": [
+        {
+          "entryName": "pneumaticcraft_inject_entry",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "pneumaticcraft:inject/simple_dungeon_loot"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "lootPool_techreborn:chests/desert_pyramid",
+      "entries": [
+        {
+          "entryName": "lootEntry_techreborn:chests/desert_pyramid",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "techreborn:chests/desert_pyramid"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

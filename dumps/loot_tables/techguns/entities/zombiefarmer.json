@@ -1,0 +1,237 @@
+{
+  "pools": [
+    {
+      "name": "wheat_seeds",
+      "entries": [
+        {
+          "entryName": "minecraft:wheat_seeds",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.2,
+              "looting_multiplier": 0.05,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:wheat_seeds"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "apple",
+      "entries": [
+        {
+          "entryName": "minecraft:apple",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.2,
+              "looting_multiplier": 0.05,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:apple"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "bread",
+      "entries": [
+        {
+          "entryName": "minecraft:bread",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.2,
+              "looting_multiplier": 0.05,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:bread"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "heavycloth",
+      "entries": [
+        {
+          "entryName": "techguns:itemshared",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.2,
+              "looting_multiplier": 0.05,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "data": 60.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:itemshared"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    },
+    {
+      "name": "wheat",
+      "entries": [
+        {
+          "entryName": "minecraft:wheat",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.2,
+              "looting_multiplier": 0.05,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:wheat"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "gunpowder",
+      "entries": [],
+      "rolls": 1.0
+    },
+    {
+      "name": "leather",
+      "entries": [
+        {
+          "entryName": "minecraft:leather",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.2,
+              "looting_multiplier": 0.05,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:leather"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
