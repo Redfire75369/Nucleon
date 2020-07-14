@@ -9,15 +9,32 @@ val liquids = [
 	"ashen_stone",
 	"stone"
 ] as string[];
+val liquidColours = [
+	Color.fromHex("b6b6b6"),
+	Color.fromHex("232624")
+] as Color[];
 
-for liquid in liquids {
-	fluid.addLiquid(liquid, Color.fromInt(0));
+for i, liquid in liquids {
+	liquidBuilder.addLiquid(liquid, liquidColours[i]);
 }
 
 /*** Acids ***/
-val acidList = ["hydrochloric", "hydrofluoric", "nitric", "sulfuric"] as string[];
+val acidList = [
+	"hydrochloric",
+	"hydrofluoric",
+	"nitric",
+	"sulfuric",
+	"sulfurous"
+] as string[];
+val acidColours = [
+	[Color.fromHex("934268"), Color.fromHex("934268")],
+	[Color.fromHex("426893"), Color.fromHex("426893")],
+	[Color.fromHex("689342"), Color.fromHex("689342")],
+	[Color.fromHex("7d4032"), Color.fromHex("7d4032")],
+	[Color.fromHex("713c2d"), Color.fromHex("713c2d")]
+] as Color[][];
 
-for acid in acidList {
-	fluid.addLiquid("diluted_" ~ acid ~ "_acid", Color.fromInt(0));
-	fluid.addLiquid("concentrated_" ~ acid ~ "_acid", Color.fromInt(0));
+for i, acid in acidList {
+	liquidBuilder.addLiquid("diluted_" ~ acid ~ "_acid", acidColours[i][0]);
+	liquidBuilder.addLiquid("concentrated_" ~ acid ~ "_acid", acidColours[i][1]);
 }

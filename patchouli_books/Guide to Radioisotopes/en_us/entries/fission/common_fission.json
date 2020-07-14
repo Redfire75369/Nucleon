@@ -1,0 +1,24 @@
+{
+    "name": "Reactor Components",
+    "icon": "nuclearcraft:fission_casing",
+    "category": "patchouli:fission",
+    "pages": [
+        {
+            "type": "text",
+            "text": "These blocks are common across all types of fission reactors"
+        },
+        {
+          "type": "spotlight",
+          "item": "nuclearcraft:fission_casing",
+          "title": "Fission Reactor Casing",
+          "text": "Fission Reactor Casings are used to form the frame of a reactor. The casings are required along all the edges and corners of the reactor (unlike older versions of NuclearCraft). They can also be used to fill in the faces of the reactor."
+         },
+         {
+          "type": "spotlight",
+          "item": "nuclearcraft:fission_glass",
+          "title": "Fission Reactor Glass",
+          "text": "Fission Reactor Glass is used to fill in the faces of a reactor, allowing you to look inside the reactor. They cannot be used on the corners or edges of the reactor."
+         }
+    ],
+	"sortnum": 0
+}

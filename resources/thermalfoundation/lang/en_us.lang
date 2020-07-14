@@ -1,1 +1,8 @@
+tile.thermalfoundation.ore.copper.name=Covellite Ore
+tile.thermalfoundation.ore.tin.name=Cassiterite Ore
+tile.thermalfoundation.ore.silver.name=Argentite Ore
+tile.thermalfoundation.ore.lead.name=Pyromorphite Ore
+tile.thermalfoundation.ore.aluminum.name=Corundrum Ore
+tile.thermalfoundation.ore.nickel.name=Pyrrhotite Ore
+
 item.thermalfoundation.material.partSawBlade.name=Iron Grinding Blade

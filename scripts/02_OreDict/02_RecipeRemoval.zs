@@ -2,6 +2,7 @@
 #priority -0202
 
 val byproducts as string[string] = {} as string[string];
+var blacklist = [] as string[];
 
 /*** Ores ***/
 //recipes.removeShapeless(<woot:stygianironore>);
@@ -12,19 +13,40 @@ for key, dictOre in hashOre {
 	}
 }
 
-/*** Clathrate Ores ***/
-
 /*** Chunks ***/
+blacklist = [
+	"Boron",
+	"Iridium",
+	"Lithium",
+	"Magnesium",
+	"Platinum",
+	"Thorium",
+	"Titanium",
+	"Uranium"
+] as string[];
+
 for key, dictChunk in hashChunk {
-	if (hashChunkRocky has key) {
+	if (hashChunkRocky has key && !(blacklist has key)) {
 		mods.magneticraft.Sieve.removeRecipe(hashChunkRocky[key].firstItem);
 		mods.magneticraft.SluiceBox.removeRecipe(hashChunkRocky[key].firstItem);
 	}
 }
 
 /*** Rocky Chunks ***/
+blacklist = [
+	"Boron",
+	"Cobalt",
+	"Iridium",
+	"Lithium",
+	"Magnesium",
+	"Platinum",
+	"Sulfur",
+	"Thorium",
+	"Titanium",
+	"Uranium"
+] as string[];
 for key, dictChunkRocky in hashChunkRocky {
-	if (hashOre has key) {
+	if (hashOre has key && !(blacklist has key)) {
 		mods.magneticraft.CrushingTable.removeRecipe(hashOre[key].firstItem);
 		mods.magneticraft.Grinder.removeRecipe(hashOre[key].firstItem);
 	}
@@ -120,9 +142,14 @@ for key, dictIngot in hashIngot {
 /*** Gems ***/
 furnace.remove(<minecraft:quartz>);
 
+mods.magneticraft.Grinder.removeRecipe(hashOre["Coal"].firstItem);
+mods.magneticraft.Grinder.removeRecipe(hashOre["Diamond"].firstItem);
+mods.magneticraft.Grinder.removeRecipe(hashOre["Emerald"].firstItem);
+mods.magneticraft.Grinder.removeRecipe(hashOre["Lapis"].firstItem);
+
 for key, dictGem in hashGem {
 	if (hashOre has key) {
-		mods.magneticraft.Grinder.removeRecipe(hashOre[key].firstItem);
+		//mods.magneticraft.Grinder.removeRecipe(hashOre[key].firstItem);
 		mods.mekanism.enrichment.removeRecipe(hashOre[key], dictGem);
 		mods.nuclearcraft.Manufactory.removeRecipeWithInput(hashOre[key]);
 		mods.nuclearcraft.Manufactory.removeRecipeWithOutput(dictGem);

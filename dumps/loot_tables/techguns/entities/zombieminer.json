@@ -31,6 +31,24 @@
       "rolls": 1.0
     },
     {
+      "name": "coal",
+      "entries": [],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    },
+    {
+      "name": "gunpowder",
+      "entries": [],
+      "rolls": 1.0
+    },
+    {
       "name": "heavycloth",
       "entries": [
         {
@@ -68,24 +86,6 @@
           "name": "techguns:itemshared"
         }
       ],
-      "rolls": 1.0
-    },
-    {
-      "name": "coal",
-      "entries": [],
-      "rolls": 1.0
-    },
-    {
-      "name": "main",
-      "entries": [],
-      "rolls": {
-        "min": 5.0,
-        "max": 10.0
-      }
-    },
-    {
-      "name": "gunpowder",
-      "entries": [],
       "rolls": 1.0
     },
     {

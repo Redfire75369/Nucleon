@@ -281,6 +281,7 @@ val arrayRemoveDictDust = [
 	<magneticraft:dusts:5>,
 	<magneticraft:dusts:6>,
 	<magneticraft:dusts:7>,
+	<magneticraft:dusts:9>,
 	<magneticraft:dusts:10>,
 	<magneticraft:dusts:11>,
 	<magneticraft:dusts:12>,

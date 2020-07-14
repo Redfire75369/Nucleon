@@ -28,7 +28,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "The First Metal",
-          "desc:8": "No Description"
+          "desc:8": "Iron, one of the simplest metals. It was deposited here by meteorites in the form of iron ore. Hidden among the regolith, I found the iron. I think I should be able to smelt this in order to form some kind of ingot. This will restart the industrial revolution."
         }
       },
       "tasks:9": {
@@ -97,7 +97,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Heated Metal",
-          "desc:8": "No Description"
+          "desc:8": "I should aim to get copper next. It is a orange metal with superb thermal and electrical conductivity. These ember crystals I am getting from the void may be able to transform iron into this. It will require a lot of force which I shall exert using a hammer. Copper, a metal forged in the heart of ember. This shall be used for all of my electrical applications."
         }
       },
       "tasks:9": {
@@ -184,7 +184,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Soft Metal",
-          "desc:8": "No Description"
+          "desc:8": "Andesite seems to contain small traces of tin. Melting the andesite with a special apparatus wiil probably allow me to extract this tin and stamp it to form my first ingot."
         }
       },
       "tasks:9": {
@@ -236,7 +236,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Dense Metal",
-          "desc:8": "No Description"
+          "desc:8": "A metal with an incredibly high density and low melting point, making it ideal for many of my future endeavours. It seems that the embered cinders can be infused into stone and melted down into a liquid with similar properties as lead. Mixing these molten cinders with a easily mixable metal will allow me to form lead."
         }
       },
       "tasks:9": {
@@ -723,7 +723,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Passive Agressive",
-          "desc:8": "No Description"
+          "desc:8": "Grass and darkness seem to be catalysts in spawning peaceful and hostile creatures respectively. Maybe there\u0027s a way to trap them and farm them for their resources."
         }
       },
       "tasks:9": {
@@ -1135,7 +1135,7 @@
       "questID:3": 12,
       "preRequisites:11": [
         8,
-        38
+        34
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1158,8 +1158,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Bricks",
-          "desc:8": "No Description"
+          "name:8": "Mysterious Bricks",
+          "desc:8": "I was placing my clay near some sand and I found out when they mix they create a weird mixture maybe I can use it to craft a sort of brick\n\nand I wonder what are those golems that I have been seeing maybe I should defeat some of them aswell I might get something useful...\n\nWe will see..."
         }
       },
       "tasks:9": {
@@ -1407,7 +1407,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Drilling the Void",
-          "desc:8": "No Description"
+          "desc:8": "Embers are an ancient limited resource that seem to able to power many of these primitive machines. The ember bore is a device used to extract embers from the endless void, powered by fuels similar to the furnace."
         }
       },
       "tasks:9": {
@@ -1488,7 +1488,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Is this the right place?",
-          "desc:8": "No Description"
+          "desc:8": "The atmospheric gauge seems to be a useful instrument that is able to detect ember concentrations throughout the world. The ember bore also seems to produce different amounts of ember depending on said concentration. I could use this information to maximise my extraction."
         }
       },
       "tasks:9": {
@@ -1539,7 +1539,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Activating Ember",
-          "desc:8": "No Description"
+          "desc:8": "The Ember Activator seems to able to convert crystallized ember into pure ember energy that can will be usable by these machines."
         }
       },
       "tasks:9": {
@@ -1997,7 +1997,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Basic Fluid Storage",
-          "desc:8": "No Description"
+          "desc:8": "Holds all sort of liquids, but only one type at a time. Use fluid pipes and extractors to move liquids in and out of it."
         }
       },
       "tasks:9": {
@@ -2049,7 +2049,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Advanced Fluid Storage",
-          "desc:8": "No Description"
+          "desc:8": "The reservoir when mixed with caminite rings allows you to put a much larger amount of liquid in exchange for taking up more room in the world. A fluid dial can help you figure out how much space you have left in the reservoir."
         }
       },
       "tasks:9": {
@@ -2685,7 +2685,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "A Quicker Smelt",
-          "desc:8": "No Description"
+          "desc:8": "The furnace I am using started to be a chore I have to wait there constantly for it to work these carminite bricks seems to be very strudy and it can absorb heat pretty well I think I should be able to craft a pretty decent furnace atleast I wont have to wait for it all the time when its working\nif I cover the sides of the segment that I burn the fuel with carminite bricks and put a gear to the top so I can adjust the heat that the upper segment will get and I can reinforce the gear with iron I can increase the heat permeability so it will be faster \nThis is gonna be AWESOME!!!"
         }
       },
       "tasks:9": {
@@ -2725,7 +2725,7 @@
     "34:10": {
       "questID:3": 34,
       "preRequisites:11": [
-        35
+        40
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2749,7 +2749,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "The First Grind",
-          "desc:8": "No Description"
+          "desc:8": "Finally, I can begin grinding. Cobblestone is made out of pebbles. If I grind it, I will be able to obtain gravel and grinding that further will result in sand. Grinding wheat would give me chaff that could be useful in the future. I can also get sawdust by grinding logs."
         }
       },
       "tasks:9": {
@@ -2783,7 +2783,7 @@
               "id:8": "techreborn:dust",
               "Count:3": 16,
               "Damage:2": 46,
-              "OreDict:8": ""
+              "OreDict:8": "dustSawDust"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2793,9 +2793,7 @@
     },
     "35:10": {
       "questID:3": 35,
-      "preRequisites:11": [
-        36
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2818,7 +2816,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Grinding to a Halt",
-          "desc:8": "No Description"
+          "desc:8": "§l§rI had an idea all of the sudden I am thinking of a machine in my head if I could use the iron ingots I smelted to make some sort of grinding blade. Supporting it with some stone would allow me to make a primal machine to grind things but it would be manuel its better than nothing I guess\n\n§lInfo§r: Quern drops the items from the opening at a side of it you can put a chest there to get auto outputs."
         }
       },
       "tasks:9": {
@@ -2861,7 +2859,9 @@
     },
     "36:10": {
       "questID:3": 36,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        35
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2872,7 +2872,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "rustichromia:windmill",
+            "id:8": "rustichromia:crank",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -2884,7 +2884,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Getting it Moving",
-          "desc:8": "No Description"
+          "desc:8": "The quern is heavier than I thought I cant move it I need to make a crank to move it."
         }
       },
       "tasks:9": {
@@ -2992,8 +2992,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "A Windy Day",
+          "desc:8": "I am getting bored of using that manual hand crank. I thought of a design for a windmill that would rotate with the power of the wind and has an axle that is connected to a gear. With this, I will be able to automate the wooden mechanical hopper and the quern. \n\nThis design is so effective it can even work when facing the sky or the void. I also left some empty spots for new blades which will allow it to catch more wind but also slow the windmill slightly due to their weight. \n\nThe wind is always changing and it seems that rain and thunderstorms cause it to spin up to 2 and 3 times faster respectively. However, this wind value seems to constantly be changing even within the same weather."
         }
       },
       "tasks:9": {
@@ -3081,6 +3081,108 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "rustichromia:assembler1",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "40:10": {
+      "questID:3": 40,
+      "preRequisites:11": [
+        36
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "rustichromia:hopper_wood",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Manual Goods Transfer",
+          "desc:8": "I can\u0027t put items into the quern directly with my hands for it may crush my fingers. This is too risky. I have planned a primitive hopper that will input items into it. However, it will require me to manually power it.\n\n§lINFO:§r You can Shift + RightClick to rotate the input side of the hopper you need to put a chest on the input side and you need a crank on the sides\""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "rustichromia:hopper_wood",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "41:10": {
+      "questID:3": 41,
+      "preRequisites:11": [
+        39
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "rustichromia:windmill_big",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Bigger Blades",
+          "desc:8": "T§the windmill doesn\u0027t seem to keep up with my requirement for mechanical power but I can\u0027t add any more blades to this existing design. I dont know.... What if I make the blades bigger...\n§l§l§l§l§l§l§l\n§§§lI got an amazing idea!§r § I will make the blades bigger so they would can produce more mechanical power. However, this will limit the number of blades I can place on it. By my calculations, I will be able to place only 4 extra blades on it."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "rustichromia:windmill_big",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -3377,21 +3479,21 @@
         },
         "22:10": {
           "sizeX:3": 24,
-          "x:3": 96,
+          "x:3": 144,
           "y:3": 0,
           "id:3": 34,
           "sizeY:3": 24
         },
         "23:10": {
           "sizeX:3": 24,
-          "x:3": 48,
+          "x:3": 0,
           "y:3": 0,
           "id:3": 35,
           "sizeY:3": 24
         },
         "24:10": {
           "sizeX:3": 24,
-          "x:3": 0,
+          "x:3": 48,
           "y:3": 0,
           "id:3": 36,
           "sizeY:3": 24
@@ -3406,7 +3508,7 @@
         "26:10": {
           "sizeX:3": 24,
           "x:3": 144,
-          "y:3": 0,
+          "y:3": 36,
           "id:3": 38,
           "sizeY:3": 24
         },
@@ -3415,6 +3517,20 @@
           "x:3": 624,
           "y:3": 0,
           "id:3": 39,
+          "sizeY:3": 24
+        },
+        "28:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": 0,
+          "id:3": 40,
+          "sizeY:3": 24
+        },
+        "29:10": {
+          "sizeX:3": 24,
+          "x:3": 624,
+          "y:3": 36,
+          "id:3": 41,
           "sizeY:3": 24
         }
       },

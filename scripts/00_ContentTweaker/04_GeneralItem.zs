@@ -8,6 +8,7 @@ import mods.contenttweaker.VanillaFactory;
 /*** Crafting Materials ***/
 val craftMats = [
 	"blue_paper",
+	"copper_thread",
 	"low_grade_charcoal",
 	"medium_grade_charcoal",
 	"mech_archaic_circuit",
@@ -19,7 +20,7 @@ val craftMats = [
 ] as string[];
 
 for craftMat in craftMats {
-	item.addItem(craftMat);
+	itemBuilder.addItem(craftMat);
 }
 
 /*** OreDictionary Unification ***/
@@ -33,7 +34,7 @@ val oreDictUnifs = [
 ] as string[];
 
 for oreDictUnif in oreDictUnifs {
-	item.addItem(oreDictUnif);
+	itemBuilder.addItem(oreDictUnif);
 }
 
 /*** Items With Durability ***/

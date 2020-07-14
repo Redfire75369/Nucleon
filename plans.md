@@ -2,13 +2,13 @@
 For a brief overview of all plans, check this [trello board](https://trello.com/b/WI8cXcFQ/nucleon).
 
 ## Tech Tiers
-Tier 0 - Embers <br/>
-Tier 1 - Immersive Engineering/NuclearCraft <br/>
+Tier 0 - Rustichromia/Embers <br/>
+Tier 1 - Immersive Engineering/Magneticraft <br/>
 Tier 2 - Industrial Foregoing/Tech Reborn <br/>
 Tier 3 - PneumaticCraft: Repressurised <br/>
 Tier 4 - NuclearCraft: Overhauled/Mekanism <br/>
 Tier 5 - Advanced Rocketry <br/>
-Tier 6 - Endgame(Maybe Extended Crafting)
+Tier 6 - Endgame
 
 ## Starting Items
 - Clay Tools

@@ -53,6 +53,20 @@ function oreSynonym(toReplace as string, replaceWith as string) {
 /*** Ores ***/
 hashOre["CertusQuartz"].remove(<appliedenergistics2:charged_quartz_ore>);
 
+hashOre["Argentite"].add(<thermalfoundation:ore:2>);
+hashOre["Aurostibite"].add(<minecraft:gold_ore>);
+hashOre["Cassiterite"].add(<thermalfoundation:ore:1>);
+hashOre["Corundrum"].add(<thermalfoundation:ore:4>);
+hashOre["Covellite"].add(<thermalfoundation:ore>);
+hashOre["Dolomite"].add(<nuclearcraft:ore:6>);
+hashOre["Kernite"].add(<nuclearcraft:ore:5>);
+hashOre["Magnetite"].add(<minecraft:iron_ore>);
+hashOre["Petalite"].add(<nuclearcraft:ore:6>);
+hashOre["Pyromorphite"].add(<thermalfoundation:ore:3>);
+hashOre["Pyrrhotite"].add(<thermalfoundation:ore:5>);
+hashOre["Thorianite"].add(<nuclearcraft:ore:3>);
+hashOre["Torbernite"].add(<nuclearcraft:ore:4>);
+
 //hashOre["Ender"].add(<tp:ender_ore>);
 //recipes.replaceAllOccurences(oreDict["oreEnderOre"], hashOre["Ender"]);
 

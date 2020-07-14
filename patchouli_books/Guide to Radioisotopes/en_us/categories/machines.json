@@ -1,5 +1,6 @@
 {
 	"name": "Machines",
 	"description": "",
-	"icon": "nuclearcraft:manufactory"
+	"icon": "nuclearcraft:manufactory",
+	"sortnum": 2
 }

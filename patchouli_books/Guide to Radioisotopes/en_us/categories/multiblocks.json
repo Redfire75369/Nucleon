@@ -1,5 +1,6 @@
 {
-	"name": "Multiblocks",
+	"name": "Other Multiblocks",
 	"description": "",
-	"icon": "nuclearcraft:solid_fission_controller"
+	"icon": "nuclearcraft:turbine_controller",
+	"sortnum": 5
 }

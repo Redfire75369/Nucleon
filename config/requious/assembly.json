@@ -70,5 +70,29 @@
       "y2": 1.0,
       "z2": 1.0
     }
+  },
+  {
+    "placeType": "Horizontal",
+    "hasGUI": true,
+    "resourceName": "chemical_reactor",
+    "model": "requious:chemical_reactor",
+    "colors": [
+      {
+        "r": 127,
+        "g": 127,
+        "b": 127,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
   }
 ]

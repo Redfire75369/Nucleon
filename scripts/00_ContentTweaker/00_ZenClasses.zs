@@ -65,6 +65,6 @@ zenClass LiquidBuilder {
     }
 }
 
-global ct as CreativeTabBuilder = CreativeTabBuilder() as CreativeTabBuilder;
-global item as ItemBuilder = ItemBuilder() as ItemBuilder;
-global fluid as LiquidBuilder = LiquidBuilder() as LiquidBuilder;
+global creativeTabBuilder as CreativeTabBuilder = CreativeTabBuilder() as CreativeTabBuilder;
+global itemBuilder as ItemBuilder = ItemBuilder() as ItemBuilder;
+global liquidBuilder as LiquidBuilder = LiquidBuilder() as LiquidBuilder;

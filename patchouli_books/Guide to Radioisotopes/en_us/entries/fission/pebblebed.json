@@ -1,0 +1,12 @@
+{
+    "name": "Pebblebed Fission Reactors",
+    "icon": "nuclearcraft:pebblebed_fission_controller",
+    "category": "patchouli:fission",
+    "pages": [
+        {
+            "type": "text",
+            "text": ""
+        }
+    ],
+	"sortnum": 1
+}

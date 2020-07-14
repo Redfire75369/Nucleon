@@ -57,67 +57,163 @@ for key, dictCrystal in hashCrystal {
 }
 
 /*** Ingots ***/
-var tier1Ingots = [] as string[];
-var tier2Ingots = [] as string[];
-var tier3Ingots = [] as string[];
+val tier1Ingots = [
+	"Iron",
+	"Copper",
+	"Tin",
+	"Lead",
+	"Bronze",
+	"Terne",
+	"RedstoneAlloy"
+] as string[];
+val tier2Ingots = [] as string[];
+val tier3Ingots = [] as string[];
 
 for key, dictIngot in hashIngot {
 	if (hashOre has key) {
-		furnace.addRecipe(dictIngot.firstItem, hashOre[key], 0.05);
+		if (tier1Ingots has key) {
+			furnace.addRecipe(dictIngot.firstItem, hashOre[key], 0.05);
+		} else if (tier2Ingots has key) {
+			
+		} else if (tier3Ingots has key) {
+			
+		} else {
+			print("Ingot (Ore) without assigned Tier: " ~ key);
+		}
 	}
 	if (hashDust has key) {
-		furnace.addRecipe(dictIngot.firstItem, hashDust[key], 0);
+		if (tier1Ingots has key) {
+			furnace.addRecipe(dictIngot.firstItem, hashDust[key], 0);
+		} else if (tier2Ingots has key) {
+			
+		} else if (tier3Ingots has key) {
+			
+		} else {
+			print("Ingot (Dust) without assigned Tier: " ~ key);
+		}
 	}
 }
 
 /*** Gems ***/
+val tier1Gems = [
+	"Coal",
+	"Lapis"
+] as string[];
+val tier2Gems = [] as string[];
+val tier3Gems = [] as string[];
+val tier4Gems = [] as string[];
+
 for key, dictGem in hashGem {
-	if (hashOre has key) {
-		mods.appliedenergistics2.Grinder.addRecipe(dictGem.firstItem, hashOre[key].firstItem, 8, dictGem.firstItem, 0.4);
-		mods.immersiveengineering.Crusher.addRecipe(dictGem.firstItem * 2, hashOre[key], 10240, <appliedenergistics2:material:45>, 0.02);
-		mods.mekanism.enrichment.addRecipe(hashOre[key], dictGem.firstItem * 4);
-		mods.nuclearcraft.Manufactory.addRecipe(hashOre[key], dictDust.firstItem * 4);
-		mods.techreborn.grinder.addRecipe(dictGem.firstItem * 2, hashOre[key], 40, 192);
-		mods.techreborn.industrialGrinder.addRecipe(dictGem.firstItem * 3, <techreborn:smalldust:62>, <techreborn:smalldust:48>, null, <liquid:water> * 2400, hashOre[key], <minecraft:dye:4> * 8);
-	}
+	/*if (hashOre has key) {
+		if (tier1Gems has key) {
+			mods.appliedenergistics2.Grinder.addRecipe(dictGem.firstItem, hashOre[key].firstItem, 8, dictGem.firstItem, 0.4);
+			mods.immersiveengineering.Crusher.addRecipe(dictGem.firstItem * 3, hashOre[key], 20480, <appliedenergistics2:material:45>, 0.01);
+			mods.magneticraft.Grinder.addRecipe(hashOre[key].firstItem, dictGem.firstItem * 3, <appliedenergistics2:material:45>, 0.0125, 80);
+			mods.techreborn.grinder.addRecipe(dictGem.firstItem * 4, hashOre[key], 40, 512);
+			mods.mekanism.enrichment.addRecipe(hashOre[key], dictGem.firstItem * 5);
+			mods.nuclearcraft.Manufactory.addRecipe(hashOre[key], dictDust.firstItem * 5);
+		} else if (tier2Gems has key) {
+			mods.immersiveengineering.Crusher.addRecipe(dictGem.firstItem * 2, hashOre[key], 40960, <appliedenergistics2:material:45>, 0.02);
+			mods.magneticraft.Grinder.addRecipe(hashOre[key].firstItem, dictGem.firstItem * 2, <appliedenergistics2:material:45>, 0.025, 160);
+			mods.techreborn.grinder.addRecipe(dictGem.firstItem * 3, hashOre[key], 80, 1024);
+			mods.mekanism.enrichment.addRecipe(hashOre[key], dictGem.firstItem * 4);
+			mods.nuclearcraft.Manufactory.addRecipe(hashOre[key], dictDust.firstItem * 4);
+		} else if (tier3Gems has key) {
+			mods.techreborn.grinder.addRecipe(dictGem.firstItem * 2, hashOre[key], 160, 2048);
+			//mods.techreborn.industrialGrinder.addRecipe(dictGem.firstItem * 3, <techreborn:smalldust:62>, <techreborn:smalldust:48>, null, <liquid:water> * 2400, hashOre[key], <minecraft:dye:4> * 8);
+			mods.mekanism.enrichment.addRecipe(hashOre[key], dictGem.firstItem * 3);
+			mods.nuclearcraft.Manufactory.addRecipe(hashOre[key], dictDust.firstItem * 3);
+		} else if (tier4Gems has key) {
+			mods.mekanism.enrichment.addRecipe(hashOre[key], dictGem.firstItem * 4);
+			mods.nuclearcraft.Manufactory.addRecipe(hashOre[key], dictDust.firstItem * 4);
+		} else {
+			print("Gem (Ore) without assigned Tier: " ~ key);
+		}
+	}*/
 	if (hashDust has key) {
 		mods.techreborn.implosionCompressor.addRecipe(dictGem.firstItem * 3, <techreborn:dust:15>, hashDust[key] * 4, <appliedenergistics2:tiny_tnt> * 2, 200, 2048);
 	}
 }
 
 /*** Dusts ***/
+val tier1Dusts = [] as string[];
+val tier2Dusts = [] as string[];
+val tier3Dusts = [] as string[];
+val tier4Dusts = [] as string[];
+
 for key, dictDust in hashDust {
 	if (hashOre has key) {
 		recipes.addShapeless(key.toLowerCase() ~ "_dust_from_ore_petrotheum", dictDust.firstItem * 2, [
 			hashOre[key], hashDust["Petrotheum"]
 		]);
-		
-		mods.appliedenergistics2.Grinder.addRecipe(dictDust.firstItem, hashOre[key].firstItem, 8, dictDust.firstItem, 0.5);
-		mods.immersiveengineering.Crusher.addRecipe(dictDust.firstItem * 2, hashOre[key], 1024, <techreborn:smalldust:37>, 0.25);
-		mods.mekanism.enrichment.addRecipe(hashOre[key], dictDust.firstItem * 4);
-		mods.nuclearcraft.Manufactory.addRecipe(hashOre[key], dictDust.firstItem * 4);
-		mods.techreborn.grinder.addRecipe(dictDust.firstItem * 3, hashOre[key], 10, 64);
-		mods.techreborn.industrialGrinder.addRecipe(dictGem.firstItem * 3, <techreborn:dust:37>, <techreborn:smalldust:56>, null, <liquid:water> * 1200, hashOre[key], <minecraft:dye:4> * 8);
+		if (tier1Dusts has key) {
+			mods.appliedenergistics2.Grinder.addRecipe(dictDust.firstItem, hashOre[key].firstItem, 8, dictDust.firstItem, 0.8);
+			mods.immersiveengineering.Crusher.addRecipe(dictDust.firstItem * 3, hashOre[key], 10240, <techreborn:smalldust:37>, 0.025);
+			mods.magneticraft.Grinder.addRecipe(hashOre[key].firstItem, dictDust.firstItem * 3, <techreborn:smalldust:37>, 0.03125, 80);
+			mods.techreborn.grinder.addRecipe(dictDust.firstItem * 4, hashOre[key], 30, 102r);
+			mods.mekanism.enrichment.addRecipe(hashOre[key], dictDust.firstItem * 5);
+			mods.nuclearcraft.Manufactory.addRecipe(hashOre[key], dictDust.firstItem * 5);
+		} else if (tier2Dusts has key) {
+			mods.immersiveengineering.Crusher.addRecipe(dictDust.firstItem * 2, hashOre[key], 40960, <techreborn:smalldust:37>, 0.05);
+			mods.magneticraft.Grinder.addRecipe(hashOre[key].firstItem, dictDust.firstItem * 2, <techreborn:smalldust:37>, 0.0625, 160);
+			mods.techreborn.grinder.addRecipe(dictDust.firstItem * 3, hashOre[key], 60, 2048);
+			mods.mekanism.enrichment.addRecipe(hashOre[key], dictDust.firstItem * 4);
+			mods.nuclearcraft.Manufactory.addRecipe(hashOre[key], dictDust.firstItem * 4);
+		} else if (tier3Dusts has key) {
+			mods.techreborn.grinder.addRecipe(dictDust.firstItem * 2, hashOre[key], 120, 4096);
+			//mods.techreborn.industrialGrinder.addRecipe(dictGem.firstItem * 3, <techreborn:dust:37>, <techreborn:smalldust:56>, null, <liquid:water> * 1200, hashOre[key], <minecraft:dye:4> * 8);
+			mods.mekanism.enrichment.addRecipe(hashOre[key], dictDust.firstItem * 3);
+			mods.nuclearcraft.Manufactory.addRecipe(hashOre[key], dictDust.firstItem * 3);
+		} else if (tier4Dusts has key) {
+			mods.mekanism.enrichment.addRecipe(hashOre[key], dictDust.firstItem * 2);
+			mods.nuclearcraft.Manufactory.addRecipe(hashOre[key], dictDust.firstItem * 2);
+		}
 	}
 	if (hashIngot has key) {
-		recipes.addShapeless(key.toLowerCase() ~ "_dust_from_ingot_petrotheum", dictDust.firstItem, [
-			hashIngot[key], hashDust["Petrotheum"]
-		]);
-		
-		mods.immersiveengineering.Crusher.addRecipe(dictDust.firstItem, hashIngot[key], 1024);
-		mods.mekanism.crusher.addRecipe(hashIngot[key], dictDust.firstItem);
-		mods.nuclearcraft.Manufactory.addRecipe(hashIngot[key], dictDust.firstItem);
-		mods.techreborn.grinder.addRecipe(dictDust.firstItem, hashIngot[key], 10, 64);
+		if (tier1Dusts has key) {
+			mods.immersiveengineering.Crusher.addRecipe(dictDust.firstItem, hashIngot[key], 10240);
+			mods.magneticraft.Grinder.addRecipe(hashIngot[key].firstItem, dictDust.firstItem, <techreborn:smalldust:37>, 0.0, 60, true);
+			mods.techreborn.grinder.addRecipe(dictDust.firstItem, hashIngot[key], 20, 1024);
+			mods.mekanism.enrichment.addRecipe(hashIngot[key], dictDust.firstItem);
+			mods.nuclearcraft.Manufactory.addRecipe(hashIngot[key], dictDust.firstItem);
+		} else if (tier2Dusts has key) {
+			mods.immersiveengineering.Crusher.addRecipe(dictDust.firstItem, hashIngot[key], 20480, <techreborn:smalldust:37>, 0.05);
+			mods.magneticraft.Grinder.addRecipe(hashIngot[key].firstItem, dictDust.firstItem, <techreborn:smalldust:37>, 0.0, 120, true);
+			mods.techreborn.grinder.addRecipe(dictDust.firstItem, hashIngot[key], 40, 2048);
+			mods.mekanism.enrichment.addRecipe(hashIngot[key], dictDust.firstItem);
+			mods.nuclearcraft.Manufactory.addRecipe(hashIngot[key], dictDust.firstItem);
+		} else if (tier3Dusts has key) {
+			mods.techreborn.grinder.addRecipe(dictDust.firstItem, hashIngot[key], 80, 4096);
+			//mods.techreborn.industrialGrinder.addRecipe(dictGem.firstItem * 3, <techreborn:dust:37>, <techreborn:smalldust:56>, null, <liquid:water> * 1200, hashIngot[key], <minecraft:dye:4> * 8);
+			mods.mekanism.enrichment.addRecipe(hashIngot[key], dictDust.firstItem);
+			mods.nuclearcraft.Manufactory.addRecipe(hashIngot[key], dictDust.firstItem);
+		} else if (tier4Dusts has key) {
+			mods.mekanism.enrichment.addRecipe(hashIngot[key], dictDust.firstItem);
+			mods.nuclearcraft.Manufactory.addRecipe(hashIngot[key], dictDust.firstItem);
+		}
 	}
 	if (hashGem has key) {
-		recipes.addShapeless(key.toLowerCase() ~ "_dust_from_gem_petrotheum", dictDust.firstItem, [
-			hashGem[key], hashDust["Petrotheum"]
-		]);
-		
-		mods.immersiveengineering.Crusher.addRecipe(dictDust.firstItem, hashGem[key], 1024);
-		mods.mekanism.crusher.addRecipe(hashGem[key], dictDust.firstItem);
-		mods.nuclearcraft.Manufactory.addRecipe(hashGem[key], dictDust.firstItem);
-		mods.techreborn.grinder.addRecipe(dictDust.firstItem, hashGem[key], 10, 64);
+		if (tier1Dusts has key) {
+			mods.immersiveengineering.Crusher.addRecipe(dictDust.firstItem, hashIngot[key], 10240);
+			mods.magneticraft.Grinder.addRecipe(hashIngot[key].firstItem, dictDust.firstItem, <techreborn:smalldust:37>, 0.0, 60, true);
+			mods.techreborn.grinder.addRecipe(dictDust.firstItem, hashIngot[key], 20, 1024);
+			mods.mekanism.enrichment.addRecipe(hashIngot[key], dictDust.firstItem);
+			mods.nuclearcraft.Manufactory.addRecipe(hashIngot[key], dictDust.firstItem);
+		} else if (tier2Dusts has key) {
+			mods.immersiveengineering.Crusher.addRecipe(dictDust.firstItem, hashIngot[key], 20480, <techreborn:smalldust:37>, 0.05);
+			mods.magneticraft.Grinder.addRecipe(hashIngot[key].firstItem, dictDust.firstItem, <techreborn:smalldust:37>, 0.0, 120, true);
+			mods.techreborn.grinder.addRecipe(dictDust.firstItem, hashIngot[key], 40, 2048);
+			mods.mekanism.enrichment.addRecipe(hashIngot[key], dictDust.firstItem);
+			mods.nuclearcraft.Manufactory.addRecipe(hashIngot[key], dictDust.firstItem);
+		} else if (tier3Dusts has key) {
+			mods.techreborn.grinder.addRecipe(dictDust.firstItem, hashIngot[key], 80, 4096);
+			//mods.techreborn.industrialGrinder.addRecipe(dictGem.firstItem * 3, <techreborn:dust:37>, <techreborn:smalldust:56>, null, <liquid:water> * 1200, hashIngot[key], <minecraft:dye:4> * 8);
+			mods.mekanism.enrichment.addRecipe(hashIngot[key], dictDust.firstItem);
+			mods.nuclearcraft.Manufactory.addRecipe(hashIngot[key], dictDust.firstItem);
+		} else if (tier4Dusts has key) {
+			mods.mekanism.enrichment.addRecipe(hashIngot[key], dictDust.firstItem);
+			mods.nuclearcraft.Manufactory.addRecipe(hashIngot[key], dictDust.firstItem);
+		}
 	}
 	if (hashDustDirty has key) {
 		mods.mekanism.enrichment.addRecipe(dictDust.firstItem, hashDustDirty[key]);
@@ -140,45 +236,46 @@ for key, dictDustSmall in hashDustSmall {
 }
 
 /*** Plates ***/
-var tier1Plates = [] as string[];
-var tier2Plates = [] as string[];
-var tier3Plates = [] as string[];
+val tier1Plates = [
+	"Iron",
+	"Copper",
+	"Tin",
+	"Lead",
+	"Bronze",
+	"Terne",
+	"RedstoneAlloy"
+] as string[];
+val tier2Plates = [] as string[];
+val tier3Plates = [] as string[];
+val tier4Plates = [] as string[];
 
 for key, dictPlate in hashPlate {
 	if (hashIngot has key) {
-		if (!(tier3Plates has key || tier2Plates has key || tier1Plates has key)) {
+		if (tier1Plates has key) {
 			recipes.addShapeless(key ~ "_plate_from_ingot_embers", dictPlate.firstItem,[
 				hashIngot[key], hashIngot[key], <embers:tinker_hammer>
 			]);
 			recipes.addShapeless(key ~ "_plate_from_ingot_immersivengineering", dictPlate.firstItem,[
 				hashIngot[key], hashIngot[key], <immersiveengineering:tool>.transformDamage(1);
 			]);
-		}
-		if (tier1Plates has key) {
+		} else if (tier2Plates has key) {
 			mods.immersiveengineering.MetalPress(dictPlate.firstItem * 2, hashIngot[key] * 3, <immersiveengineering:mold>, 512);
-			mods.techreborn.plateBendingMachine.addRecipe(dictPlate.firstItem * 2, hashIngot[key] * 3, 10, 32);
-			mods.nuclearcraft.Pressurizer.addRecipe(hashIngot[key], dictPlate.firstItem);
-		}
-		if (tier2Plates has key || tier1Plates has key) {
+		} else if (tier3Plates has key) {
+			mods.techreborn.plateBendingMachine.addRecipe(dictPlate.firstItem, hashIngot[key] * 3, 10, 32);
+		} else if (tier4Plates has key) {
 			mods.nuclearcraft.Pressurizer.addRecipe(hashIngot[key] * 3, dictPlate.firstItem * 2);
-		}
-		if (tier3Plates has key || tier2Plates has key || tier1Plates has key) {
-			
 		}
 	}
 	if (hashGem has key) {
-		if (!(tier3Plates has key || tier2Plates has key || tier1Plates has key)) {
+		if (tier1Plates has key) {
 			
 		}
-		if (tier1Plates has key) {
+		if (tier2Plates has key) {
 			mods.immersiveengineering.MetalPress(dictPlate.firstItem * 2, hashGem[key] * 3, <immersiveengineering:mold>, 512);
 			mods.techreborn.plateBendingMachine.addRecipe(dictPlate.firstItem * 2, hashGem[key] * 3, 10, 32);
 		}
-		if (tier2Plates has key || tier1Plates has key) {
+		if (tier3Plates has key) {
 			mods.nuclearcraft.Pressurizer.addRecipe(hashGem[key], dictPlate.firstItem);
-		}
-		if (tier3Plates has key || tier2Plates has key || tier1Plates has key) {
-		
 		}
 	}
 }

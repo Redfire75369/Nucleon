@@ -11,11 +11,11 @@ val tiersFluid = 3 as int;
 val tiersGas = 4 as int;
 
 for tier in 1 to (tiersItem + 1) {
-	item.addItem("item_circuit_tier" ~ tier);
+	itemBuilder.addItem("item_circuit_tier" ~ tier);
 }
 for tier in 1 to (tiersFluid + 1) {
-	item.addItem("fluid_circuit_tier" ~ tier);
+	itemBuilder.addItem("fluid_circuit_tier" ~ tier);
 }
 for tier in 1 to (tiersGas + 1) {
-	item.addItem("gas_circuit_tier" ~ tier);
+	itemBuilder.addItem("gas_circuit_tier" ~ tier);
 }

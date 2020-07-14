@@ -43,6 +43,7 @@ val ingotOreless = [
 	"Brass",
 	"Bronze",
 	"Calcium",
+	"ChargedIron",
 	"Chrome",
 	"ConductiveIron",
 	"Constantan",
@@ -62,7 +63,6 @@ val ingotOreless = [
 	"Extreme",
 	"Ferroboron",
 	"GelidEnderium",
-	"Germanium",
 	"Graphite",
 	"Hafnium",
 	"HardCarbon",
@@ -171,7 +171,20 @@ for key in gemOres {
 for key in dustOres {
 	hashOre[key] = oreDict["ore" ~ key];
 }
+hashOre["Argentite"] = oreDict["oreArgentite"];
+hashOre["Aurostibite"] = oreDict["oreAurostibite"];
+hashOre["Cassiterite"] = oreDict["oreCassiterite"];
 hashOre["ChargedCertusQuartz"] = oreDict["oreChargedCertusQuartz"];
+hashOre["Corundrum"] = oreDict["oreCorundrum"];
+hashOre["Covellite"] = oreDict["oreCovellite"];
+hashOre["Dolomite"] = oreDict["oreDolomite"];
+hashOre["Kernite"] = oreDict["oreKernite"];
+hashOre["Magnetite"] = oreDict["oreMagnetite"];
+hashOre["Petalite"] = oreDict["orePetalite"];
+hashOre["Pyromorphite"] = oreDict["orePyromorphite"];
+hashOre["Pyrrhotite"] = oreDict["orePyrrhotite"];
+hashOre["Thorianite"] = oreDict["oreThorianite"];
+hashOre["Torbernite"] = oreDict["oreTorbernite"];
 
 /*** Clathrate Ores ***/
 global hashOreClathrate as IOreDictEntry[string] = {} as IOreDictEntry[string];
@@ -399,9 +412,9 @@ hashBlock["IronCompressed"] = oreDict["blockIronCompressed"];
 
 /*** Molten ***/
 global hashMolten as ILiquidStack[string] = {} as ILiquidStack[string];
-val stringMolten = [
-	
-] as string[];
+for key in ingotOres {
+	hashMolten[key] = game.getLiquid(key.toLowerCase);
+}
 
 /*** Other Gases ***/
 global hashGas as IGasStack[string] = {} as IGasStack[string];

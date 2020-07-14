@@ -8,6 +8,7 @@ contenttweaker.part.coin_gold.name=Gold %s Coin
 contenttweaker.part.coin_platinum.name=Platinum%s Coin
 
 item.contenttweaker.blue_paper.name=Blue Paper
+item.contenttweaker.copper_strand.name=Copper Strand
 item.contenttweaker.dust_bedrock.name=Bedrock Dust
 item.contenttweaker.dust_lapis.name=Lapis Lazuli Dust
 item.contenttweaker.file.name=Engineer's File
@@ -37,9 +38,9 @@ item.contenttweaker.gas_circuit_tier2.name=Gas Circuit II
 item.contenttweaker.gas_circuit_tier3.name=Gas Circuit III
 item.contenttweaker.gas_circuit_tier4.name=Gas Circuit IV
 
+item.contenttweaker.bars_refined_iron.name=Refined Iron Bars
 item.contenttweaker.compressed_chest.name=Compressed Chest
 item.contenttweaker.reinforced_leather.name=Reinforced Leather
-item.contenttweaker.steel_bars.name=Steel Bars
 item.contenttweaker.wire_refined_iron.name=Refined Iron Wire
 item.contenttweaker.wood_glue.name=Wood Glue
 
