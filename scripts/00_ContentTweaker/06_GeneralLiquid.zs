@@ -43,7 +43,7 @@ for i, acid in acidList {
 /*** Glue Processing Chain ***/
 val glueList = {
 	"limewater": Color.fromHex("c3a1b4"),
-	"glue_liqour": Color.fromHex("b983bc"),
+	"glue_liquor": Color.fromHex("b983bc"),
 	"egg_mixture": Color.fromHex("ffe7a2"),
 	"egg_yolk": Color.fromHex("ffcc5f"),
 	"egg_albumin": Color.fromHex("fff5c3"),

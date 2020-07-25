@@ -26,7 +26,7 @@ global getBucketFromFluid as function(ILiquidStack, string)IItemStack = function
 				Amount: 1000
 			}
 		}),
-		"dynamiccell": <techreborn:dynamiccell>.withTag({,
+		"dynamiccell": <techreborn:dynamiccell>.withTag({
 			Fluid: {
 				FluidName: fluid.name,
 				Amount: 1000
