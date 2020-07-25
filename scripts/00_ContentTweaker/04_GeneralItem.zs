@@ -1,7 +1,6 @@
 #loader contenttweaker
 #priority -0004
 
-import mods.contenttweaker.CreativeTab;
 import mods.contenttweaker.Item;
 import mods.contenttweaker.VanillaFactory;
 
@@ -21,6 +20,21 @@ val craftMats = [
 
 for craftMat in craftMats {
 	itemBuilder.addItem(craftMat);
+}
+
+/*** Glue Processing Chain ***/
+val glueList = [
+	"hide_stock",
+	"swollen_hide_stock",
+	"fish_stock",
+	"calciated_fish_stock",
+	"swollen_fish_stock",
+	"bone_stock",
+	"bottle_egg_mixture"
+] as string[];
+
+for glueMat in glueList {
+	itemBuilder.addItem(glueMat);
 }
 
 /*** OreDictionary Unification ***/

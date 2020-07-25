@@ -34,12 +34,13 @@
 - Platinum Technician Coin
 - Pile of Wood
 
+### HigherLevel
+- Ender Pearl Nugget
+- Lapis Lazuli Dust
+- Low Grade Charcoal
+- Medium Grade Charcoal
+
 ## Patchouli Guides
-
-### NuclearCraft: Overhauled
-
-#### Thalzamar
-- Turbine
 
 ## Translation
 

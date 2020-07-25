@@ -1,10 +1,6 @@
 #loader contenttweaker
 #priority -0098
 
-import mods.contenttweaker.CreativeTab;
-import mods.contenttweaker.Item;
-import mods.contenttweaker.VanillaFactory;
-
 /*** Item/Fluid Circuits ***/
 val tiersItem = 4 as int;
 val tiersFluid = 3 as int;

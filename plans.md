@@ -2,22 +2,13 @@
 For a brief overview of all plans, check this [trello board](https://trello.com/b/WI8cXcFQ/nucleon).
 
 ## Tech Tiers
-Tier 0 - Rustichromia/Embers <br/>
-Tier 1 - Immersive Engineering/Magneticraft <br/>
-Tier 2 - Industrial Foregoing/Tech Reborn <br/>
+Tier 0 - Rustichromia, Embers <br/>
+Tier 1 - Immersive Engineering, Magneticraft <br/>
+Tier 2 - Industrial Foregoing, Tech Reborn<br/>
 Tier 3 - PneumaticCraft: Repressurised <br/>
-Tier 4 - NuclearCraft: Overhauled/Mekanism <br/>
-Tier 5 - Advanced Rocketry <br/>
+Tier 4 - NuclearCraft: Overhauled, Mekanism<br/>
+Tier 5 - Advanced Rocketry, Quantum Minecraft Dynamics<br/>
 Tier 6 - Endgame
-
-## Starting Items
-- Clay Tools
-- Seebeck Generator
-- 4 Oak Saplings
-- 64 Bone Meal
-- ? Dirt
-- 1 Water Bucket
-- 1 Lava Bucket
 
 ## Quest Progression
 For a complete overview of all quests, check this [spreadsheet](https://docs.google.com/spreadsheets/d/1pCW8k6wQiGOYP3mT-NgpaflCud0b_daj5zEmHEcLDmw/edit?usp=drivesdk). 

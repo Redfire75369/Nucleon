@@ -116,7 +116,7 @@ changeRecipeShaped("lantern", <immersiveengineering:wooden_device0:6>, [
 	[oreDict["plankTreatedWood"], hashIngot["RefinedIron"], oreDict["plankTreatedWood"]],
 	[hashDust["Redstone"], <immersiveengineering:metal_decoration0>, hashDust["Redstone"]]
 ]);
-changeRecipeShaped("lantern", <immersiveengineering:metal_decoration2:4> * 2, [
+changeRecipeShaped("lantern_powered", <immersiveengineering:metal_decoration2:4> * 2, [
 	[null, hashPlate["Iron"], null],
 	[oreDict["paneGlass"], oreDict["torch"], oreDict["paneGlass"]],
 	[null, hashPlate["Iron"], null]

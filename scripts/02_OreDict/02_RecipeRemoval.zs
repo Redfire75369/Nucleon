@@ -3,13 +3,38 @@
 
 val byproducts as string[string] = {} as string[string];
 var blacklist = [] as string[];
+var blacklist2 = [] as string[];
 
 /*** Ores ***/
+blacklist = [
+	"Bauxite",
+	"CertusQuartz",
+	"ChargedCertusQuartz",
+	"Cinnabar",
+	"Coal",
+	"Cobalt",
+	"Dilithium",
+	"Fluorite",
+	"Galena",
+	"Lapis",
+	"Phosphorus",
+	"Pyrite",
+	"Salt",
+	"Sodalite",
+	"Sheldonite",
+	"Sphalerite",
+	"Sulfur",
+	"Trinitite"
+] as string[];
+
 //recipes.removeShapeless(<woot:stygianironore>);
 mods.techreborn.fusionReactor.removeRecipe(<techreborn:ore:1>);
 for key, dictOre in hashOre {
-	if (hashDust has key) {
+	if (hashDust has key && !(hashGem has key) && !(blacklist has key)) {
 		mods.mekanism.combiner.removeRecipe(dictOre, hashDust[key], hashBlock["Cobblestone"]);
+	}
+	if (hashGem has key && !(blacklist has key)) {
+		mods.mekanism.combiner.removeRecipe(dictOre, hashGem[key], hashBlock["Cobblestone"]);
 	}
 }
 
@@ -45,6 +70,7 @@ blacklist = [
 	"Titanium",
 	"Uranium"
 ] as string[];
+
 for key, dictChunkRocky in hashChunkRocky {
 	if (hashOre has key && !(blacklist has key)) {
 		mods.magneticraft.CrushingTable.removeRecipe(hashOre[key].firstItem);
@@ -60,8 +86,12 @@ for key, dictDustDirty in hashDustDirty {
 }
 
 /*** Clumps ***/
+blacklist = [
+	"Cobalt"
+] as string[];
+
 for key, dictClump in hashClump {
-	if (hashOre has key) {
+	if (hashOre has key && !(blacklist has key)) {
 		mods.mekanism.purification.removeRecipe(dictClump * 3, hashOre[key], hashGas["Oxygen"]);
 	}
 	if (hashShard has key) {
@@ -71,7 +101,7 @@ for key, dictClump in hashClump {
 
 /*** Shards ***/
 for key, dictShard in hashShard {
-	if (hashOre has key) {
+	if (hashOre has key && !(blacklist has key)) {
 		mods.mekanism.chemical.injection.removeRecipe(dictShard * 4, hashOre[key], hashGas["HydrogenChloride"]);
 	}
 	if (hashCrystal has key) {
@@ -140,6 +170,14 @@ for key, dictIngot in hashIngot {
 }
 
 /*** Gems ***/
+blacklist = [
+	"CertusQuartz",
+	"Diamond",
+	"Fluix",
+	"Lapis",
+	"Rhodocrosite"
+] as string[];
+
 furnace.remove(<minecraft:quartz>);
 
 mods.magneticraft.Grinder.removeRecipe(hashOre["Coal"].firstItem);
@@ -167,7 +205,9 @@ for key, dictGem in hashGem {
 		}
 	}
 	if (hashDust has key) {
-		mods.mekanism.enrichment.removeRecipe(hashDust[key], dictGem);
+		if (!(blacklist has key)) {
+			mods.mekanism.enrichment.removeRecipe(hashDust[key], dictGem);
+		}
 		for itemGem in dictGem.items {
 			furnace.remove(itemGem);
 		}
@@ -194,10 +234,32 @@ for key, dictNugget in hashNugget {
 }
 
 /*** Dusts ***/
+blacklist = [
+	"Bauxite",
+	"CertusQuartz",
+	"ChargedCertusQuartz",
+	"Cinnabar",
+	"Coal",
+	"Cobalt",
+	"Dilithium",
+	"Fluorite",
+	"Galena",
+	"Lapis",
+	"MixedMetal",
+	"Phosphorus",
+	"Pyrite",
+	"RefinedGlowstone",
+	"Salt",
+	"Sodalite",
+	"Sheldonite",
+	"Sphalerite",
+	"Sulfur",
+	"Trinitite"
+] as string[];
+
 furnace.remove(<minecraft:redstone>);
 
 mods.magneticraft.CrushingTable.removeRecipe(<techreborn:ore:5>);
-mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ores:4>);
 
 mods.magneticraft.Grinder.removeRecipe(<magneticraft:ores:4>);
 
@@ -214,7 +276,7 @@ mods.techreborn.grinder.removeInputRecipe(<techreborn:plates:20>);
 mods.techreborn.grinder.removeInputRecipe(<techreborn:storage:3>);
 
 for key, dictDust in hashDust {
-	if (hashOre has key) {
+	if (hashOre has key && !(blacklist has key)) {
 		mods.mekanism.enrichment.removeRecipe(hashOre[key], dictDust);
 		mods.nuclearcraft.Manufactory.removeRecipeWithInput(hashOre[key]);
 		for itemOre in hashOre[key].items {
@@ -229,15 +291,15 @@ for key, dictDust in hashDust {
 			mods.techreborn.grinder.removeRecipe(itemDust);
 		}
 	}
-	if (hashDustDirty has key) {
+	if (hashDustDirty has key && !(blacklist has key)) {
 		mods.mekanism.enrichment.removeRecipe(hashDustDirty[key], dictDust);
 	}
-	if (hashCrystal has key) {
+	if (hashCrystal has key && !(blacklist has key)) {
 		for itemCrystal in hashCrystal[key].items {
 			mods.appliedenergistics2.Grinder.removeRecipe(itemCrystal);
 		}
 	}
-	if (hashIngot has key) {
+	if (hashIngot has key && !(blacklist has key)) {
 		recipes.removeShapeless(dictDust, [
 			hashIngot[key], hashDust["Petrotheum"]
 		]);
@@ -255,7 +317,7 @@ for key, dictDust in hashDust {
 			mods.techreborn.grinder.removeRecipe(itemDust);
 		}
 	}
-	if (hashGem has key) {
+	if (hashGem has key && !(blacklist has key)) {
 		recipes.removeShapeless(dictDust, [
 			hashGem[key], hashDust["Petrotheum"]
 		]);
@@ -274,18 +336,18 @@ for key, dictDust in hashDust {
 			mods.techreborn.grinder.removeRecipe(itemDust);
 		}
 	}
-	if (hashDustSmall has key) {
+	if (hashDustSmall has key && !(blacklist has key)) {
 		recipes.removeShapeless(dictDust,[
 			hashDustSmall[key], hashDustSmall[key], hashDustSmall[key],
 			hashDustSmall[key]
 		]);
 	}
-	if (hashPlate has key) {
+	if (hashPlate has key && !(blacklist has key)) {
 		for itemPlate in hashPlate[key].items {
 			mods.techreborn.grinder.removeInputRecipe(itemPlate);
 		}
 	}
-	if (hashBlock has key) {
+	if (hashBlock has key && !(blacklist has key)) {
 		for itemBlock in hashBlock[key].items {
 			mods.techreborn.grinder.removeInputRecipe(itemBlock);
 		}

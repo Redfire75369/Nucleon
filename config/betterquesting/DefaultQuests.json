@@ -96,7 +96,7 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Heated Metal",
+          "name:8": "Ember Infused Metal",
           "desc:8": "I should aim to get copper next. It is a orange metal with superb thermal and electrical conductivity. These ember crystals I am getting from the void may be able to transform iron into this. It will require a lot of force which I shall exert using a hammer. Copper, a metal forged in the heart of ember. This shall be used for all of my electrical applications."
         }
       },
@@ -110,26 +110,14 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "embers:tinker_hammer",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
               "id:8": "minecraft:iron_ingot",
               "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": ""
             },
-            "2:10": {
-              "id:8": "embers:crystal_ember",
-              "Count:3": 4,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "3:10": {
+            "1:10": {
               "id:8": "embers:shard_ember",
-              "Count:3": 24,
+              "Count:3": 28,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -146,7 +134,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "thermalfoundation:material",
-              "Count:3": 1,
+              "Count:3": 4,
               "Damage:2": 128,
               "OreDict:8": "ingotCopper"
             }
@@ -593,23 +581,6 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "allowSmelt:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "allowCraft:1": 1,
-          "allowAnvil:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "minecraft:iron_sword",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:crafting"
-        },
-        "1:10": {
-          "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
@@ -723,7 +694,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Passive Agressive",
-          "desc:8": "Grass and darkness seem to be catalysts in spawning peaceful and hostile creatures respectively. Maybe there\u0027s a way to trap them and farm them for their resources."
+          "desc:8": "No Description"
         }
       },
       "tasks:9": {
@@ -743,58 +714,62 @@
                 "Name:8": "generic.scales"
               },
               "2:10": {
-                "Base:6": 1.0,
-                "Name:8": "generic.physicalDamageRate"
+                "Base:6": 0.0,
+                "Name:8": "generic.spears"
               },
               "3:10": {
                 "Base:6": 1.0,
-                "Name:8": "generic.fireDamageRate"
+                "Name:8": "generic.physicalDamageRate"
               },
               "4:10": {
+                "Base:6": 1.0,
+                "Name:8": "generic.fireDamageRate"
+              },
+              "5:10": {
                 "Base:6": 0.0,
                 "Name:8": "generic.fireAspect"
               },
-              "5:10": {
+              "6:10": {
                 "Base:6": 1.0,
                 "Name:8": "generic.barehandedPower"
               },
-              "6:10": {
+              "7:10": {
                 "Base:6": 0.0,
                 "Name:8": "generic.witchburn"
               },
-              "7:10": {
+              "8:10": {
                 "Base:6": 0.0,
                 "Name:8": "generic.attraction"
               },
-              "8:10": {
+              "9:10": {
                 "Base:6": 0.0,
                 "Name:8": "generic.attraction_generation"
               },
-              "9:10": {
+              "10:10": {
                 "Base:6": 10.0,
                 "Name:8": "generic.maxHealth"
               },
-              "10:10": {
+              "11:10": {
                 "Base:6": 0.0,
                 "Name:8": "generic.knockbackResistance"
               },
-              "11:10": {
+              "12:10": {
                 "Base:6": 0.20000000298023224,
                 "Name:8": "generic.movementSpeed"
               },
-              "12:10": {
+              "13:10": {
                 "Base:6": 0.0,
                 "Name:8": "generic.armor"
               },
-              "13:10": {
+              "14:10": {
                 "Base:6": 0.0,
                 "Name:8": "generic.armorToughness"
               },
-              "14:10": {
+              "15:10": {
                 "Base:6": 1.0,
                 "Name:8": "forge.swimSpeed"
               },
-              "15:10": {
+              "16:10": {
                 "Base:6": 16.0,
                 "Name:8": "generic.followRange"
               }
@@ -841,7 +816,7 @@
               "1:5": 0.085
             },
             "PersistenceRequired:1": 0,
-            "id:8": "minecraft:cow",
+            "id:8": "Cow",
             "Age:3": 1,
             "Motion:9": {
               "0:6": 0.0,
@@ -1095,9 +1070,9 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "magneticraft:limestone",
+            "id:8": "minecraft:cobblestone",
             "Count:3": 1,
-            "Damage:2": 2,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -1120,7 +1095,7 @@
           "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:cobblestone",
+              "id:8": "nuclearcraft:cobblestone_generator",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -1157,7 +1132,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Mysterious Bricks",
           "desc:8": "I was placing my clay near some sand and I found out when they mix they create a weird mixture maybe I can use it to craft a sort of brick\n\nand I wonder what are those golems that I have been seeing maybe I should defeat some of them aswell I might get something useful...\n\nWe will see..."
         }
@@ -1383,7 +1358,7 @@
     "13:10": {
       "questID:3": 13,
       "preRequisites:11": [
-        33
+        43
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1395,7 +1370,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "embers:ember_cluster",
+            "id:8": "embers:ember_bore",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -1405,9 +1380,9 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Drilling the Void",
-          "desc:8": "Embers are an ancient limited resource that seem to able to power many of these primitive machines. The ember bore is a device used to extract embers from the endless void, powered by fuels similar to the furnace."
+          "ismain:1": 1,
+          "name:8": "Drilling The Void!",
+          "desc:8": "Embers are an ancient limited resource that seem to able to power many of the primitive machines I may need to use. The ember bore is a device used to extract ember from the endless void, powered by fuels similar to the furnace. However, it may prove ineffective at high altitudes such as y-levels above 7. Any ember that is extracted will coalesce if in a mechanical core for long enough. I can also use another mechanical core to allow myself to insert and extract materials to and from it."
         }
       },
       "tasks:9": {
@@ -1420,12 +1395,6 @@
           "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "embers:mech_core",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
               "id:8": "embers:ember_bore",
               "Count:3": 1,
               "Damage:2": 0,
@@ -1433,29 +1402,6 @@
             }
           },
           "taskID:8": "bq_standard:crafting"
-        },
-        "1:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "embers:shard_ember",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "embers:crystal_ember",
-              "Count:3": 4,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -1464,7 +1410,7 @@
       "questID:3": 14,
       "preRequisites:11": [
         1,
-        13
+        45
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1486,9 +1432,9 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Is this the right place?",
-          "desc:8": "The atmospheric gauge seems to be a useful instrument that is able to detect ember concentrations throughout the world. The ember bore also seems to produce different amounts of ember depending on said concentration. I could use this information to maximise my extraction."
+          "ismain:1": 1,
+          "name:8": "Ember Where... Here? Or There....",
+          "desc:8": "Copper seems to glow brighter when there is an increased ember aura. I may be able to create something like a compass or even better, a gauge, that will help me find out which areas are better for ember extraction."
         }
       },
       "tasks:9": {
@@ -1537,9 +1483,9 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Activating Ember",
-          "desc:8": "The Ember Activator seems to able to convert crystallized ember into pure ember energy that can will be usable by these machines."
+          "desc:8": "No Description"
         }
       },
       "tasks:9": {
@@ -1592,7 +1538,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Caution! Hot",
           "desc:8": "No Description"
         }
@@ -1658,7 +1604,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Automating the Hammer",
           "desc:8": "No Description"
         }
@@ -1773,7 +1719,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Geological Studies",
           "desc:8": "No Description"
         }
@@ -1825,7 +1771,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Let the World Burn",
           "desc:8": "No Description"
         }
@@ -1893,7 +1839,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Learning to Alloy",
           "desc:8": "No Description"
         }
@@ -1997,7 +1943,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Basic Fluid Storage",
-          "desc:8": "Holds all sort of liquids, but only one type at a time. Use fluid pipes and extractors to move liquids in and out of it."
+          "desc:8": "No Description"
         }
       },
       "tasks:9": {
@@ -2049,7 +1995,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Advanced Fluid Storage",
-          "desc:8": "The reservoir when mixed with caminite rings allows you to put a much larger amount of liquid in exchange for taking up more room in the world. A fluid dial can help you figure out how much space you have left in the reservoir."
+          "desc:8": "No Description"
         }
       },
       "tasks:9": {
@@ -2289,7 +2235,7 @@
     "27:10": {
       "questID:3": 27,
       "preRequisites:11": [
-        12
+        33
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2312,8 +2258,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Better than Hoppers",
-          "desc:8": "No Description"
+          "name:8": "Better Than Hoppers",
+          "desc:8": "Caminite Bricks seem to be very useful. I should be able to make some sort of pipes in order to move items between locations. Caminite can also probably be used for levers if shaped properly. These levers wil be able to power a gear, causing it to turn and extracting items. Archaic Bricks from the golems will help improve the structural integrity of the pipes as well."
         }
       },
       "tasks:9": {
@@ -2683,17 +2629,52 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "A Quicker Smelt",
-          "desc:8": "The furnace I am using started to be a chore I have to wait there constantly for it to work these carminite bricks seems to be very strudy and it can absorb heat pretty well I think I should be able to craft a pretty decent furnace atleast I wont have to wait for it all the time when its working\nif I cover the sides of the segment that I burn the fuel with carminite bricks and put a gear to the top so I can adjust the heat that the upper segment will get and I can reinforce the gear with iron I can increase the heat permeability so it will be faster \nThis is gonna be AWESOME!!!"
+          "desc:8": "The Wooden Furnace that I have been using is becoming extremely tedious. I need to constantly put out the fires that threaten to burn the furnace. Caminite Bricks are able to absorb heat quite well and together with some stone, I will be able to make an improved furnace. This furnace should also be about twice as quick as my old furnace due to its higher heat retention."
         }
       },
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "allowSmelt:1": 0,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:reinforced_stone_gear",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "contenttweaker:block_low_grade_charcoal",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "embers:brick_caminite",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "minecraft:stone",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
           "allowCraft:1": 1,
           "allowAnvil:1": 0,
           "requiredItems:9": {
@@ -2707,20 +2688,7 @@
           "taskID:8": "bq_standard:crafting"
         }
       },
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "minecraft:furnace",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
+      "rewards:9": {}
     },
     "34:10": {
       "questID:3": 34,
@@ -2747,9 +2715,9 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "The First Grind",
-          "desc:8": "Finally, I can begin grinding. Cobblestone is made out of pebbles. If I grind it, I will be able to obtain gravel and grinding that further will result in sand. Grinding wheat would give me chaff that could be useful in the future. I can also get sawdust by grinding logs."
+          "desc:8": "Well finally I can start grinding Lets see....\nCobblestone is made out of pebbles if I grind it I might get gravel and grinding gravel might give sand! \nGrinding Wheat would give flour I can use it for food chaff would be useful aswell\nand I can get sawdust by grinding Logs!"
         }
       },
       "tasks:9": {
@@ -2783,7 +2751,7 @@
               "id:8": "techreborn:dust",
               "Count:3": 16,
               "Damage:2": 46,
-              "OreDict:8": "dustSawDust"
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2793,74 +2761,8 @@
     },
     "35:10": {
       "questID:3": 35,
-      "preRequisites:11": [],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "rustichromia:quern",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Grinding to a Halt",
-          "desc:8": "§l§rI had an idea all of the sudden I am thinking of a machine in my head if I could use the iron ingots I smelted to make some sort of grinding blade. Supporting it with some stone would allow me to make a primal machine to grind things but it would be manuel its better than nothing I guess\n\n§lInfo§r: Quern drops the items from the opening at a side of it you can put a chest there to get auto outputs."
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "allowSmelt:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "allowCraft:1": 1,
-          "allowAnvil:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "thermalfoundation:material",
-              "Count:3": 1,
-              "Damage:2": 657,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:crafting"
-        },
-        "1:10": {
-          "partialMatch:1": 1,
-          "allowSmelt:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "allowCraft:1": 1,
-          "allowAnvil:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "rustichromia:quern",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:crafting"
-        }
-      },
-      "rewards:9": {}
-    },
-    "36:10": {
-      "questID:3": 36,
       "preRequisites:11": [
-        35
+        36
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2882,8 +2784,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Getting it Moving",
+          "ismain:1": 1,
+          "name:8": "Manual Labour",
           "desc:8": "The quern is heavier than I thought I cant move it I need to make a crank to move it."
         }
       },
@@ -2892,18 +2794,89 @@
           "partialMatch:1": 1,
           "allowSmelt:1": 0,
           "ignoreNBT:1": 0,
+          "index:3": 1,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "rustichromia:crank",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "36:10": {
+      "questID:3": 36,
+      "preRequisites:11": [
+        0,
+        6
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "rustichromia:quern",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "Count:3": 0,
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Mechanical Crusher",
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_meta:3": 0,
+            "orig_id:8": ""
+          },
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "desc:8": "§l§rI had an idea all of the sudden I am thinking of a machine in my head if I could use the irons I smelted in order to make a blade with it\nAnd if I could support it with some stone I can make a primal machine to grind things but it would be manuel its better than nothing I guess\n\n§lInfo§r: Quern drops the items from the opening at the front of it. You can place a chest there to automatically extract the outputs.\n§l"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 0,
           "allowCraft:1": 1,
           "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "rustichromia:axle_wood",
-              "Count:3": 6,
-              "Damage:2": 0,
+              "id:8": "thermalfoundation:material",
+              "Count:3": 1,
+              "Damage:2": 657,
               "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "rustichromia:crank",
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "rustichromia:quern",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -2917,8 +2890,8 @@
     "37:10": {
       "questID:3": 37,
       "preRequisites:11": [
-        13,
-        1
+        1,
+        45
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2940,7 +2913,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Seed Removal",
           "desc:8": "No Description"
         }
@@ -2992,7 +2965,7 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "A Windy Day",
+          "name:8": "Windy Power",
           "desc:8": "I am getting bored of using that manual hand crank. I thought of a design for a windmill that would rotate with the power of the wind and has an axle that is connected to a gear. With this, I will be able to automate the wooden mechanical hopper and the quern. \n\nThis design is so effective it can even work when facing the sky or the void. I also left some empty spots for new blades which will allow it to catch more wind but also slow the windmill slightly due to their weight. \n\nThe wind is always changing and it seems that rain and thunderstorms cause it to spin up to 2 and 3 times faster respectively. However, this wind value seems to constantly be changing even within the same weather."
         }
       },
@@ -3065,36 +3038,18 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "The Power of Gears",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "allowSmelt:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "allowCraft:1": 1,
-          "allowAnvil:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "rustichromia:assembler1",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:crafting"
-        }
-      },
+      "tasks:9": {},
       "rewards:9": {}
     },
     "40:10": {
       "questID:3": 40,
       "preRequisites:11": [
-        36
+        35
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -3116,9 +3071,9 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Manual Goods Transfer",
-          "desc:8": "I can\u0027t put items into the quern directly with my hands for it may crush my fingers. This is too risky. I have planned a primitive hopper that will input items into it. However, it will require me to manually power it.\n\n§lINFO:§r You can Shift + RightClick to rotate the input side of the hopper you need to put a chest on the input side and you need a crank on the sides\""
+          "ismain:1": 1,
+          "name:8": "Manual Item Transfer",
+          "desc:8": "I can\u0027t put items into the quern directly with my hands for it may crush my fingers. This is too risky. I have planned a primitive hopper that will input items into it. However, it will require me to manually power it.\n\n§lINFO:§r You can Shift + RightClick to rotate the input side of the hopper you need to put a chest on the input side and you need a crank on the sides.\""
         }
       },
       "tasks:9": {
@@ -3127,6 +3082,23 @@
           "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 1,
+              "Damage:2": 22,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
           "allowCraft:1": 1,
           "allowAnvil:1": 0,
           "requiredItems:9": {
@@ -3143,7 +3115,7 @@
       "rewards:9": {}
     },
     "41:10": {
-      "questID:3": 41,
+      "questID:3": 42,
       "preRequisites:11": [
         39
       ],
@@ -3168,14 +3140,14 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Bigger Blades",
-          "desc:8": "T§the windmill doesn\u0027t seem to keep up with my requirement for mechanical power but I can\u0027t add any more blades to this existing design. I dont know.... What if I make the blades bigger...\n§l§l§l§l§l§l§l\n§§§lI got an amazing idea!§r § I will make the blades bigger so they would can produce more mechanical power. However, this will limit the number of blades I can place on it. By my calculations, I will be able to place only 4 extra blades on it."
+          "name:8": "Bigger\u0026Better",
+          "desc:8": "The windmill doesn\u0027t seem to keep up with my requirement for mechanical power but I can\u0027t add any more blades to this existing design. I dont know.... What if I make the blades bigger...\n§l§l§l§l§l§l§l\n§§§lI got an amazing idea!§r § I will make the blades bigger so they would can produce more mechanical power. However, this will limit the number of blades I can place on it. By my calculations, I will be able to place only 4 extra blades on it."
         }
       },
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "allowSmelt:1": 0,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
           "allowCraft:1": 1,
@@ -3189,6 +3161,181 @@
             }
           },
           "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "42:10": {
+      "questID:3": 43,
+      "preRequisites:11": [
+        33
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "embers:mech_core",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Exsertion!",
+          "desc:8": "§oSigh §rWell... I am having serious problems I cant extract and insert from the same side of I block when all the sides are full there is nothing I can do and this makes me want to suicide I think there is a way but I am not sure I can create a frame and put a giant gear in it so the extract\u0027s and insert\u0027s wont get mixed buuuut it wont be the best..."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "embers:archaic_brick",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "contenttweaker:reinforced_stone_gear",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "embers:mech_core",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "43:10": {
+      "questID:3": 44,
+      "preRequisites:11": [
+        13
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "embers:ember_cluster",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Ember Bore Notes",
+          "desc:8": "With the atmospheric gauge, I am able to check where the ember aura is the highest. I need to be sure that I place it in the best chunk to maximise my ember extraction."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "44:10": {
+      "questID:3": 45,
+      "preRequisites:11": [
+        13
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "embers:crystal_ember",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "W-What Are these... Fire Crystal\u0027s??",
+          "desc:8": "I expected to see the ember in its raw form but... they seem to have crystallised into crystals, shards and grit. These may be less powerful but this is the only way I can harness them for now."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "embers:crystal_ember",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "embers:shard_ember",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "embers:dust_ember",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -3325,168 +3472,168 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": 192,
+          "x:3": 240,
           "y:3": 0,
           "id:3": 12,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": 288,
+          "x:3": 384,
           "y:3": 0,
           "id:3": 13,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 336,
+          "x:3": 492,
           "y:3": 24,
           "id:3": 14,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": 384,
-          "y:3": 48,
+          "x:3": 552,
+          "y:3": 36,
           "id:3": 15,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 432,
+          "x:3": 612,
           "y:3": 24,
           "id:3": 16,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 480,
+          "x:3": 672,
           "y:3": 0,
           "id:3": 17,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 528,
+          "x:3": 720,
           "y:3": 0,
           "id:3": 18,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 576,
+          "x:3": 768,
           "y:3": 0,
           "id:3": 19,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 672,
+          "x:3": 864,
           "y:3": 0,
           "id:3": 20,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 504,
+          "x:3": 672,
           "y:3": 36,
           "id:3": 21,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 468,
-          "y:3": 36,
+          "x:3": 648,
+          "y:3": 72,
           "id:3": 22,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 468,
-          "y:3": 72,
+          "x:3": 684,
+          "y:3": 120,
           "id:3": 23,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 348,
-          "y:3": 60,
+          "x:3": 528,
+          "y:3": 84,
           "id:3": 24,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": 336,
-          "y:3": 96,
+          "x:3": 492,
+          "y:3": 120,
           "id:3": 25,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 312,
-          "y:3": 72,
+          "x:3": 480,
+          "y:3": 96,
           "id:3": 26,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 192,
-          "y:3": 36,
+          "x:3": 288,
+          "y:3": 48,
           "id:3": 27,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": 192,
-          "y:3": 72,
+          "x:3": 288,
+          "y:3": 96,
           "id:3": 28,
           "sizeY:3": 24
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": 432,
-          "y:3": 60,
+          "x:3": 612,
+          "y:3": 84,
           "id:3": 29,
           "sizeY:3": 24
         },
         "18:10": {
           "sizeX:3": 24,
-          "x:3": 432,
-          "y:3": 96,
+          "x:3": 612,
+          "y:3": 132,
           "id:3": 30,
           "sizeY:3": 24
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": 384,
+          "x:3": 576,
           "y:3": 84,
           "id:3": 31,
           "sizeY:3": 24
         },
         "20:10": {
           "sizeX:3": 24,
-          "x:3": 384,
-          "y:3": 120,
+          "x:3": 576,
+          "y:3": 132,
           "id:3": 32,
           "sizeY:3": 24
         },
         "21:10": {
           "sizeX:3": 24,
-          "x:3": 240,
+          "x:3": 288,
           "y:3": 0,
           "id:3": 33,
           "sizeY:3": 24
         },
         "22:10": {
           "sizeX:3": 24,
-          "x:3": 144,
+          "x:3": 192,
           "y:3": 0,
           "id:3": 34,
           "sizeY:3": 24
         },
         "23:10": {
           "sizeX:3": 24,
-          "x:3": 0,
+          "x:3": 96,
           "y:3": 0,
           "id:3": 35,
           "sizeY:3": 24
@@ -3500,37 +3647,58 @@
         },
         "25:10": {
           "sizeX:3": 24,
-          "x:3": 384,
-          "y:3": -48,
+          "x:3": 552,
+          "y:3": -36,
           "id:3": 37,
           "sizeY:3": 24
         },
         "26:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 36,
+          "x:3": 192,
+          "y:3": 48,
           "id:3": 38,
           "sizeY:3": 24
         },
         "27:10": {
           "sizeX:3": 24,
-          "x:3": 624,
+          "x:3": 816,
           "y:3": 0,
           "id:3": 39,
           "sizeY:3": 24
         },
         "28:10": {
           "sizeX:3": 24,
-          "x:3": 96,
+          "x:3": 144,
           "y:3": 0,
           "id:3": 40,
           "sizeY:3": 24
         },
         "29:10": {
           "sizeX:3": 24,
-          "x:3": 624,
-          "y:3": 36,
-          "id:3": 41,
+          "x:3": 816,
+          "y:3": 48,
+          "id:3": 42,
+          "sizeY:3": 24
+        },
+        "30:10": {
+          "sizeX:3": 24,
+          "x:3": 336,
+          "y:3": 0,
+          "id:3": 43,
+          "sizeY:3": 24
+        },
+        "31:10": {
+          "sizeX:3": 24,
+          "x:3": 384,
+          "y:3": 48,
+          "id:3": 44,
+          "sizeY:3": 24
+        },
+        "32:10": {
+          "sizeX:3": 24,
+          "x:3": 432,
+          "y:3": 0,
+          "id:3": 45,
           "sizeY:3": 24
         }
       },

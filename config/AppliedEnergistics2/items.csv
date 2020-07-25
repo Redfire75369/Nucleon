@@ -1985,6 +1985,7 @@ extracells:pattern.fluid:0, ME Fluid Pattern: Molten Vibrant Alloy
 extracells:pattern.fluid:0, ME Fluid Pattern: Molten Vivid Alloy
 extracells:pattern.fluid:0, ME Fluid Pattern: Molten Yttrium
 extracells:pattern.fluid:0, ME Fluid Pattern: Molten Zircaloy
+extracells:pattern.fluid:0, ME Fluid Pattern: Placeholder
 extracells:terminal.fluid.wireless, item.extracells.terminal.fluid.wireless.name
 extracells:storage.component:0, 256k ME Storage Component
 extracells:storage.component:1, 1024k ME Storage Component
@@ -4965,7 +4966,7 @@ advancedrocketry:spaceelevatorcontroller, Space Elevator
 advancedrocketry:beacon, Beacon
 advancedrocketry:planks, Lightwood planks
 advancedrocketry:thermitetorch, Thermite Torch
-advancedrocketry:wirelesstransciever, Wireless Transciever
+advancedrocketry:wirelesstransciever, Wireless Transceiver
 advancedrocketry:blockpump, Fluid Extractor
 advancedrocketry:centrifuge, Centrifuge
 advancedrocketry:basalt, Basalt
@@ -10237,6 +10238,7 @@ appliedenergistics2:facade:0, Cable Facade - White Water
 appliedenergistics2:facade:0, Cable Facade - Little Storage Block
 appliedenergistics2:facade:0, Cable Facade - Reinforced Coke Brick
 appliedenergistics2:facade:0, Cable Facade - tile.fake_ice.name
+appliedenergistics2:facade:0, Cable Facade - Asteroid Regolith
 appliedenergistics2:facade:0, Cable Facade - Reinforced Metal Block
 appliedenergistics2:facade:0, Cable Facade - Inventory Cable
 appliedenergistics2:facade:0, Cable Facade - Copper Ore
@@ -13567,12 +13569,12 @@ appliedenergistics2:facade:0, Cable Facade - Glowing White Block #1287
 appliedenergistics2:facade:0, Cable Facade - Glowing White Block #1288
 appliedenergistics2:facade:0, Cable Facade - Glowing White Block #1289
 appliedenergistics2:facade:0, Cable Facade - Hydrogel Block
-appliedenergistics2:facade:0, Cable Facade - Chalcopyrite Ore (Copper)
-appliedenergistics2:facade:0, Cable Facade - Oil Source (Full)
-appliedenergistics2:facade:0, Cable Facade - Copper Block
 appliedenergistics2:facade:0, Cable Facade - Limestone
 appliedenergistics2:facade:0, Cable Facade - Burnt Limestone
 appliedenergistics2:facade:0, Cable Facade - Limestone Tiles
+appliedenergistics2:facade:0, Cable Facade - Chalcopyrite Ore (Copper)
+appliedenergistics2:facade:0, Cable Facade - Oil Source (Full)
+appliedenergistics2:facade:0, Cable Facade - Copper Block
 appliedenergistics2:facade:0, Cable Facade - Machine Block
 appliedenergistics2:facade:0, Cable Facade - Support Column (Y axis)
 appliedenergistics2:facade:0, Cable Facade - Pumpjack Pipe
@@ -13888,27 +13890,6 @@ chisel:chisel_diamond, Diamond Chisel
 chisel:chisel_hitech, iChisel
 chisel:offsettool, Ender Offset Wand
 combustible:wooden_furnace, Wooden Furnace
-storagedrawers:upgrade_template, Upgrade Template
-storagedrawers:upgrade_storage:0, Storage Upgrade (I)
-storagedrawers:upgrade_storage:1, Storage Upgrade (II)
-storagedrawers:upgrade_storage:2, Storage Upgrade (III)
-storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
-storagedrawers:upgrade_storage:4, Storage Upgrade (V)
-storagedrawers:upgrade_one_stack, Storage Downgrade
-storagedrawers:upgrade_status:0, Status Upgrade (I)
-storagedrawers:upgrade_status:1, Status Upgrade (II)
-storagedrawers:upgrade_void, Void Upgrade
-storagedrawers:upgrade_conversion, Conversion Upgrade
-storagedrawers:upgrade_creative:0, Creative Storage Upgrade
-storagedrawers:upgrade_creative:1, Creative Vending Upgrade
-storagedrawers:upgrade_redstone:0, Redstone Upgrade
-storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
-storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
-storagedrawers:drawer_key, Drawer Key
-storagedrawers:shroud_key, Concealment Key
-storagedrawers:personal_key, Personal Key
-storagedrawers:quantify_key, Quantify Key
-storagedrawers:tape, Packing Tape
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
@@ -13959,6 +13940,27 @@ storagedrawers:customdrawers:2, Framed Drawers 2x2
 storagedrawers:customdrawers:3, Framed Half Drawers 1x2
 storagedrawers:customdrawers:4, Framed Half Drawers 2x2
 storagedrawers:customtrim, Framed Trim
+storagedrawers:upgrade_template, Upgrade Template
+storagedrawers:upgrade_storage:0, Storage Upgrade (I)
+storagedrawers:upgrade_storage:1, Storage Upgrade (II)
+storagedrawers:upgrade_storage:2, Storage Upgrade (III)
+storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
+storagedrawers:upgrade_storage:4, Storage Upgrade (V)
+storagedrawers:upgrade_one_stack, Storage Downgrade
+storagedrawers:upgrade_status:0, Status Upgrade (I)
+storagedrawers:upgrade_status:1, Status Upgrade (II)
+storagedrawers:upgrade_void, Void Upgrade
+storagedrawers:upgrade_conversion, Conversion Upgrade
+storagedrawers:upgrade_creative:0, Creative Storage Upgrade
+storagedrawers:upgrade_creative:1, Creative Vending Upgrade
+storagedrawers:upgrade_redstone:0, Redstone Upgrade
+storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
+storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
+storagedrawers:drawer_key, Drawer Key
+storagedrawers:shroud_key, Concealment Key
+storagedrawers:personal_key, Personal Key
+storagedrawers:quantify_key, Quantify Key
+storagedrawers:tape, Packing Tape
 compactdrawers:compact_drawer_2by1, Compacting Drawers 1x2
 compactdrawers:compact_drawer_2by1_half, Compacting Drawers 1x2 Half
 compactdrawers:compact_drawer_half, Compacting Drawers Half
@@ -15190,6 +15192,40 @@ enderio:item_gas_conduit:1, Pressurized Gas Conduit
 enderio:item_gas_conduit:2, Ender Gas Conduit
 gasconduits:item_gas_filter:0, Gas Filter
 enderio:item_fluid_conduit:0, Stellar Fluid Conduit
+enderutilities:asu:0, Adjustable Storage Unit
+enderutilities:draw_bridge:0, Drawbridge
+enderutilities:draw_bridge:1, Advanced Drawbridge
+enderutilities:ender_elevator:0, Ender Elevator (white)
+enderutilities:ender_elevator_slab:0, Ender Elevator Slab (white)
+enderutilities:ender_elevator_layer:0, Ender Elevator Layer (white)
+enderutilities:inserter:0, Inserter
+enderutilities:inserter:1, Inserter (Filtered)
+enderutilities:floor:0, Floor
+enderutilities:floor:1, Cracked Floor
+enderutilities:energy_bridge:0, Energy Bridge Resonator
+enderutilities:energy_bridge:1, Energy Bridge Receiver
+enderutilities:energy_bridge:2, Energy Bridge Transmitter
+enderutilities:machine_0:0, Ender Furnace
+enderutilities:machine_1:0, Ender Infuser
+enderutilities:machine_1:1, Tool Workstation
+enderutilities:machine_1:2, Creation Station
+enderutilities:machine_1:3, Advanced Quick Stacker
+enderutilities:molecular_exciter, tile.null.name
+enderutilities:msu:0, Massive Storage Unit
+enderutilities:msu:1, Massive Storage Bundle
+enderutilities:phasing:0, Phasing Block
+enderutilities:phasing:1, Phasing Block (inverted)
+enderutilities:frame, tile.null.name
+enderutilities:portal_panel, tile.null.name
+enderutilities:sound_block:0, Sound Block
+enderutilities:storage_0:0, Small Memory Chest
+enderutilities:storage_0:1, Memory Chest
+enderutilities:storage_0:2, Large Memory Chest
+enderutilities:storage_0:3, Handy Chest (Small)
+enderutilities:storage_0:4, Handy Chest (Normal)
+enderutilities:storage_0:5, Handy Chest (Large)
+enderutilities:storage_0:6, Handy Chest (Extended)
+enderutilities:storage_0:7, Junk Storage Unit
 enderutilities:endercapacitor:0, Ender Capacitor (Basic)
 enderutilities:endercapacitor:0, Ender Capacitor (Basic)
 enderutilities:endercapacitor:1, Ender Capacitor (Enhanced)
@@ -15261,40 +15297,6 @@ enderutilities:syringe:1, Paralyzer Syringe
 enderutilities:syringe:2, Stimulant Syringe
 enderutilities:syringe:3, Passifier Syringe
 enderutilities:void_pickaxe, Void Pickaxe
-enderutilities:asu:0, Adjustable Storage Unit
-enderutilities:draw_bridge:0, Drawbridge
-enderutilities:draw_bridge:1, Advanced Drawbridge
-enderutilities:ender_elevator:0, Ender Elevator (white)
-enderutilities:ender_elevator_slab:0, Ender Elevator Slab (white)
-enderutilities:ender_elevator_layer:0, Ender Elevator Layer (white)
-enderutilities:inserter:0, Inserter
-enderutilities:inserter:1, Inserter (Filtered)
-enderutilities:floor:0, Floor
-enderutilities:floor:1, Cracked Floor
-enderutilities:energy_bridge:0, Energy Bridge Resonator
-enderutilities:energy_bridge:1, Energy Bridge Receiver
-enderutilities:energy_bridge:2, Energy Bridge Transmitter
-enderutilities:machine_0:0, Ender Furnace
-enderutilities:machine_1:0, Ender Infuser
-enderutilities:machine_1:1, Tool Workstation
-enderutilities:machine_1:2, Creation Station
-enderutilities:machine_1:3, Advanced Quick Stacker
-enderutilities:molecular_exciter, tile.null.name
-enderutilities:msu:0, Massive Storage Unit
-enderutilities:msu:1, Massive Storage Bundle
-enderutilities:phasing:0, Phasing Block
-enderutilities:phasing:1, Phasing Block (inverted)
-enderutilities:frame, tile.null.name
-enderutilities:portal_panel, tile.null.name
-enderutilities:sound_block:0, Sound Block
-enderutilities:storage_0:0, Small Memory Chest
-enderutilities:storage_0:1, Memory Chest
-enderutilities:storage_0:2, Large Memory Chest
-enderutilities:storage_0:3, Handy Chest (Small)
-enderutilities:storage_0:4, Handy Chest (Normal)
-enderutilities:storage_0:5, Handy Chest (Large)
-enderutilities:storage_0:6, Handy Chest (Extended)
-enderutilities:storage_0:7, Junk Storage Unit
 extendedcrafting:storage:0, Block of Black Iron
 extendedcrafting:storage:1, Block of Luminessence
 extendedcrafting:storage:2, Block of Nether Stars
@@ -16454,6 +16456,7 @@ immersivetech:valve:1, Load Controller
 immersivetech:valve:2, Stack Limiter
 immersivetech:metal_device, tile.immersivetech.metal_device.name
 immersivetech:stone_decoration, tile.immersivetech.stone_decoration.name
+immersivetech:stone_decoration_slab, tile.immersivetech.stone_decoration_slab.name
 immersivetech:wooden_crate, tile.immersivetech.wooden_crate.name
 immersivetech:material:0, Salt
 mekanismgenerators:solarpanel, Solar Panel
@@ -16613,11 +16616,19 @@ notenoughwands:protection_wand, Protection Wand
 notenoughwands:master_protection_wand, Master Protection Wand
 notenoughwands:freezing_wand, Freezing Wand (WIP)
 notenoughwands:potion_wand, Potion Wand
-pneumaticcraft:fluid.lpg, LPG
-pneumaticcraft:fluid.kerosene, Kerosene
 pneumaticcraft:fluid.plastic, Plastic
-pneumaticcraft:fluid.etchacid, Etching Acid
 pneumaticcraft:fluid.fuel, Gasoline
+pneumaticcraft:fluid.kerosene, Kerosene
+pneumaticcraft:fluid.etchacid, Etching Acid
+pneumaticcraft:fluid.lpg, LPG
+pneumaticcraft:safety_tube_module, Safety Tube Module
+pneumaticcraft:pressure_gauge_module, Pressure Gauge Tube Module
+pneumaticcraft:flow_detector_module, Flow Detector Tube Module
+pneumaticcraft:air_grate_module, Air Grate Tube Module
+pneumaticcraft:regulator_tube_module, Regulator Tube Module
+pneumaticcraft:charging_module, Charging Module
+pneumaticcraft:logistics_module, Logistics Module
+pneumaticcraft:redstone_module, Redstone Module
 pneumaticcraft:logistic_frame_active_provider, Logistic Active Provider Frame
 pneumaticcraft:logistic_frame_passive_provider, Logistic Passive Provider Frame
 pneumaticcraft:logistic_frame_storage, Logistic Storage Frame
@@ -16776,15 +16787,10 @@ pneumaticcraft:pneumatic_dynamo, Pneumatic Dynamo
 pneumaticcraft:fake_ice, tile.fake_ice.name
 pneumaticcraft:thermal_compressor, Thermal Compressor
 pneumaticcraft:drone_interface, Drone Interface
-pneumaticcraft:safety_tube_module, Safety Tube Module
-pneumaticcraft:pressure_gauge_module, Pressure Gauge Tube Module
-pneumaticcraft:flow_detector_module, Flow Detector Tube Module
-pneumaticcraft:air_grate_module, Air Grate Tube Module
-pneumaticcraft:regulator_tube_module, Regulator Tube Module
-pneumaticcraft:charging_module, Charging Module
-pneumaticcraft:logistics_module, Logistics Module
-pneumaticcraft:redstone_module, Redstone Module
 bq_rf:rf_station, RF Submission Station (RFSS)
+simplemachinery:regolith, Asteroid Regolith
+simplemachinery:autoclave, Autoclave
+simplemachinery:turntable, Turntable
 spikemod:wooden_spike, Wooden Spike
 spikemod:stone_spike, Stone Spike
 spikemod:iron_spike, Iron Spike
@@ -18069,166 +18075,198 @@ balancedclaytools:clay_pickaxe, Clay Pickaxe
 balancedclaytools:clay_axe, Clay Axe
 balancedclaytools:clay_shovel, Clay Shovel
 base:wrench, Wrench
-contenttweaker:dust_lapis, Lapis Lazuli Dust
 contenttweaker:technician_coin_gold, item.contenttweaker.technician_coin_gold.name
-contenttweaker:depleted_unorbtium_low_, item.contenttweaker.depleted_unorbtium_low_.name
-contenttweaker:impedium_low_, item.contenttweaker.impedium_low_.name
+contenttweaker:depleted_myterium_low, item.contenttweaker.depleted_myterium_low.name
+contenttweaker:einsteinium_low_za, item.contenttweaker.einsteinium_low_za.name
+contenttweaker:reperium_low, item.contenttweaker.reperium_low.name
+contenttweaker:depleted_fermium_high, item.contenttweaker.depleted_fermium_high.name
 contenttweaker:hunter_coin_platinum, item.contenttweaker.hunter_coin_platinum.name
-contenttweaker:depleted_unorbtium_low_ox, item.contenttweaker.depleted_unorbtium_low_ox.name
-contenttweaker:depleted_unorbtium_high_, item.contenttweaker.depleted_unorbtium_high_.name
-contenttweaker:magician_coin_silver, item.contenttweaker.magician_coin_silver.name
 contenttweaker:gem_charged_yellow_garnet, Charged Yellow Garnet
-contenttweaker:impedium_high_, item.contenttweaker.impedium_high_.name
 contenttweaker:depleted_myterium_low_ox, item.contenttweaker.depleted_myterium_low_ox.name
 contenttweaker:sandpaper, Sandpaper
-contenttweaker:depleted_tenerium_low_za, item.contenttweaker.depleted_tenerium_low_za.name
-contenttweaker:sealant, Sealant
 contenttweaker:depleted_unorbtium_high_za, item.contenttweaker.depleted_unorbtium_high_za.name
-contenttweaker:unorbtium_high_za, item.contenttweaker.unorbtium_high_za.name
-contenttweaker:depleted_myterium_high_za, item.contenttweaker.depleted_myterium_high_za.name
-contenttweaker:myterium_low_ni, item.contenttweaker.myterium_low_ni.name
-contenttweaker:farming_coin_gold, item.contenttweaker.farming_coin_gold.name
+contenttweaker:depleted_einsteinium_high, item.contenttweaker.depleted_einsteinium_high.name
 contenttweaker:reperium_low_ni, item.contenttweaker.reperium_low_ni.name
-contenttweaker:desdirium_low_, item.contenttweaker.desdirium_low_.name
 contenttweaker:myterium_high_za, item.contenttweaker.myterium_high_za.name
-contenttweaker:medium_grade_charcoal, Medium Grade Charcoal
-contenttweaker:compressed_ender, item.contenttweaker.compressed_ender.name
 contenttweaker:depleted_desdirium_high_za, item.contenttweaker.depleted_desdirium_high_za.name
 contenttweaker:charged_iron_ingot, item.contenttweaker.charged_iron_ingot.name
-contenttweaker:chemist_coin_platinum, item.contenttweaker.chemist_coin_platinum.name
+contenttweaker:fermium_low, item.contenttweaker.fermium_low.name
 contenttweaker:magician_coin_bronze, item.contenttweaker.magician_coin_bronze.name
 contenttweaker:impedium_high_ni, item.contenttweaker.impedium_high_ni.name
 contenttweaker:block_low_grade_charcoal:0, Block of Low Grade Charcoal
-contenttweaker:depleted_impedium_low_ni, item.contenttweaker.depleted_impedium_low_ni.name
 contenttweaker:hunter_coin_silver, item.contenttweaker.hunter_coin_silver.name
+contenttweaker:impedium_low, item.contenttweaker.impedium_low.name
 contenttweaker:depleted_reperium_high_ni, item.contenttweaker.depleted_reperium_high_ni.name
 contenttweaker:reperium_low_ox, item.contenttweaker.reperium_low_ox.name
 contenttweaker:unorbtium_low_ni, item.contenttweaker.unorbtium_low_ni.name
-contenttweaker:reperium_low_, item.contenttweaker.reperium_low_.name
-contenttweaker:depleted_reperium_low_ox, item.contenttweaker.depleted_reperium_low_ox.name
+contenttweaker:depleted_reperium_low, item.contenttweaker.depleted_reperium_low.name
 contenttweaker:desdirium_high_ox, item.contenttweaker.desdirium_high_ox.name
-contenttweaker:depleted_impedium_high_ni, item.contenttweaker.depleted_impedium_high_ni.name
 contenttweaker:tenerium_low_za, item.contenttweaker.tenerium_low_za.name
-contenttweaker:depleted_tenerium_high_, item.contenttweaker.depleted_tenerium_high_.name
+contenttweaker:myterium_high, item.contenttweaker.myterium_high.name
 contenttweaker:technician_coin_silver, item.contenttweaker.technician_coin_silver.name
 contenttweaker:regolith:0, Asteroid Regolith
+contenttweaker:depleted_einsteinium_low_ox, item.contenttweaker.depleted_einsteinium_low_ox.name
 contenttweaker:depleted_myterium_low_ni, item.contenttweaker.depleted_myterium_low_ni.name
-contenttweaker:depleted_unorbtium_low_ni, item.contenttweaker.depleted_unorbtium_low_ni.name
-contenttweaker:reperium_high_ni, item.contenttweaker.reperium_high_ni.name
-contenttweaker:technician_coin_bronze, item.contenttweaker.technician_coin_bronze.name
 contenttweaker:wood_coil, Wooden Wire Spool
-contenttweaker:environmentalist_coin_platinum, item.contenttweaker.environmentalist_coin_platinum.name
-contenttweaker:depleted_impedium_high_ox, item.contenttweaker.depleted_impedium_high_ox.name
 contenttweaker:technician_coin_platinum, item.contenttweaker.technician_coin_platinum.name
-contenttweaker:gem_charged_red_garnet, Charged Red Garnet
-contenttweaker:depleted_desdirium_low_, item.contenttweaker.depleted_desdirium_low_.name
-contenttweaker:environmentalist_coin_bronze, item.contenttweaker.environmentalist_coin_bronze.name
-contenttweaker:depleted_myterium_low_za, item.contenttweaker.depleted_myterium_low_za.name
+contenttweaker:tenerium_low, item.contenttweaker.tenerium_low.name
 contenttweaker:impedium_high_ox, item.contenttweaker.impedium_high_ox.name
-contenttweaker:depleted_desdirium_high_ox, item.contenttweaker.depleted_desdirium_high_ox.name
-contenttweaker:nuclear_coin_gold, item.contenttweaker.nuclear_coin_gold.name
+contenttweaker:myterium_low, item.contenttweaker.myterium_low.name
 contenttweaker:environmentalist_coin_silver, item.contenttweaker.environmentalist_coin_silver.name
-contenttweaker:reperium_high_ox, item.contenttweaker.reperium_high_ox.name
 contenttweaker:depleted_myterium_high_ox, item.contenttweaker.depleted_myterium_high_ox.name
-contenttweaker:myterium_high_ox, item.contenttweaker.myterium_high_ox.name
 contenttweaker:desdirium_low_za, item.contenttweaker.desdirium_low_za.name
-contenttweaker:chemist_coin_silver, item.contenttweaker.chemist_coin_silver.name
-contenttweaker:hunter_coin_bronze, item.contenttweaker.hunter_coin_bronze.name
 contenttweaker:depleted_reperium_high_ox, item.contenttweaker.depleted_reperium_high_ox.name
-contenttweaker:myterium_low_, item.contenttweaker.myterium_low_.name
 contenttweaker:depleted_tenerium_low_ox, item.contenttweaker.depleted_tenerium_low_ox.name
 contenttweaker:depleted_reperium_low_za, item.contenttweaker.depleted_reperium_low_za.name
-contenttweaker:wood_pile, Pile of Wood
 contenttweaker:impedium_low_ni, item.contenttweaker.impedium_low_ni.name
-contenttweaker:depleted_impedium_high_, item.contenttweaker.depleted_impedium_high_.name
-contenttweaker:depleted_tenerium_high_za, item.contenttweaker.depleted_tenerium_high_za.name
+contenttweaker:depleted_einsteinium_low_ni, item.contenttweaker.depleted_einsteinium_low_ni.name
 contenttweaker:wood_glue, Wood Glue
 contenttweaker:chemist_coin_bronze, item.contenttweaker.chemist_coin_bronze.name
-contenttweaker:environmentalist_coin_gold, item.contenttweaker.environmentalist_coin_gold.name
-contenttweaker:tenerium_low_, item.contenttweaker.tenerium_low_.name
-contenttweaker:depleted_desdirium_low_za, item.contenttweaker.depleted_desdirium_low_za.name
-contenttweaker:desdirium_high_za, item.contenttweaker.desdirium_high_za.name
-contenttweaker:depleted_reperium_high_, item.contenttweaker.depleted_reperium_high_.name
 contenttweaker:tenerium_high_za, item.contenttweaker.tenerium_high_za.name
-contenttweaker:depleted_myterium_high_, item.contenttweaker.depleted_myterium_high_.name
 contenttweaker:magician_coin_platinum, item.contenttweaker.magician_coin_platinum.name
+contenttweaker:depleted_fermium_low_ni, item.contenttweaker.depleted_fermium_low_ni.name
 contenttweaker:reinforced_stone_gear, Reinforced Stone Gear
-contenttweaker:gem_charged_sapphire, Charged Sapphire
+contenttweaker:einsteinium_high_za, item.contenttweaker.einsteinium_high_za.name
+contenttweaker:impedium_high, item.contenttweaker.impedium_high.name
+contenttweaker:depleted_tenerium_low, item.contenttweaker.depleted_tenerium_low.name
 contenttweaker:item_circuit_tier1, Item Circuit I
-contenttweaker:farming_coin_silver, item.contenttweaker.farming_coin_silver.name
 contenttweaker:item_circuit_tier3, Item Circuit III
 contenttweaker:item_circuit_tier2, Item Circuit II
-contenttweaker:depleted_reperium_low_, item.contenttweaker.depleted_reperium_low_.name
-contenttweaker:reperium_high_, item.contenttweaker.reperium_high_.name
+contenttweaker:fermium_low_za, item.contenttweaker.fermium_low_za.name
 contenttweaker:depleted_myterium_high_ni, item.contenttweaker.depleted_myterium_high_ni.name
 contenttweaker:low_grade_charcoal, Low Grade Charcoal
 contenttweaker:myterium_low_za, item.contenttweaker.myterium_low_za.name
-contenttweaker:depleted_tenerium_low_ni, item.contenttweaker.depleted_tenerium_low_ni.name
 contenttweaker:depleted_unorbtium_high_ni, item.contenttweaker.depleted_unorbtium_high_ni.name
 contenttweaker:impedium_low_ox, item.contenttweaker.impedium_low_ox.name
-contenttweaker:farming_coin_bronze, item.contenttweaker.farming_coin_bronze.name
-contenttweaker:reperium_high_za, item.contenttweaker.reperium_high_za.name
-contenttweaker:depleted_desdirium_low_ox, item.contenttweaker.depleted_desdirium_low_ox.name
+contenttweaker:unorbtium_low, item.contenttweaker.unorbtium_low.name
 contenttweaker:impedium_high_za, item.contenttweaker.impedium_high_za.name
 contenttweaker:wire_refined_iron, Refined Iron Wire
 contenttweaker:shoddy_piston, Shoddy Piston
-contenttweaker:desdirium_low_ox, item.contenttweaker.desdirium_low_ox.name
 contenttweaker:depleted_impedium_high_za, item.contenttweaker.depleted_impedium_high_za.name
 contenttweaker:item_circuit_tier4, Item Circuit IV
-contenttweaker:depleted_reperium_high_za, item.contenttweaker.depleted_reperium_high_za.name
-contenttweaker:unorbtium_high_ni, item.contenttweaker.unorbtium_high_ni.name
-contenttweaker:gas_circuit_tier2, Gas Circuit II
-contenttweaker:gas_circuit_tier3, Gas Circuit III
-contenttweaker:gas_circuit_tier4, Gas Circuit IV
-contenttweaker:depleted_tenerium_high_ox, item.contenttweaker.depleted_tenerium_high_ox.name
 contenttweaker:depleted_desdirium_high_ni, item.contenttweaker.depleted_desdirium_high_ni.name
-contenttweaker:gas_circuit_tier1, Gas Circuit I
-contenttweaker:desdirium_high_, item.contenttweaker.desdirium_high_.name
-contenttweaker:nuclear_coin_platinum, item.contenttweaker.nuclear_coin_platinum.name
+contenttweaker:depleted_fermium_low, item.contenttweaker.depleted_fermium_low.name
+contenttweaker:depleted_einsteinium_high_za, item.contenttweaker.depleted_einsteinium_high_za.name
 contenttweaker:compressed_glowstone, item.contenttweaker.compressed_glowstone.name
 contenttweaker:magician_coin_gold, item.contenttweaker.magician_coin_gold.name
 contenttweaker:myterium_high_ni, item.contenttweaker.myterium_high_ni.name
+contenttweaker:depleted_reperium_high, item.contenttweaker.depleted_reperium_high.name
 contenttweaker:terne_ingot, item.contenttweaker.terne_ingot.name
-contenttweaker:tenerium_high_ox, item.contenttweaker.tenerium_high_ox.name
 contenttweaker:burnt_wood:0, tile.contenttweaker.burnt_wood.name
 contenttweaker:bars_refined_iron:0, tile.contenttweaker.bars_refined_iron.name
-contenttweaker:compressed_chest:0, tile.contenttweaker.compressed_chest.name
 contenttweaker:depleted_impedium_low_za, item.contenttweaker.depleted_impedium_low_za.name
-contenttweaker:tenerium_high_, item.contenttweaker.tenerium_high_.name
-contenttweaker:chemist_coin_gold, item.contenttweaker.chemist_coin_gold.name
-contenttweaker:file, Engineer's File
-contenttweaker:tenerium_high_ni, item.contenttweaker.tenerium_high_ni.name
-contenttweaker:depleted_desdirium_low_ni, item.contenttweaker.depleted_desdirium_low_ni.name
+contenttweaker:depleted_impedium_low, item.contenttweaker.depleted_impedium_low.name
 contenttweaker:tenerium_low_ni, item.contenttweaker.tenerium_low_ni.name
 contenttweaker:unorbtium_low_za, item.contenttweaker.unorbtium_low_za.name
-contenttweaker:myterium_low_ox, item.contenttweaker.myterium_low_ox.name
-contenttweaker:depleted_tenerium_low_, item.contenttweaker.depleted_tenerium_low_.name
-contenttweaker:myterium_high_, item.contenttweaker.myterium_high_.name
 contenttweaker:depleted_unorbtium_low_za, item.contenttweaker.depleted_unorbtium_low_za.name
-contenttweaker:desdirium_low_ni, item.contenttweaker.desdirium_low_ni.name
-contenttweaker:depleted_impedium_low_, item.contenttweaker.depleted_impedium_low_.name
-contenttweaker:block_medium_grade_charcoal:0, Block of Medium Grade Charcoal
 contenttweaker:depleted_unorbtium_high_ox, item.contenttweaker.depleted_unorbtium_high_ox.name
-contenttweaker:depleted_tenerium_high_ni, item.contenttweaker.depleted_tenerium_high_ni.name
-contenttweaker:impedium_low_za, item.contenttweaker.impedium_low_za.name
-contenttweaker:unorbtium_high_ox, item.contenttweaker.unorbtium_high_ox.name
-contenttweaker:hunter_coin_gold, item.contenttweaker.hunter_coin_gold.name
-contenttweaker:unorbtium_high_, item.contenttweaker.unorbtium_high_.name
-contenttweaker:blue_paper, Blue Paper
+contenttweaker:depleted_impedium_high, item.contenttweaker.depleted_impedium_high.name
+contenttweaker:depleted_fermium_low_za, item.contenttweaker.depleted_fermium_low_za.name
+contenttweaker:depleted_fermium_high_ox, item.contenttweaker.depleted_fermium_high_ox.name
 contenttweaker:nugget_ender_pearl, Ender Pearl Nugget
-contenttweaker:unorbtium_low_, item.contenttweaker.unorbtium_low_.name
-contenttweaker:dust_bedrock, Bedrock Dust
 contenttweaker:fluid_circuit_tier1, Fluid Circuit I
 contenttweaker:fluid_circuit_tier2, Fluid Circuit II
 contenttweaker:fluid_circuit_tier3, Fluid Circuit III
 contenttweaker:nuclear_coin_bronze, item.contenttweaker.nuclear_coin_bronze.name
+contenttweaker:depleted_fermium_high_ni, item.contenttweaker.depleted_fermium_high_ni.name
 contenttweaker:farming_coin_platinum, item.contenttweaker.farming_coin_platinum.name
-contenttweaker:depleted_desdirium_high_, item.contenttweaker.depleted_desdirium_high_.name
-contenttweaker:reperium_low_za, item.contenttweaker.reperium_low_za.name
 contenttweaker:nuclear_coin_silver, item.contenttweaker.nuclear_coin_silver.name
+contenttweaker:depleted_einsteinium_low_za, item.contenttweaker.depleted_einsteinium_low_za.name
 contenttweaker:reinforced_leather, Reinforced Leather
 contenttweaker:tenerium_low_ox, item.contenttweaker.tenerium_low_ox.name
-contenttweaker:depleted_myterium_low_, item.contenttweaker.depleted_myterium_low_.name
+contenttweaker:fermium_high_za, item.contenttweaker.fermium_high_za.name
+contenttweaker:fermium_high, item.contenttweaker.fermium_high.name
+contenttweaker:dust_lapis, Lapis Lazuli Dust
+contenttweaker:desdirium_high, item.contenttweaker.desdirium_high.name
+contenttweaker:depleted_unorbtium_low_ox, item.contenttweaker.depleted_unorbtium_low_ox.name
+contenttweaker:magician_coin_silver, item.contenttweaker.magician_coin_silver.name
+contenttweaker:depleted_tenerium_low_za, item.contenttweaker.depleted_tenerium_low_za.name
+contenttweaker:sealant, Sealant
+contenttweaker:fermium_low_ni, item.contenttweaker.fermium_low_ni.name
+contenttweaker:unorbtium_high_za, item.contenttweaker.unorbtium_high_za.name
+contenttweaker:depleted_myterium_high_za, item.contenttweaker.depleted_myterium_high_za.name
+contenttweaker:reperium_high, item.contenttweaker.reperium_high.name
+contenttweaker:myterium_low_ni, item.contenttweaker.myterium_low_ni.name
+contenttweaker:depleted_einsteinium_high_ni, item.contenttweaker.depleted_einsteinium_high_ni.name
+contenttweaker:farming_coin_gold, item.contenttweaker.farming_coin_gold.name
+contenttweaker:medium_grade_charcoal, Medium Grade Charcoal
+contenttweaker:compressed_ender, item.contenttweaker.compressed_ender.name
+contenttweaker:chemist_coin_platinum, item.contenttweaker.chemist_coin_platinum.name
+contenttweaker:einsteinium_high, item.contenttweaker.einsteinium_high.name
+contenttweaker:depleted_unorbtium_high, item.contenttweaker.depleted_unorbtium_high.name
+contenttweaker:depleted_impedium_low_ni, item.contenttweaker.depleted_impedium_low_ni.name
+contenttweaker:depleted_reperium_low_ox, item.contenttweaker.depleted_reperium_low_ox.name
+contenttweaker:depleted_impedium_high_ni, item.contenttweaker.depleted_impedium_high_ni.name
+contenttweaker:einsteinium_high_ox, item.contenttweaker.einsteinium_high_ox.name
+contenttweaker:depleted_unorbtium_low_ni, item.contenttweaker.depleted_unorbtium_low_ni.name
+contenttweaker:reperium_high_ni, item.contenttweaker.reperium_high_ni.name
+contenttweaker:technician_coin_bronze, item.contenttweaker.technician_coin_bronze.name
+contenttweaker:environmentalist_coin_platinum, item.contenttweaker.environmentalist_coin_platinum.name
+contenttweaker:depleted_impedium_high_ox, item.contenttweaker.depleted_impedium_high_ox.name
+contenttweaker:gem_charged_red_garnet, Charged Red Garnet
+contenttweaker:environmentalist_coin_bronze, item.contenttweaker.environmentalist_coin_bronze.name
+contenttweaker:depleted_myterium_low_za, item.contenttweaker.depleted_myterium_low_za.name
+contenttweaker:tenerium_high, item.contenttweaker.tenerium_high.name
+contenttweaker:depleted_desdirium_high_ox, item.contenttweaker.depleted_desdirium_high_ox.name
+contenttweaker:nuclear_coin_gold, item.contenttweaker.nuclear_coin_gold.name
+contenttweaker:reperium_high_ox, item.contenttweaker.reperium_high_ox.name
+contenttweaker:myterium_high_ox, item.contenttweaker.myterium_high_ox.name
+contenttweaker:chemist_coin_silver, item.contenttweaker.chemist_coin_silver.name
+contenttweaker:hunter_coin_bronze, item.contenttweaker.hunter_coin_bronze.name
+contenttweaker:wood_pile, Pile of Wood
+contenttweaker:depleted_tenerium_high_za, item.contenttweaker.depleted_tenerium_high_za.name
+contenttweaker:environmentalist_coin_gold, item.contenttweaker.environmentalist_coin_gold.name
+contenttweaker:depleted_desdirium_low_za, item.contenttweaker.depleted_desdirium_low_za.name
+contenttweaker:einsteinium_low, item.contenttweaker.einsteinium_low.name
+contenttweaker:desdirium_high_za, item.contenttweaker.desdirium_high_za.name
+contenttweaker:depleted_desdirium_low, item.contenttweaker.depleted_desdirium_low.name
+contenttweaker:gem_charged_sapphire, Charged Sapphire
+contenttweaker:farming_coin_silver, item.contenttweaker.farming_coin_silver.name
+contenttweaker:depleted_tenerium_low_ni, item.contenttweaker.depleted_tenerium_low_ni.name
+contenttweaker:farming_coin_bronze, item.contenttweaker.farming_coin_bronze.name
+contenttweaker:reperium_high_za, item.contenttweaker.reperium_high_za.name
+contenttweaker:depleted_desdirium_low_ox, item.contenttweaker.depleted_desdirium_low_ox.name
+contenttweaker:fermium_high_ni, item.contenttweaker.fermium_high_ni.name
+contenttweaker:desdirium_low_ox, item.contenttweaker.desdirium_low_ox.name
+contenttweaker:depleted_fermium_high_za, item.contenttweaker.depleted_fermium_high_za.name
+contenttweaker:depleted_reperium_high_za, item.contenttweaker.depleted_reperium_high_za.name
+contenttweaker:unorbtium_high_ni, item.contenttweaker.unorbtium_high_ni.name
+contenttweaker:depleted_fermium_low_ox, item.contenttweaker.depleted_fermium_low_ox.name
+contenttweaker:depleted_desdirium_high, item.contenttweaker.depleted_desdirium_high.name
+contenttweaker:gas_circuit_tier2, Gas Circuit II
+contenttweaker:gas_circuit_tier3, Gas Circuit III
+contenttweaker:gas_circuit_tier4, Gas Circuit IV
+contenttweaker:depleted_tenerium_high_ox, item.contenttweaker.depleted_tenerium_high_ox.name
+contenttweaker:gas_circuit_tier1, Gas Circuit I
+contenttweaker:nuclear_coin_platinum, item.contenttweaker.nuclear_coin_platinum.name
+contenttweaker:tenerium_high_ox, item.contenttweaker.tenerium_high_ox.name
+contenttweaker:compressed_chest:0, tile.contenttweaker.compressed_chest.name
+contenttweaker:fermium_high_ox, item.contenttweaker.fermium_high_ox.name
+contenttweaker:chemist_coin_gold, item.contenttweaker.chemist_coin_gold.name
+contenttweaker:file, Engineer's File
+contenttweaker:fermium_low_ox, item.contenttweaker.fermium_low_ox.name
+contenttweaker:tenerium_high_ni, item.contenttweaker.tenerium_high_ni.name
+contenttweaker:depleted_desdirium_low_ni, item.contenttweaker.depleted_desdirium_low_ni.name
+contenttweaker:myterium_low_ox, item.contenttweaker.myterium_low_ox.name
+contenttweaker:desdirium_low_ni, item.contenttweaker.desdirium_low_ni.name
+contenttweaker:block_medium_grade_charcoal:0, Block of Medium Grade Charcoal
+contenttweaker:depleted_tenerium_high_ni, item.contenttweaker.depleted_tenerium_high_ni.name
+contenttweaker:impedium_low_za, item.contenttweaker.impedium_low_za.name
+contenttweaker:unorbtium_high_ox, item.contenttweaker.unorbtium_high_ox.name
+contenttweaker:hunter_coin_gold, item.contenttweaker.hunter_coin_gold.name
+contenttweaker:unorbtium_high, item.contenttweaker.unorbtium_high.name
+contenttweaker:blue_paper, Blue Paper
+contenttweaker:einsteinium_low_ox, item.contenttweaker.einsteinium_low_ox.name
+contenttweaker:depleted_myterium_high, item.contenttweaker.depleted_myterium_high.name
+contenttweaker:dust_bedrock, Bedrock Dust
+contenttweaker:depleted_tenerium_high, item.contenttweaker.depleted_tenerium_high.name
+contenttweaker:einsteinium_high_ni, item.contenttweaker.einsteinium_high_ni.name
+contenttweaker:depleted_einsteinium_high_ox, item.contenttweaker.depleted_einsteinium_high_ox.name
+contenttweaker:desdirium_low, item.contenttweaker.desdirium_low.name
+contenttweaker:reperium_low_za, item.contenttweaker.reperium_low_za.name
+contenttweaker:depleted_unorbtium_low, item.contenttweaker.depleted_unorbtium_low.name
+contenttweaker:einsteinium_low_ni, item.contenttweaker.einsteinium_low_ni.name
+contenttweaker:depleted_einsteinium_low, item.contenttweaker.depleted_einsteinium_low.name
 contenttweaker:copper_thread, item.contenttweaker.copper_thread.name
 contenttweaker:depleted_impedium_low_ox, item.contenttweaker.depleted_impedium_low_ox.name
 contenttweaker:unorbtium_low_ox, item.contenttweaker.unorbtium_low_ox.name
@@ -22680,8 +22718,30 @@ magneticraft:steel_gear, item.magneticraft.steel_gear.name
 magneticraft:tungsten_gear, item.magneticraft.tungsten_gear.name
 magneticraft:inserter_upgrade:0, Inserter Upgrade: Speed
 magneticraft:inserter_upgrade:1, Inserter Upgrade: Stack
-magneticraft:computer:0, Computer
-magneticraft:mining_robot:0, Mining Robot
+magneticraft:small_tank:0, Small tank
+magneticraft:iron_pipe:0, Iron Pipe
+magneticraft:box:0, Wooden Box
+magneticraft:crushing_table:0, Crushing Table
+magneticraft:sluice_box:0, Sluice Box
+magneticraft:fabricator:0, Fabricator
+magneticraft:conveyor_belt:0, Conveyor Belt
+magneticraft:inserter:0, Inserter
+magneticraft:water_generator:0, Water Generator
+magneticraft:feeding_trough:0, Wooden Feeding Trough
+magneticraft:pneumatic_tube:0, Pneumatic Tube
+magneticraft:pneumatic_restriction_tube:0, Restriction Pneumatic Tube
+magneticraft:relay:0, Relay
+magneticraft:filter:0, Filter
+magneticraft:transposer:0, Transposer
+magneticraft:limestone:0, Limestone
+magneticraft:limestone:1, Limestone Brick
+magneticraft:limestone:2, Limestone Cobble
+magneticraft:burnt_limestone:0, Burnt Limestone
+magneticraft:burnt_limestone:1, Burnt Limestone Brick
+magneticraft:burnt_limestone:2, Burnt Limestone Cobble
+magneticraft:tile_limestone:0, Limestone Tiles
+magneticraft:tile_limestone:1, Inverted Limestone Tiles
+magneticraft:tube_light:0, Tube Light
 magneticraft:solar_panel:0, Solar Panel
 magneticraft:shelving_unit:0, Shelving Unit
 magneticraft:steam_engine:0, Small Steam Engine
@@ -22710,15 +22770,6 @@ magneticraft:storage_blocks:1, Lead Block
 magneticraft:storage_blocks:2, Cobalt Block
 magneticraft:storage_blocks:3, Tungsten Block
 magneticraft:storage_blocks:4, Sulfur Block
-magneticraft:limestone:0, Limestone
-magneticraft:limestone:1, Limestone Brick
-magneticraft:limestone:2, Limestone Cobble
-magneticraft:burnt_limestone:0, Burnt Limestone
-magneticraft:burnt_limestone:1, Burnt Limestone Brick
-magneticraft:burnt_limestone:2, Burnt Limestone Cobble
-magneticraft:tile_limestone:0, Limestone Tiles
-magneticraft:tile_limestone:1, Inverted Limestone Tiles
-magneticraft:tube_light:0, Tube Light
 magneticraft:battery:0, Battery Block
 magneticraft:electric_furnace:0, Electric furnace
 magneticraft:infinite_energy:0, Infinite Energy
@@ -22730,10 +22781,15 @@ magneticraft:electric_heater:0, Electric Heater
 magneticraft:rf_heater:0, RF Heater
 magneticraft:rf_transformer:0, RF transformer
 magneticraft:electric_engine:0, Electric Engine
-magneticraft:box:0, Wooden Box
-magneticraft:crushing_table:0, Crushing Table
-magneticraft:sluice_box:0, Sluice Box
-magneticraft:fabricator:0, Fabricator
+magneticraft:computer:0, Computer
+magneticraft:mining_robot:0, Mining Robot
+magneticraft:combustion_chamber:0, Combustion Chamber
+magneticraft:steam_boiler:0, Boiler
+magneticraft:heat_pipe:0, Heat Pipe
+magneticraft:insulated_heat_pipe:0, Insulated Heat Pipe
+magneticraft:heat_sink:0, Heat sink
+magneticraft:gasification_unit:0, Gasification Unit
+magneticraft:brick_furnace:0, Brick furnace
 magneticraft:multiblock_parts:0, Machine Block
 magneticraft:multiblock_parts:1, Electrical Machine Block
 magneticraft:multiblock_parts:2, Iron Grate Machine Block
@@ -22742,24 +22798,6 @@ magneticraft:multiblock_parts:4, Copper Coil Machine Block
 magneticraft:multiblock_parts:5, Corrugate Iron Machine Block
 magneticraft:multiblock_column:0, Support Column (Y axis)
 magneticraft:pumpjack_drill:0, Pumpjack Pipe
-magneticraft:conveyor_belt:0, Conveyor Belt
-magneticraft:inserter:0, Inserter
-magneticraft:water_generator:0, Water Generator
-magneticraft:feeding_trough:0, Wooden Feeding Trough
-magneticraft:pneumatic_tube:0, Pneumatic Tube
-magneticraft:pneumatic_restriction_tube:0, Restriction Pneumatic Tube
-magneticraft:relay:0, Relay
-magneticraft:filter:0, Filter
-magneticraft:transposer:0, Transposer
-magneticraft:small_tank:0, Small tank
-magneticraft:iron_pipe:0, Iron Pipe
-magneticraft:combustion_chamber:0, Combustion Chamber
-magneticraft:steam_boiler:0, Boiler
-magneticraft:heat_pipe:0, Heat Pipe
-magneticraft:insulated_heat_pipe:0, Insulated Heat Pipe
-magneticraft:heat_sink:0, Heat sink
-magneticraft:gasification_unit:0, Gasification Unit
-magneticraft:brick_furnace:0, Brick furnace
 magneticraft:connector:0, Electric Connector
 magneticraft:electric_pole:0, Electric Pole
 magneticraft:electric_cable:0, Electric cable
@@ -22855,7 +22893,7 @@ requious:gas_emitter, tile.gas_emitter.name
 requious:item_gate, tile.item_gate.name
 requious:laser, tile.laser.name
 requious:assembler, tile.assembler.name
-requious:requious.chemical_reactor, tile.requious.chemical_reactor.name
+requious:chemical_reactor, tile.chemical_reactor.name
 requious:cell:0, item.cell.name
 requious:cell:0, item.cell.name
 requious:cell:0, item.cell.name

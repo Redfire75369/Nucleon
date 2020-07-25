@@ -15,7 +15,7 @@ recipes.addShaped("block_low_grade_charcoal", <contenttweaker:block_low_grade_ch
 furnace.setFuel(<rustichromia:assembler1>, 0); 
 furnace.setFuel(<contenttweaker:low_grade_charcoal>, 800);
 furnace.setFuel(<contenttweaker:block_low_grade_charcoal>, 8000);
-furnace.setFuel(<embers:dust_ember>, 12800);
+furnace.setFuel(<embers:dust_ember>, 6400);
  
 furnace.setFuel(oreDict["logWood"], 400);
 furnace.setFuel(oreDict["plankWood"], 100);

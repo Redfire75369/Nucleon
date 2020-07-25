@@ -2,8 +2,6 @@
 #priority -0009
 
 import mods.contenttweaker.Color;
-import mods.contenttweaker.Fluid;
-import mods.contenttweaker.VanillaFactory;
 
 /*** Component Oils ***/
 var componentOils = [
@@ -15,6 +13,8 @@ var componentOils = [
 	"sulfuric_naphtha",
 	"sulfuric_refinery_gas"
 ] as string[];
+val oilColours = [
+] as Color[];
 
 for componentOil in componentOils {
 	liquidBuilder.addLiquid(componentOil, Color.fromInt(0));
@@ -45,7 +45,9 @@ val suffixes = [
 ] as string[];
 
 val alkColours = [
-] as Color[];
+	[],
+	[]
+] as Color[][];
 
 val alkDensities = [
 	[1, 1000],

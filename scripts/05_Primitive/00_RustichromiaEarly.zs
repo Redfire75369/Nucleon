@@ -19,7 +19,7 @@ recipes.addShaped("copper_ingot", hashIngot["Copper"].firstItem, [
 	[<embers:shard_ember>, <embers:shard_ember>, <embers:shard_ember>]
 ]);
 
-mods.embers.Mixer.add(<liquid:lead> * 18, [<liquid:tin> * 18, <liquid:ashen_stone> * 250]); 
+mods.embers.Mixer.add(<liquid:lead> * 9, [<liquid:tin> * 9, <liquid:ashen_stone> * 125]); 
 mods.embers.Mixer.add(<liquid:terne> * 5, [<liquid:lead> * 4, <liquid:tin> * 1]); 
 
 /*** Crafting Materials ***/
@@ -32,6 +32,7 @@ mods.rustichromia.Quern.remove("rustichromia:gravel_to_sand");
 mods.rustichromia.Quern.add("sawdust", [oreDict["logWood"]], [hashDust["Wood"].firstItem * 4], 2, 1.0/0, 100); 
 mods.rustichromia.Quern.add("gravel", [oreDict["cobblestone"]], [<minecraft:gravel>], 0, 1.0/0, 100);
 mods.rustichromia.Quern.add("sand", [oreDict["gravel"]], [<minecraft:sand>], 3, 1.0/0, 100); 
+mods.rustichromia.Quern.add("regolith", [<embers:ashen_stone>], [<contenttweaker:regolith>], 8, 1.0/0, 100); 
 
 mods.rustichromia.Gin.add("copper_wire", [hashIngot["Copper"]], [oreDict["wireCopper"].firstItem], [hashNugget["Copper"].firstItem], 8, 1.0/0, 200);
 

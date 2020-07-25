@@ -305,6 +305,7 @@ for key in gemOreless {
 for key in dustOres {
 	hashDust[key] = oreDict["dust" ~ key];
 }
+hashDust["Stone"] = oreDict["dustStone"];
 hashDust["Obsidian"] = oreDict["dustObsidian"];
 hashDust["Wood"] = oreDict["dustWood"];
 
@@ -471,3 +472,9 @@ hashSlurryClean["Lead"] = getGas("cleanLead");
 hashSlurryClean["Osmium"] = getGas("cleanOsmium");
 hashSlurryClean["Silver"] = getGas("cleanSilver");
 hashSlurryClean["Tin"] = getGas("cleanTin");
+
+
+/*** Ore Byproducts ***/
+global oreByproducts as string[][string] = {
+	"Iron": ["Nickel", "Sulfur", "Stone"]
+} as string[][string];

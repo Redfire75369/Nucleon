@@ -19,11 +19,18 @@ Lightning Rod
 Mixer
 Excavator
 
+Immersive Intelligence:
+Sawmill
+Chemical Bath
+Precision Assembler
+Packer
+Ammunition Factory
+
 Immersive Petroleum:
 Distillation Tower
 Pumpjack
 
-Immersive Tech:
+Immersive Technology:
 Distiller
 Solar Tower
 Solar Reflector
@@ -54,11 +61,11 @@ Teleporter
 Dynamic Tank
 Thermal Evaporation Tower
 Induction Matrix
-Big Turbine
-Big Boiler
+Thermoelectric Boiler
 
 Mekanism Generators:
 Fusion Reactor
+Industrial Turbine
 
 NuclearCraft: Overhauled:
 Solid Fuel Fission Reactor
@@ -68,11 +75,9 @@ Heat Exchanger
 Condenser
 
 Tech Reborn:
+Distillation Tower
 Fusion Control Computer
 Implosion Compressor
 Industrial Blast Furnace
-Industrial Centrifuge
-Industrial Electrolyzer
 Industrial Grinder
-Industrial Sawmill
 Vacuum Freezer

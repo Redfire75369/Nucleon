@@ -24,18 +24,28 @@ for variant in variantList {
 
 /*** Fuels ***/
 val depletionList = ["", "depleted_"] as string[];
-val typeList = ["tenerium", "impedium", "desdirium", "myterium", "reperium", "unorbtium"] as string[];
-variantList = ["", "ni", "ox", "za"] as string[];
+val typeList = ["einsteinium", "fermium", "tenerium", "impedium", "desdirium", "myterium", "reperium", "unorbtium"] as string[];
+variantList = ["", "_ni", "_ox", "_za"] as string[];
 tierList = ["low", "high"] as string[];
 
 /*val colors = {
 	full: {
-		temp: 0
+		tenerium: {
+			normal: {
+				low: 0,
+				high: 0
+			}
+		}
 	},
 	depleted: {
-		temp: 0
+		tenerium: {
+			normal: {
+				low: 0,
+				high: 0
+			}
+		}
 	}
-} as string[string[int]];*/
+} as string[string[string[string[string]]]];*/
 
 for depletion in depletionList {
 	var temp1 as string;
@@ -59,9 +69,11 @@ for depletion in depletionList {
 					temp2 = "zircaloy" as string;
 				}
 				
-				val fuel = VanillaFactory.createItem(depletion ~ type ~ "_" ~ tier ~ "_" ~ variant) as Item;
+				val fuel = VanillaFactory.createItem(depletion ~ type ~ "_" ~ tier ~ variant) as Item;
 				fuel.creativeTab = <creativetab:fuels>;
-				//fuel.itemColorSupplier = Color.fromInt(colors[temp1][type][tier][temp2]);
+				/*fuel.itemColorSupplier = function(item as IItemStack, tintIndex as int) as Color {
+					return Color.fromHex(colors[temp1][type][tier][temp2]);
+				} as IItemColorSupplier;*/
 				fuel.register();
 			}
 		}

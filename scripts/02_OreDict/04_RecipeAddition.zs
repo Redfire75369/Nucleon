@@ -161,12 +161,14 @@ for key, dictDust in hashDust {
 			mods.nuclearcraft.Manufactory.addRecipe(hashOre[key], dictDust.firstItem * 4);
 		} else if (tier3Dusts has key) {
 			mods.techreborn.grinder.addRecipe(dictDust.firstItem * 2, hashOre[key], 120, 4096);
-			//mods.techreborn.industrialGrinder.addRecipe(dictGem.firstItem * 3, <techreborn:dust:37>, <techreborn:smalldust:56>, null, <liquid:water> * 1200, hashOre[key], <minecraft:dye:4> * 8);
+			//mods.techreborn.industrialGrinder.addRecipe(dictDust.firstItem * 3, hashDust[oreByproducts[key][0]], <techreborn:smalldust:56>, null, <liquid:water> * 1200, hashOre[key], <minecraft:dye:4> * 8);
 			mods.mekanism.enrichment.addRecipe(hashOre[key], dictDust.firstItem * 3);
 			mods.nuclearcraft.Manufactory.addRecipe(hashOre[key], dictDust.firstItem * 3);
 		} else if (tier4Dusts has key) {
 			mods.mekanism.enrichment.addRecipe(hashOre[key], dictDust.firstItem * 2);
 			mods.nuclearcraft.Manufactory.addRecipe(hashOre[key], dictDust.firstItem * 2);
+		} else {
+			print("Dust (Ore) without assigned Tier: " ~ key);
 		}
 	}
 	if (hashIngot has key) {
@@ -190,6 +192,8 @@ for key, dictDust in hashDust {
 		} else if (tier4Dusts has key) {
 			mods.mekanism.enrichment.addRecipe(hashIngot[key], dictDust.firstItem);
 			mods.nuclearcraft.Manufactory.addRecipe(hashIngot[key], dictDust.firstItem);
+		} else {
+			print("Dust (Ingot) without assigned Tier: " ~ key);
 		}
 	}
 	if (hashGem has key) {
@@ -213,6 +217,8 @@ for key, dictDust in hashDust {
 		} else if (tier4Dusts has key) {
 			mods.mekanism.enrichment.addRecipe(hashIngot[key], dictDust.firstItem);
 			mods.nuclearcraft.Manufactory.addRecipe(hashIngot[key], dictDust.firstItem);
+		} else {
+			print("Dust (Gem) without assigned Tier: " ~ key);
 		}
 	}
 	if (hashDustDirty has key) {
@@ -258,24 +264,39 @@ for key, dictPlate in hashPlate {
 			recipes.addShapeless(key ~ "_plate_from_ingot_immersivengineering", dictPlate.firstItem,[
 				hashIngot[key], hashIngot[key], <immersiveengineering:tool>.transformDamage(1);
 			]);
+			mods.immersiveengineering.MetalPress(dictPlate.firstItem * 2, hashIngot[key] * 3, <immersiveengineering:mold>, 16000);
+			mods.techreborn.plateBendingMachine.addRecipe(dictPlate.firstItem, hashIngot[key], 15, 128);
+			mods.nuclearcraft.Pressurizer.addRecipe(hashIngot[key] * 2, dictPlate.firstItem * 3);
 		} else if (tier2Plates has key) {
-			mods.immersiveengineering.MetalPress(dictPlate.firstItem * 2, hashIngot[key] * 3, <immersiveengineering:mold>, 512);
+			mods.immersiveengineering.MetalPress(dictPlate.firstItem, hashIngot[key] * 2, <immersiveengineering:mold>, 32000);
+			mods.techreborn.plateBendingMachine.addRecipe(dictPlate.firstItem * 2, hashIngot[key] * 3, 30, 256);
+			mods.nuclearcraft.Pressurizer.addRecipe(hashIngot[key], dictPlate.firstItem);
 		} else if (tier3Plates has key) {
-			mods.techreborn.plateBendingMachine.addRecipe(dictPlate.firstItem, hashIngot[key] * 3, 10, 32);
-		} else if (tier4Plates has key) {
+			mods.techreborn.plateBendingMachine.addRecipe(dictPlate.firstItem, hashIngot[key] * 2, 60, 512);
 			mods.nuclearcraft.Pressurizer.addRecipe(hashIngot[key] * 3, dictPlate.firstItem * 2);
+		} else if (tier4Plates has key) {
+			mods.nuclearcraft.Pressurizer.addRecipe(hashIngot[key] * 2, dictPlate.firstItem);
+		} else {
+			print("Plate (Ingot) without assigned Tier: " ~ key);
 		}
 	}
-	if (hashGem has key) {
+	if (hashGem has key && hashDust has key) {
 		if (tier1Plates has key) {
-			
+			mods.immersiveengineering.MetalPress(dictPlate.firstItem * 2, hashDust[key] * 3, <immersiveengineering:mold>, 48000);
+			mods.techreborn.compressor.addRecipe(dictPlate.firstItem, hashDust[key], 45, 256);
+			mods.nuclearcraft.Pressurizer.addRecipe(hashDust[key] * 2, dictPlate.firstItem * 3);
+		} else if (tier2Plates has key) {
+			mods.immersiveengineering.MetalPress(dictPlate.firstItem, hashDust[key] * 2, <immersiveengineering:mold>, 128000);
+			mods.techreborn.compressor.addRecipe(dictPlate.firstItem * 2, hashDust[key] * 3, 90, 512);
+			mods.nuclearcraft.Pressurizer.addRecipe(hashDust[key], dictPlate.firstItem);
+		} else if (tier3Plates has key) {
+			mods.techreborn.compressor.addRecipe(dictPlate.firstItem, hashDust[key] * 2, 180, 1024);
+			mods.nuclearcraft.Pressurizer.addRecipe(hashDust[key] * 3, dictPlate.firstItem * 2);
+		} else if (tier4Plates has key) {
+			mods.nuclearcraft.Pressurizer.addRecipe(hashDust[key] * 2, dictPlate.firstItem);
 		}
-		if (tier2Plates has key) {
-			mods.immersiveengineering.MetalPress(dictPlate.firstItem * 2, hashGem[key] * 3, <immersiveengineering:mold>, 512);
-			mods.techreborn.plateBendingMachine.addRecipe(dictPlate.firstItem * 2, hashGem[key] * 3, 10, 32);
-		}
-		if (tier3Plates has key) {
-			mods.nuclearcraft.Pressurizer.addRecipe(hashGem[key], dictPlate.firstItem);
+		 else {
+			print("Plate (Gem) without assigned Tier: " ~ key);
 		}
 	}
 }

@@ -129,7 +129,7 @@ recipes.remove(<embers:ember_bore>);
 recipes.addShaped("ember_bore", <embers:ember_bore>, [
 	[<embers:block_caminite_brick>, <embers:mech_core>, <embers:block_caminite_brick>],
 	[<embers:archaic_bricks>, <embers:ancient_motive_core>, <embers:archaic_bricks>],
-	[<contenttweaker:reinforced_stone_gear>, <contenttweaker:reinforced_stone_gear>, <contenttweaker:reinforced_stone_gear>]
+	[<thermalfoundation:material:657>, <thermalfoundation:material:657>, <thermalfoundation:material:657>]
 ]);
 recipes.remove(<embers:block_furnace>);
 recipes.addShaped("melter", <embers:block_furnace>, [

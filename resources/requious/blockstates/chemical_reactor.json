@@ -11,6 +11,10 @@
   },
   "variants": {
     "normal": [{}],
-    "inventory": [{}]
+    "inventory": [{}],
+	"active": {
+		"true": {},
+		"false": {}
+    }
   }
 }
