@@ -69,12 +69,14 @@ for depletion in depletionList {
 					temp2 = "zircaloy" as string;
 				}
 				
-				val fuel = VanillaFactory.createItem(depletion ~ type ~ "_" ~ tier ~ variant) as Item;
-				fuel.creativeTab = <creativetab:fuels>;
-				/*fuel.itemColorSupplier = function(item as IItemStack, tintIndex as int) as Color {
-					return Color.fromHex(colors[temp1][type][tier][temp2]);
-				} as IItemColorSupplier;*/
-				fuel.register();
+				if (!(depletion == "depleted_" && variant == "")) {
+					val fuel = VanillaFactory.createItem(depletion ~ type ~ "_" ~ tier ~ variant) as Item;
+					fuel.creativeTab = <creativetab:fuels>;
+					/*fuel.itemColorSupplier = function(item as IItemStack, tintIndex as int) as Color {
+						return Color.fromHex(colors[temp1][type][tier][temp2]);
+					} as IItemColorSupplier;*/
+					fuel.register();
+				}
 			}
 		}
 	}

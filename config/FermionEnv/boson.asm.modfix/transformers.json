@@ -1,0 +1,17 @@
+{
+  "crt_storing_error_logger": {
+    "description": "Removes a spam of NPE in the logs that occurs when registering the same ZenScript class twice, which happens in-dev when depending on API only",
+    "enabled": true,
+    "configuration": {}
+  },
+  "boson_deferred_register": {
+    "description": "Works around the limitation of the Kotlin type system by setting the parameter of register(RegistryObject.Register) to a raw type. DO NOT DISABLE",
+    "enabled": true,
+    "configuration": {}
+  },
+  "gui_ingredient": {
+    "description": "Fixes JEI 'Accepts any' text in ore-dictionary enabled recipes to also consider tags",
+    "enabled": true,
+    "configuration": {}
+  }
+}

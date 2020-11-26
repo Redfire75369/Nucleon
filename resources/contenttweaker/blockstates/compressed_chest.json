@@ -1,16 +1,7 @@
 {
-  "forge_marker": 1,
-  "defaults": {
-    "textures": {
-      "texture": "contenttweaker:blocks/compressed_chest",
-      "particle": "contenttweaker:blocks/compressed_chest"
-    },
-    "model": "contenttweaker:compressed_chest",
-    "uvlock": true,
-    "transform": "forge:default-block"
-  },
-  "variants": {
-    "normal": [{}],
-    "inventory": [{}]
-  }
+    "variants": {
+        "normal": {
+            "model": "contenttweaker:compressed_chest"
+        }
+    }
 }

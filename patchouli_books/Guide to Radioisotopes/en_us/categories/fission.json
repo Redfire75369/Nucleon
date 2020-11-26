@@ -1,6 +1,7 @@
 {
 	"name": "Nuclear Fission",
-	"description": "",
-	"icon": "nuclearcraft:fission_casing",
-	"sortnum": 3
+	"description": "Nuclear power, the forbidden fruit...",
+	"icon": "nuclearcraft:solid_fission_controller",
+	"parent": "patchouli:multiblocks",
+	"sortnum": 0
 }

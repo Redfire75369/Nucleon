@@ -48,12 +48,17 @@ zenClass BlockBuilder {
 	function addBlock(name as string, material as BlockMaterial, creativeTab as CreativeTab) {
 		addBlock(name, material, creativeTab, "pickaxe", 1);
 	}
-
+	
 	function addBlock(name as string, material as BlockMaterial, creativeTab as CreativeTab, toolClass as string, toolLevel as int) {
+		addBlock(name, material, creativeTab, "pickaxe", 1, true);
+	}
+
+	function addBlock(name as string, material as BlockMaterial, creativeTab as CreativeTab, toolClass as string, toolLevel as int, fullBlock as bool) {
 		val block = VanillaFactory.createBlock(name, material) as Block;
 		block.setCreativeTab(creativeTab);
 		block.setToolClass(toolClass);
 		block.setToolLevel(toolLevel);
+		block.setFullBlock(fullBlock);
 		block.register();
 	}
 }

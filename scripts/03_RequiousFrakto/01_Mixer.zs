@@ -25,7 +25,7 @@ mixer.setFluidSlot(5, 2, ComponentFace.all(), 16000).setAccess(false, true).allo
 mixer.setFluidSlot(6, 2, ComponentFace.all(), 16000).setAccess(false, true).allowBucket(false, true).setGroup("output");
 mixer.setFluidSlot(7, 2, ComponentFace.all(), 16000).setAccess(false, true).allowBucket(false, true).setGroup("output");
 
-mixer.setEnergySlot(8, 2, ComponentFace.all(), 524288).setAccess(true, false).allowBattery(true, false, true).setUnit("fe").setBackground(SlotVisual.createGauge("requious:textures/gui/assembly_gauges.png", 2, 1, 3, 1, GaugeDirection.up(), false)).setGroup("input");
+mixer.setEnergySlot(8, 2, ComponentFace.all(), 524288).setAccess(true, false).allowBattery(true, false, true).setUnit("fe").setBackground(SlotVisual.createGauge("requious:textures/gui/assembly_gauges.png", 0, 0, 1, 0, GaugeDirection.up(), false)).setGroup("input");
 mixer.setDurationSlot(4, 2).setVisual(SlotVisual.arrowRight()).setGroup("duration");
 
 mixer.setJEIItemSlot(1, 1, "input");

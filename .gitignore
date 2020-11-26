@@ -1,4 +1,5 @@
 .mixin.out/**
+backups/**
 crash-reports/**
 downloads/**
 exports/**

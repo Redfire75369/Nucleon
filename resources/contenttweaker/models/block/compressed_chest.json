@@ -1,5 +1,4 @@
 {
-	"forge_marker": 1,
 	"textures": {
 		"6": "contenttweaker:blocks/compressed_chest",
 		"particle": "contenttweaker:blocks/compressed_chest"

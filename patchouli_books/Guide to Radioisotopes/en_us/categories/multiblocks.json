@@ -1,6 +1,6 @@
 {
-	"name": "Other Multiblocks",
-	"description": "",
-	"icon": "nuclearcraft:turbine_controller",
-	"sortnum": 5
+	"name": "Multiblocks",
+	"description": "Think big, build big.",
+	"icon": "nuclearcraft:multitool",
+	"sortnum": 2
 }

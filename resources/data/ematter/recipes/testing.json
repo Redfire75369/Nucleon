@@ -1,0 +1,52 @@
+{
+	"type": "ematter:mad_shaped",
+	"pattern": [
+		"RMWH ",
+		"RBBBT",
+		"TTTTT",
+		"RR CF",
+		"TT  F"
+	],
+	"key": {
+		"R": {
+			"type": "forge:ore_dict",
+			"ore": "ingotRefinedIron"
+		},
+		"M": {
+			"item": "immersiveengineering:tool",
+			"data": 3
+		},
+		"W": {
+			"item": "immersiveengineering:tool",
+			"data": 1
+		},
+		"H": {
+			"item": "immersiveengineering:tool",
+			"data": 0
+		},
+		"B": {
+			"item": "contenttweaker:blue_paper",
+			"data": 0
+		},
+		"T": {
+			"type": "forge:ore_dict",
+			"ore": "plankTreatedWood"
+		},
+		"C": {
+			"type": "forge:ore_dict",
+			"ore": "workbench"
+		},
+		"F": {
+			"type": "forge:ore_dict",
+			"ore": "fenceTreatedWood"
+		}
+	},
+	"result": {
+		"item": "immersiveengineering:wooden_device0",
+		"data": 2
+	},
+	"stepping_function": {
+		"type": "ematter:constant",
+		"value": 100
+	}
+}

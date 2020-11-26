@@ -4,6 +4,20 @@
 import mods.contenttweaker.Item;
 import mods.contenttweaker.VanillaFactory;
 
+/*** Material Acquisition ***/
+val oreChunks = [
+	"ore_chunk_magnetite",
+	"ore_chunk_pyrrhotite",
+	"compacted_ore_chunk_pyrrhotite",
+	"purified_ore_chunk_pyrrhotite",
+	"purified_compound_invar",
+	"crystal_hydrated_silver"
+] as string[];
+
+for oreChunk in oreChunks {
+	itemBuilder.addItem(oreChunk);
+}
+
 /*** Crafting Materials ***/
 val craftMats = [
 	"blue_paper",
@@ -63,4 +77,3 @@ sandpaper.creativeTab = <creativetab:other>;
 sandpaper.maxDamage = 255;
 sandpaper.maxStackSize = 1;
 sandpaper.register();
-

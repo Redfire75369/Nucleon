@@ -2,7 +2,7 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "requious:blocks/mixer",
+      "all": "requious:blocks/mixer",
       "particle": "requious:blocks/mixer"
     },
     "model": "cube/all",

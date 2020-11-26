@@ -2,7 +2,7 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "requious:blocks/chemical_reactor",
+      "all": "requious:blocks/chemical_reactor",
       "particle": "requious:blocks/chemical_reactor"
     },
     "model": "cube/all",

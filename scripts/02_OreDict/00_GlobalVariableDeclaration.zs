@@ -156,8 +156,7 @@ val dustOres = [
 	"Salt",
 	"Sheldonite",
 	"Sodalite",
-	"Sphalerite",
-	"Sulfur"
+	"Sphalerite"
 ] as string[];
 
 /*** Ores ***/
@@ -305,8 +304,10 @@ for key in gemOreless {
 for key in dustOres {
 	hashDust[key] = oreDict["dust" ~ key];
 }
-hashDust["Stone"] = oreDict["dustStone"];
 hashDust["Obsidian"] = oreDict["dustObsidian"];
+hashDust["Sugar"] = oreDict["dustSugar"];
+hashDust["Sulphur"] = oreDict["dustSulphur"];
+hashDust["Stone"] = oreDict["dustStone"];
 hashDust["Wood"] = oreDict["dustWood"];
 
 /*** Small Dusts ***/
@@ -476,5 +477,5 @@ hashSlurryClean["Tin"] = getGas("cleanTin");
 
 /*** Ore Byproducts ***/
 global oreByproducts as string[][string] = {
-	"Iron": ["Nickel", "Sulfur", "Stone"]
+	"Iron": ["Nickel", "Sulphur", "Stone"]
 } as string[][string];

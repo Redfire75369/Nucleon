@@ -8,5 +8,5 @@ itemBuilder.addItem("wire_refined_iron");
 /*** Chests ***/
 itemBuilder.addItem("wood_glue");
 
-blockBuilder.addBlock("compressed_chest", <blockmaterial:wood>, <creativetab:other>, "axe", 0);
-blockBuilder.addBlock("bars_refined_iron", <blockmaterial:iron>, <creativetab:other>, "pickaxe", 2);
+itemBuilder.addItem("bars_refined_iron");
+blockBuilder.addBlock("compressed_chest", <blockmaterial:wood>, <creativetab:other>, "axe", 0, false);

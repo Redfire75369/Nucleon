@@ -25,7 +25,7 @@ chemReactor.setFluidSlot(6, 2, ComponentFace.all(), 16000).setAccess(false, true
 chemReactor.setFluidSlot(5, 3, ComponentFace.all(), 16000).setAccess(false, true).allowBucket(false, true).setGroup("output");
 chemReactor.setFluidSlot(6, 3, ComponentFace.all(), 16000).setAccess(false, true).allowBucket(false, true).setGroup("output");
 
-chemReactor.setEnergySlot(8, 2, ComponentFace.all(), 1048576).setAccess(true, false).allowBattery(true, false, true).setUnit("fe").setBackground(SlotVisual.createGauge("requious:textures/gui/assembly_gauges.png", 2, 1, 3, 1, GaugeDirection.up(), false)).setGroup("input");
+chemReactor.setEnergySlot(8, 2, ComponentFace.all(), 1048576).setAccess(true, false).allowBattery(true, false, true).setUnit("fe").setBackground(SlotVisual.createGauge("requious:textures/gui/assembly_gauges.png", 0, 0, 1, 0, GaugeDirection.up(), false)).setGroup("input");
 chemReactor.setDurationSlot(4, 2).setVisual(SlotVisual.arrowRight()).setGroup("duration");
 
 chemReactor.setJEIItemSlot(2, 1, "input");

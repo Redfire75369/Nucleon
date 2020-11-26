@@ -1,6 +1,7 @@
 {
-	"name": "Nuclear Fusion",
-	"description": "",
-	"icon": "nuclearcraft:fusion_casing",
-	"sortnum": 4
+	"name": "Nuclear Fusion (WIP)",
+	"description": "An inexhaustible supply of energy...",
+	"icon": "nuclearcraft:part:4",
+	"parent": "patchouli:multiblocks",
+	"sortnum": 1
 }

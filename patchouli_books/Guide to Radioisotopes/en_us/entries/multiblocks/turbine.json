@@ -1,0 +1,54 @@
+{
+	"name": "Turbine",
+	"icon": "nuclearcraft:turbine_controller",
+	"category": "patchouli:multiblocks",
+	"sortnum": 2,
+	"pages": [
+		{
+			"anchor": "intro",
+			"type": "text",
+			"text": "Turbines extract energy from pressurized steam, producing an exhaust fluid in the process."
+		},
+		{
+			"anchor": "casing",
+			"type": "blocks/2",
+			"header": "Turbine Casing",
+			"block1": "nuclearcraft:turbine_casing",
+			"block2": "nuclearcraft:turbine_glass",
+			"text": "The turbine's rotor blades, stators and rotor shafts are contained within a cuboidal structure. The edges must consist of turbine casing, while turbine glass can be used instead of casing for the walls. When the multiblock forms, the casing blocks on the edges will be given a new frame texture."
+		},
+		{
+			"anchor": "shaft",
+			"type": "blocks/2",
+			"header": "Rotor Shaft",
+			"block1": "nuclearcraft:turbine_rotor_bearing",
+			"block2": "nuclearcraft:turbine_rotor_shaft",
+			"text": "Turbine Rotor Shafts must be placed such that they span from a wall to its opposite wall. The shaft can be of any diameter, but needs to sit exactly in the middle of the structure. This means a turbine of even/odd diameter needs a shaft of even/odd diameter. The shaft diameter can be up to 2 less than the turbine's diameter.  Turbine Rotor Bearings must be placed where the Turbine Rotor Shafts meet the walls."
+		},
+		{
+			"anchor": "ontroller",
+			"type": "blocks/1",
+			"header": "Turbine Controller",
+			"block": "nuclearcraft:turbine_controller",
+			"text": "This is the controller for the turbine. Without a controller, the turbine multiblock will not form. Its GUI displays information about the turbine such as power output, rotor efficiency and coil efficiency."
+		},
+		{
+			"anchor": "rotors",
+			"type": "blocks/3",
+			"header": "Rotor Blades",
+			"block1": "nuclearcraft:turbine_rotor_blade_steel",
+			"block2": "nuclearcraft:turbine_rotor_blade_extreme",
+			"block3": "nuclearcraft:turbine_rotor_blade_sic_sic_cmc",
+			"text": "Every Turbine Rotor Blade has an efficiency and an expansion coefficient. The efficiency of the Turbine Rotor Blade affects the rotor efficiency of the turbine. After each slice of the turbine, the expansion level of the steam will increase based on the expansion coefficient. The expansion coefficient affects the throughput bonus of the turbine."
+		},
+		{
+			"anchor": "fluid_i/o",
+			"type": "blocks/2",
+			"header": "Fluid I/O",
+			"block1": "nuclearcraft:turbine_inlet",
+			"block2": "nuclearcraft:turbine_outlet",
+			"text": "Pressurized steam is inserted into the turbine via a fluid inlet. Exhaust fluid is extracted from the turbine via a fluid outlet. Inlets and Outlets must be installed opposite each other on the walls housing the rotor bearings in order for the turbine multiblock to form."
+		}
+		
+	]
+}

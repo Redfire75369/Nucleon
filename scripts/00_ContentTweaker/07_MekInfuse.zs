@@ -7,7 +7,11 @@ import mods.contenttweaker.VanillaFactory;
 
 val types = [
 	"glowstone",
-	"ender"
+	"ender",
+	"lapis",
+	"silicon",
+	"ember",
+	"dragon_breath"
 ] as string[];
 
 for type in types {

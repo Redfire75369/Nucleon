@@ -1,14 +1,14 @@
 #loader crafttweaker
 #priority -8000
 
-import loottweaker.vanilla.loot.LootTables;
+import loottweaker.LootTweaker;
 import loottweaker.vanilla.loot.LootTable;
 import loottweaker.vanilla.loot.LootPool;
 
 /*** TechGuns ***/
-val farmerZombie = LootTables.getTable("techguns:entities/zombiefarmer") as LootTable;
-val minerZombie = LootTables.getTable("techguns:entities/zombieminer") as LootTable;
-val soldierSkeleton = LootTables.getTable("techguns:entities/skeletonsoldier") as LootTable;
+val farmerZombie = LootTweaker.getTable("techguns:entities/zombiefarmer") as LootTable;
+val minerZombie = LootTweaker.getTable("techguns:entities/zombieminer") as LootTable;
+val soldierSkeleton = LootTweaker.getTable("techguns:entities/skeletonsoldier") as LootTable;
 
 val farmerGunpowder = farmerZombie.getPool("gunpowder") as LootPool;
 farmerGunpowder.removeEntry("minecraft:gunpowder");
