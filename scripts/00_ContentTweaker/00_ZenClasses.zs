@@ -1,6 +1,5 @@
 #loader contenttweaker
 #priority -0000
-#debug
 
 import mods.contenttweaker.Block;
 import mods.contenttweaker.BlockMaterial;
@@ -10,6 +9,8 @@ import mods.contenttweaker.CreativeTab;
 import mods.contenttweaker.Fluid;
 import mods.contenttweaker.Item;
 import mods.contenttweaker.VanillaFactory;
+
+enableDebug();
 
 zenClass CreativeTabBuilder {
 	zenConstructor() {}

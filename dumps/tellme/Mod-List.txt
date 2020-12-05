@@ -5,6 +5,7 @@
 | advancedliftingmethods            | Advanced Lifting Methods                                |
 | advancedrocketry                  | Advanced Rocketry                                       |
 | advancedrocketrycore              | Advanced Rocketry Core                                  |
+| ae2fc                             | AE2 Fluid Crafting                                      |
 | ae2stuff                          | AE2 Stuff                                               |
 | alfinivia                         | Alfinivia                                               |
 | appleskin                         | AppleSkin                                               |
@@ -55,6 +56,7 @@
 | custommainmenu                    | Custom Main Menu                                        |
 | defaultoptions                    | Default Options                                         |
 | dimstages                         | Dimension Stages                                        |
+| ematter                           | Energy's Matter                                         |
 | embers                            | Embers Rekindled                                        |
 | emergingtechnology                | Emerging Technology                                     |
 | endercore                         | EnderCore                                               |
@@ -70,6 +72,7 @@
 | explosioncrafting                 | Explosion Crafting                                      |
 | extendedcrafting                  | Extended Crafting                                       |
 | extracells                        | Extra Cells 2                                           |
+| extracpus                         | Extra CPUs                                              |
 | fastbench                         | FastWorkbench                                           |
 | fastfurnace                       | FastFurnace                                             |
 | fastleafdecay                     | Fast Leaf Decay                                         |
@@ -79,6 +82,7 @@
 | fermion.asm.test                  | Fermion Test Suite                                      |
 | findme                            | FindMe                                                  |
 | flatcoloredblocks                 | Flat Colored Blocks                                     |
+| fluiddrawers                      | Fluid Drawers                                           |
 | fluxnetworks                      | Flux Networks                                           |
 | foamfix                           | FoamFix                                                 |
 | foamfixcore                       | FoamFixCore                                             |
@@ -160,7 +164,6 @@
 | oreexcavation                     | OreExcavation                                           |
 | packagedauto                      | PackagedAuto                                            |
 | packagedexcrafting                | PackagedExCrafting                                      |
-| patchouli                         | Patchouli                                               |
 | phosphor-lighting                 | Phosphor Lighting Engine                                |
 | placebo                           | Placebo                                                 |
 | pneumaticcraft                    | PneumaticCraft: Repressurized                           |
@@ -199,7 +202,6 @@
 | thermaldynamics                   | Thermal Dynamics                                        |
 | thermalexpansion                  | Thermal Expansion                                       |
 | thermalfoundation                 | Thermal Foundation                                      |
-| threng                            | Lazy AE2                                                |
 | thutcore                          | Thut Core                                               |
 | thutcore_compat                   | ThutCore Compat                                         |
 | thuttech                          | Thut's Elevators                                        |

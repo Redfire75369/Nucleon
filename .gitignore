@@ -1,15 +1,19 @@
 .mixin.out/**
 backups/**
+crafttweaker_dumps/**
 crash-reports/**
 downloads/**
 exports/**
 generated/**
+ignored/**
 logs/**
 maps/**
 mods/**
+nuclearcraft/**
 resourcepacks/**
 saves/**
 screenshots/**
+tmp/**
 
 *.log
 !crafttweaker.log
@@ -21,7 +25,11 @@ screenshots/**
 .curseclient
 .ReAuth.cfg
 
+zs_exports.json
 seen_buildersbag_addons.txt
+
+config/jei/worldSettings.cfg
+config/tellme/**
 
 options.txt
 knownkeys.txt

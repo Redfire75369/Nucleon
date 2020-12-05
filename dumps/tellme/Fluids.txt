@@ -44,8 +44,8 @@
 | borax_solution                     |    1000 |         300 |      1000 |          0 | COMMON   |     false | nuclearcraft:fluid_borax_solution                  |
 | boric_acid                         |    1000 |         300 |      1000 |          0 | COMMON   |     false | nuclearcraft:fluid_boric_acid                      |
 | boron                              |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
-| boron10                            |    5000 |        1200 |      8000 |         10 | COMMON   |     false | nuclearcraft:fluid_boron10                         |
-| boron11                            |    5000 |        1200 |      8000 |         10 | COMMON   |     false | nuclearcraft:fluid_boron11                         |
+| boron_10                           |    5000 |        1200 |      8000 |         10 | COMMON   |     false | nuclearcraft:fluid_boron_10                        |
+| boron_11                           |    5000 |        1200 |      8000 |         10 | COMMON   |     false | nuclearcraft:fluid_boron_11                        |
 | boron_nak                          |    5000 |         300 |     15000 |          0 | COMMON   |     false | -                                                  |
 | boron_nak_hot                      |    4000 |         700 |     10000 |          7 | COMMON   |     false | -                                                  |
 | boron_nitride_solution             |    1000 |         300 |      1000 |          0 | COMMON   |     false | nuclearcraft:fluid_boron_nitride_solution          |
@@ -54,7 +54,9 @@
 | bronze                             |    2000 |         900 |      6000 |         15 | COMMON   |     false | embers:bronze                                      |
 | butane                             |       2 |         295 |      1000 |       1000 | COMMON   |     false | contenttweaker:butane                              |
 | butene                             |    1000 |         295 |      1000 |       1000 | COMMON   |     false | contenttweaker:butene                              |
+| caesium_137                        |    5000 |        1200 |      8000 |         10 | COMMON   |     false | nuclearcraft:fluid_caesium_137                     |
 | calcium                            |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltencalcium                         |
+| calcium_48                         |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltencalcium48                       |
 | calcium_sulfate_solution           |    1000 |         300 |      1000 |          0 | COMMON   |     false | nuclearcraft:fluid_calcium_sulfate_solution        |
 | californium_249                    |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
 | californium_250                    |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
@@ -88,6 +90,12 @@
 | conductive_iron                    |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltenconductiveiron                  |
 | constantan                         |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltenconstantan                      |
 | construction_alloy                 |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltenconstructionalloy               |
+| copernicium_291                    |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltencopernicium291                  |
+| copernicium_291_all                |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltencopernicium291all               |
+| copernicium_291_carbide            |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltencopernicium291carbide           |
+| copernicium_291_nitride            |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltencopernicium291nitride           |
+| copernicium_291_oxide              |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltencopernicium291oxide             |
+| copernicium_291_za                 |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltencopernicium291za                |
 | copper                             |    2000 |         900 |      6000 |         15 | COMMON   |     false | embers:copper                                      |
 | copper_nak                         |    5000 |         300 |     15000 |          0 | COMMON   |     false | -                                                  |
 | copper_nak_hot                     |    4000 |         700 |     10000 |          7 | COMMON   |     false | -                                                  |
@@ -188,6 +196,10 @@
 | depleted_mix_241                   |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
 | depleted_mix_241_fluoride          |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
 | depleted_mix_241_fluoride_flibe    |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
+| depleted_mix_291_nitride           |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltendepletedmix291nitride           |
+| depleted_mix_291_oxide             |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltendepletedmix291oxide             |
+| depleted_mix_291_triso             |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltendepletedmix291triso             |
+| depleted_mix_291_za                |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltendepletedmix291za                |
 | depleted_tbu                       |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
 | depleted_tbu_fluoride              |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
 | depleted_tbu_fluoride_flibe        |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
@@ -294,9 +306,11 @@
 | etchacid                           |    1000 |         300 |      1000 |          0 | COMMON   |     false | pneumaticcraft:fluid.etchacid                      |
 | etching_acid                       |    1500 |         300 |      1500 |          0 | COMMON   |     false | immersiveintelligence:etching_acid                 |
 | ethane                             |       1 |         295 |      1000 |       1000 | COMMON   |     false | contenttweaker:ethane                              |
+| ethanoate_invar                    |    1000 |         295 |      1000 |       1000 | COMMON   |     false | contenttweaker:ethanoate_invar                     |
 | ethanoic_acid                      |    1000 |         295 |      1000 |       1000 | COMMON   |     false | contenttweaker:ethanoic_acid                       |
 | ethanol                            |     789 |         300 |      1000 |          0 | COMMON   |     false | immersiveengineering:fluidethanol                  |
 | ethene                             |     -10 |         300 |        40 |          0 | COMMON   |      true | nuclearcraft:fluid_ethene                          |
+| europium_155                       |    5000 |        1200 |      8000 |         10 | COMMON   |     false | nuclearcraft:fluid_europium_155                    |
 | exhaust_steam                      |     -10 |         500 |        40 |          0 | COMMON   |      true | nuclearcraft:fluid_exhaust_steam                   |
 | exhauststeam                       |    -100 |         300 |       500 |          0 | COMMON   |      true | immersivetech:exhauststeam                         |
 | experience                         |    -200 |         300 |       200 |         12 | UNCOMMON |      true | -                                                  |
@@ -304,6 +318,7 @@
 | ferroboron                         |    5000 |        1200 |      8000 |         10 | COMMON   |     false | nuclearcraft:fluid_ferroboron                      |
 | fire_water                         |     900 |        2000 |      1000 |          0 | COMMON   |     false | enderio:block_fluid_fire_water                     |
 | flibe                              |    5000 |        1200 |      8000 |         10 | COMMON   |     false | nuclearcraft:fluid_flibe                           |
+| fluegas                            |    -100 |         300 |       500 |          0 | COMMON   |      true | immersivetech:fluidfluegas                         |
 | fluidberylium                      |    1000 |         300 |      1000 |          0 | COMMON   |     false | techreborn:techreborn_techreborn.berylium          |
 | fluidbiofuel                       |    1000 |         300 |      1000 |          0 | COMMON   |     false | techreborn:techreborn_techreborn.biofuel           |
 | fluidcalcium                       |    1000 |         300 |      1000 |          0 | COMMON   |     false | techreborn:techreborn_techreborn.calcium           |
@@ -386,7 +401,7 @@
 | hecm_247_fluoride                  |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
 | hecm_247_fluoride_flibe            |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
 | helium                             |     -10 |         300 |        40 |          0 | COMMON   |      true | nuclearcraft:fluid_helium                          |
-| helium3                            |     -10 |         300 |        40 |          0 | COMMON   |      true | nuclearcraft:fluid_helium3                         |
+| helium_3                           |     -10 |         300 |        40 |          0 | COMMON   |      true | nuclearcraft:fluid_helium_3                        |
 | hen_236                            |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
 | hen_236_fluoride                   |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
 | hen_236_fluoride_flibe             |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
@@ -511,8 +526,8 @@
 | liquidsulfurtrioxide               |    1000 |         300 |      1000 |          0 | COMMON   |     false | -                                                  |
 | liquidtritium                      |    1000 |         300 |      1000 |          0 | COMMON   |     false | -                                                  |
 | lithium                            |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
-| lithium6                           |    5000 |        1200 |      8000 |         10 | COMMON   |     false | nuclearcraft:fluid_lithium6                        |
-| lithium7                           |    5000 |        1200 |      8000 |         10 | COMMON   |     false | nuclearcraft:fluid_lithium7                        |
+| lithium_6                          |    5000 |        1200 |      8000 |         10 | COMMON   |     false | nuclearcraft:fluid_lithium_6                       |
+| lithium_7                          |    5000 |        1200 |      8000 |         10 | COMMON   |     false | nuclearcraft:fluid_lithium_7                       |
 | lithium_manganese_dioxide          |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltenlithiummanganesedioxide         |
 | lithium_nak                        |    5000 |         300 |     15000 |          0 | COMMON   |     false | -                                                  |
 | lithium_nak_hot                    |    4000 |         700 |     10000 |          7 | COMMON   |     false | -                                                  |
@@ -546,6 +561,13 @@
 | mix_241                            |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
 | mix_241_fluoride                   |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
 | mix_241_fluoride_flibe             |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
+| mix_291                            |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltenmix291                          |
+| mix_291_carbide                    |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltenmix291carbide                   |
+| mix_291_nitride                    |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltenmix291nitride                   |
+| mix_291_oxide                      |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltenmix291oxide                     |
+| mix_291_triso                      |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltenmix291triso                     |
+| mix_291_za                         |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltenmix291za                        |
+| molybdenum                         |    5000 |        1200 |      8000 |         10 | COMMON   |     false | nuclearcraft:fluid_molybdenum                      |
 | mushroom_stew                      |    2000 |         300 |      2000 |          0 | COMMON   |     false | -                                                  |
 | nak                                |    5000 |         300 |     15000 |          0 | COMMON   |     false | nuclearcraft:fluid_nak                             |
 | nak_hot                            |    4000 |         700 |     10000 |          7 | COMMON   |     false | nuclearcraft:fluid_nak_hot                         |
@@ -617,6 +639,7 @@
 | prismarine                         |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
 | prismarine_nak                     |    5000 |         300 |     15000 |          0 | COMMON   |     false | -                                                  |
 | prismarine_nak_hot                 |    4000 |         700 |     10000 |          7 | COMMON   |     false | -                                                  |
+| promethium_147                     |    5000 |        1200 |      8000 |         10 | COMMON   |     false | nuclearcraft:fluid_promethium_147                  |
 | propane                            |       2 |         295 |      1000 |       1000 | COMMON   |     false | contenttweaker:propane                             |
 | propene                            |    1000 |         295 |      1000 |       1000 | COMMON   |     false | contenttweaker:propene                             |
 | pulsating_iron                     |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltenpulsatingiron                   |
@@ -645,6 +668,7 @@
 | rocket_fuel                        |     900 |         300 |      1000 |          0 | COMMON   |     false | enderio:block_fluid_rocket_fuel                    |
 | rocketfuel                         |     800 |         300 |      1500 |         10 | COMMON   |     false | advancedrocketry:rocketfuel                        |
 | rubber                             |    1000 |         295 |      1000 |       1000 | COMMON   |     false | contenttweaker:rubber                              |
+| ruthenium_106                      |    5000 |        1200 |      8000 |         10 | COMMON   |     false | nuclearcraft:fluid_ruthenium_106                   |
 | sap                                |    1050 |         300 |      1500 |          0 | COMMON   |     false | -                                                  |
 | seed_oil                           |     950 |         300 |      1300 |          0 | COMMON   |     false | -                                                  |
 | sewage                             |    3000 |         300 |      6000 |          0 | COMMON   |     false | industrialforegoing:sewage                         |
@@ -676,6 +700,8 @@
 | stellar_alloy                      |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltenstellaralloy                    |
 | stone                              |    1000 |         295 |      1000 |       1000 | COMMON   |     false | contenttweaker:stone                               |
 | strontium                          |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltenstrontium                       |
+| strontium_90                       |    5000 |        1200 |      8000 |         10 | COMMON   |     false | nuclearcraft:fluid_strontium_90                    |
+| strontium_titanate                 |    5000 |        1200 |      8000 |         10 | COMMON   |     false | qmd:fluid_strontium_titanate                       |
 | stygian_iron                       |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltenstygianiron                     |
 | sugar                              |    1150 |         350 |      8000 |          0 | COMMON   |     false | nuclearcraft:fluid_sugar                           |
 | sulfur                             |    5000 |        1200 |      8000 |         10 | COMMON   |     false | nuclearcraft:fluid_sulfur                          |
@@ -704,6 +730,7 @@
 | titanium                           |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltentitanium                        |
 | titanium_aluminide                 |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltentitaniumaluminide               |
 | titanium_iridium                   |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltentitaniumiridium                 |
+| titanium_tetrachloride             |    1726 |         300 |       170 |          0 | COMMON   |     false | qmd:fluid_titanium_tetrachloride                   |
 | tnt                                |    1000 |         300 |      1000 |          0 | COMMON   |     false | -                                                  |
 | toluene                            |    1000 |         295 |      1000 |       1000 | COMMON   |     false | contenttweaker:toluene                             |
 | tough                              |    5000 |        1200 |      8000 |         10 | COMMON   |     false | nuclearcraft:fluid_tough                           |
@@ -739,6 +766,7 @@
 | zinc                               |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltenzinc                            |
 | zircaloy                           |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltenzircaloy                        |
 | zirconium                          |    5000 |        1200 |      8000 |         10 | COMMON   |     false | nuclearcraft:fluid_zirconium                       |
+| zirconium_molybdenum               |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltenzirconiummolybdenum             |
 +------------------------------------+---------+-------------+-----------+------------+----------+-----------+----------------------------------------------------+
 | Name                               | Density | Temperature | Viscosity | Luminosity | Rarity   | isGaseous | Block                                              |
 +------------------------------------+---------+-------------+-----------+------------+----------+-----------+----------------------------------------------------+

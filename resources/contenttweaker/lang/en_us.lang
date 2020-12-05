@@ -5,7 +5,7 @@ itemGroup.other=ContentTweaker Others
 contenttweaker.part.coin_bronze=Bronze %s Coin
 contenttweaker.part.coin_silver=Silver %s Coin
 contenttweaker.part.coin_gold=Gold %s Coin
-contenttweaker.part.coin_platinum=Platinum%s Coin
+contenttweaker.part.coin_platinum=Platinum %s Coin
 
 item.contenttweaker.ore_chunk_magnetite.name=Magnetite Ore Chunk
 item.contenttweaker.ore_chunk_pyrrhotite.name=Pyrrhotite Ore Chunk
@@ -68,7 +68,7 @@ tile.contenttweaker.compressed_chest.name=Compressed Chest
 
 tile.contenttweaker.block_low_grade_charcoal.name=Block of Low Grade Charcoal
 tile.contenttweaker.block_medium_grade_charcoal.name=Block of Medium Grade Charcoal
-tile.contenttweaker.block_burnt_wood.name=Burnt Wood
+tile.contenttweaker.burnt_wood.name=Burnt Wood
 tile.contenttweaker.regolith.name=Asteroid Regolith
 
 fluid.ashen_stone=Molten Ashen Stone

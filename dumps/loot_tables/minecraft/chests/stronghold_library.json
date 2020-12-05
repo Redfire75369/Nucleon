@@ -240,6 +240,33 @@
       }
     },
     {
+      "name": "sgcraft0",
+      "entries": [
+        {
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "sgcraft:sgcorecrystal"
+        },
+        {
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "sgcraft:sgcontrollercrystal"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      },
+      "conditions": [
+        {
+          "chance": 0.75,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
       "name": "lootPool_techreborn:chests/stronghold_library",
       "entries": [
         {

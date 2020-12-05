@@ -1372,11 +1372,11 @@ extracells:pattern.fluid:0, ME Fluid Pattern: Pyroligneous Spirit
 extracells:pattern.fluid:0, ME Fluid Pattern: Invar Ethanoate
 extracells:pattern.fluid:0, ME Fluid Pattern: Molten Ashen Stone
 extracells:pattern.fluid:0, ME Fluid Pattern: Molten Stone
-extracells:pattern.fluid:0, ME Fluid Pattern: fluid.ethanoic_acid
+extracells:pattern.fluid:0, ME Fluid Pattern: Ethanoic Acid
 extracells:pattern.fluid:0, ME Fluid Pattern: fluid.phosphoric_acid
-extracells:pattern.fluid:0, ME Fluid Pattern: fluid.sulfurous_acid
-extracells:pattern.fluid:0, ME Fluid Pattern: fluid.diluted_ethanoic_acid
-extracells:pattern.fluid:0, ME Fluid Pattern: fluid.concentrated_ethanoic_acid
+extracells:pattern.fluid:0, ME Fluid Pattern: Sulfurous Acid
+extracells:pattern.fluid:0, ME Fluid Pattern: Diluted Ethanoic Acid
+extracells:pattern.fluid:0, ME Fluid Pattern: Concentrated Ethanoic Acid
 extracells:pattern.fluid:0, ME Fluid Pattern: Diluted Hydrochloric Acid
 extracells:pattern.fluid:0, ME Fluid Pattern: Concentrated Hydrochloric Acid
 extracells:pattern.fluid:0, ME Fluid Pattern: Diluted Hydrofluoric Acid
@@ -1385,8 +1385,8 @@ extracells:pattern.fluid:0, ME Fluid Pattern: Diluted Nitric Acid
 extracells:pattern.fluid:0, ME Fluid Pattern: Concentrated Nitric Acid
 extracells:pattern.fluid:0, ME Fluid Pattern: Diluted Sulfuric Acid
 extracells:pattern.fluid:0, ME Fluid Pattern: Concentrated Sulfuric Acid
-extracells:pattern.fluid:0, ME Fluid Pattern: fluid.diluted_sulfurous_acid
-extracells:pattern.fluid:0, ME Fluid Pattern: fluid.concentrated_sulfurous_acid
+extracells:pattern.fluid:0, ME Fluid Pattern: Diluted Sulfurous Acid
+extracells:pattern.fluid:0, ME Fluid Pattern: Concentrated Sulfurous Acid
 extracells:pattern.fluid:0, ME Fluid Pattern: Egg Yolk
 extracells:pattern.fluid:0, ME Fluid Pattern: Egg Mixture
 extracells:pattern.fluid:0, ME Fluid Pattern: Glue
@@ -1396,11 +1396,11 @@ extracells:pattern.fluid:0, ME Fluid Pattern: Egg Albumin
 extracells:pattern.fluid:0, ME Fluid Pattern: Glue Liquor
 extracells:pattern.fluid:0, ME Fluid Pattern: Heavy Oil
 extracells:pattern.fluid:0, ME Fluid Pattern: Light Oil
-extracells:pattern.fluid:0, ME Fluid Pattern: fluid.refinery_gas
+extracells:pattern.fluid:0, ME Fluid Pattern: Refinery Gas
 extracells:pattern.fluid:0, ME Fluid Pattern: Sulfuric Heavy Oil
 extracells:pattern.fluid:0, ME Fluid Pattern: Sulfuric Light Oil
 extracells:pattern.fluid:0, ME Fluid Pattern: Sulfuric Naphtha
-extracells:pattern.fluid:0, ME Fluid Pattern: fluid.sulfuric_refinery_gas
+extracells:pattern.fluid:0, ME Fluid Pattern: Sulfuric Refinery Gas
 extracells:pattern.fluid:0, ME Fluid Pattern: fluid.methane
 extracells:pattern.fluid:0, ME Fluid Pattern: fluid.methene
 extracells:pattern.fluid:0, ME Fluid Pattern: fluid.ethane
@@ -3217,11 +3217,11 @@ pressure:canister:0, Canister - Pyroligneous Spirit
 pressure:canister:0, Canister - Invar Ethanoate
 pressure:canister:0, Canister - Molten Ashen Stone
 pressure:canister:0, Canister - Molten Stone
-pressure:canister:0, Canister - fluid.ethanoic_acid
+pressure:canister:0, Canister - Ethanoic Acid
 pressure:canister:0, Canister - fluid.phosphoric_acid
-pressure:canister:0, Canister - fluid.sulfurous_acid
-pressure:canister:0, Canister - fluid.diluted_ethanoic_acid
-pressure:canister:0, Canister - fluid.concentrated_ethanoic_acid
+pressure:canister:0, Canister - Sulfurous Acid
+pressure:canister:0, Canister - Diluted Ethanoic Acid
+pressure:canister:0, Canister - Concentrated Ethanoic Acid
 pressure:canister:0, Canister - Diluted Hydrochloric Acid
 pressure:canister:0, Canister - Concentrated Hydrochloric Acid
 pressure:canister:0, Canister - Diluted Hydrofluoric Acid
@@ -3230,8 +3230,8 @@ pressure:canister:0, Canister - Diluted Nitric Acid
 pressure:canister:0, Canister - Concentrated Nitric Acid
 pressure:canister:0, Canister - Diluted Sulfuric Acid
 pressure:canister:0, Canister - Concentrated Sulfuric Acid
-pressure:canister:0, Canister - fluid.diluted_sulfurous_acid
-pressure:canister:0, Canister - fluid.concentrated_sulfurous_acid
+pressure:canister:0, Canister - Diluted Sulfurous Acid
+pressure:canister:0, Canister - Concentrated Sulfurous Acid
 pressure:canister:0, Canister - Egg Yolk
 pressure:canister:0, Canister - Egg Mixture
 pressure:canister:0, Canister - Glue
@@ -3241,11 +3241,11 @@ pressure:canister:0, Canister - Egg Albumin
 pressure:canister:0, Canister - Glue Liquor
 pressure:canister:0, Canister - Heavy Oil
 pressure:canister:0, Canister - Light Oil
-pressure:canister:0, Canister - fluid.refinery_gas
+pressure:canister:0, Canister - Refinery Gas
 pressure:canister:0, Canister - Sulfuric Heavy Oil
 pressure:canister:0, Canister - Sulfuric Light Oil
 pressure:canister:0, Canister - Sulfuric Naphtha
-pressure:canister:0, Canister - fluid.sulfuric_refinery_gas
+pressure:canister:0, Canister - Sulfuric Refinery Gas
 pressure:canister:0, Canister - fluid.methane
 pressure:canister:0, Canister - fluid.methene
 pressure:canister:0, Canister - fluid.ethane
@@ -10677,7 +10677,6 @@ appliedenergistics2:facade:0, Cable Facade - Ztyl 1
 appliedenergistics2:facade:0, Cable Facade - Zyth 1
 appliedenergistics2:facade:0, Cable Facade - Block of Low Grade Charcoal
 appliedenergistics2:facade:0, Cable Facade - tile.contenttweaker.burnt_wood.name
-appliedenergistics2:facade:0, Cable Facade - Refined Iron Bars
 appliedenergistics2:facade:0, Cable Facade - Asteroid Regolith
 appliedenergistics2:facade:0, Cable Facade - Block of Medium Grade Charcoal
 appliedenergistics2:facade:0, Cable Facade - Copper Block
@@ -13628,6 +13627,27 @@ chisel:chisel_diamond, Diamond Chisel
 chisel:chisel_hitech, iChisel
 chisel:offsettool, Ender Offset Wand
 combustible:wooden_furnace, Wooden Furnace
+storagedrawers:upgrade_template, Upgrade Template
+storagedrawers:upgrade_storage:0, Storage Upgrade (I)
+storagedrawers:upgrade_storage:1, Storage Upgrade (II)
+storagedrawers:upgrade_storage:2, Storage Upgrade (III)
+storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
+storagedrawers:upgrade_storage:4, Storage Upgrade (V)
+storagedrawers:upgrade_one_stack, Storage Downgrade
+storagedrawers:upgrade_status:0, Status Upgrade (I)
+storagedrawers:upgrade_status:1, Status Upgrade (II)
+storagedrawers:upgrade_void, Void Upgrade
+storagedrawers:upgrade_conversion, Conversion Upgrade
+storagedrawers:upgrade_creative:0, Creative Storage Upgrade
+storagedrawers:upgrade_creative:1, Creative Vending Upgrade
+storagedrawers:upgrade_redstone:0, Redstone Upgrade
+storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
+storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
+storagedrawers:drawer_key, Drawer Key
+storagedrawers:shroud_key, Concealment Key
+storagedrawers:personal_key, Personal Key
+storagedrawers:quantify_key, Quantify Key
+storagedrawers:tape, Packing Tape
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
@@ -13678,27 +13698,6 @@ storagedrawers:customdrawers:2, Framed Drawers 2x2
 storagedrawers:customdrawers:3, Framed Half Drawers 1x2
 storagedrawers:customdrawers:4, Framed Half Drawers 2x2
 storagedrawers:customtrim, Framed Trim
-storagedrawers:upgrade_template, Upgrade Template
-storagedrawers:upgrade_storage:0, Storage Upgrade (I)
-storagedrawers:upgrade_storage:1, Storage Upgrade (II)
-storagedrawers:upgrade_storage:2, Storage Upgrade (III)
-storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
-storagedrawers:upgrade_storage:4, Storage Upgrade (V)
-storagedrawers:upgrade_one_stack, Storage Downgrade
-storagedrawers:upgrade_status:0, Status Upgrade (I)
-storagedrawers:upgrade_status:1, Status Upgrade (II)
-storagedrawers:upgrade_void, Void Upgrade
-storagedrawers:upgrade_conversion, Conversion Upgrade
-storagedrawers:upgrade_creative:0, Creative Storage Upgrade
-storagedrawers:upgrade_creative:1, Creative Vending Upgrade
-storagedrawers:upgrade_redstone:0, Redstone Upgrade
-storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
-storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
-storagedrawers:drawer_key, Drawer Key
-storagedrawers:shroud_key, Concealment Key
-storagedrawers:personal_key, Personal Key
-storagedrawers:quantify_key, Quantify Key
-storagedrawers:tape, Packing Tape
 compactdrawers:compact_drawer_2by1, Compacting Drawers 1x2
 compactdrawers:compact_drawer_2by1_half, Compacting Drawers 1x2 Half
 compactdrawers:compact_drawer_half, Compacting Drawers Half
@@ -16308,6 +16307,67 @@ industrialrenewal:eotm_andrboot, Employee of the Month (andrboot)
 industrialrenewal:chunk_loader, Chunk Loader
 industrialrenewal:conveyor_bulk, Bulk Conveyor
 industrialrenewal:steam, Steam
+ironjetpacks:strap, Leather Strap
+ironjetpacks:basic_coil, Basic Coil
+ironjetpacks:advanced_coil, Advanced Coil
+ironjetpacks:elite_coil, Elite Coil
+ironjetpacks:ultimate_coil, Ultimate Coil
+ironjetpacks:creative_cell, Energy Cell
+ironjetpacks:wood_cell, Energy Cell
+ironjetpacks:copper_cell, Energy Cell
+ironjetpacks:stone_cell, Energy Cell
+ironjetpacks:bronze_cell, Energy Cell
+ironjetpacks:iron_cell, Energy Cell
+ironjetpacks:silver_cell, Energy Cell
+ironjetpacks:electrum_cell, Energy Cell
+ironjetpacks:gold_cell, Energy Cell
+ironjetpacks:invar_cell, Energy Cell
+ironjetpacks:steel_cell, Energy Cell
+ironjetpacks:diamond_cell, Energy Cell
+ironjetpacks:platinum_cell, Energy Cell
+ironjetpacks:emerald_cell, Energy Cell
+ironjetpacks:creative_thruster, Thruster
+ironjetpacks:wood_thruster, Thruster
+ironjetpacks:copper_thruster, Thruster
+ironjetpacks:stone_thruster, Thruster
+ironjetpacks:bronze_thruster, Thruster
+ironjetpacks:iron_thruster, Thruster
+ironjetpacks:silver_thruster, Thruster
+ironjetpacks:electrum_thruster, Thruster
+ironjetpacks:gold_thruster, Thruster
+ironjetpacks:invar_thruster, Thruster
+ironjetpacks:steel_thruster, Thruster
+ironjetpacks:diamond_thruster, Thruster
+ironjetpacks:platinum_thruster, Thruster
+ironjetpacks:emerald_thruster, Thruster
+ironjetpacks:creative_capacitor, Capacitor
+ironjetpacks:wood_capacitor, Capacitor
+ironjetpacks:copper_capacitor, Capacitor
+ironjetpacks:stone_capacitor, Capacitor
+ironjetpacks:bronze_capacitor, Capacitor
+ironjetpacks:iron_capacitor, Capacitor
+ironjetpacks:silver_capacitor, Capacitor
+ironjetpacks:electrum_capacitor, Capacitor
+ironjetpacks:gold_capacitor, Capacitor
+ironjetpacks:invar_capacitor, Capacitor
+ironjetpacks:steel_capacitor, Capacitor
+ironjetpacks:diamond_capacitor, Capacitor
+ironjetpacks:platinum_capacitor, Capacitor
+ironjetpacks:emerald_capacitor, Capacitor
+ironjetpacks:creative_jetpack, Jetpack
+ironjetpacks:wood_jetpack, Jetpack
+ironjetpacks:copper_jetpack, Jetpack
+ironjetpacks:stone_jetpack, Jetpack
+ironjetpacks:bronze_jetpack, Jetpack
+ironjetpacks:iron_jetpack, Jetpack
+ironjetpacks:silver_jetpack, Jetpack
+ironjetpacks:electrum_jetpack, Jetpack
+ironjetpacks:gold_jetpack, Jetpack
+ironjetpacks:invar_jetpack, Jetpack
+ironjetpacks:steel_jetpack, Jetpack
+ironjetpacks:diamond_jetpack, Jetpack
+ironjetpacks:platinum_jetpack, Jetpack
+ironjetpacks:emerald_jetpack, Jetpack
 jecalculation:item_calculator:0, Crafting Calculator
 jecalculation:item_calculator:1, Math Calculator
 littletiles:hammer:0, Little Hammer
@@ -16550,23 +16610,6 @@ notenoughwands:protection_wand, Protection Wand
 notenoughwands:master_protection_wand, Master Protection Wand
 notenoughwands:freezing_wand, Freezing Wand (WIP)
 notenoughwands:potion_wand, Potion Wand
-pneumaticcraft:logistic_frame_active_provider, Logistic Active Provider Frame
-pneumaticcraft:logistic_frame_passive_provider, Logistic Passive Provider Frame
-pneumaticcraft:logistic_frame_storage, Logistic Storage Frame
-pneumaticcraft:logistic_frame_default_storage, Logistic Default Storage Frame
-pneumaticcraft:logistic_frame_requester, Logistic Requester Frame
-pneumaticcraft:heat_frame, Heat Frame
-pneumaticcraft:spawner_agitator, Spawner Agitator
-pneumaticcraft:crop_support, Crop Support
-pneumaticcraft:transfer_gadget, Transfer Gadget
-pneumaticcraft:safety_tube_module, Safety Tube Module
-pneumaticcraft:pressure_gauge_module, Pressure Gauge Tube Module
-pneumaticcraft:flow_detector_module, Flow Detector Tube Module
-pneumaticcraft:air_grate_module, Air Grate Tube Module
-pneumaticcraft:regulator_tube_module, Regulator Tube Module
-pneumaticcraft:charging_module, Charging Module
-pneumaticcraft:logistics_module, Logistics Module
-pneumaticcraft:redstone_module, Redstone Module
 pneumaticcraft:gps_tool, GPS Tool
 pneumaticcraft:gps_area_tool, GPS Area Tool
 pneumaticcraft:ingot_iron_compressed, Compressed Iron Ingot
@@ -16716,11 +16759,28 @@ pneumaticcraft:pneumatic_dynamo, Pneumatic Dynamo
 pneumaticcraft:fake_ice, tile.fake_ice.name
 pneumaticcraft:thermal_compressor, Thermal Compressor
 pneumaticcraft:drone_interface, Drone Interface
-pneumaticcraft:fluid.kerosene, Kerosene
-pneumaticcraft:fluid.fuel, Gasoline
-pneumaticcraft:fluid.etchacid, Etching Acid
-pneumaticcraft:fluid.lpg, LPG
 pneumaticcraft:fluid.plastic, Plastic
+pneumaticcraft:fluid.etchacid, Etching Acid
+pneumaticcraft:fluid.kerosene, Kerosene
+pneumaticcraft:fluid.lpg, LPG
+pneumaticcraft:fluid.fuel, Gasoline
+pneumaticcraft:safety_tube_module, Safety Tube Module
+pneumaticcraft:pressure_gauge_module, Pressure Gauge Tube Module
+pneumaticcraft:flow_detector_module, Flow Detector Tube Module
+pneumaticcraft:air_grate_module, Air Grate Tube Module
+pneumaticcraft:regulator_tube_module, Regulator Tube Module
+pneumaticcraft:charging_module, Charging Module
+pneumaticcraft:logistics_module, Logistics Module
+pneumaticcraft:redstone_module, Redstone Module
+pneumaticcraft:logistic_frame_active_provider, Logistic Active Provider Frame
+pneumaticcraft:logistic_frame_passive_provider, Logistic Passive Provider Frame
+pneumaticcraft:logistic_frame_storage, Logistic Storage Frame
+pneumaticcraft:logistic_frame_default_storage, Logistic Default Storage Frame
+pneumaticcraft:logistic_frame_requester, Logistic Requester Frame
+pneumaticcraft:heat_frame, Heat Frame
+pneumaticcraft:spawner_agitator, Spawner Agitator
+pneumaticcraft:crop_support, Crop Support
+pneumaticcraft:transfer_gadget, Transfer Gadget
 bq_rf:rf_station, RF Submission Station (RFSS)
 simplemachinery:regolith, Asteroid Regolith
 simplemachinery:autoclave, Autoclave
@@ -18153,16 +18213,13 @@ balancedclaytools:clay_axe, Clay Axe
 balancedclaytools:clay_shovel, Clay Shovel
 base:wrench, Wrench
 contenttweaker:technician_coin_gold, item.contenttweaker.technician_coin_gold.name
-contenttweaker:depleted_myterium_low, item.contenttweaker.depleted_myterium_low.name
 contenttweaker:einsteinium_low_za, LEE-666-Zirconium Alloy Fuel Pellet
 contenttweaker:reperium_low, LER-666 Fuel Pellet
-contenttweaker:depleted_fermium_high, item.contenttweaker.depleted_fermium_high.name
 contenttweaker:hunter_coin_platinum, item.contenttweaker.hunter_coin_platinum.name
 contenttweaker:gem_charged_yellow_garnet, Charged Yellow Garnet
 contenttweaker:depleted_myterium_low_ox, Depleted LEM-666 Oxide Fuel Pellet
 contenttweaker:sandpaper, Sandpaper
 contenttweaker:depleted_unorbtium_high_za, Depleted HEU-666-Zirconium Alloy Fuel Pellet
-contenttweaker:depleted_einsteinium_high, item.contenttweaker.depleted_einsteinium_high.name
 contenttweaker:reperium_low_ni, LER-666 Nitride Fuel Pellet
 contenttweaker:myterium_high_za, HEM-666-Zirconium Alloy Fuel Pellet
 contenttweaker:depleted_desdirium_high_za, Depleted HED-666-Zirconium Alloy Fuel Pellet
@@ -18178,7 +18235,6 @@ contenttweaker:depleted_reperium_high_ni, Depleted HER-666 Nitride Fuel Pellet
 contenttweaker:compressed_lapis, Compressed Lapis Lazuli
 contenttweaker:reperium_low_ox, LER-666 Oxide Fuel Pellet
 contenttweaker:unorbtium_low_ni, LEU-666 Nitride Fuel Pellet
-contenttweaker:depleted_reperium_low, item.contenttweaker.depleted_reperium_low.name
 contenttweaker:desdirium_high_ox, HED-666 Oxide Fuel Pellet
 contenttweaker:tenerium_low_za, LET-666-Zirconium Alloy Fuel Pellet
 contenttweaker:myterium_high, HEM-666 Fuel Pellet
@@ -18212,7 +18268,6 @@ contenttweaker:depleted_fermium_low_ni, Depleted LEF-666 Nitride Fuel Pellet
 contenttweaker:reinforced_stone_gear, Reinforced Stone Gear
 contenttweaker:einsteinium_high_za, HEE-666-Zirconium Alloy Fuel Pellet
 contenttweaker:impedium_high, HEI-666 Fuel Pellet
-contenttweaker:depleted_tenerium_low, item.contenttweaker.depleted_tenerium_low.name
 contenttweaker:item_circuit_tier1, Item Circuit I
 contenttweaker:item_circuit_tier3, Item Circuit III
 contenttweaker:item_circuit_tier2, Item Circuit II
@@ -18231,22 +18286,18 @@ contenttweaker:depleted_impedium_high_za, Depleted HEI-666-Zirconium Alloy Fuel 
 contenttweaker:item_circuit_tier4, Item Circuit IV
 contenttweaker:compacted_ore_chunk_pyrrhotite, Compacted Pyrrhotite Ore Chunk
 contenttweaker:depleted_desdirium_high_ni, Depleted HED-666 Nitride Fuel Pellet
-contenttweaker:depleted_fermium_low, item.contenttweaker.depleted_fermium_low.name
 contenttweaker:depleted_einsteinium_high_za, Depleted HEE-666-Zirconium Alloy Fuel Pellet
 contenttweaker:compressed_glowstone, Compressed Glowstone
 contenttweaker:magician_coin_gold, item.contenttweaker.magician_coin_gold.name
 contenttweaker:myterium_high_ni, HEM-666 Nitride Fuel Pellet
-contenttweaker:depleted_reperium_high, item.contenttweaker.depleted_reperium_high.name
 contenttweaker:terne_ingot, item.contenttweaker.terne_ingot.name
 contenttweaker:burnt_wood:0, tile.contenttweaker.burnt_wood.name
-contenttweaker:bars_refined_iron:0, Refined Iron Bars
+contenttweaker:bars_refined_iron, Refined Iron Bars
 contenttweaker:depleted_impedium_low_za, Depleted LEI-666-Zirconium Alloy Fuel Pellet
-contenttweaker:depleted_impedium_low, item.contenttweaker.depleted_impedium_low.name
 contenttweaker:tenerium_low_ni, LET-666 Nitride Fuel Pellet
 contenttweaker:unorbtium_low_za, LEU-666-Zirconium Alloy Fuel Pellet
 contenttweaker:depleted_unorbtium_low_za, Depleted LEU-666-Zirconium Alloy Fuel Pellet
 contenttweaker:depleted_unorbtium_high_ox, Depleted HEU-666 Oxide Fuel Pellet
-contenttweaker:depleted_impedium_high, item.contenttweaker.depleted_impedium_high.name
 contenttweaker:depleted_fermium_low_za, Depleted LEF-666-Zirconium Alloy Fuel Pellet
 contenttweaker:depleted_fermium_high_ox, Depleted HEF-666 Oxide Fuel Pellet
 contenttweaker:nugget_ender_pearl, Ender Pearl Nugget
@@ -18279,7 +18330,6 @@ contenttweaker:medium_grade_charcoal, Medium Grade Charcoal
 contenttweaker:compressed_ender, Compressed Ender
 contenttweaker:chemist_coin_platinum, item.contenttweaker.chemist_coin_platinum.name
 contenttweaker:einsteinium_high, HEE-666 Fuel Pellet
-contenttweaker:depleted_unorbtium_high, item.contenttweaker.depleted_unorbtium_high.name
 contenttweaker:compressed_silicon, Compressed Silicon
 contenttweaker:depleted_impedium_low_ni, Depleted LEI-666 Nitride Fuel Pellet
 contenttweaker:depleted_reperium_low_ox, Depleted LER-666 Oxide Fuel Pellet
@@ -18302,14 +18352,12 @@ contenttweaker:reperium_high_ox, HER-666 Oxide Fuel Pellet
 contenttweaker:myterium_high_ox, HEM-666 Oxide Fuel Pellet
 contenttweaker:chemist_coin_silver, item.contenttweaker.chemist_coin_silver.name
 contenttweaker:hunter_coin_bronze, item.contenttweaker.hunter_coin_bronze.name
-contenttweaker:ore_chunk_magnetite, Magnetite Ore Chunk
 contenttweaker:wood_pile, Pile of Wood
 contenttweaker:depleted_tenerium_high_za, Depleted HET-666-Zirconium Alloy Fuel Pellet
 contenttweaker:environmentalist_coin_gold, item.contenttweaker.environmentalist_coin_gold.name
 contenttweaker:depleted_desdirium_low_za, Depleted LED-666-Zirconium Alloy Fuel Pellet
 contenttweaker:einsteinium_low, LEE-666 Fuel Pellet
 contenttweaker:desdirium_high_za, HED-666-Zirconium Alloy Fuel Pellet
-contenttweaker:depleted_desdirium_low, item.contenttweaker.depleted_desdirium_low.name
 contenttweaker:gem_charged_sapphire, Charged Sapphire
 contenttweaker:farming_coin_silver, item.contenttweaker.farming_coin_silver.name
 contenttweaker:calciated_fish_stock, Calciated Fish Stock
@@ -18324,7 +18372,6 @@ contenttweaker:depleted_fermium_high_za, Depleted HEF-666-Zirconium Alloy Fuel P
 contenttweaker:depleted_reperium_high_za, Depleted HER-666-Zirconium Alloy Fuel Pellet
 contenttweaker:unorbtium_high_ni, HEU-666 Nitride Fuel Pellet
 contenttweaker:depleted_fermium_low_ox, Depleted LEF-666 Oxide Fuel Pellet
-contenttweaker:depleted_desdirium_high, item.contenttweaker.depleted_desdirium_high.name
 contenttweaker:gas_circuit_tier2, Gas Circuit II
 contenttweaker:gas_circuit_tier3, Gas Circuit III
 contenttweaker:gas_circuit_tier4, Gas Circuit IV
@@ -18343,7 +18390,6 @@ contenttweaker:depleted_desdirium_low_ni, Depleted LED-666 Nitride Fuel Pellet
 contenttweaker:myterium_low_ox, LEM-666 Oxide Fuel Pellet
 contenttweaker:desdirium_low_ni, LED-666 Nitride Fuel Pellet
 contenttweaker:block_medium_grade_charcoal:0, Block of Medium Grade Charcoal
-contenttweaker:ore_chunk_pyrrhotite, Pyrrhotite Ore Chunk
 contenttweaker:depleted_tenerium_high_ni, Depleted HET-666 Nitride Fuel Pellet
 contenttweaker:impedium_low_za, LEI-666-Zirconium Alloy Fuel Pellet
 contenttweaker:unorbtium_high_ox, HEU-666 Oxide Fuel Pellet
@@ -18351,16 +18397,12 @@ contenttweaker:hunter_coin_gold, item.contenttweaker.hunter_coin_gold.name
 contenttweaker:unorbtium_high, HEU-666 Fuel Pellet
 contenttweaker:blue_paper, Blue Paper
 contenttweaker:einsteinium_low_ox, LEE-666 Oxide Fuel Pellet
-contenttweaker:depleted_myterium_high, item.contenttweaker.depleted_myterium_high.name
 contenttweaker:dust_bedrock, Bedrock Dust
-contenttweaker:depleted_tenerium_high, item.contenttweaker.depleted_tenerium_high.name
 contenttweaker:einsteinium_high_ni, HEE-666 Nitride Fuel Pellet
 contenttweaker:depleted_einsteinium_high_ox, Depleted HEE-666 Oxide Fuel Pellet
 contenttweaker:desdirium_low, LED-666 Fuel Pellet
 contenttweaker:reperium_low_za, LER-666-Zirconium Alloy Fuel Pellet
-contenttweaker:depleted_unorbtium_low, item.contenttweaker.depleted_unorbtium_low.name
 contenttweaker:einsteinium_low_ni, LEE-666 Nitride Fuel Pellet
-contenttweaker:depleted_einsteinium_low, item.contenttweaker.depleted_einsteinium_low.name
 contenttweaker:copper_thread, Copper Thread
 contenttweaker:depleted_impedium_low_ox, Depleted LEI-666 Oxide Fuel Pellet
 contenttweaker:unorbtium_low_ox, LEU-666 Oxide Fuel Pellet
@@ -22514,8 +22556,35 @@ flatcoloredblocks:flatcoloredblock_glowing0_80:6, Glowing Silver Block #1286
 flatcoloredblocks:flatcoloredblock_glowing0_80:7, Glowing White Block #1287
 flatcoloredblocks:flatcoloredblock_glowing0_80:8, Glowing White Block #1288
 flatcoloredblocks:flatcoloredblock_glowing0_80:9, Glowing White Block #1289
+threng:material:0, Fluix Steel Ingot
+threng:material:1, Carbonic Fluix Complex
+threng:material:2, Fluix-Plated Iron Ingot
+threng:material:3, Coal Dust
+threng:material:4, Fluix Logic Unit
+threng:material:5, Resonating Crystal
+threng:material:6, Massively Parallel Processor
+threng:material:7, Speculation Core (1x)
+threng:material:8, Speculation Core (2x)
+threng:material:9, Speculation Core (4x)
+threng:material:10, Speculation Core (8x)
+threng:material:11, Speculation Core (16x)
+threng:material:12, Speculation Core (32x)
+threng:material:13, Speculation Core (64x)
+threng:material:14, Speculative Processor
 fluiddrawers:tank:0, Basic Tank
 fluiddrawers:tank_custom:0, Framed Tank
+threng:machine:0, Fluix Aggregator
+threng:machine:1, Pulse Centrifuge
+threng:machine:2, ME Circuit Etcher
+threng:machine:3, Preemptive Assembly Unit
+threng:machine:4, ME Level Maintainer
+threng:machine:5, Crystal Energizer
+threng:big_assembler:0, Mass Assembler Frame
+threng:big_assembler:1, Mass Assembler Vent
+threng:big_assembler:2, Mass Assembler Controller
+threng:big_assembler:3, MA Pattern Provider
+threng:big_assembler:4, MA Crafting Coprocessor
+threng:big_assembler:5, Mass Assembler IO Port
 hydrogel:hydrogel, Hydrogel Block
 industrialforegoing:petrified_fuel_generator, Petrified Fuel Generator
 industrialforegoing:enchantment_refiner, Enchantment Sorter
@@ -22720,18 +22789,18 @@ magneticraft:nuggets:11, Osmium Nugget
 magneticraft:nuggets:12, Silver Nugget
 magneticraft:nuggets:13, Tin Nugget
 magneticraft:nuggets:14, Zinc Nugget
-magneticraft:chunks:0, Iron Chunk
-magneticraft:chunks:1, Gold Chunk
-magneticraft:chunks:2, Copper Chunk
-magneticraft:chunks:3, Lead Chunk
+magneticraft:chunks:0, Magnetite Chunk
+magneticraft:chunks:1, Aurostibite Chunk
+magneticraft:chunks:2, Covellite Chunk
+magneticraft:chunks:3, Pyromorphite Chunk
 magneticraft:chunks:4, Cobalt Chunk
 magneticraft:chunks:5, Tungsten Chunk
-magneticraft:chunks:7, Aluminium Chunk
+magneticraft:chunks:7, Corundrum Chunk
 magneticraft:chunks:9, Mithril Chunk
-magneticraft:chunks:10, Nickel Chunk
+magneticraft:chunks:10, Pyrrhotite Chunk
 magneticraft:chunks:11, Osmium Chunk
-magneticraft:chunks:12, Silver Chunk
-magneticraft:chunks:13, Tin Chunk
+magneticraft:chunks:12, Argentite Chunk
+magneticraft:chunks:13, Cassiterite Chunk
 magneticraft:chunks:14, Zinc Chunk
 magneticraft:dusts:0, Iron Dust
 magneticraft:dusts:1, Gold Dust
@@ -22794,76 +22863,6 @@ magneticraft:steel_gear, item.magneticraft.steel_gear.name
 magneticraft:tungsten_gear, item.magneticraft.tungsten_gear.name
 magneticraft:inserter_upgrade:0, Inserter Upgrade: Speed
 magneticraft:inserter_upgrade:1, Inserter Upgrade: Stack
-magneticraft:box:0, Wooden Box
-magneticraft:crushing_table:0, Crushing Table
-magneticraft:sluice_box:0, Sluice Box
-magneticraft:fabricator:0, Fabricator
-magneticraft:conveyor_belt:0, Conveyor Belt
-magneticraft:inserter:0, Inserter
-magneticraft:water_generator:0, Water Generator
-magneticraft:feeding_trough:0, Wooden Feeding Trough
-magneticraft:pneumatic_tube:0, Pneumatic Tube
-magneticraft:pneumatic_restriction_tube:0, Restriction Pneumatic Tube
-magneticraft:relay:0, Relay
-magneticraft:filter:0, Filter
-magneticraft:transposer:0, Transposer
-magneticraft:computer:0, Computer
-magneticraft:mining_robot:0, Mining Robot
-magneticraft:connector:0, Electric Connector
-magneticraft:electric_pole:0, Electric Pole
-magneticraft:electric_cable:0, Electric cable
-magneticraft:tesla_tower:0, Tesla Tower
-magneticraft:energy_receiver:0, Energy Receiver
-magneticraft:electric_pole_transformer:0, Electric Pole Transformer
-magneticraft:limestone:0, Limestone
-magneticraft:limestone:1, Limestone Brick
-magneticraft:limestone:2, Limestone Cobble
-magneticraft:burnt_limestone:0, Burnt Limestone
-magneticraft:burnt_limestone:1, Burnt Limestone Brick
-magneticraft:burnt_limestone:2, Burnt Limestone Cobble
-magneticraft:tile_limestone:0, Limestone Tiles
-magneticraft:tile_limestone:1, Inverted Limestone Tiles
-magneticraft:tube_light:0, Tube Light
-magneticraft:ores:0, Chalcopyrite Ore (Copper)
-magneticraft:ores:1, Galena Ore (Lead)
-magneticraft:ores:2, Cobaltite Ore (Cobalt)
-magneticraft:ores:3, Wolframite Ore (Tungsten)
-magneticraft:ores:4, Pyrite Ore (Sulfur)
-magneticraft:oil_source:0, Oil Source (Full)
-magneticraft:oil_source:10, Oil Source (Empty)
-magneticraft:storage_blocks:0, Copper Block
-magneticraft:storage_blocks:1, Lead Block
-magneticraft:storage_blocks:2, Cobalt Block
-magneticraft:storage_blocks:3, Tungsten Block
-magneticraft:storage_blocks:4, Sulfur Block
-magneticraft:small_tank:0, Small tank
-magneticraft:iron_pipe:0, Iron Pipe
-magneticraft:multiblock_parts:0, Machine Block
-magneticraft:multiblock_parts:1, Electrical Machine Block
-magneticraft:multiblock_parts:2, Iron Grate Machine Block
-magneticraft:multiblock_parts:3, Striped Machine Block
-magneticraft:multiblock_parts:4, Copper Coil Machine Block
-magneticraft:multiblock_parts:5, Corrugate Iron Machine Block
-magneticraft:multiblock_column:0, Support Column (Y axis)
-magneticraft:pumpjack_drill:0, Pumpjack Pipe
-magneticraft:combustion_chamber:0, Combustion Chamber
-magneticraft:steam_boiler:0, Boiler
-magneticraft:heat_pipe:0, Heat Pipe
-magneticraft:insulated_heat_pipe:0, Insulated Heat Pipe
-magneticraft:heat_sink:0, Heat sink
-magneticraft:gasification_unit:0, Gasification Unit
-magneticraft:brick_furnace:0, Brick furnace
-magneticraft:battery:0, Battery Block
-magneticraft:electric_furnace:0, Electric furnace
-magneticraft:infinite_energy:0, Infinite Energy
-magneticraft:air_bubble:0, Air Bubble
-magneticraft:airlock:0, Airlock
-magneticraft:thermopile:0, Thermopile
-magneticraft:wind_turbine:0, Wind turbine
-magneticraft:electric_heater:0, Electric Heater
-magneticraft:rf_heater:0, RF Heater
-magneticraft:rf_transformer:0, RF transformer
-magneticraft:electric_engine:0, Electric Engine
 magneticraft:solar_panel:0, Solar Panel
 magneticraft:shelving_unit:0, Shelving Unit
 magneticraft:steam_engine:0, Small Steam Engine
@@ -22880,6 +22879,76 @@ magneticraft:big_combustion_chamber:0, Bigger Combustion Chamber
 magneticraft:big_steam_boiler:0, Bigger Steam Boiler
 magneticraft:steam_turbine:0, Steam Turbine
 magneticraft:big_electric_furnace:0, Bigger Electric Furnace
+magneticraft:connector:0, Electric Connector
+magneticraft:electric_pole:0, Electric Pole
+magneticraft:electric_cable:0, Electric cable
+magneticraft:tesla_tower:0, Tesla Tower
+magneticraft:energy_receiver:0, Energy Receiver
+magneticraft:electric_pole_transformer:0, Electric Pole Transformer
+magneticraft:computer:0, Computer
+magneticraft:mining_robot:0, Mining Robot
+magneticraft:limestone:0, Limestone
+magneticraft:limestone:1, Limestone Brick
+magneticraft:limestone:2, Limestone Cobble
+magneticraft:burnt_limestone:0, Burnt Limestone
+magneticraft:burnt_limestone:1, Burnt Limestone Brick
+magneticraft:burnt_limestone:2, Burnt Limestone Cobble
+magneticraft:tile_limestone:0, Limestone Tiles
+magneticraft:tile_limestone:1, Inverted Limestone Tiles
+magneticraft:tube_light:0, Tube Light
+magneticraft:conveyor_belt:0, Conveyor Belt
+magneticraft:inserter:0, Inserter
+magneticraft:water_generator:0, Water Generator
+magneticraft:feeding_trough:0, Wooden Feeding Trough
+magneticraft:pneumatic_tube:0, Pneumatic Tube
+magneticraft:pneumatic_restriction_tube:0, Restriction Pneumatic Tube
+magneticraft:relay:0, Relay
+magneticraft:filter:0, Filter
+magneticraft:transposer:0, Transposer
+magneticraft:small_tank:0, Small tank
+magneticraft:iron_pipe:0, Iron Pipe
+magneticraft:combustion_chamber:0, Combustion Chamber
+magneticraft:steam_boiler:0, Boiler
+magneticraft:heat_pipe:0, Heat Pipe
+magneticraft:insulated_heat_pipe:0, Insulated Heat Pipe
+magneticraft:heat_sink:0, Heat sink
+magneticraft:gasification_unit:0, Gasification Unit
+magneticraft:brick_furnace:0, Brick furnace
+magneticraft:box:0, Wooden Box
+magneticraft:crushing_table:0, Crushing Table
+magneticraft:sluice_box:0, Sluice Box
+magneticraft:fabricator:0, Fabricator
+magneticraft:ores:0, Chalcopyrite Ore (Copper)
+magneticraft:ores:1, Galena Ore (Lead)
+magneticraft:ores:2, Cobaltite Ore (Cobalt)
+magneticraft:ores:3, Wolframite Ore (Tungsten)
+magneticraft:ores:4, Pyrite Ore (Sulfur)
+magneticraft:oil_source:0, Oil Source (Full)
+magneticraft:oil_source:10, Oil Source (Empty)
+magneticraft:storage_blocks:0, Copper Block
+magneticraft:storage_blocks:1, Lead Block
+magneticraft:storage_blocks:2, Cobalt Block
+magneticraft:storage_blocks:3, Tungsten Block
+magneticraft:storage_blocks:4, Sulfur Block
+magneticraft:battery:0, Battery Block
+magneticraft:electric_furnace:0, Electric furnace
+magneticraft:infinite_energy:0, Infinite Energy
+magneticraft:air_bubble:0, Air Bubble
+magneticraft:airlock:0, Airlock
+magneticraft:thermopile:0, Thermopile
+magneticraft:wind_turbine:0, Wind turbine
+magneticraft:electric_heater:0, Electric Heater
+magneticraft:rf_heater:0, RF Heater
+magneticraft:rf_transformer:0, RF transformer
+magneticraft:electric_engine:0, Electric Engine
+magneticraft:multiblock_parts:0, Machine Block
+magneticraft:multiblock_parts:1, Electrical Machine Block
+magneticraft:multiblock_parts:2, Iron Grate Machine Block
+magneticraft:multiblock_parts:3, Striped Machine Block
+magneticraft:multiblock_parts:4, Copper Coil Machine Block
+magneticraft:multiblock_parts:5, Corrugate Iron Machine Block
+magneticraft:multiblock_column:0, Support Column (Y axis)
+magneticraft:pumpjack_drill:0, Pumpjack Pipe
 mcjtylib_ng:multipart, tile.mcjtylib_ng.multipart.name
 mech_crafting:mechanical_crafter, Mechanical Crafter
 mech_crafting:sturdy_gearbox, Sturdy Gearbox
@@ -22975,7 +23044,6 @@ requious:assembler, tile.assembler.name
 requious:chemical_reactor, tile.chemical_reactor.name
 requious:mixer, Mixer [WIP]
 requious:vacuum_evaporator, tile.vacuum_evaporator.name
-requious:cell:0, item.cell.name
 requious:cell:0, item.cell.name
 requious:cell:0, item.cell.name
 requious:cell:0, item.cell.name

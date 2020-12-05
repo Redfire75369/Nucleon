@@ -6,8 +6,6 @@ import mods.contenttweaker.VanillaFactory;
 
 /*** Material Acquisition ***/
 val oreChunks = [
-	"ore_chunk_magnetite",
-	"ore_chunk_pyrrhotite",
 	"compacted_ore_chunk_pyrrhotite",
 	"purified_ore_chunk_pyrrhotite",
 	"purified_compound_invar",

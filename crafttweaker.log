@@ -1,6 +1,5 @@
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [preinit]
-[PREINITIALIZATION][CLIENT][INFO] Debug Preprocessor found in {[0:contenttweaker]: 00_ContentTweaker\00_ZenClasses.zs}, enabling debugmode
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: 00_ContentTweaker\00_ZenClasses.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-1:contenttweaker]: 00_ContentTweaker\01_NewMaterials.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-2:contenttweaker]: 00_ContentTweaker\02_CreativeTab.zs} as we are currently loading with a different loader
@@ -24,24 +23,25 @@
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-302:crafttweaker]: 03_RequiousFrakto\02_VacuumEvaporator.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-400:crafttweaker]: 04_Essential\00_RecipeReplacement.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-401:crafttweaker]: 04_Essential\01_FluidUtils.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-500:crafttweaker]: 05_Primitive\00_RustichromiaEarly.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-501:crafttweaker]: 05_Primitive\01_RustichromiaLate.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-502:crafttweaker]: 05_Primitive\02_EmbersRekindledEarly.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-503:crafttweaker]: 05_Primitive\03_EmbersRekindledLate.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-504:crafttweaker]: 05_Primitive\04_Soot.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-505:crafttweaker]: 05_Primitive\05_MysticalMechanics.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-506:crafttweaker]: 05_Primitive\06_MysticalGears.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-507:crafttweaker]: 05_Primitive\07_MechanicalCrafting.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-508:crafttweaker]: 05_Primitive\08_Fuels.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-509:crafttweaker]: 05_Primitive\09_Others.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-600:crafttweaker]: 06_Steampunk\00_ImmersiveEngineeringEarly.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-601:crafttweaker]: 06_Steampunk\01_ImmersiveEngineeringLate.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-602:crafttweaker]: 06_Steampunk\02_MagneticraftEarly.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-603:crafttweaker]: 06_Steampunk\03_MagneticraftLate.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-604:crafttweaker]: 06_Steampunk\04_ImmersiveIntelligence.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-605:crafttweaker]: 06_Steampunk\05_ImmersiveTechnology.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-606:crafttweaker]: 06_Steampunk\06_ImmersivePetroleum.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-607:crafttweaker]: 06_Steampunk\07_Glue.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-500:crafttweaker]: 05_EnergysMatter\00_Tier2.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-600:crafttweaker]: 06_Primitive\00_RustichromiaEarly.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-601:crafttweaker]: 06_Primitive\01_RustichromiaLate.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-602:crafttweaker]: 06_Primitive\02_EmbersRekindledEarly.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-603:crafttweaker]: 06_Primitive\03_EmbersRekindledLate.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-604:crafttweaker]: 06_Primitive\04_Soot.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-605:crafttweaker]: 06_Primitive\05_MysticalMechanics.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-606:crafttweaker]: 06_Primitive\06_MysticalGears.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-607:crafttweaker]: 06_Primitive\07_MechanicalCrafting.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-608:crafttweaker]: 06_Primitive\08_Fuels.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-609:crafttweaker]: 06_Primitive\09_Others.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-700:crafttweaker]: 07_Steampunk\00_ImmersiveEngineeringEarly.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-701:crafttweaker]: 07_Steampunk\01_ImmersiveEngineeringLate.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-702:crafttweaker]: 07_Steampunk\02_MagneticraftEarly.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-703:crafttweaker]: 07_Steampunk\03_MagneticraftLate.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-704:crafttweaker]: 07_Steampunk\04_ImmersiveIntelligence.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-705:crafttweaker]: 07_Steampunk\05_ImmersiveTechnology.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-706:crafttweaker]: 07_Steampunk\06_ImmersivePetroleum.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-707:crafttweaker]: 07_Steampunk\07_Glue.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-8000:crafttweaker]: 80_Loot\00_MobLoot.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-9000:crafttweaker]: 90_Important\00_FluxNetworks.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-9001:crafttweaker]: 90_Important\01_Hydrogel_Morphotool.zs} as we are currently loading with a different loader
@@ -54,11 +54,10 @@
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-9905:crafttweaker]: 99_Others\05_BuildingBlocks.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-9906:crafttweaker]: 99_Others\06_Wands.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-9907:crafttweaker]: 99_Others\07_Scroll.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 3ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 10ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [tags]]
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [tags], [contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [contenttweaker]
-[PREINITIALIZATION][CLIENT][INFO] Debug Preprocessor found in {[0:contenttweaker]: 00_ContentTweaker\00_ZenClasses.zs}, enabling debugmode
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: 00_ContentTweaker\00_ZenClasses.zs}
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[-1:contenttweaker]: 00_ContentTweaker\01_NewMaterials.zs}
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[-2:contenttweaker]: 00_ContentTweaker\02_CreativeTab.zs}
@@ -83,24 +82,25 @@
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-302:crafttweaker]: 03_RequiousFrakto\02_VacuumEvaporator.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-400:crafttweaker]: 04_Essential\00_RecipeReplacement.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-401:crafttweaker]: 04_Essential\01_FluidUtils.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-500:crafttweaker]: 05_Primitive\00_RustichromiaEarly.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-501:crafttweaker]: 05_Primitive\01_RustichromiaLate.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-502:crafttweaker]: 05_Primitive\02_EmbersRekindledEarly.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-503:crafttweaker]: 05_Primitive\03_EmbersRekindledLate.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-504:crafttweaker]: 05_Primitive\04_Soot.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-505:crafttweaker]: 05_Primitive\05_MysticalMechanics.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-506:crafttweaker]: 05_Primitive\06_MysticalGears.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-507:crafttweaker]: 05_Primitive\07_MechanicalCrafting.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-508:crafttweaker]: 05_Primitive\08_Fuels.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-509:crafttweaker]: 05_Primitive\09_Others.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-600:crafttweaker]: 06_Steampunk\00_ImmersiveEngineeringEarly.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-601:crafttweaker]: 06_Steampunk\01_ImmersiveEngineeringLate.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-602:crafttweaker]: 06_Steampunk\02_MagneticraftEarly.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-603:crafttweaker]: 06_Steampunk\03_MagneticraftLate.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-604:crafttweaker]: 06_Steampunk\04_ImmersiveIntelligence.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-605:crafttweaker]: 06_Steampunk\05_ImmersiveTechnology.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-606:crafttweaker]: 06_Steampunk\06_ImmersivePetroleum.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-607:crafttweaker]: 06_Steampunk\07_Glue.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-500:crafttweaker]: 05_EnergysMatter\00_Tier2.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-600:crafttweaker]: 06_Primitive\00_RustichromiaEarly.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-601:crafttweaker]: 06_Primitive\01_RustichromiaLate.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-602:crafttweaker]: 06_Primitive\02_EmbersRekindledEarly.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-603:crafttweaker]: 06_Primitive\03_EmbersRekindledLate.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-604:crafttweaker]: 06_Primitive\04_Soot.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-605:crafttweaker]: 06_Primitive\05_MysticalMechanics.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-606:crafttweaker]: 06_Primitive\06_MysticalGears.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-607:crafttweaker]: 06_Primitive\07_MechanicalCrafting.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-608:crafttweaker]: 06_Primitive\08_Fuels.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-609:crafttweaker]: 06_Primitive\09_Others.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-700:crafttweaker]: 07_Steampunk\00_ImmersiveEngineeringEarly.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-701:crafttweaker]: 07_Steampunk\01_ImmersiveEngineeringLate.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-702:crafttweaker]: 07_Steampunk\02_MagneticraftEarly.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-703:crafttweaker]: 07_Steampunk\03_MagneticraftLate.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-704:crafttweaker]: 07_Steampunk\04_ImmersiveIntelligence.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-705:crafttweaker]: 07_Steampunk\05_ImmersiveTechnology.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-706:crafttweaker]: 07_Steampunk\06_ImmersivePetroleum.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-707:crafttweaker]: 07_Steampunk\07_Glue.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-8000:crafttweaker]: 80_Loot\00_MobLoot.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-9000:crafttweaker]: 90_Important\00_FluxNetworks.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-9001:crafttweaker]: 90_Important\01_Hydrogel_Morphotool.zs} as we are currently loading with a different loader
@@ -113,10 +113,9 @@
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-9905:crafttweaker]: 99_Others\05_BuildingBlocks.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-9906:crafttweaker]: 99_Others\06_Wands.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-9907:crafttweaker]: 99_Others\07_Scroll.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 1343ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 1597ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [tags], [contenttweaker], [nc_preinit]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [nc_preinit]
-[PREINITIALIZATION][CLIENT][INFO] Debug Preprocessor found in {[0:contenttweaker]: 00_ContentTweaker\00_ZenClasses.zs}, enabling debugmode
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: 00_ContentTweaker\00_ZenClasses.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-1:contenttweaker]: 00_ContentTweaker\01_NewMaterials.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-2:contenttweaker]: 00_ContentTweaker\02_CreativeTab.zs} as we are currently loading with a different loader
@@ -140,24 +139,25 @@
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-302:crafttweaker]: 03_RequiousFrakto\02_VacuumEvaporator.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-400:crafttweaker]: 04_Essential\00_RecipeReplacement.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-401:crafttweaker]: 04_Essential\01_FluidUtils.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-500:crafttweaker]: 05_Primitive\00_RustichromiaEarly.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-501:crafttweaker]: 05_Primitive\01_RustichromiaLate.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-502:crafttweaker]: 05_Primitive\02_EmbersRekindledEarly.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-503:crafttweaker]: 05_Primitive\03_EmbersRekindledLate.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-504:crafttweaker]: 05_Primitive\04_Soot.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-505:crafttweaker]: 05_Primitive\05_MysticalMechanics.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-506:crafttweaker]: 05_Primitive\06_MysticalGears.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-507:crafttweaker]: 05_Primitive\07_MechanicalCrafting.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-508:crafttweaker]: 05_Primitive\08_Fuels.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-509:crafttweaker]: 05_Primitive\09_Others.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-600:crafttweaker]: 06_Steampunk\00_ImmersiveEngineeringEarly.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-601:crafttweaker]: 06_Steampunk\01_ImmersiveEngineeringLate.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-602:crafttweaker]: 06_Steampunk\02_MagneticraftEarly.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-603:crafttweaker]: 06_Steampunk\03_MagneticraftLate.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-604:crafttweaker]: 06_Steampunk\04_ImmersiveIntelligence.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-605:crafttweaker]: 06_Steampunk\05_ImmersiveTechnology.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-606:crafttweaker]: 06_Steampunk\06_ImmersivePetroleum.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-607:crafttweaker]: 06_Steampunk\07_Glue.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-500:crafttweaker]: 05_EnergysMatter\00_Tier2.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-600:crafttweaker]: 06_Primitive\00_RustichromiaEarly.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-601:crafttweaker]: 06_Primitive\01_RustichromiaLate.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-602:crafttweaker]: 06_Primitive\02_EmbersRekindledEarly.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-603:crafttweaker]: 06_Primitive\03_EmbersRekindledLate.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-604:crafttweaker]: 06_Primitive\04_Soot.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-605:crafttweaker]: 06_Primitive\05_MysticalMechanics.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-606:crafttweaker]: 06_Primitive\06_MysticalGears.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-607:crafttweaker]: 06_Primitive\07_MechanicalCrafting.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-608:crafttweaker]: 06_Primitive\08_Fuels.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-609:crafttweaker]: 06_Primitive\09_Others.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-700:crafttweaker]: 07_Steampunk\00_ImmersiveEngineeringEarly.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-701:crafttweaker]: 07_Steampunk\01_ImmersiveEngineeringLate.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-702:crafttweaker]: 07_Steampunk\02_MagneticraftEarly.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-703:crafttweaker]: 07_Steampunk\03_MagneticraftLate.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-704:crafttweaker]: 07_Steampunk\04_ImmersiveIntelligence.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-705:crafttweaker]: 07_Steampunk\05_ImmersiveTechnology.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-706:crafttweaker]: 07_Steampunk\06_ImmersivePetroleum.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-707:crafttweaker]: 07_Steampunk\07_Glue.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-8000:crafttweaker]: 80_Loot\00_MobLoot.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-9000:crafttweaker]: 90_Important\00_FluxNetworks.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-9001:crafttweaker]: 90_Important\01_Hydrogel_Morphotool.zs} as we are currently loading with a different loader
@@ -170,10 +170,9 @@
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-9905:crafttweaker]: 99_Others\05_BuildingBlocks.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-9906:crafttweaker]: 99_Others\06_Wands.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[-9907:crafttweaker]: 99_Others\07_Scroll.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 2ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 3ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [tags], [contenttweaker], [nc_preinit], [mekatweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [mekatweaker]
-[PREINITIALIZATION][CLIENT][INFO] Debug Preprocessor found in {[0:contenttweaker]: 00_ContentTweaker\00_ZenClasses.zs}, enabling debugmode
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: 00_ContentTweaker\00_ZenClasses.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-1:contenttweaker]: 00_ContentTweaker\01_NewMaterials.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-2:contenttweaker]: 00_ContentTweaker\02_CreativeTab.zs} as we are currently loading with a different loader
@@ -197,24 +196,25 @@
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-302:crafttweaker]: 03_RequiousFrakto\02_VacuumEvaporator.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-400:crafttweaker]: 04_Essential\00_RecipeReplacement.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-401:crafttweaker]: 04_Essential\01_FluidUtils.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-500:crafttweaker]: 05_Primitive\00_RustichromiaEarly.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-501:crafttweaker]: 05_Primitive\01_RustichromiaLate.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-502:crafttweaker]: 05_Primitive\02_EmbersRekindledEarly.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-503:crafttweaker]: 05_Primitive\03_EmbersRekindledLate.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-504:crafttweaker]: 05_Primitive\04_Soot.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-505:crafttweaker]: 05_Primitive\05_MysticalMechanics.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-506:crafttweaker]: 05_Primitive\06_MysticalGears.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-507:crafttweaker]: 05_Primitive\07_MechanicalCrafting.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-508:crafttweaker]: 05_Primitive\08_Fuels.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-509:crafttweaker]: 05_Primitive\09_Others.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-600:crafttweaker]: 06_Steampunk\00_ImmersiveEngineeringEarly.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-601:crafttweaker]: 06_Steampunk\01_ImmersiveEngineeringLate.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-602:crafttweaker]: 06_Steampunk\02_MagneticraftEarly.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-603:crafttweaker]: 06_Steampunk\03_MagneticraftLate.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-604:crafttweaker]: 06_Steampunk\04_ImmersiveIntelligence.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-605:crafttweaker]: 06_Steampunk\05_ImmersiveTechnology.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-606:crafttweaker]: 06_Steampunk\06_ImmersivePetroleum.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-607:crafttweaker]: 06_Steampunk\07_Glue.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-500:crafttweaker]: 05_EnergysMatter\00_Tier2.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-600:crafttweaker]: 06_Primitive\00_RustichromiaEarly.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-601:crafttweaker]: 06_Primitive\01_RustichromiaLate.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-602:crafttweaker]: 06_Primitive\02_EmbersRekindledEarly.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-603:crafttweaker]: 06_Primitive\03_EmbersRekindledLate.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-604:crafttweaker]: 06_Primitive\04_Soot.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-605:crafttweaker]: 06_Primitive\05_MysticalMechanics.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-606:crafttweaker]: 06_Primitive\06_MysticalGears.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-607:crafttweaker]: 06_Primitive\07_MechanicalCrafting.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-608:crafttweaker]: 06_Primitive\08_Fuels.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-609:crafttweaker]: 06_Primitive\09_Others.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-700:crafttweaker]: 07_Steampunk\00_ImmersiveEngineeringEarly.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-701:crafttweaker]: 07_Steampunk\01_ImmersiveEngineeringLate.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-702:crafttweaker]: 07_Steampunk\02_MagneticraftEarly.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-703:crafttweaker]: 07_Steampunk\03_MagneticraftLate.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-704:crafttweaker]: 07_Steampunk\04_ImmersiveIntelligence.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-705:crafttweaker]: 07_Steampunk\05_ImmersiveTechnology.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-706:crafttweaker]: 07_Steampunk\06_ImmersivePetroleum.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-707:crafttweaker]: 07_Steampunk\07_Glue.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-8000:crafttweaker]: 80_Loot\00_MobLoot.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-9000:crafttweaker]: 90_Important\00_FluxNetworks.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-9001:crafttweaker]: 90_Important\01_Hydrogel_Morphotool.zs} as we are currently loading with a different loader
@@ -227,12 +227,11 @@
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-9905:crafttweaker]: 99_Others\05_BuildingBlocks.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-9906:crafttweaker]: 99_Others\06_Wands.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-9907:crafttweaker]: 99_Others\07_Scroll.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 43ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 59ms
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [tags], [contenttweaker], [nc_preinit], [mekatweaker], [recipeevent | crafttweaker]]
 [INITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
-[INITIALIZATION][CLIENT][INFO] Debug Preprocessor found in {[0:contenttweaker]: 00_ContentTweaker\00_ZenClasses.zs}, enabling debugmode
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: 00_ContentTweaker\00_ZenClasses.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[-1:contenttweaker]: 00_ContentTweaker\01_NewMaterials.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[-2:contenttweaker]: 00_ContentTweaker\02_CreativeTab.zs} as we are currently loading with a different loader
@@ -1564,16 +1563,14 @@
 [INITIALIZATION][CLIENT][INFO] Removing Metal Press Recipes for Invar Gear
 [INITIALIZATION][CLIENT][INFO] Removing Metal Press Recipes for Magnesium Diboride Gear
 [INITIALIZATION][CLIENT][INFO] Removing Metal Press Recipes for Manganese Gear
-[INITIALIZATION][CLIENT][INFO] Removing all recipes from reborncore.api.praescriptum.recipes.RecipeHandler@613c74bf
+[INITIALIZATION][CLIENT][INFO] Removing all recipes from reborncore.api.praescriptum.recipes.RecipeHandler@2c9342c9
 [INITIALIZATION][CLIENT][INFO] Removing all recipes from BLAST_FURNACE_RECIPE
 [INITIALIZATION][CLIENT][INFO] Removing all recipes from IMPLOSION_COMPRESSOR_RECIPE
 [INITIALIZATION][CLIENT][INFO] Removing all recipes from INDUSTRIAL_GRINDER_RECIPE
-[INITIALIZATION][CLIENT][INFO] Removing all recipes from reborncore.api.praescriptum.recipes.RecipeHandler@21bb99d
+[INITIALIZATION][CLIENT][INFO] Removing all recipes from reborncore.api.praescriptum.recipes.RecipeHandler@469a0f52
 [INITIALIZATION][CLIENT][INFO] Remove Recipe for 1xitem.techguns.guidedmissilelauncher@0 from Grinder
 [INITIALIZATION][CLIENT][INFO] Removed Recipe(s) for 1xitem.techguns.itemshared@62 from MetalPress
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-203:crafttweaker]: 02_OreDict\03_OreDictionaryRemoval.zs}
-[INITIALIZATION][CLIENT][WARNING] Invalid tag bracket handler 'threng:material:3': did you mean something else?
-[INITIALIZATION][CLIENT][ERROR] 02_OreDict\03_OreDictionaryRemoval.zs:337: Could not resolve <threng : material : 3>
 [INITIALIZATION][CLIENT][INFO] Removing Aluminium Ore from ore dictionary entry oreAluminum
 [INITIALIZATION][CLIENT][INFO] Removing Aluminium Ore from ore dictionary entry oreAluminium
 [INITIALIZATION][CLIENT][INFO] Removing Copper Ore from ore dictionary entry oreCopper
@@ -1651,6 +1648,7 @@
 [INITIALIZATION][CLIENT][INFO] Removing Silicon Ingot from ore dictionary entry ingotSilicon
 [INITIALIZATION][CLIENT][INFO] Removing Thorium Ingot from ore dictionary entry ingotThorium
 [INITIALIZATION][CLIENT][INFO] Removing Tungsten Ingot from ore dictionary entry ingotTungsten
+[INITIALIZATION][CLIENT][INFO] Removing Steel Ingot from ore dictionary entry ingotSteel
 [INITIALIZATION][CLIENT][INFO] Removing Silicon Ingot from ore dictionary entry itemSilicon
 [INITIALIZATION][CLIENT][INFO] Removing Silicon Ingot from ore dictionary entry ingotSilicon
 [INITIALIZATION][CLIENT][INFO] Removing Copper Ingot from ore dictionary entry ingotCopper
@@ -1894,48 +1892,130 @@
 [INITIALIZATION][CLIENT][INFO] Removing Sulfur from ore dictionary entry dustSulphur
 [INITIALIZATION][CLIENT][INFO] Removing Niter from ore dictionary entry dustSaltpeter
 [INITIALIZATION][CLIENT][INFO] Removing Niter from ore dictionary entry dustNiter
-[INITIALIZATION][CLIENT][ERROR] [crafttweaker]: Error executing {[-203:crafttweaker]: 02_OreDict\03_OreDictionaryRemoval.zs}: null
-java.lang.NullPointerException
-	at 02_OreDict\03_OreDictionaryRemoval.__script__(02_OreDict\03_OreDictionaryRemoval.zs:497)
-	at __ZenMain__.run(02_OreDict\03_OreDictionaryRemoval)
-	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:225)
-	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:105)
-	at crafttweaker.mc1120.events.CommonEventHandler.registerRecipes(CommonEventHandler.java:73)
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_747_CommonEventHandler_registerRecipes_Register.invoke(.dynamic)
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
-	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:144)
-	at com.github.terminatornl.laggoggles.tickcentral.EventBusTransformer.redirectEvent(EventBusTransformer.java:67)
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
-	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:860)
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:636)
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747)
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336)
-	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:535)
-	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
-	at net.minecraft.client.main.Main.main(SourceFile:123)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[INITIALIZATION][CLIENT][INFO] Removing Sodium Chloride from ore dictionary entry dustSodiumChloride
+[INITIALIZATION][CLIENT][INFO] Removing Sodium Chloride from ore dictionary entry dustSalt
+[INITIALIZATION][CLIENT][INFO] Removing Tungsten Dust from ore dictionary entry dustTungsten
+[INITIALIZATION][CLIENT][INFO] Removing Chromium Dust from ore dictionary entry dustChromium
+[INITIALIZATION][CLIENT][INFO] Removing Chromium Dust from ore dictionary entry dustChrome
+[INITIALIZATION][CLIENT][INFO] Removing Titanium Dust from ore dictionary entry dustTitanium
+[INITIALIZATION][CLIENT][INFO] Removing Nickel Dust from ore dictionary entry dustNickel
+[INITIALIZATION][CLIENT][INFO] Removing Zinc Dust from ore dictionary entry dustZinc
+[INITIALIZATION][CLIENT][INFO] Removing Osmium Dust from ore dictionary entry dustOsmium
+[INITIALIZATION][CLIENT][INFO] Removing Iridium Dust from ore dictionary entry dustIridium
+[INITIALIZATION][CLIENT][INFO] Removing Platinum Dust from ore dictionary entry dustPlatinum
+[INITIALIZATION][CLIENT][INFO] Removing Sawdust from ore dictionary entry dustWood
+[INITIALIZATION][CLIENT][INFO] Removing Aluminium Plate from ore dictionary entry plateAluminum
+[INITIALIZATION][CLIENT][INFO] Removing Aluminium Plate from ore dictionary entry plateAluminium
+[INITIALIZATION][CLIENT][INFO] Removing Bronze Plate from ore dictionary entry plateBronze
+[INITIALIZATION][CLIENT][INFO] Removing Copper Plate from ore dictionary entry plateCopper
+[INITIALIZATION][CLIENT][INFO] Removing Electrum Plate from ore dictionary entry plateElectrum
+[INITIALIZATION][CLIENT][INFO] Removing Gold Plate from ore dictionary entry plateGold
+[INITIALIZATION][CLIENT][INFO] Removing Iron Plate from ore dictionary entry plateIron
+[INITIALIZATION][CLIENT][INFO] Removing Lead Plate from ore dictionary entry plateLead
+[INITIALIZATION][CLIENT][INFO] Removing Nickel Plate from ore dictionary entry plateNickel
+[INITIALIZATION][CLIENT][INFO] Removing Silver Plate from ore dictionary entry plateSilver
+[INITIALIZATION][CLIENT][INFO] Removing Tin Plate from ore dictionary entry plateTin
+[INITIALIZATION][CLIENT][INFO] Removing Copper Plate from ore dictionary entry plateCopper
+[INITIALIZATION][CLIENT][INFO] Removing Aluminium Plate from ore dictionary entry plateAluminum
+[INITIALIZATION][CLIENT][INFO] Removing Aluminium Plate from ore dictionary entry plateAluminium
+[INITIALIZATION][CLIENT][INFO] Removing Lead Plate from ore dictionary entry plateLead
+[INITIALIZATION][CLIENT][INFO] Removing Silver Plate from ore dictionary entry plateSilver
+[INITIALIZATION][CLIENT][INFO] Removing Nickel Plate from ore dictionary entry plateNickel
+[INITIALIZATION][CLIENT][INFO] Removing Uranium Plate from ore dictionary entry plateUranium
+[INITIALIZATION][CLIENT][INFO] Removing Constantan Plate from ore dictionary entry plateConstantan
+[INITIALIZATION][CLIENT][INFO] Removing Electrum Plate from ore dictionary entry plateElectrum
+[INITIALIZATION][CLIENT][INFO] Removing Steel Plate from ore dictionary entry plateSteel
+[INITIALIZATION][CLIENT][INFO] Removing Iron Plate from ore dictionary entry plateIron
+[INITIALIZATION][CLIENT][INFO] Removing Gold Plate from ore dictionary entry plateGold
+[INITIALIZATION][CLIENT][INFO] Removing Brass Plate from ore dictionary entry plateBrass
+[INITIALIZATION][CLIENT][INFO] Removing Platinum Plate from ore dictionary entry platePlatinum
+[INITIALIZATION][CLIENT][INFO] Removing Tungsten Plate from ore dictionary entry plateTungsten
+[INITIALIZATION][CLIENT][INFO] Removing Zinc Plate from ore dictionary entry plateZinc
+[INITIALIZATION][CLIENT][INFO] Removing Thorium Plate from ore dictionary entry plateThorium
+[INITIALIZATION][CLIENT][INFO] Removing Tungsten Plate from ore dictionary entry plateTungsten
+[INITIALIZATION][CLIENT][INFO] Removing Iron Plate from ore dictionary entry plateIron
+[INITIALIZATION][CLIENT][INFO] Removing Gold Plate from ore dictionary entry plateGold
+[INITIALIZATION][CLIENT][INFO] Removing Silicon Plate from ore dictionary entry plateSilicon
+[INITIALIZATION][CLIENT][INFO] Removing Copper Plate from ore dictionary entry plateCopper
+[INITIALIZATION][CLIENT][INFO] Removing Tin Plate from ore dictionary entry plateTin
+[INITIALIZATION][CLIENT][INFO] Removing Steel Plate from ore dictionary entry plateSteel
+[INITIALIZATION][CLIENT][INFO] Removing Titanium Plate from ore dictionary entry plateTitanium
+[INITIALIZATION][CLIENT][INFO] Removing Aluminum Plate from ore dictionary entry plateAluminum
+[INITIALIZATION][CLIENT][INFO] Removing Aluminum Plate from ore dictionary entry plateAluminium
+[INITIALIZATION][CLIENT][INFO] Removing Iridium Plate from ore dictionary entry plateIridium
+[INITIALIZATION][CLIENT][INFO] Removing Iron Plate from ore dictionary entry plateIron
+[INITIALIZATION][CLIENT][INFO] Removing Copper Plate from ore dictionary entry plateCopper
+[INITIALIZATION][CLIENT][INFO] Removing Tin Plate from ore dictionary entry plateTin
+[INITIALIZATION][CLIENT][INFO] Removing Bronze Plate from ore dictionary entry plateBronze
+[INITIALIZATION][CLIENT][INFO] Removing Steel Plate from ore dictionary entry plateSteel
+[INITIALIZATION][CLIENT][INFO] Removing Lead Plate from ore dictionary entry plateLead
+[INITIALIZATION][CLIENT][INFO] Removing Carbon Plate from ore dictionary entry plateCarbon
+[INITIALIZATION][CLIENT][INFO] Removing Titanium Plate from ore dictionary entry plateTitanium
+[INITIALIZATION][CLIENT][INFO] Removing Iron Plate from ore dictionary entry plateIron
+[INITIALIZATION][CLIENT][INFO] Removing Gold Plate from ore dictionary entry plateGold
+[INITIALIZATION][CLIENT][INFO] Removing Copper Plate from ore dictionary entry plateCopper
+[INITIALIZATION][CLIENT][INFO] Removing Tin Plate from ore dictionary entry plateTin
+[INITIALIZATION][CLIENT][INFO] Removing Silver Plate from ore dictionary entry plateSilver
+[INITIALIZATION][CLIENT][INFO] Removing Lead Plate from ore dictionary entry plateLead
+[INITIALIZATION][CLIENT][INFO] Removing Aluminum Plate from ore dictionary entry plateAluminum
+[INITIALIZATION][CLIENT][INFO] Removing Aluminum Plate from ore dictionary entry plateAluminium
+[INITIALIZATION][CLIENT][INFO] Removing Nickel Plate from ore dictionary entry plateNickel
+[INITIALIZATION][CLIENT][INFO] Removing Platinum Plate from ore dictionary entry platePlatinum
+[INITIALIZATION][CLIENT][INFO] Removing Iridium Plate from ore dictionary entry plateIridium
+[INITIALIZATION][CLIENT][INFO] Removing Steel Plate from ore dictionary entry plateSteel
+[INITIALIZATION][CLIENT][INFO] Removing Electrum Plate from ore dictionary entry plateElectrum
+[INITIALIZATION][CLIENT][INFO] Removing Invar Plate from ore dictionary entry plateInvar
+[INITIALIZATION][CLIENT][INFO] Removing Bronze Plate from ore dictionary entry plateBronze
+[INITIALIZATION][CLIENT][INFO] Removing Iron Rod from ore dictionary entry stickIron
+[INITIALIZATION][CLIENT][INFO] Removing Steel Rod from ore dictionary entry stickSteel
+[INITIALIZATION][CLIENT][INFO] Removing Iron Rod from ore dictionary entry stickIron
+[INITIALIZATION][CLIENT][INFO] Removing Steel Rod from ore dictionary entry stickSteel
+[INITIALIZATION][CLIENT][INFO] Removing Wooden Gear from ore dictionary entry gearWood
+[INITIALIZATION][CLIENT][INFO] Removing Wooden Gear from ore dictionary entry gearWood
+[INITIALIZATION][CLIENT][INFO] Removing Stone Compound Gear from ore dictionary entry gearStone
+[INITIALIZATION][CLIENT][INFO] Removing Copper Gear from ore dictionary entry gearCopper
+[INITIALIZATION][CLIENT][INFO] Removing Brass Gear from ore dictionary entry gearBrass
+[INITIALIZATION][CLIENT][INFO] Removing Iron Gear from ore dictionary entry gearIron
+[INITIALIZATION][CLIENT][INFO] Removing Steel Gear from ore dictionary entry gearSteel
+[INITIALIZATION][CLIENT][INFO] Removing Tungsten Gear from ore dictionary entry gearTungsten
+[INITIALIZATION][CLIENT][INFO] Removing Aluminium Gear from ore dictionary entry gearAluminum
+[INITIALIZATION][CLIENT][INFO] Removing Aluminium Gear from ore dictionary entry gearAluminium
+[INITIALIZATION][CLIENT][INFO] Removing Bronze Gear from ore dictionary entry gearBronze
+[INITIALIZATION][CLIENT][INFO] Removing Copper Gear from ore dictionary entry gearCopper
+[INITIALIZATION][CLIENT][INFO] Removing Diamond Gear from ore dictionary entry gearDiamond
+[INITIALIZATION][CLIENT][INFO] Removing Electrum Gear from ore dictionary entry gearElectrum
+[INITIALIZATION][CLIENT][INFO] Removing Lead Gear from ore dictionary entry gearLead
+[INITIALIZATION][CLIENT][INFO] Removing Nickel Gear from ore dictionary entry gearNickel
+[INITIALIZATION][CLIENT][INFO] Removing Silver Gear from ore dictionary entry gearSilver
+[INITIALIZATION][CLIENT][INFO] Removing Stone Gear from ore dictionary entry gearStone
+[INITIALIZATION][CLIENT][INFO] Removing Tin Gear from ore dictionary entry gearTin
+[INITIALIZATION][CLIENT][INFO] Removing Wooden Gear from ore dictionary entry gearWood
+[INITIALIZATION][CLIENT][INFO] Removing Gold Gear from ore dictionary entry gearGold
+[INITIALIZATION][CLIENT][INFO] Removing Iron Gear from ore dictionary entry gearIron
+[INITIALIZATION][CLIENT][INFO] Removing Platinum Block from ore dictionary entry blockPlatinum
+[INITIALIZATION][CLIENT][INFO] Removing Zinc Block from ore dictionary entry blockZinc
+[INITIALIZATION][CLIENT][INFO] Removing Tungsten Block from ore dictionary entry blockTungsten
+[INITIALIZATION][CLIENT][INFO] Removing Brass Block from ore dictionary entry blockBrass
+[INITIALIZATION][CLIENT][INFO] Removing Copper Wire from ore dictionary entry wireCopper
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-204:crafttweaker]: 02_OreDict\04_RecipeAddition.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-300:crafttweaker]: 03_RequiousFrakto\00_ChemicalReactor.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-302:crafttweaker]: 03_RequiousFrakto\01_Mixer.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-302:crafttweaker]: 03_RequiousFrakto\02_VacuumEvaporator.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-400:crafttweaker]: 04_Essential\00_RecipeReplacement.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-401:crafttweaker]: 04_Essential\01_FluidUtils.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-500:crafttweaker]: 05_Primitive\00_RustichromiaEarly.zs}
-[INITIALIZATION][CLIENT][INFO] Adding Mixer recipe: teamroots.embers.recipe.FluidMixingRecipe@57c7ce91
-[INITIALIZATION][CLIENT][INFO] Adding Mixer recipe: teamroots.embers.recipe.FluidMixingRecipe@697661f5
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-501:crafttweaker]: 05_Primitive\01_RustichromiaLate.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-502:crafttweaker]: 05_Primitive\02_EmbersRekindledEarly.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-503:crafttweaker]: 05_Primitive\03_EmbersRekindledLate.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-504:crafttweaker]: 05_Primitive\04_Soot.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-505:crafttweaker]: 05_Primitive\05_MysticalMechanics.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-506:crafttweaker]: 05_Primitive\06_MysticalGears.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-507:crafttweaker]: 05_Primitive\07_MechanicalCrafting.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-508:crafttweaker]: 05_Primitive\08_Fuels.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-500:crafttweaker]: 05_EnergysMatter\00_Tier2.zs}
+[INITIALIZATION][CLIENT][WARNING] Recipe 'crafttweaker:engineers_workbench' has a group without a namespace: this won't work in 1.13+
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-600:crafttweaker]: 06_Primitive\00_RustichromiaEarly.zs}
+[INITIALIZATION][CLIENT][INFO] Adding Mixer recipe: teamroots.embers.recipe.FluidMixingRecipe@5a67da54
+[INITIALIZATION][CLIENT][INFO] Adding Mixer recipe: teamroots.embers.recipe.FluidMixingRecipe@4f32713
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-601:crafttweaker]: 06_Primitive\01_RustichromiaLate.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-602:crafttweaker]: 06_Primitive\02_EmbersRekindledEarly.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-603:crafttweaker]: 06_Primitive\03_EmbersRekindledLate.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-604:crafttweaker]: 06_Primitive\04_Soot.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-605:crafttweaker]: 06_Primitive\05_MysticalMechanics.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-606:crafttweaker]: 06_Primitive\06_MysticalGears.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-607:crafttweaker]: 06_Primitive\07_MechanicalCrafting.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-608:crafttweaker]: 06_Primitive\08_Fuels.zs}
 [INITIALIZATION][CLIENT][INFO] Setting fuel for <rustichromia:assembler1>
 [INITIALIZATION][CLIENT][INFO] Setting fuel for <contenttweaker:low_grade_charcoal>
 [INITIALIZATION][CLIENT][INFO] Setting fuel for <contenttweaker:block_low_grade_charcoal>
@@ -1973,8 +2053,8 @@ java.lang.NullPointerException
 [INITIALIZATION][CLIENT][INFO] Setting fuel for <minecraft:dark_oak_boat>
 [INITIALIZATION][CLIENT][INFO] Setting fuel for <minecraft:jungle_boat>
 [INITIALIZATION][CLIENT][INFO] Setting fuel for <minecraft:spruce_boat>
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-509:crafttweaker]: 05_Primitive\09_Others.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-600:crafttweaker]: 06_Steampunk\00_ImmersiveEngineeringEarly.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-609:crafttweaker]: 06_Primitive\09_Others.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-700:crafttweaker]: 07_Steampunk\00_ImmersiveEngineeringEarly.zs}
 [INITIALIZATION][CLIENT][INFO] Testing
 [INITIALIZATION][CLIENT][INFO] Adding Blue Paper to ore dictionary entry paper
 [INITIALIZATION][CLIENT][INFO] Adding Refined Iron Wire to ore dictionary entry wireRefinedIron
@@ -2010,15 +2090,15 @@ java.lang.NullPointerException
 [INITIALIZATION][CLIENT][INFO] Added MultiBlock IE:Mixer to Stage IEMixer
 [INITIALIZATION][CLIENT][INFO] Added MultiBlock II:Electrolyzer to Stage IIElectrolyzer
 [INITIALIZATION][CLIENT][INFO] Added MultiBlock IE:Squeezer to Stage IEIndustrialSqueezer
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-601:crafttweaker]: 06_Steampunk\01_ImmersiveEngineeringLate.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-701:crafttweaker]: 07_Steampunk\01_ImmersiveEngineeringLate.zs}
 [INITIALIZATION][CLIENT][INFO] Removing Metal Press Recipes for Graphite Electrode
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-602:crafttweaker]: 06_Steampunk\02_MagneticraftEarly.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-702:crafttweaker]: 07_Steampunk\02_MagneticraftEarly.zs}
 [INITIALIZATION][CLIENT][INFO] Adding Wooden Box to ore dictionary entry chest
 [INITIALIZATION][CLIENT][INFO] Add 1xitem.techreborn.ingot@19 to ChargingStation
 [INITIALIZATION][CLIENT][INFO] Adding Metal Press Recipe for Copper Thread
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-603:crafttweaker]: 06_Steampunk\03_MagneticraftLate.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-604:crafttweaker]: 06_Steampunk\04_ImmersiveIntelligence.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-605:crafttweaker]: 06_Steampunk\05_ImmersiveTechnology.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-703:crafttweaker]: 07_Steampunk\03_MagneticraftLate.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-704:crafttweaker]: 07_Steampunk\04_ImmersiveIntelligence.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-705:crafttweaker]: 07_Steampunk\05_ImmersiveTechnology.zs}
 [INITIALIZATION][CLIENT][INFO] Removing Boiler Fuel Recipe for Biodiesel
 [INITIALIZATION][CLIENT][INFO] Removing Boiler Fuel Recipe for Gasoline
 [INITIALIZATION][CLIENT][INFO] Removing Boiler Fuel Recipe for Diesel
@@ -2033,8 +2113,8 @@ java.lang.NullPointerException
 [INITIALIZATION][CLIENT][INFO] Adding Boiler Recipe for Preheated Water -> Preheated Water
 [INITIALIZATION][CLIENT][INFO] Adding Boiler Recipe for Preheated Water -> Steam
 [INITIALIZATION][CLIENT][INFO] Adding Boiler Recipe for Distilled Water -> Steam
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-606:crafttweaker]: 06_Steampunk\06_ImmersivePetroleum.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-607:crafttweaker]: 06_Steampunk\07_Glue.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-706:crafttweaker]: 07_Steampunk\06_ImmersivePetroleum.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-707:crafttweaker]: 07_Steampunk\07_Glue.zs}
 [INITIALIZATION][CLIENT][INFO] Adding Chemical Bath Recipe for Hide Stock
 [INITIALIZATION][CLIENT][INFO] Adding Chemical Bath Recipe for Swollen Hide Stock
 [INITIALIZATION][CLIENT][INFO] Adding Chemical Bath Recipe for Fish Stock
@@ -2043,12 +2123,12 @@ java.lang.NullPointerException
 [INITIALIZATION][CLIENT][INFO] Adding Chemical Bath Recipe for Swollen Fish Stock
 [INITIALIZATION][CLIENT][INFO] Adding Chemical Bath Recipe for Bone Stock
 [INITIALIZATION][CLIENT][INFO] Adding Chemical Bath Recipe for Bone Stock
-[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@6c237227 for {10xitem.techreborn.cell@0}
-[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@763bc56f for {1xitem.techreborn.cell@0}
-[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@17e23c5 for {1xitem.techreborn.cell@0}
-[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@5d8792d4 for {1xitem.techreborn.cell@0}
-[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@6350e0ca for {1xitem.techreborn.cell@0}
-[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@4b684172 for {2xitem.techreborn.cell@0}
+[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@4338b429 for {10xitem.techreborn.cell@0}
+[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@54ee3bd1 for {1xitem.techreborn.cell@0}
+[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@52715499 for {1xitem.techreborn.cell@0}
+[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@1ecd924e for {1xitem.techreborn.cell@0}
+[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@344ebaca for {1xitem.techreborn.cell@0}
+[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@115b2f21 for {2xitem.techreborn.cell@0}
 [INITIALIZATION][CLIENT][INFO] Adding Chemical Bath Recipe for Egg Mixture
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-8000:crafttweaker]: 80_Loot\00_MobLoot.zs}
 [INITIALIZATION][CLIENT][INFO] Retrieved pool gunpowder from table techguns:entities/zombiefarmer
@@ -2078,7 +2158,7 @@ java.lang.NullPointerException
 [INITIALIZATION][CLIENT][INFO] [ZenScroll] 99_Others\07_Scroll.zs:10 Adding scroll group with items <immersiveengineering:metal_decoration1_slab:5>, <immersiveengineering:metal_decoration1_slab:6>, <immersiveengineering:metal_decoration1_slab:7>
 [INITIALIZATION][CLIENT][INFO] [ZenScroll] 99_Others\07_Scroll.zs:11 Adding scroll group with items <immersiveengineering:steel_scaffolding_stairs0>, <immersiveengineering:steel_scaffolding_stairs1>, <immersiveengineering:steel_scaffolding_stairs2>
 [INITIALIZATION][CLIENT][INFO] [ZenScroll] 99_Others\07_Scroll.zs:12 Adding scroll group with items <immersiveengineering:aluminum_scaffolding_stairs0>, <immersiveengineering:aluminum_scaffolding_stairs1>, <immersiveengineering:aluminum_scaffolding_stairs2>
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 2314ms
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 4059ms
 [INITIALIZATION][CLIENT][INFO] Removing SieveRecipe(input=1xitem.magneticraft.rocky_chunks@1, primary=1xitem.magneticraft.chunks@1, primaryChance=1.0, secondary=1xitem.magneticraft.dusts@2, secondaryChance=0.15, tertiary=1xitem.magneticraft.dusts@12, tertiaryChance=0.15, ticks=50.0, oreDict=true)
 [INITIALIZATION][CLIENT][INFO] Removing SluiceBoxRecipe(input=1xitem.magneticraft.rocky_chunks@1, outputs=[(1xitem.magneticraft.chunks@1, 1.0), (1xitem.magneticraft.dusts@2, 0.15), (1xitem.magneticraft.dusts@12, 0.15), (1xtile.stonebrick@0, 0.15)], oreDict=true)
 [INITIALIZATION][CLIENT][INFO] Removing SieveRecipe(input=1xitem.magneticraft.rocky_chunks@9, primary=1xitem.magneticraft.chunks@9, primaryChance=1.0, secondary=1xitem.magneticraft.dusts@11, secondaryChance=0.15, tertiary=1xitem.magneticraft.dusts@14, tertiaryChance=0.15, ticks=50.0, oreDict=true)
@@ -2233,7 +2313,7 @@ java.lang.NullPointerException
 [INITIALIZATION][CLIENT][ERROR] [HydraulicPress] Cannot remove recipe: No recipe found for <nuclearcraft:ingot:11> and mode: 0
 [INITIALIZATION][CLIENT][INFO] Removing CrushingTableRecipe(input=1xitem.magneticraft.ingots@6, output=1xitem.magneticraft.light_plates@6, oreDict=true)
 [INITIALIZATION][CLIENT][INFO] Adding SluiceBoxRecipe(input=1xtile.contenttweaker.regolith@0, outputs=[(1xitem.flint@0, 0.5), (1xitem.techreborn.gem@3, 0.05), (1xitem.techreborn.gem@1, 0.02), (1xitem.techreborn.gem@4, 0.01)], oreDict=true)
-[INITIALIZATION][CLIENT][INFO] Adding SieveRecipe(input=1xtile.contenttweaker.regolith@0, primary=1xitem.contenttweaker.ore_chunk_magnetite@0, primaryChance=0.2, secondary=1xitem.contenttweaker.ore_chunk_pyrrhotite@0, secondaryChance=0.15, tertiary=1xitem.flint@0, tertiaryChance=0.5, ticks=0.5, oreDict=true)
+[INITIALIZATION][CLIENT][INFO] Adding SieveRecipe(input=1xtile.contenttweaker.regolith@0, primary=1xitem.magneticraft.chunks@0, primaryChance=0.2, secondary=1xitem.magneticraft.chunks@10, secondaryChance=0.15, tertiary=1xitem.flint@0, tertiaryChance=0.5, ticks=0.5, oreDict=true)
 [INITIALIZATION][CLIENT][INFO] Removing hammer 1xitem.magneticraft.stone_hammer@0, Hammer(level=1, speed=8, cost=1)
 [POSTINITIALIZATION][CLIENT][INFO] Removing Grinder Entry for Certus Quartz Ore
 [POSTINITIALIZATION][CLIENT][INFO] Removing Grinder Entry for Dilithium Ore
@@ -4597,7 +4677,7 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateUranium>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateUranium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateRefinedObsidian>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateRefinedObsidian>
@@ -4605,11 +4685,11 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateTungsten>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateTungsten>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateLead>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateLead>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateManganeseOxide>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateManganeseOxide>
@@ -4641,7 +4721,7 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateSteel>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateSteel>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateCarbon>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateCarbon>
@@ -4653,7 +4733,7 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateElectrum>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateElectrum>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateZinc>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateZinc>
@@ -4681,7 +4761,7 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateNickel>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateNickel>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:platePlutonium>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:platePlutonium>
@@ -4701,7 +4781,7 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateConstantan>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateConstantan>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateTitaniumIridium>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateTitaniumIridium>
@@ -4749,7 +4829,7 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateCopper>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateCopper>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateCrystallineAlloy>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateCrystallineAlloy>
@@ -4761,7 +4841,7 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateGold>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateGold>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateHSLASteel>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateHSLASteel>
@@ -4769,11 +4849,11 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateAluminium>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateAluminium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateSilver>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateSilver>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateDarkSteel>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateDarkSteel>
@@ -4805,7 +4885,7 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateThorium>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateThorium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateMelodicAlloy>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateMelodicAlloy>
@@ -4833,7 +4913,7 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateIron>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateIron>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateManganeseDioxide>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:plateManganeseDioxide>
@@ -5217,7 +5297,7 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearTungsten>
 [POSTINITIALIZATION][CLIENT][INFO] 0 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearLead>
-[POSTINITIALIZATION][CLIENT][INFO] 2 removed
+[POSTINITIALIZATION][CLIENT][INFO] 1 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearManganeseOxide>
 [POSTINITIALIZATION][CLIENT][INFO] 1 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearSoularium>
@@ -5241,7 +5321,7 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearOsmium>
 [POSTINITIALIZATION][CLIENT][INFO] 1 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearElectrum>
-[POSTINITIALIZATION][CLIENT][INFO] 2 removed
+[POSTINITIALIZATION][CLIENT][INFO] 1 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearZinc>
 [POSTINITIALIZATION][CLIENT][INFO] 1 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearSiCSiCCMC>
@@ -5253,9 +5333,9 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearGraphite>
 [POSTINITIALIZATION][CLIENT][INFO] 1 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearTin>
-[POSTINITIALIZATION][CLIENT][INFO] 2 removed
+[POSTINITIALIZATION][CLIENT][INFO] 1 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearNickel>
-[POSTINITIALIZATION][CLIENT][INFO] 2 removed
+[POSTINITIALIZATION][CLIENT][INFO] 1 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearPlutonium>
 [POSTINITIALIZATION][CLIENT][INFO] 1 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearTungstenCarbide>
@@ -5299,23 +5379,23 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearIridiumAlloy>
 [POSTINITIALIZATION][CLIENT][INFO] 1 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearCopper>
-[POSTINITIALIZATION][CLIENT][INFO] 3 removed
+[POSTINITIALIZATION][CLIENT][INFO] 1 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearCrystallineAlloy>
 [POSTINITIALIZATION][CLIENT][INFO] 1 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearVilliaumite>
 [POSTINITIALIZATION][CLIENT][INFO] 1 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearBronze>
-[POSTINITIALIZATION][CLIENT][INFO] 2 removed
+[POSTINITIALIZATION][CLIENT][INFO] 1 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearGold>
-[POSTINITIALIZATION][CLIENT][INFO] 2 removed
+[POSTINITIALIZATION][CLIENT][INFO] 1 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearHSLASteel>
 [POSTINITIALIZATION][CLIENT][INFO] 1 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearAluminium>
-[POSTINITIALIZATION][CLIENT][INFO] 2 removed
+[POSTINITIALIZATION][CLIENT][INFO] 1 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearBoronNitride>
 [POSTINITIALIZATION][CLIENT][INFO] 1 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearSilver>
-[POSTINITIALIZATION][CLIENT][INFO] 2 removed
+[POSTINITIALIZATION][CLIENT][INFO] 1 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearDarkSteel>
 [POSTINITIALIZATION][CLIENT][INFO] 1 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearFluix>
@@ -5345,11 +5425,11 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearAdvancedElectronicAlloy>
 [POSTINITIALIZATION][CLIENT][INFO] 0 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearBrass>
-[POSTINITIALIZATION][CLIENT][INFO] 2 removed
+[POSTINITIALIZATION][CLIENT][INFO] 1 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearPulsatingIron>
 [POSTINITIALIZATION][CLIENT][INFO] 1 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearIron>
-[POSTINITIALIZATION][CLIENT][INFO] 3 removed
+[POSTINITIALIZATION][CLIENT][INFO] 1 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearManganeseDioxide>
 [POSTINITIALIZATION][CLIENT][INFO] 1 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearZircaloy>
@@ -5383,7 +5463,7 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearCrudeSteel>
 [POSTINITIALIZATION][CLIENT][INFO] 1 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearDiamond>
-[POSTINITIALIZATION][CLIENT][INFO] 2 removed
+[POSTINITIALIZATION][CLIENT][INFO] 1 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearHOPGraphite>
 [POSTINITIALIZATION][CLIENT][INFO] 1 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <ore:gearVividAlloy>
@@ -6897,20 +6977,20 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] Removing Assembler recipe: rustichromia:stick_wood
 [POSTINITIALIZATION][CLIENT][INFO] Adding Assembler recipe: crafttweaker:windmill_big
 [POSTINITIALIZATION][CLIENT][INFO] Removing Assembler recipe: rustichromia:hay_compactor
-[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@4cecc2d
-[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@684668b9
-[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@6ed83c36
-[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@23d5fb2f
-[POSTINITIALIZATION][CLIENT][INFO] Adding Melter recipe: teamroots.embers.recipe.ItemMeltingRecipe@5108f4dc
-[POSTINITIALIZATION][CLIENT][INFO] Adding Melter recipe: teamroots.embers.recipe.ItemMeltingRecipe@a505de4
-[POSTINITIALIZATION][CLIENT][INFO] Adding Melter recipe: teamroots.embers.recipe.ItemMeltingRecipe@25c6e914
-[POSTINITIALIZATION][CLIENT][INFO] Adding Melter recipe: teamroots.embers.recipe.ItemMeltingRecipe@29467200
-[POSTINITIALIZATION][CLIENT][INFO] Adding Melter recipe: teamroots.embers.recipe.ItemMeltingRecipe@3ffecde0
+[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@2d802bc1
+[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@26ebf136
+[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@685ac338
+[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@7c218851
+[POSTINITIALIZATION][CLIENT][INFO] Adding Melter recipe: teamroots.embers.recipe.ItemMeltingRecipe@50537a37
+[POSTINITIALIZATION][CLIENT][INFO] Adding Melter recipe: teamroots.embers.recipe.ItemMeltingRecipe@29c8434a
+[POSTINITIALIZATION][CLIENT][INFO] Adding Melter recipe: teamroots.embers.recipe.ItemMeltingRecipe@17350648
+[POSTINITIALIZATION][CLIENT][INFO] Adding Melter recipe: teamroots.embers.recipe.ItemMeltingRecipe@672677ff
+[POSTINITIALIZATION][CLIENT][INFO] Adding Melter recipe: teamroots.embers.recipe.ItemMeltingRecipe@2cef2bee
 [POSTINITIALIZATION][CLIENT][INFO] Removing Assembler recipe: rustichromia:axle_iron
 [POSTINITIALIZATION][CLIENT][INFO] Removing Assembler recipe: rustichromia:axle_wood
 [POSTINITIALIZATION][CLIENT][INFO] Adding Assembler recipe: crafttweaker:axle_iron
 [POSTINITIALIZATION][CLIENT][INFO] Adding Assembler recipe: crafttweaker:gearbox_frame
-[POSTINITIALIZATION][CLIENT][INFO] Adding Melter recipe: teamroots.embers.recipe.ItemMeltingRecipe@37c90886
+[POSTINITIALIZATION][CLIENT][INFO] Adding Melter recipe: teamroots.embers.recipe.ItemMeltingRecipe@4756ff2a
 [POSTINITIALIZATION][CLIENT][INFO] Removing Stamper recipes with output: 1xitem.ingot_bronze@0
 [POSTINITIALIZATION][CLIENT][INFO] Removing Stamper recipes with output: 1xitem.ingot_copper@0
 [POSTINITIALIZATION][CLIENT][INFO] Removing Stamper recipes with output: 1xitem.ingot_lead@0
@@ -6923,27 +7003,26 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] Removing Stamper recipes with output: 1xitem.gear_iron@0
 [POSTINITIALIZATION][CLIENT][INFO] Removing Stamper recipes with output: 1xitem.gear_lead@0
 [POSTINITIALIZATION][CLIENT][INFO] Removing Stamper recipes with output: 1xitem.gear_tin@0
-[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@25d5d922
-[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@3f1979ea
-[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@76412224
-[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@9338952
-[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@2a45d9f
-[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@7686b208
-[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@929eefe
-[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@1cc59f90
-[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@3c2d7132
-[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@7f78824d
-[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@39e0dd42
-[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@9e9fcf1
-[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@5e9ab81f
-[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@65cb236b
-[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@5afef85d
-[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@1cb69987
-[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@17e7904e
+[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@786ea6ce
+[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@2c23afb3
+[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@79464182
+[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@9995e2f
+[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@44cc104
+[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@3523a809
+[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@7ea2b57e
+[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@3d89e4a3
+[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@5faf56f7
+[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@77e4ceeb
+[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@1c069c2c
+[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@6e58cff3
+[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@4be52421
+[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@1aa72820
+[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@326820a4
+[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@1a67464d
+[POSTINITIALIZATION][CLIENT][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@78c1bd0c
 [POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:redstone
 [POSTINITIALIZATION][CLIENT][INFO] Adding Assembler recipe: crafttweaker:charging_station
 [POSTINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [tags]
-[POSTINITIALIZATION][CLIENT][INFO] Debug Preprocessor found in {[0:contenttweaker]: 00_ContentTweaker\00_ZenClasses.zs}, enabling debugmode
 [POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: 00_ContentTweaker\00_ZenClasses.zs} as we are currently loading with a different loader
 [POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-1:contenttweaker]: 00_ContentTweaker\01_NewMaterials.zs} as we are currently loading with a different loader
 [POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-2:contenttweaker]: 00_ContentTweaker\02_CreativeTab.zs} as we are currently loading with a different loader
@@ -6967,24 +7046,25 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-302:crafttweaker]: 03_RequiousFrakto\02_VacuumEvaporator.zs} as we are currently loading with a different loader
 [POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-400:crafttweaker]: 04_Essential\00_RecipeReplacement.zs} as we are currently loading with a different loader
 [POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-401:crafttweaker]: 04_Essential\01_FluidUtils.zs} as we are currently loading with a different loader
-[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-500:crafttweaker]: 05_Primitive\00_RustichromiaEarly.zs} as we are currently loading with a different loader
-[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-501:crafttweaker]: 05_Primitive\01_RustichromiaLate.zs} as we are currently loading with a different loader
-[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-502:crafttweaker]: 05_Primitive\02_EmbersRekindledEarly.zs} as we are currently loading with a different loader
-[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-503:crafttweaker]: 05_Primitive\03_EmbersRekindledLate.zs} as we are currently loading with a different loader
-[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-504:crafttweaker]: 05_Primitive\04_Soot.zs} as we are currently loading with a different loader
-[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-505:crafttweaker]: 05_Primitive\05_MysticalMechanics.zs} as we are currently loading with a different loader
-[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-506:crafttweaker]: 05_Primitive\06_MysticalGears.zs} as we are currently loading with a different loader
-[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-507:crafttweaker]: 05_Primitive\07_MechanicalCrafting.zs} as we are currently loading with a different loader
-[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-508:crafttweaker]: 05_Primitive\08_Fuels.zs} as we are currently loading with a different loader
-[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-509:crafttweaker]: 05_Primitive\09_Others.zs} as we are currently loading with a different loader
-[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-600:crafttweaker]: 06_Steampunk\00_ImmersiveEngineeringEarly.zs} as we are currently loading with a different loader
-[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-601:crafttweaker]: 06_Steampunk\01_ImmersiveEngineeringLate.zs} as we are currently loading with a different loader
-[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-602:crafttweaker]: 06_Steampunk\02_MagneticraftEarly.zs} as we are currently loading with a different loader
-[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-603:crafttweaker]: 06_Steampunk\03_MagneticraftLate.zs} as we are currently loading with a different loader
-[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-604:crafttweaker]: 06_Steampunk\04_ImmersiveIntelligence.zs} as we are currently loading with a different loader
-[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-605:crafttweaker]: 06_Steampunk\05_ImmersiveTechnology.zs} as we are currently loading with a different loader
-[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-606:crafttweaker]: 06_Steampunk\06_ImmersivePetroleum.zs} as we are currently loading with a different loader
-[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-607:crafttweaker]: 06_Steampunk\07_Glue.zs} as we are currently loading with a different loader
+[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-500:crafttweaker]: 05_EnergysMatter\00_Tier2.zs} as we are currently loading with a different loader
+[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-600:crafttweaker]: 06_Primitive\00_RustichromiaEarly.zs} as we are currently loading with a different loader
+[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-601:crafttweaker]: 06_Primitive\01_RustichromiaLate.zs} as we are currently loading with a different loader
+[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-602:crafttweaker]: 06_Primitive\02_EmbersRekindledEarly.zs} as we are currently loading with a different loader
+[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-603:crafttweaker]: 06_Primitive\03_EmbersRekindledLate.zs} as we are currently loading with a different loader
+[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-604:crafttweaker]: 06_Primitive\04_Soot.zs} as we are currently loading with a different loader
+[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-605:crafttweaker]: 06_Primitive\05_MysticalMechanics.zs} as we are currently loading with a different loader
+[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-606:crafttweaker]: 06_Primitive\06_MysticalGears.zs} as we are currently loading with a different loader
+[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-607:crafttweaker]: 06_Primitive\07_MechanicalCrafting.zs} as we are currently loading with a different loader
+[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-608:crafttweaker]: 06_Primitive\08_Fuels.zs} as we are currently loading with a different loader
+[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-609:crafttweaker]: 06_Primitive\09_Others.zs} as we are currently loading with a different loader
+[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-700:crafttweaker]: 07_Steampunk\00_ImmersiveEngineeringEarly.zs} as we are currently loading with a different loader
+[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-701:crafttweaker]: 07_Steampunk\01_ImmersiveEngineeringLate.zs} as we are currently loading with a different loader
+[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-702:crafttweaker]: 07_Steampunk\02_MagneticraftEarly.zs} as we are currently loading with a different loader
+[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-703:crafttweaker]: 07_Steampunk\03_MagneticraftLate.zs} as we are currently loading with a different loader
+[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-704:crafttweaker]: 07_Steampunk\04_ImmersiveIntelligence.zs} as we are currently loading with a different loader
+[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-705:crafttweaker]: 07_Steampunk\05_ImmersiveTechnology.zs} as we are currently loading with a different loader
+[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-706:crafttweaker]: 07_Steampunk\06_ImmersivePetroleum.zs} as we are currently loading with a different loader
+[POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-707:crafttweaker]: 07_Steampunk\07_Glue.zs} as we are currently loading with a different loader
 [POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-8000:crafttweaker]: 80_Loot\00_MobLoot.zs} as we are currently loading with a different loader
 [POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-9000:crafttweaker]: 90_Important\00_FluxNetworks.zs} as we are currently loading with a different loader
 [POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-9001:crafttweaker]: 90_Important\01_Hydrogel_Morphotool.zs} as we are currently loading with a different loader
@@ -6999,30 +7079,30 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] [tags | SIDE_CLIENT]: Skipping file {[-9907:crafttweaker]: 99_Others\07_Scroll.zs} as we are currently loading with a different loader
 [POSTINITIALIZATION][CLIENT][INFO] Completed script loading in: 1ms
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <nuclearcraft:ore:5>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Combiner Recipe(s) for <libvulpes:ore0:8>, <libvulpes:ore0:8>
+[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <libvulpes:ore0:8>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Combiner Recipe(s) for <nuclearcraft:ore:7>, <nuclearcraft:ore:7>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <thermalfoundation:ore>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Combiner Recipe(s) for <minecraft:gold_ore>, <minecraft:gold_ore>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <thermalfoundation:ore:4>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Combiner Recipe(s) for <thermalfoundation:ore:2>, <thermalfoundation:ore:2>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <minecraft:redstone_ore>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Combiner Recipe(s) for <thermalfoundation:ore:7>, <thermalfoundation:ore:7>
+[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <thermalfoundation:ore:7>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Combiner Recipe(s) for <nuclearcraft:ore:3>, <nuclearcraft:ore:3>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <nuclearcraft:ore:6>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Combiner Recipe(s) for <minecraft:iron_ore>, <minecraft:iron_ore>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 3 Mekanism Combiner Recipe(s) for <nuclearcraft:ore:4>, <nuclearcraft:ore:4>, <nuclearcraft:ore:4>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Combiner Recipe(s) for <thermalfoundation:ore:6>, <thermalfoundation:ore:6>
+[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <thermalfoundation:ore:6>
 [POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemSapphire>' and output: '<ore:oreSapphire>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Combiner Recipe(s) for <techreborn:ore:8>, <techreborn:ore:8>
+[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <techreborn:ore:8>
 [POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemEmerald>' and output: '<ore:oreEmerald>'. Command ignored!
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <thermalfoundation:ore:3>
 [POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemRuby>' and output: '<ore:oreRuby>'. Command ignored!
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <thermalfoundation:ore:8>
 [POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemDiamond>' and output: '<ore:oreDiamond>'. Command ignored!
 [POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemQuartz>' and output: '<ore:oreQuartz>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Combiner Recipe(s) for <mekanism:oreblock>, <mekanism:oreblock>
+[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <mekanism:oreblock>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <thermalfoundation:ore:1>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Combiner Recipe(s) for <thermalfoundation:ore:5>, <thermalfoundation:ore:5>
+[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <thermalfoundation:ore:5>
 [POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemPeridot>' and output: '<ore:orePeridot>'. Command ignored!
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <mekanism:dirtydust:1>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_dustdirtymithril>
@@ -7191,9 +7271,9 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <nuclearcraft:dust:9>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_duststainlesssteel>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_dustlithiummanganesedioxide>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Enrichment Chamber Recipe(s) for <qmd:dust:9> * 2
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Enrichment Chamber Recipe(s) for <qmd:dust:9>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <qmd:dust:9>
+[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Enrichment Chamber Recipe(s) for <techreborn:dust:64> * 2
+[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Enrichment Chamber Recipe(s) for <techreborn:dust:64>
+[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <techreborn:dust:64>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_dustboronarsenide>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_dusttough>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Enrichment Chamber Recipe(s) for <nuclearcraft:dust:6> * 2
@@ -7207,9 +7287,9 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <mekanism:otherdust:5>
 [POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Enrichment Chamber recipe found for input: '<ore:oreSapphire>' and output: '<ore:dustSapphire>'. Command ignored!
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <techreborn:dust:45>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Enrichment Chamber Recipe(s) for <qmd:dust> * 2
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Enrichment Chamber Recipe(s) for <qmd:dust>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <qmd:dust>
+[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Enrichment Chamber Recipe(s) for <techreborn:dust:55> * 2
+[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Enrichment Chamber Recipe(s) for <techreborn:dust:55>
+[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <techreborn:dust:55>
 [POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Enrichment Chamber recipe found for input: '<ore:oreLead>' and output: '<ore:dustLead>'. Command ignored!
 [POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Enrichment Chamber recipe found for input: '<ore:dustDirtyLead>' and output: '<ore:dustLead>'. Command ignored!
 [POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Crusher recipe found for input: '<ore:ingotLead>' and output: '<ore:dustLead>'. Command ignored!
@@ -7220,14 +7300,14 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Crusher recipe found for input: '<ore:ingotAntimony>' and output: '<ore:dustAntimony>'. Command ignored!
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_dustconstructionalloy>
 [POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Crusher recipe found for input: '<ore:gemRhodocrosite>' and output: '<ore:dustRhodocrosite>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Crusher Recipe(s) for <techreborn:dust:51>, <techreborn:dust:51>
+[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <techreborn:dust:51>
 [POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Enrichment Chamber recipe found for input: '<ore:oreQuartz>' and output: '<ore:dustQuartz>'. Command ignored!
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <nuclearcraft:gem_dust:2>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Enrichment Chamber Recipe(s) for <mekanism:dust:2> * 2
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Enrichment Chamber Recipe(s) for <mekanism:dust:2>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <mekanism:dust:2>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <techreborn:dust:17>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <qmd:dust:7>
+[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <techreborn:dust:59>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_dustsicsiccmc>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_dustdawnstone>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <nuclearcraft:dust:8>
@@ -7235,7 +7315,7 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Enrichment Chamber recipe found for input: '<ore:dustDirtyTin>' and output: '<ore:dustTin>'. Command ignored!
 [POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Crusher recipe found for input: '<ore:ingotTin>' and output: '<ore:dustTin>'. Command ignored!
 [POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Enrichment Chamber recipe found for input: '<ore:oreNickel>' and output: '<ore:dustNickel>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Enrichment Chamber Recipe(s) for <qmd:dust:5>
+[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Enrichment Chamber Recipe(s) for <techreborn:dust:34>
 [POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Crusher recipe found for input: '<ore:ingotNickel>' and output: '<ore:dustNickel>'. Command ignored!
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <techreborn:dust:67>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_dusttungstencarbide>
@@ -7255,9 +7335,9 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Enrichment Chamber Recipe(s) for <nuclearcraft:dust:5>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <nuclearcraft:dust:5>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <qmd:dust:6>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Enrichment Chamber Recipe(s) for <qmd:dust:3> * 2
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Enrichment Chamber Recipe(s) for <qmd:dust:3>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <qmd:dust:3>
+[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Enrichment Chamber Recipe(s) for <techreborn:dust:54> * 2
+[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Enrichment Chamber Recipe(s) for <techreborn:dust:54>
+[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <techreborn:dust:54>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_dustniobiumtitanium>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Enrichment Chamber Recipe(s) for <nuclearcraft:dust:7> * 2
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Enrichment Chamber Recipe(s) for <nuclearcraft:dust:7>
@@ -7303,13 +7383,13 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Crusher recipe found for input: '<ore:ingotIron>' and output: '<ore:dustIron>'. Command ignored!
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <nuclearcraft:dust:15>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_dustzircaloy>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Enrichment Chamber Recipe(s) for <qmd:dust:10> * 2
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Enrichment Chamber Recipe(s) for <qmd:dust:10>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <qmd:dust:10>
+[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Enrichment Chamber Recipe(s) for <techreborn:dust:38> * 2
+[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Enrichment Chamber Recipe(s) for <techreborn:dust:38>
+[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <techreborn:dust:38>
 [POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Enrichment Chamber recipe found for input: '<ore:oreEmerald>' and output: '<ore:dustEmerald>'. Command ignored!
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <techreborn:dust:18>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_dustsiliconcarbide>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <qmd:dust:2>
+[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <techreborn:dust:10>
 [POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Crusher recipe found for input: '<ore:ingotSilicon>' and output: '<ore:dustSilicon>'. Command ignored!
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_dustendsteel>
 [POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Enrichment Chamber recipe found for input: '<ore:oreRuby>' and output: '<ore:dustRuby>'. Command ignored!
@@ -7336,6 +7416,8 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Combiner Recipe(s) for <minecraft:obsidian>, <minecraft:obsidian>
 [AVAILABLE][CLIENT][INFO] Applying Molecular Assembler Device actions - Step 1: Removals
 [AVAILABLE][CLIENT][INFO] Applying Molecular Assembler Device actions - Step 2: Additions
+[AVAILABLE][CLIENT][INFO] Registering a shaped Molecular Assembler Device recipe with name 'crafttweaker:engineers_workbench' for item output '<immersiveengineering:wooden_device0:2>'
+[AVAILABLE][CLIENT][ERROR] Unable to register recipe with name 'crafttweaker:engineers_workbench' since it is conflicting with another recipe with the same name
 [AVAILABLE][CLIENT][INFO] Applying Molecular Assembler Device actions - Completed
 [AVAILABLE][CLIENT][INFO] Fixed the RecipeBook
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <embers:ore_aluminum>
@@ -7407,6 +7489,7 @@ java.lang.NullPointerException
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveintelligence:material_ingot:6>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersive_energy:metal>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersive_energy:metal:1>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <industrialrenewal:ingot_steel>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <libvulpes:productingot:3>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <libvulpes:productingot:4>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <libvulpes:productingot:5>
@@ -7631,6 +7714,105 @@ java.lang.NullPointerException
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:material:99>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:material:771>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:material:772>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <threng:material:3>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <qmd:chemical_dust:3>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <qmd:dust>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <qmd:dust:2>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <qmd:dust:3>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <qmd:dust:5>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <qmd:dust:7>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <qmd:dust:8>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <qmd:dust:9>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <qmd:dust:10>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <rustichromia:dust_wood>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <embers:plate_aluminum>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <embers:plate_bronze>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <embers:plate_copper>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <embers:plate_electrum>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <embers:plate_gold>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <embers:plate_iron>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <embers:plate_lead>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <embers:plate_nickel>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <embers:plate_silver>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <embers:plate_tin>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveengineering:metal:30>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveengineering:metal:31>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveengineering:metal:32>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveengineering:metal:33>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveengineering:metal:34>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveengineering:metal:35>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveengineering:metal:36>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveengineering:metal:37>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveengineering:metal:38>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveengineering:metal:39>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveengineering:metal:40>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveintelligence:material_plate:1>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveintelligence:material_plate:2>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveintelligence:material_plate:3>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveintelligence:material_plate:4>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersive_energy:metal:6>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersive_energy:metal:7>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <libvulpes:productplate:1>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <libvulpes:productplate:2>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <libvulpes:productplate:3>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <libvulpes:productplate:4>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <libvulpes:productplate:5>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <libvulpes:productplate:6>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <libvulpes:productplate:7>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <libvulpes:productplate:9>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <libvulpes:productplate:10>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <techguns:itemshared:46>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <techguns:itemshared:47>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <techguns:itemshared:48>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <techguns:itemshared:49>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <techguns:itemshared:50>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <techguns:itemshared:52>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <techguns:itemshared:53>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <techguns:itemshared:54>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:material:32>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:material:33>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:material:320>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:material:321>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:material:322>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:material:323>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:material:324>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:material:325>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:material:326>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:material:327>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:material:352>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:material:353>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:material:354>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:material:355>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <libvulpes:productrod:1>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <libvulpes:productrod:6>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <industrialrenewal:stick_iron>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <industrialrenewal:stick_steel>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:material:40>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <enderio:item_material:9>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <enderio:item_material:10>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveintelligence:motor_gear>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveintelligence:motor_gear:1>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveintelligence:motor_gear:2>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveintelligence:motor_gear:3>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveintelligence:motor_gear:4>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <mystgears:gear_aluminium>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <mystgears:gear_bronze>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <mystgears:gear_copper>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <mystgears:gear_diamond>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <mystgears:gear_electrum>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <mystgears:gear_lead>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <mystgears:gear_nickel>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <mystgears:gear_silver>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <mystgears:gear_stone>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <mystgears:gear_tin>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <mystgears:gear_wood>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <mysticalmechanics:gear_gold>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <mysticalmechanics:gear_iron>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveintelligence:storage>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveintelligence:storage:1>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveintelligence:storage:2>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveintelligence:storage:3>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <techguns:itemshared:62>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <magneticraft:stone_hammer>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <magneticraft:iron_gear>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <magneticraft:broken_gear>

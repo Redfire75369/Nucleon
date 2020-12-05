@@ -6,7 +6,7 @@ import mods.contenttweaker.Color;
 val liquids = {
 	"ashen_stone": Color.fromHex("b6b6b6"),
 	"stone": Color.fromHex("232624"),
-	"ethanoate_invar": Color.fromHex("000000")
+	"ethanoate_invar": Color.fromHex("a0aaa9")
 } as Color[string];
 
 for liquid, liquidColour in liquids {

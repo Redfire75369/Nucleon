@@ -92,6 +92,7 @@ val arrayRemoveDictIngot = [
 	<immersiveintelligence:material_ingot:6>,
 	<immersive_energy:metal>,
 	<immersive_energy:metal:1>,
+	<industrialrenewal:ingot_steel>,
 	<libvulpes:productingot:3>,
 	<libvulpes:productingot:4>,
 	<libvulpes:productingot:5>,
@@ -414,7 +415,9 @@ val arrayRemoveDictPlate = [
 val arrayRemoveDictRod = [
 //SILK_SORTING: BEGIN@Rod
 	<libvulpes:productrod:1>,
-	<libvulpes:productrod:6>
+	<libvulpes:productrod:6>,
+	<industrialrenewal:stick_iron>,
+	<industrialrenewal:stick_steel>
 //SILK_SORTING: END@Rod
 ] as IItemStack[];
 
