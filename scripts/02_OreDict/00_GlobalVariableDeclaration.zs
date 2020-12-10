@@ -241,6 +241,7 @@ for key in ingotOres {
 for key in ingotOreless {
 	hashIngot[key] = oreDict["ingot" ~ key];
 }
+hashIngot["Brick"] = oreDict["ingotBrick"];
 hashIngot["Carbon"] = oreDict["ingotCarbon"];
 hashIngot["Ender"] = oreDict["ingotEnder"];
 hashIngot["EnderEnhanced"] = oreDict["ingotEnderEnhanced"];
@@ -304,6 +305,7 @@ for key in gemOreless {
 for key in dustOres {
 	hashDust[key] = oreDict["dust" ~ key];
 }
+hashDust["Glowstone"] = oreDict["dustGlowstone"];
 hashDust["Obsidian"] = oreDict["dustObsidian"];
 hashDust["Sugar"] = oreDict["dustSugar"];
 hashDust["Sulphur"] = oreDict["dustSulphur"];

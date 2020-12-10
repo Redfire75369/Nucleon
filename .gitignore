@@ -30,6 +30,8 @@ seen_buildersbag_addons.txt
 
 config/jei/worldSettings.cfg
 config/tellme/**
+config/SGCraft/**
+scripts/nc_script_addons/**
 
 options.txt
 knownkeys.txt

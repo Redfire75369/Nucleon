@@ -1,0 +1,61 @@
+Gases:
+<gas:hydrogen>, Hydrogen
+<gas:oxygen>, Oxygen
+<gas:water>, Water Vapor
+<gas:chlorine>, Chlorine
+<gas:sulfurdioxide>, Sulfur Dioxide
+<gas:sulfurtrioxide>, Sulfur Trioxide
+<gas:sulfuricacid>, Sulfuric Acid
+<gas:hydrogenchloride>, Hydrogen Chloride
+<gas:ethene>, Ethylene
+<gas:sodium>, Sodium
+<gas:brine>, Gaseous Brine
+<gas:deuterium>, Deuterium
+<gas:tritium>, Tritium
+<gas:fusionfuel>, D-T Fuel
+<gas:lithium>, Lithium
+<gas:liquidosmium>, Liquid Osmium
+<gas:cleanIron>, Clean Iron Slurry
+<gas:iron>, Iron Slurry
+<gas:cleanGold>, Clean Gold Slurry
+<gas:gold>, Gold Slurry
+<gas:cleanOsmium>, Clean Osmium Slurry
+<gas:osmium>, Osmium Slurry
+<gas:cleanCopper>, Clean Copper Slurry
+<gas:copper>, Copper Slurry
+<gas:cleanTin>, Clean Tin Slurry
+<gas:tin>, Tin Slurry
+<gas:cleanSilver>, Clean Silver Slurry
+<gas:silver>, Silver Slurry
+<gas:cleanLead>, Clean Lead Slurry
+<gas:lead>, Lead Slurry
+<gas:slurryCleanAluminium>, Clean Aluminium Slurry
+<gas:slurryCleanBoron>, Clean Boron Slurry
+<gas:slurryCleanCobalt>, Clean Cobalt Slurry
+<gas:slurryCleanIridium>, Clean Iridium Slurry
+<gas:slurryCleanLithium>, Clean Lithium Slurry
+<gas:slurryCleanMagnesium>, Clean Magnesium Slurry
+<gas:slurryCleanMithril>, Clean Mithril Slurry
+<gas:slurryCleanNickel>, Clean Nickel Slurry
+<gas:slurryCleanPlatinum>, Clean Platinum Slurry
+<gas:slurryCleanStygianIron>, Clean Stygian Iron Slurry
+<gas:slurryCleanThorium>, Clean Thorium Slurry
+<gas:slurryCleanTitanium>, Clean Titanium Slurry
+<gas:slurryCleanTungsten>, Clean Tungsten Slurry
+<gas:slurryCleanUranium>, Clean Uranium Slurry
+<gas:slurryCleanZinc>, Clean Zinc Slurry
+<gas:slurryAluminium>, Aluminium Slurry
+<gas:slurryBoron>, Boron Slurry
+<gas:slurryCobalt>, Cobalt Slurry
+<gas:slurryIridium>, Iridium Slurry
+<gas:slurryLithium>, Lithium Slurry
+<gas:slurryMagnesium>, Magnesium Slurry
+<gas:slurryMithril>, Mithril Slurry
+<gas:slurryNickel>, Nickel Slurry
+<gas:slurryPlatinum>, Platinum Slurry
+<gas:slurryStygianIron>, Stygian Iron Slurry
+<gas:slurryThorium>, Thorium Slurry
+<gas:slurryTitanium>, Titanium Slurry
+<gas:slurryTungsten>, Tungsten Slurry
+<gas:slurryUranium>, Uranium Slurry
+<gas:slurryZinc>, Zinc Slurry

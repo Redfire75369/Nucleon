@@ -1,0 +1,34 @@
+* text eol=lf
+
+*.cfg text
+*.css text
+*.html text
+*.js text
+*.jsx text
+*.json text
+*.log text
+*.md text
+*.properties text
+*.txt text
+*.xml text
+*.yml text
+*.zs  text
+
+*.gitattributes text
+*.gitignore text
+
+*.bat text
+*.sh text
+
+*.zip   -text
+*.jar   -text
+
+*.png binary
+*.jpg binary
+*.svg text
+
+*.ogg   -text
+
+dumps/zenscript/*.* linguist-generated=true
+dumps/*.* linguist-generated=true
+*.log linguist-generated=true

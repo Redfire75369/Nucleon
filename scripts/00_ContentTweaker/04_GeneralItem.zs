@@ -20,9 +20,12 @@ for oreChunk in oreChunks {
 val craftMats = [
 	"blue_paper",
 	"copper_thread",
+	"grinding_head_iron",
+	"grinding_head_refined_iron",
 	"low_grade_charcoal",
 	"medium_grade_charcoal",
 	"mech_archaic_circuit",
+	"mold_flat",
 	"sealant",
 	"shoddy_piston",
 	"reinforced_stone_gear",

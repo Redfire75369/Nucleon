@@ -1,4 +1,13 @@
 ieMultiBlocks:
+industrialwires:flywheel
+industrialwires:single_coil
+industrialwires:two_electrodes
+industrialwires:commutator
+industrialwires:shaft
+industrialwires:speedometer
+industrialwires:comm_four
+industrialwires:four_coils
+industrialwires:four_electrodes
 IE:CokeOven
 IE:AlloySmelter
 IE:BlastFurnace
@@ -45,4 +54,9 @@ IT:SolarTower
 IT:SolarReflector
 IT:Alternator
 IT:SteamTurbine
+IT:CoolingTower
+IT:GasTurbine
 IT:SteelSheetmetalTank
+iw:marx_generator
+industrialwires:mech_mb
+industrialwires:example_mech_mb

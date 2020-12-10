@@ -46,6 +46,7 @@
 - Purified Pyrrhotite Ore Chunk
 
 ### Immersive Engineering
+- Metal Press Mold: Flat
 - Refined Iron Wire
 - Wooden Wire Spool
 
@@ -65,7 +66,9 @@
 - Charged Red Garnet
 - Charged Sapphire
 - Charged Ywllow Garnet
+- Iron Grinding Head
 - Purified Invar Compound
+- Refined Iron Grinding Head
 
 ## Patchouli Guides
 

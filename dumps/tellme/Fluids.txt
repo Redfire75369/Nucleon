@@ -56,7 +56,6 @@
 | butene                             |    1000 |         295 |      1000 |       1000 | COMMON   |     false | contenttweaker:butene                              |
 | caesium_137                        |    5000 |        1200 |      8000 |         10 | COMMON   |     false | nuclearcraft:fluid_caesium_137                     |
 | calcium                            |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltencalcium                         |
-| calcium_48                         |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltencalcium48                       |
 | calcium_sulfate_solution           |    1000 |         300 |      1000 |          0 | COMMON   |     false | nuclearcraft:fluid_calcium_sulfate_solution        |
 | californium_249                    |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
 | californium_250                    |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
@@ -90,12 +89,6 @@
 | conductive_iron                    |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltenconductiveiron                  |
 | constantan                         |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltenconstantan                      |
 | construction_alloy                 |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltenconstructionalloy               |
-| copernicium_291                    |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltencopernicium291                  |
-| copernicium_291_all                |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltencopernicium291all               |
-| copernicium_291_carbide            |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltencopernicium291carbide           |
-| copernicium_291_nitride            |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltencopernicium291nitride           |
-| copernicium_291_oxide              |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltencopernicium291oxide             |
-| copernicium_291_za                 |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltencopernicium291za                |
 | copper                             |    2000 |         900 |      6000 |         15 | COMMON   |     false | embers:copper                                      |
 | copper_nak                         |    5000 |         300 |     15000 |          0 | COMMON   |     false | -                                                  |
 | copper_nak_hot                     |    4000 |         700 |     10000 |          7 | COMMON   |     false | -                                                  |
@@ -196,10 +189,6 @@
 | depleted_mix_241                   |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
 | depleted_mix_241_fluoride          |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
 | depleted_mix_241_fluoride_flibe    |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
-| depleted_mix_291_nitride           |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltendepletedmix291nitride           |
-| depleted_mix_291_oxide             |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltendepletedmix291oxide             |
-| depleted_mix_291_triso             |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltendepletedmix291triso             |
-| depleted_mix_291_za                |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltendepletedmix291za                |
 | depleted_tbu                       |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
 | depleted_tbu_fluoride              |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
 | depleted_tbu_fluoride_flibe        |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
@@ -561,12 +550,6 @@
 | mix_241                            |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
 | mix_241_fluoride                   |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
 | mix_241_fluoride_flibe             |    5000 |        1200 |      8000 |         10 | COMMON   |     false | -                                                  |
-| mix_291                            |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltenmix291                          |
-| mix_291_carbide                    |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltenmix291carbide                   |
-| mix_291_nitride                    |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltenmix291nitride                   |
-| mix_291_oxide                      |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltenmix291oxide                     |
-| mix_291_triso                      |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltenmix291triso                     |
-| mix_291_za                         |    2000 |         500 |     10000 |         10 | UNCOMMON |     false | jaopca:fluid_moltenmix291za                        |
 | molybdenum                         |    5000 |        1200 |      8000 |         10 | COMMON   |     false | nuclearcraft:fluid_molybdenum                      |
 | mushroom_stew                      |    2000 |         300 |      2000 |          0 | COMMON   |     false | -                                                  |
 | nak                                |    5000 |         300 |     15000 |          0 | COMMON   |     false | nuclearcraft:fluid_nak                             |

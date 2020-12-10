@@ -23,14 +23,18 @@
 | baubles                           | Baubles                                                 |
 | bdlib                             | BD Lib                                                  |
 | betterquesting                    | Better Questing                                         |
+| bettertabs                        | BetterTabs                                              |
 | betterthanmending                 | Better Than Mending                                     |
 | bookshelf                         | Bookshelf                                               |
 | boson                             | Boson                                                   |
 | boson.asm                         | Boson ASM                                               |
 | boson.asm.modfix                  | Boson ASM Mod-Fixer                                     |
+| bq_gs                             | BetterQuesting Gamestage Expansion                      |
 | bq_msi                            | RLCraft Expansion                                       |
 | bq_rf                             | RF Expansion                                            |
 | bq_standard                       | Standard Expansion                                      |
+| bqtweaker                         | BQTweaker                                               |
+| buildersbag                       | Builder's Bag                                           |
 | buildinggadgets                   | Building Gadgets                                        |
 | chameleon                         | Chameleon                                               |
 | chisel                            | Chisel                                                  |
@@ -112,6 +116,7 @@
 | integrationforegoing              | Integration Foregoing                                   |
 | inventorysorter                   | Simple Inventory sorting                                |
 | inworldcrafting                   | InWorldCrafting                                         |
+| ironjetpacks                      | Iron Jetpacks                                           |
 | itemstages                        | Item Stages                                             |
 | jade                              | Jade                                                    |
 | jaopca                            | JAOPCA                                                  |
@@ -120,6 +125,7 @@
 | jee                               | Just Enough Energistics                                 |
 | jei                               | Just Enough Items                                       |
 | jeid                              | JustEnoughIDs                                           |
+| jeresources                       | Just Enough Resources                                   |
 | jetif                             | Just Enough Throwing In Fluids                          |
 | justenoughpetroleum               | Just Enough Petroleum                                   |
 | keywizard                         | Keyboard Wizard                                         |
@@ -154,7 +160,6 @@
 | multiblockstages                  | Multiblockstages                                        |
 | mystgears                         | Mystical Gears                                          |
 | mysticalmechanics                 | Mystical Mechanics                                      |
-| neat                              | Neat                                                    |
 | netherportalfix                   | NetherPortalFix                                         |
 | notenoughwands                    | Not Enough Wands                                        |
 | nuclearcraft                      | NuclearCraft                                            |
@@ -164,11 +169,13 @@
 | oreexcavation                     | OreExcavation                                           |
 | packagedauto                      | PackagedAuto                                            |
 | packagedexcrafting                | PackagedExCrafting                                      |
+| patchouli                         | Patchouli                                               |
 | phosphor-lighting                 | Phosphor Lighting Engine                                |
 | placebo                           | Placebo                                                 |
 | pneumaticcraft                    | PneumaticCraft: Repressurized                           |
 | pressure                          | Pressure Pipes                                          |
 | qmd                               | Quantum Minecraft Dynamics                              |
+| reactorbuilder                    | Reactor Builder                                         |
 | reauth                            | ReAuth                                                  |
 | reborncore                        | Reborn Core                                             |
 | recipestages                      | RecipeStages                                            |
@@ -186,6 +193,7 @@
 | spikemod                          | Spike Mod                                               |
 | stellarfluidconduits              | Stellar Fluid Conduits                                  |
 | stevescarts                       | Steve's Carts 2                                         |
+| stg                               | SwingThroughGrass                                       |
 | storagedrawers                    | Storage Drawers                                         |
 | superfactorymanager               | Super Factory Manager                                   |
 | supersoundmuffler                 | Super Sound Muffler: Revived                            |
@@ -202,6 +210,7 @@
 | thermaldynamics                   | Thermal Dynamics                                        |
 | thermalexpansion                  | Thermal Expansion                                       |
 | thermalfoundation                 | Thermal Foundation                                      |
+| threng                            | Lazy AE2                                                |
 | thutcore                          | Thut Core                                               |
 | thutcore_compat                   | ThutCore Compat                                         |
 | thuttech                          | Thut's Elevators                                        |

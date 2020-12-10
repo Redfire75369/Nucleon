@@ -1,0 +1,51 @@
+Just Enough Items	Just Enough Resources	Just Enough Throwing In Fluids	Just Enough Petroleum	Just Enough Energistics							
+Hwyla	 What Are We Looking At	Jade	AppleSkin								
+Attribute Fix	Bad Wither No Cookie! Reloaded 	Better Than Mending	CleanView	EqualDragons	Infinity & Mending Unnerf	JustEnoughIDs	Mod Name Tooltip	MoreOverlays	Morpheus	NetherPortalFix	
+CoFH Core	CoFH World	Thermal Foundation	Thermal Expansion	Thermal Cultivation	Thermal Dynamics	Redstone Arsenal	Redstone Repository				
+Embers Rekindled	Soot	Mystical Mechanics	Rustichromia	Mystical Gears	Mechanical Crafting						
+EnderCore	Ender IO Base	Ender IO Conduits	Ender IO Applied Energistics Conduits	Ender IO Endergy	GasConduits	Stellar Fluid Conduits					
+Immersive Engineering	Immersive Intelligence	Immersive Technology	Immersive Petroleum	Industrial Wires	Immersive Cables	Immersive Energy	Immersive Radial Menu				
+Industrial Foregoing	Industrial Meat	Integration Foregoing									
+Mekanism	Mekanism: Generators	Mekanism: Tools									
+NuclearCraft: Overhauled	Quantum Minecraft Dynamics	Trinity									
+Reborn Core	Tech Reborn										
+Advanced Rocketry	Magneticraft	PneumaticCraft: Repressurized	Techguns								
+Emerging Technology	Flux Networks	Industrial Renewal	SG Craft	Woot							
+Compact Machines 3	Simple Machinery										
+Energy's Matter											
+ArchitectureCraft	LittleTiles										
+Building Gadgets											
+Flat Colored Blocks	Glassential	XenCraft	Xtones								
+Chisel	Unlimited Chisel Works										
+Modern Lights	Simply Light										
+Advanced Lifting Methods	Thut's Elevators										
+Applied Energistics 2	Extra Cells 2	AE2 Stuff	Lazy AE2	AE2 Fluid Crafting	Extra CPUs	PackagedAuto	PackagedExCrafting				
+Storage Drawers	Compact Drawers	Fluid Drawers									
+CompactStorage	EnderStorage	Advanced Shulkerboxes									
+Controlling	Keyboard Wizard	TipTheScales									
+Crafting Tweaks	Mouse Tweaks	Simple Inventory Sorting									
+FindMe	Fast Leaf Decay	Just Enough Calculation	OreExcavation	ReAuth	SwingThroughGrass						
+HydroGel	Morph-o-Tool	Not Enough Wands	Super Sound Muffler: Revived								
+FoamFix	VanillaFix										
+Clumps	Phosphor Lighting Engine	Surge									
+FastFurnace	FastWorkbench										
+CraftTweaker2	ContentTweaker	MekaTweaker	Mod Tweaker	Advanced Rocketry Tweaker	Alfinivia	Explosion Crafting	Immersive Engineering Tweaks	InWorldCrafting	LootTweaker	Loot Table Tweaker	ZenScroll
+Game Stages	Dimension Stages	Item Stages	Multiblock Stages	RecipeStages	Waila Stages						
+Better Questing	Standard Expansion	RF Expansion	BQ - Structure and Multiblock Integration								
+WrapUp	JAOPCA	JAOPCA: Customized									
+Modular Machinery	Modular Magic	Requious Frakto	Extended Crafting								
+Custom Main Menu	Default Options	HardcoreMapReset	Patchouli	Toast Control	YUNoMakeGoodMap						
+Tell Me	TickCentral	LagGoggles									
+AutoRegLib	Aroma1997Core	B.A.S.E	Baubles	BD Lib	Bookshelf	Boson					
+Chameleon	CodeChicken Lib	CreativeCore	CTM	Cucumber Library	Fermion	Guide-API					
+GunpowderLib	In-Game Wiki Mod	libnine	Mantle	McJtyLib	ModelLoader	MTLib					
+Placebo	Redstone Flux	Shadowfacts' Forgelin	TESLA	Tesla Core Lib	Thut Core	Vulpes Library					
+AromaBackup	Balanced Clay Tools	Combustible	Ender Utilities								
+Iron Jetpacks	OpenComputers	Pressure Pipes	Simply Tea								
+Spike Mod	Steve's Carts 2	Super Factory Manager									
+Minecraft	Minecraft Coder Pack	Minecraft Forge	Forge Mod Loader								
+Advanced Rocketry Core	AromaBackupRecovery	Boson ASM	Boson ASM Mod-Fixer								
+CraftTweaker JEI Support	CreativeCoreDummy	CT-GUI	Ender IO								
+Ender IO Powertools	Fermion Companion	Fermion ASM Service	Fermion Test Suite								
+FoamFixCore	LittleTilesCore	OpenComputers (Core)	OreDictInit								
+Techguns Core	Tech Reborn Mod Compatibility	Tesla Core Lib Registries	ThutCore Compat								

@@ -1,0 +1,155 @@
+[
+	 {
+    "themeID": "collectothon:mariosunshine",
+    "themeName": "Delfino Travel Guide",
+    "themeParent": "none",
+    "textures":
+    {
+      "betterquesting:panel_main":
+      {
+        "atlas": "collect-o-thon:textures/gui/sunshine_gui.png",
+        "bounds": [0, 0, 84, 74],
+		"padding": [0, 0, 0, 0],
+		"sliceMode": 2,
+		"textureType": "betterquesting:texture_sliced"
+      },
+	  
+	  	   "betterquesting:aux_frame_0":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "collect-o-thon:textures/gui/sunshine_gui.png",
+        "bounds": [84, 0, 111 , 102],
+        "padding": [14, 14, 14, 14],
+        "sliceMode": 2
+      },
+	  
+	        "betterquesting:scroll_v_bg":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "collect-o-thon:textures/gui/sunshine_gui.png",
+        "bounds": [0 , 111, 34, 35],
+        "padding": [1, 1, 1, 1],
+        "sliceMode": 1
+      },
+      "betterquesting:scroll_v_0":
+      {
+        "textureType": "betterquesting:texture_simple",
+        "atlas": "collect-o-thon:textures/gui/sunshine_gui.png",
+        "bounds": [0, 74, 26, 37]
+
+      },
+      "betterquesting:scroll_v_1":
+      {
+        "textureType": "betterquesting:texture_simple",
+        "atlas": "collect-o-thon:textures/gui/sunshine_gui.png",
+        "bounds": [27, 74, 24, 25]
+
+      },
+      "betterquesting:scroll_v_1":
+      {
+        "textureType": "betterquesting:texture_simple",
+        "atlas": "collect-o-thon:textures/gui/sunshine_gui.png",
+        "bounds": [53, 74, 25, 31]
+      },
+	  
+	"betterquesting:btn_normal_1":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "collect-o-thon:textures/gui/sunshine_gui.png",
+        "bounds": [196, 0, 12, 12],        
+        "padding": [4, 4, 4, 4],
+        "sliceMode": 1
+      },
+	  
+	"betterquesting:btn_normal_2":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "collect-o-thon:textures/gui/sunshine_gui.png",
+        "bounds": [196, 13, 12, 12],
+        "padding": [5, 5, 5, 5],
+        "sliceMode": 1
+      },
+      "betterquesting:btn_normal_0":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "collect-o-thon:textures/gui/sunshine_gui.png",
+        "bounds": [196, 25, 12, 12],
+        "padding": [5, 5, 5, 5],
+        "sliceMode": 1
+      },
+	  	        "betterquesting:quest_main_0":
+      {
+        "textureType": "betterquesting:texture_simple",
+        "atlas": "collect-o-thon:textures/gui/sunshine_gui.png",
+        "bounds": [35 , 106, 46, 49]
+		},
+      "betterquesting:quest_main_1":
+      {
+        "textureType": "betterquesting:texture_simple",
+        "atlas": "collect-o-thon:textures/gui/sunshine_gui.png",
+        "bounds": [82 , 106, 46, 49]
+		},
+      "betterquesting:quest_main_2":
+      {
+        "textureType": "betterquesting:texture_simple",
+        "atlas": "collect-o-thon:textures/gui/sunshine_gui.png",
+        "bounds": [129 , 106, 46, 49]
+		},
+      "betterquesting:quest_main_3":
+      {
+        "textureType": "betterquesting:texture_simple",
+        "atlas": "collect-o-thon:textures/gui/sunshine_gui.png",
+        "bounds": [176 , 106, 19, 27]	  
+	  },
+	  
+	  "betterquesting:quest_norm_0":
+      {
+        "textureType": "betterquesting:texture_simple",
+        "atlas": "collect-o-thon:textures/gui/sunshine_gui.png",
+        "bounds": [209, 0, 27, 32]
+      },
+      "betterquesting:quest_norm_1":
+      {
+        "textureType": "betterquesting:texture_simple",
+        "atlas": "collect-o-thon:textures/gui/sunshine_gui.png",
+        "bounds": [209, 0, 27, 32]
+      },
+      "betterquesting:quest_norm_2":
+      {
+        "textureType": "betterquesting:texture_simple",
+        "atlas": "collect-o-thon:textures/gui/sunshine_gui.png",
+        "bounds": [209, 0, 27, 32]
+      },
+      "betterquesting:quest_norm_3":
+      {
+        "textureType": "betterquesting:texture_simple",
+        "atlas": "collect-o-thon:textures/gui/sunshine_gui.png",
+        "bounds": [209, 33, 27, 31]
+},
+      "betterquesting:quest_aux_0":
+      {
+        "textureType": "betterquesting:texture_simple",
+        "atlas": "collect-o-thon:textures/gui/sunshine_gui.png",
+        "bounds": [0, 147, 32, 32]
+		},
+		      "betterquesting:quest_aux_1":
+      {
+        "textureType": "betterquesting:texture_simple",
+        "atlas": "collect-o-thon:textures/gui/sunshine_gui.png",
+        "bounds": [0, 147, 32, 32]
+      },
+      "betterquesting:quest_aux_2":
+      {
+        "textureType": "betterquesting:texture_simple",
+        "atlas": "collect-o-thon:textures/gui/sunshine_gui.png",
+        "bounds": [0, 147, 32, 32]
+      },
+      "betterquesting:quest_aux_3":
+      {
+        "textureType": "betterquesting:texture_simple",
+        "atlas": "collect-o-thon:textures/gui/sunshine_gui.png",
+        "bounds": [0, 147, 32, 32]
+	  }
+	  }
+		}
+]
