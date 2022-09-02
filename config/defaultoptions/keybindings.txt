@@ -33,15 +33,17 @@ key_key.hotbar.8:9:NONE
 key_key.hotbar.9:10:NONE
 key_keybind.baublesinventory:48:NONE
 key_key.betterquesting.quests:41:NONE
+key_keybind.openSelectionWheel:56:NONE
+key_keybind.openBaubleBag:19:NONE
 key_enderutilities.key.activate_unselected:34:NONE
 key_enderutilities.key.togglemode:34:NONE
 key_key.findme.search:21:NONE
-key_key.inventorysorter.itemin:-200:NONE
-key_key.inventorysorter.sort:-98:NONE
-key_key.inventorysorter.itemout:-201:NONE
+key_igwmod.keys.wiki:23:NONE
+key_key.helmet_night_vision:34:NONE
+key_key.ij.engine:47:NONE
+key_key.ij.hover:34:NONE
 key_key.moreoverlays.lightoverlay.desc:65:NONE
 key_key.moreoverlays.chunkbounds.desc:67:NONE
-key_neat.keybind.toggle:0:NONE
 key_oreexcavation.key.excavate:41:NONE
 key_oreexcavation.key.shape:47:NONE
 key_pneumaticcraft.armor.options:22:NONE
@@ -50,9 +52,9 @@ key_pneumaticcraft.helmet.debugging.drone:21:NONE
 key_pneumaticcraft.boots.kick:45:CONTROL
 key_pneumaticcraft.chestplate.launcher:46:CONTROL
 key_key.toastcontrol.clear:36:NONE
+key_zenscroll.options.modifier_key:56:NONE
 key_key.xtones.scroll:42:NONE
 key_key.cofh.multimode:47:NONE
-key_key.toggle_focus.desc:15:NONE
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0:NONE
@@ -64,14 +66,9 @@ key_key.jei.previousPage:201:NONE
 key_key.jei.nextPage:209:NONE
 key_key.jei.bookmark:30:NONE
 key_key.jei.toggleBookmarkOverlay:0:NONE
-key_key.settings_menu:34:NONE
-key_key.range:19:NONE
-key_key.undo:22:NONE
-key_key.anchor:35:NONE
-key_key.fuzzy:0:NONE
-key_key.connected_area:0:NONE
-key_key.rotate_mirror:0:NONE
-key_key.material_list:50:NONE
+key_key.immersiveengineering.magnetEquip:31:NONE
+key_key.immersiveengineering.chemthrowerSwitch:0:NONE
+key_key.toggle_focus.desc:15:NONE
 key_waila.keybind.wailaconfig:82:NONE
 key_waila.keybind.wailadisplay:79:NONE
 key_waila.keybind.liquid:80:NONE
@@ -81,11 +78,15 @@ key_mekanism.key.mode:50:NONE
 key_mekanism.key.armorMode:34:NONE
 key_mekanism.key.feetMode:35:NONE
 key_mekanism.key.voice:22:NONE
-key_key.immersiveengineering.magnetEquip:31:NONE
-key_key.immersiveengineering.chemthrowerSwitch:0:NONE
-key_key.immersiveintelligence.mgScope:44:NONE
-key_key.immersiveradialmenu.opentoolbox:19:NONE
-key_keywizard.keybind.openKeyboardWizard:65:NONE
+key_bqtweaker.key.pageback:14:NONE
+key_key.settings_menu:34:NONE
+key_key.range:19:NONE
+key_key.undo:22:NONE
+key_key.anchor:35:NONE
+key_key.fuzzy:0:NONE
+key_key.connected_area:0:NONE
+key_key.rotate_mirror:0:NONE
+key_key.material_list:50:NONE
 key_key.rotateup:200:NONE
 key_key.rotatedown:208:NONE
 key_key.rotateright:205:NONE
@@ -95,6 +96,26 @@ key_key.little.mark:50:NONE
 key_key.little.config.item:46:NONE
 key_key.little.undo:44:CONTROL
 key_key.little.redo:21:CONTROL
+key_key.toggleCleanView:0:NONE
+key_key.craftingtweaks.rotate:0:NONE
+key_key.craftingtweaks.rotate_counter_clockwise:0:NONE
+key_key.craftingtweaks.balance:0:NONE
+key_key.craftingtweaks.spread:0:NONE
+key_key.craftingtweaks.clear:0:NONE
+key_key.craftingtweaks.force_clear:0:NONE
+key_key.craftingtweaks.toggleButtons:0:NONE
+key_key.craftingtweaks.compressOne:37:CONTROL
+key_key.craftingtweaks.compressStack:37:NONE
+key_key.craftingtweaks.compressAll:37:SHIFT
+key_key.craftingtweaks.decompressOne:0:NONE
+key_key.craftingtweaks.decompressStack:0:NONE
+key_key.craftingtweaks.decompressAll:0:NONE
+key_key.craftingtweaks.refill_last:15:NONE
+key_key.craftingtweaks.refill_last_stack:15:NONE
+key_key.immersiveradialmenu.opentoolbox:19:NONE
+key_jecalculation.key.gui_craft:0:NONE
+key_jecalculation.key.gui_math:0:NONE
+key_keywizard.keybind.openKeyboardWizard:65:NONE
 key_key.modifier:13:NONE
 key_key.submode:0:NONE
 key_key.clipboardPaste:210:NONE
@@ -104,6 +125,10 @@ key_techguns.key.toggleStepassist:47:NONE
 key_techguns.key.forceReload:19:NONE
 key_techguns.key.toggleJetpack:36:NONE
 key_keys.techreborn.config:25:NONE
+key_key.immersiveintelligence.manualReload:19:NONE
+key_key.immersiveintelligence.mgScope:44:NONE
+key_key.immersiveintelligence.motorbikeEngine:19:NONE
+key_key.immersiveintelligence.motorbikeTowing:44:NONE
 key_Toggle Jetpack:45:NONE
 key_Open Rocket GUI:46:NONE
 key_Toggle RCS:19:NONE
@@ -111,3 +136,5 @@ key_Rotate Vehicle Right:32:NONE
 key_Rotate Vehicle Left:30:NONE
 key_Move Vehicle Up:44:NONE
 key_Move Vehicle Down:45:NONE
+key_key.sort_config:37:NONE
+key_key.sort:-98:NONE

@@ -42,7 +42,7 @@ mixer.setJEIFluidSlot(5, 2, "output");
 mixer.setJEIFluidSlot(6, 2, "output");
 mixer.setJEIFluidSlot(7, 2, "output");
 
-//mixer.setJEIEnergySlot(8, 2, "input", SlotVisual.create(1, 1).addPart("requious:textures/gui/assembly_gauges.png", 2, 1));
+mixer.setJEIEnergySlot(8, 2, "input", "fe");
 mixer.setJEIDurationSlot(4, 2, "duration", SlotVisual.arrowRight());
 
 global addMixerRecipe as function(IItemStack[], ILiquidStack[], IIngredient[], ILiquidStack[], int, int)void = function(outputs as IItemStack[], fluidOutputs as ILiquidStack[], inputs as IIngredient[], fluidInputs as ILiquidStack[], energy as int, ticks as int) as void {

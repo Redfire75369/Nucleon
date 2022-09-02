@@ -1,4 +1,4 @@
-* text eol=lf
+* text=auto eol=lf
 
 *.cfg text
 *.css text
@@ -20,14 +20,14 @@
 *.bat text
 *.sh text
 
-*.zip   -text
-*.jar   -text
+*.zip binary
+*.jar binary
 
 *.png binary
 *.jpg binary
 *.svg text
 
-*.ogg   -text
+*.ogg binary
 
 dumps/zenscript/*.* linguist-generated=true
 dumps/*.* linguist-generated=true

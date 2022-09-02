@@ -18,22 +18,23 @@ function switchId(args) {
 		];
 
 		if (ids[0] !== undefined && ids[1] !== undefined) {
-			newQuests[args[0] + ":10"] = Object.assign({}, quests[args[1] + ":10"]);
-			newQuests[args[0] + ":10"]["questID:3"] = Number(args[0]);
-			newQuests[args[1] + ":10"] = Object.assign({}, quests[args[0] + ":10"]);
-			newQuests[args[1] + ":10"]["questID:3"] = Number(args[1]);
+			newQuests[ids[0]] = Object.assign({}, quests[ids[1]]);
+			newQuests[ids[0]]["questID:3"] = Number(args[0]);
+			newQuests[ids[1]] = Object.assign({}, quests[ids[0]]);
+			newQuests[ids[1]]["questID:3"] = Number(args[1]);
 		} else if (ids[0] !== undefined) {
-			newQuests[args[1] + ":10"] = Object.assign({}, quests[args[0] + ":10"]);
+			newQuests[args[1] + ":10"] = Object.assign({}, quests[ids[0]]);
 			newQuests[args[1] + ":10"]["questID:3"] = Number(args[1]);
-			newQuests[args[0] + ":10"] = undefined;
+			newQuests[ids[0]] = undefined;
 		} else if (ids[1] !== undefined) {
-			newQuests[args[0] + ":10"] = Object.assign({}, quests[args[1] + ":10"]);
+			newQuests[args[0] + ":10"] = Object.assign({}, quests[ids[1]]);
 			newQuests[args[0] + ":10"]["questID:3"] = Number(args[0]);
-			newQuests[args[1] + ":10"] = undefined;
+			newQuests[ids[1]] = undefined;
 		}
 
 		Object.keys(newQuests).forEach(index => {
 			if (newQuests[index] !==  undefined) {
+				//console.log(newQuests[index]);
 				const preRequisites = newQuests[index]["preRequisites:11"];
 	
 				const includes = [preRequisites.includes(Number(args[0])), preRequisites.includes(Number(args[1]))];

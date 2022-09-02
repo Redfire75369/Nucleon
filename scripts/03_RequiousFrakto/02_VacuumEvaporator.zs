@@ -21,8 +21,7 @@ vacuumEvaporator.setJEIFluidSlot(3, 2, "input");
 vacuumEvaporator.setJEIFluidSlot(5, 2, "output");
 vacuumEvaporator.setJEIItemSlot(6, 2, "output");
 
-
-//vacuumEvaporator.setJEIEnergySlot(8, 2, "input", SlotVisual.create(1, 1).addPart("requious:textures/gui/assembly_gauges.png", 2, 1));
+vacuumEvaporator.setJEIEnergySlot(8, 2, "input", "fe");
 vacuumEvaporator.setJEIDurationSlot(4, 2, "duration", SlotVisual.arrowRight());
 
 global addVacuumEvaporatorRecipe as function(ILiquidStack, IItemStack, ILiquidStack, int, int)void = function(fluidOutput as ILiquidStack, output as IItemStack, fluidInput as ILiquidStack, energy as int, ticks as int) as void {

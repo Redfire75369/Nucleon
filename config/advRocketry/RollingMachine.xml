@@ -31,25 +31,7 @@
 	
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
-<Recipes useDefault="false">
-	<Recipe timeRequired="100" power ="2">
-		<input>
-			<itemStack>libvulpes:productsheet;2;6</itemStack>
-			<fluidStack>water;100</fluidStack>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:pressuretank;1;1</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="100" power ="4">
-		<input>
-			<itemStack>libvulpes:productsheet;2;9</itemStack>
-			<fluidStack>water;100</fluidStack>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:pressuretank;1;2</itemStack>
-		</output>
-	</Recipe>
+<Recipes useDefault="true">
 	<Recipe timeRequired="400" power ="8">
 		<input>
 			<itemStack>libvulpes:productsheet;2;7</itemStack>
@@ -57,6 +39,15 @@
 		</input>
 		<output>
 			<itemStack>advancedrocketry:pressuretank;1;3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="2">
+		<input>
+			<itemStack>libvulpes:productsheet;2;6</itemStack>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:pressuretank;1;1</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="100" power ="1">
@@ -68,6 +59,15 @@
 			<itemStack>advancedrocketry:pressuretank</itemStack>
 		</output>
 	</Recipe>
+	<Recipe timeRequired="100" power ="4">
+		<input>
+			<itemStack>libvulpes:productsheet;2;9</itemStack>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:pressuretank;1;2</itemStack>
+		</output>
+	</Recipe>
 	<Recipe timeRequired="300" power ="200">
 		<input>
 			<oreDict>plateIron</oreDict>
@@ -75,6 +75,14 @@
 		</input>
 		<output>
 			<itemStack>libvulpes:productsheet;1;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>libvulpes:productplate;1;3</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="200">
@@ -129,6 +137,870 @@
 		</input>
 		<output>
 			<itemStack>advancedrocketry:productsheet;1;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotOsmiridium</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_plateosmiridium</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotStellarAlloy</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platestellaralloy</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCobalt</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platecobalt</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSuperAlloy</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platesuperalloy</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotVibrantAlloy</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platevibrantalloy</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDuraluminium</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>immersiveintelligence:material_plate;1;7</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotZirconiumMolybdenum</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platezirconiummolybdenum</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotLithiumManganeseDioxide</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platelithiummanganesedioxide</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotIridium</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>techreborn:plates;1;24</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotLithium</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platelithium</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotEnergeticAlloy</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_plateenergeticalloy</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotRefinedGlowstone</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platerefinedglowstone</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotElectrumFlux</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>redstonearsenal:material;1;128</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotConstructionAlloy</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_plateconstructionalloy</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCarbon</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>techreborn:plates;1;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotElectrum</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>techreborn:plates;1;22</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotOsmium</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_plateosmium</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTin</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>techreborn:plates;1;30</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotNickel</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>techreborn:plates;1;26</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotPlutonium</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_plateplutonium</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotChargedIron</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platechargediron</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTitaniumIridium</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:productplate;1;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotConstantan</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material;1;356</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotAdvancedAlloy</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>techreborn:plates;1;36</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotNiobium</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_plateniobium</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotBronze</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>techreborn:plates;1;19</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotGold</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>techreborn:plates;1;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotHSLASteel</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platehslasteel</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotAluminium</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>techreborn:plates;1;17</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSilver</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>techreborn:plates;1;28</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTungstensteel</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>techreborn:plates;1;33</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotNeodymium</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_plateneodymium</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotIron</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>techreborn:plates</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotZircaloy</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platezircaloy</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTitaniumAluminide</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:productplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotVividAlloy</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platevividalloy</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotHardCarbon</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platehardcarbon</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotMercury</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platemercury</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotMagnesiumDiboride</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platemagnesiumdiboride</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotManganese</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platemanganese</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotRedstoneAlloy</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_plateredstonealloy</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotObsidianSteel</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>techguns:itemshared;1;51</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotConductiveIron</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_plateconductiveiron</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotStrontium</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platestrontium</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotEnergeticSilver</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_plateenergeticsilver</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotRefinedIron</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>techreborn:plates;1;35</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotGelidEnderium</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>redstonerepository:material;1;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotBeryllium</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_plateberyllium</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotStainlessSteel</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platestainlesssteel</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTough</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platetough</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotRefinedObsidian</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platerefinedobsidian</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTungsten</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>techreborn:plates;1;32</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotLead</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>techreborn:plates;1;25</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotManganeseOxide</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platemanganeseoxide</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSoularium</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platesoularium</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotElectricalSteel</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_plateelectricalsteel</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSteel</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>techreborn:plates;1;29</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotZinc</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>techreborn:plates;1;34</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSiCSiCCMC</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platesicsiccmc</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDawnstone</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>embers:plate_dawnstone</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotGraphite</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_plategraphite</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTungstenCarbide</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platetungstencarbide</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotPotassium</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platepotassium</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotNiobiumTin</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_plateniobiumtin</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotFerroboron</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_plateferroboron</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotBoron</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_plateboron</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotHafnium</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platehafnium</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotNaquadahAlloy</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platenaquadahalloy</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTitanium</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>techreborn:plates;1;31</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotNiobiumTitanium</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_plateniobiumtitanium</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotIridiumAlloy</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>techreborn:plates;1;38</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotMagnesium</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platemagnesium</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCopper</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>techreborn:plates;1;21</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCrystallineAlloy</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platecrystallinealloy</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDarkSteel</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platedarksteel</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSodium</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platesodium</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTerne</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_plateterne</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCrystallinePinkSlime</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platecrystallinepinkslime</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotThermoconducting</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platethermoconducting</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotYttrium</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_plateyttrium</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotMelodicAlloy</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platemelodicalloy</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCalcium</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platecalcium</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotAdvancedElectronicAlloy</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>immersiveintelligence:material_plate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotBrass</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>techreborn:plates;1;18</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotPulsatingIron</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platepulsatingiron</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotManganeseDioxide</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platemanganesedioxide</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotPlatinum</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>techreborn:plates;1;27</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSiliconCarbide</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platesiliconcarbide</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotEndSteel</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_plateendsteel</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotExtreme</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_plateextreme</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCrudeSteel</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platecrudesteel</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotHOPGraphite</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platehopgraphite</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotZirconium</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platezirconium</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotChromium</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>techreborn:plates;1;20</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotInvar</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>techreborn:plates;1;23</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotNichrome</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platenichrome</itemStack>
 		</output>
 	</Recipe>
 </Recipes>

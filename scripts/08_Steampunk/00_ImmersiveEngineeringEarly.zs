@@ -47,12 +47,12 @@ recipes.addShapeless("omnidirectional_hopper_convert", <pneumaticcraft:omnidirec
 	<minecraft:hopper>
 ]);
 recipes.addShaped("omnidirectional_hopper", <pneumaticcraft:omnidirectional_hopper>, [
-	[hashPlate["Iron"], <immersiveengineering:tool>.transformDamage(1), hashPlate["Iron"]],
+	[hashPlate["Iron"], <immersiveengineering:tool>, hashPlate["Iron"]],
 	[hashIngot["Iron"], <minecraft:chest>, hashIngot["Iron"]],
 	[null, hashIngot["Iron"], null]
 ]);
 changeRecipeShaped("liquid_hopper", <pneumaticcraft:liquid_hopper>, [
-	[hashPlate["Iron"], <immersiveengineering:tool>.transformDamage(1), hashPlate["Iron"]],
+	[hashPlate["Iron"], <immersiveengineering:tool>, hashPlate["Iron"]],
 	[hashIngot["Iron"], <immersiveengineering:metal_device0:4>, hashIngot["Iron"]],
 	[null, hashIngot["Iron"], null]
 ]);

@@ -42,7 +42,7 @@ chemReactor.setJEIFluidSlot(6, 2, "output");
 chemReactor.setJEIFluidSlot(5, 3, "output");
 chemReactor.setJEIFluidSlot(6, 3, "output");
 
-//chemReactor.setJEIEnergySlot(8, 2, "input", SlotVisual.create(1, 1).addPart("requious:textures/gui/assembly_gauges.png", 2, 1));
+chemReactor.setJEIEnergySlot(8, 2, "input", "fe");
 chemReactor.setJEIDurationSlot(4, 2, "duration", SlotVisual.arrowRight());
 
 global addChemicalReactorRecipe as function(IItemStack[], ILiquidStack[], IIngredient[], ILiquidStack[], int, int)void = function(outputs as IItemStack[], fluidOutputs as ILiquidStack[], inputs as IIngredient[], fluidInputs as ILiquidStack[], energy as int, ticks as int) as void {
@@ -71,6 +71,7 @@ global addChemicalReactorRecipe as function(IItemStack[], ILiquidStack[], IIngre
 	}
 	recipe.requireEnergy("input", energy);
 	recipe.requireDuration("duration", ticks);
+
 	chemicalReactor.addRecipe(recipe);
 	chemicalReactor.addJEIRecipe(recipe);
 };
