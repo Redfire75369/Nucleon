@@ -1,0 +1,53 @@
+[PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[tags]]
+[PREINITIALIZATION][CLIENT][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
+Ncc1702
+Pongo Sapiens
+DreamThorn
+Belathus
+Jessie Sims
+Zuniroa
+Jordan Pineo
+Quaternary
+Ivy_
+Jonathan McManus
+NerdyWhiteGuy
+Hooley
+Spencer Gilbert
+Peregrinus11
+Genryu
+NickT
+Phillip Swearingain
+embeddedt
+Jellycraft
+If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
+
+[PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[tags], [preinit]]
+[PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [preinit]
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 1ms
+[PREINITIALIZATION][CLIENT][INFO] Hey! Here is ZenUtils.
+[PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[tags], [preinit], [contenttweaker]]
+[PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [contenttweaker]
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 0ms
+[PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[tags], [preinit], [contenttweaker], [finalize_contenttweaker]]
+[PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [finalize_contenttweaker]
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 0ms
+[PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[tags], [preinit], [contenttweaker], [finalize_contenttweaker], [mekatweaker]]
+[PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [mekatweaker]
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 0ms
+[PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[tags], [preinit], [contenttweaker], [finalize_contenttweaker], [mekatweaker], [nc_preinit]]
+[PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [nc_preinit]
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 0ms
+[INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
+[INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
+[INITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[tags], [preinit], [contenttweaker], [finalize_contenttweaker], [mekatweaker], [nc_preinit], [recipeevent | crafttweaker]]
+[INITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
+[INITIALIZATION][CLIENT][TRACE] Completed script loading in: 0ms
+[INITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[tags], [preinit], [contenttweaker], [finalize_contenttweaker], [mekatweaker], [nc_preinit], [crafttweaker | recipeevent], [multiblocked]]
+[INITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [multiblocked]
+[INITIALIZATION][CLIENT][TRACE] Completed script loading in: 0ms
+[POSTINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [tags]
+[POSTINITIALIZATION][CLIENT][TRACE] Completed script loading in: 1ms
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
+[AVAILABLE][CLIENT][INFO] Applying Molecular Assembler Device actions - Step 1: Removals
+[AVAILABLE][CLIENT][INFO] Applying Molecular Assembler Device actions - Step 2: Additions
+[AVAILABLE][CLIENT][INFO] Applying Molecular Assembler Device actions - Completed
