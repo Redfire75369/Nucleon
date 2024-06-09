@@ -5,12 +5,11 @@ crash-reports/**
 downloads/**
 EnderStorage/**
 exports/**
+fonts/**
 generated/**
 ignored/**
 logs/**
-maps/**
 mods/**
-nuclearcraft/**
 patchouli_books/**
 resourcepacks/**
 saves/**
@@ -18,6 +17,7 @@ screenshots/**
 shaderpacks/**
 tmp/**
 vintagefix/**
+woot/**
 
 *.log
 !crafttweaker.log
@@ -28,13 +28,13 @@ vintagefix/**
 
 .curseclient
 .ReAuth.cfg
- hei_bookmarks.ini
+hei_bookmarks.ini
 
 zs_exports.json
 seen_buildersbag_addons.txt
 
 config/jei/worldSettings.cfg
-config/startuptimer/startup_times.json
+config/unidict/dump/**
 config/tellme/**
 
 config/acronym/saved/material_parts_contenttweaker-original.json

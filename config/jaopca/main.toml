@@ -16,7 +16,7 @@
 	#Should the mod find crystal materials without ores.
 	crystalPlain = true
 	#Should the mod find dust materials without ores.
-	dustPlain = true
+	dustPlain = false
 	#Should the mod not find materials with ores with used prefixes.
 	nonPlainUsedPrefix = false
 	#Should the mod not find materials with used prefixes when the material name is not found yet.
@@ -34,7 +34,7 @@
 #Configurations related to item selection.
 [itemSelection]
 	#List of mods that are preferred when selecting items in recipes.
-	preferredMods = ["minecraft", "jaopca"]
+	preferredMods = ["minecraft", "techreborn", "nuclearcraft", "mekanism", "jaopca"]
 
 #Configurations related to the ore dictionary.
 [oredict]

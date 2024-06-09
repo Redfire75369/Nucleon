@@ -13,8 +13,14 @@
 	hasEffect = false
 	#The model type of the material.
 	modelType = "crystal"
+	#The color of this material.
+	color = 6392123
 
 [magneticraft]
 	#The default byproduct material to output in Magneticraft's grinder.
 	grinderByproduct = "minecraft:gravel"
+
+[molten]
+	#The temperature of this molten fluid.
+	temperature = 1000
 
