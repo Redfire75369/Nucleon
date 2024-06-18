@@ -1,0 +1,8 @@
+[
+    {
+        "sourceFilePath": "options.txt",
+        "destinationFilePath": "options.txt",
+        "clientSide": true,
+        "serverSide": false
+    }
+]

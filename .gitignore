@@ -1,37 +1,33 @@
+## General ##
 .mixin.out/**
-backups/**
-crafttweaker_dumps/**
 crash-reports/**
-downloads/**
-EnderStorage/**
-exports/**
 fonts/**
-generated/**
-ignored/**
 logs/**
 mods/**
-patchouli_books/**
-resourcepacks/**
 saves/**
 screenshots/**
-shaderpacks/**
-tmp/**
-vintagefix/**
-woot/**
 
 *.log
-!crafttweaker.log
 *.dll
 *.jar
 *.jar.meta
 *.sqlite
 
-.curseclient
-.ReAuth.cfg
-hei_bookmarks.ini
+options.txt
+knownkeys.txt
+minecraftinstance.json
+patchouli_data.json
+usercache.json
+usernamecache.json
 
-zs_exports.json
-seen_buildersbag_addons.txt
+## Mod-Specific ##
+backups/**
+crafttweaker_dumps/**
+EnderStorage/**
+generated/**
+patchouli_books/**
+vintagefix/**
+woot/**
 
 config/jei/worldSettings.cfg
 config/unidict/dump/**
@@ -41,9 +37,10 @@ config/acronym/saved/material_parts_contenttweaker-original.json
 config/acronym/saved/saved_sub_blocks_contenttweaker-original.json
 scripts/nc_script_addons/**
 
-options.txt
-knownkeys.txt
-minecraftinstance.json
-patchouli_data.json
-usercache.json
-usernamecache.json
+.ReAuth.cfg
+hei_bookmarks.ini
+seen_buildersbag_addons.txt
+!crafttweaker.log
+
+## Launcher ##
+.curseclient

@@ -1,0 +1,44 @@
+itemGroup.coins=ContentTweaker Coins
+itemGroup.other=ContentTweaker Others
+
+contenttweaker.part.coin_bronze=Bronze %s Coin
+contenttweaker.part.coin_silver=Silver %s Coin
+contenttweaker.part.coin_gold=Gold %s Coin
+contenttweaker.part.coin_platinum=Platinum %s Coin
+
+item.contenttweaker.item_circuit_tier1.name=Item Circuit I
+item.contenttweaker.item_circuit_tier2.name=Item Circuit II
+item.contenttweaker.item_circuit_tier3.name=Item Circuit III
+item.contenttweaker.item_circuit_tier4.name=Item Circuit IV
+item.contenttweaker.fluid_circuit_tier1.name=Fluid Circuit I
+item.contenttweaker.fluid_circuit_tier2.name=Fluid Circuit II
+item.contenttweaker.fluid_circuit_tier3.name=Fluid Circuit III
+item.contenttweaker.fluid_circuit_tier4.name=Fluid Circuit IV
+item.contenttweaker.gas_circuit_tier1.name=Gas Circuit I
+item.contenttweaker.gas_circuit_tier2.name=Gas Circuit II
+item.contenttweaker.gas_circuit_tier3.name=Gas Circuit III
+item.contenttweaker.gas_circuit_tier4.name=Gas Circuit IV
+
+item.contenttweaker.copper_thread.name=Copper Thread
+item.contenttweaker.grinding_head_iron.name=Iron Grinding Head
+item.contenttweaker.grinding_head_refined_iron.name=Refined Iron Grinding Head
+item.contenttweaker.poor_charcoal.name=Poor Charcoal
+item.contenttweaker.mech_archaic_circuit.name=Mechanical Archaic Circuit
+item.contenttweaker.sealant.name=Sealant
+item.contenttweaker.shoddy_piston.name=Shoddy Piston
+item.contenttweaker.reinforced_stone_gear.name=Reinforced Stone Gear
+item.contenttweaker.wood_pile.name=Pile of Wood
+
+item.contenttweaker.compressed_dragon_breath.name=Compressed Dragon's Breath
+item.contenttweaker.compressed_ember.name=Compressed Ember
+item.contenttweaker.compressed_lapis.name=Compressed Lapis Lazuli
+item.contenttweaker.compressed_silicon.name=Compressed Silicon
+
+item.contenttweaker.refined_iron_bars.name=Refined Iron Bars
+item.contenttweaker.reinforced_leather.name=Reinforced Leather
+item.contenttweaker.wire_refined_iron.name=Refined Iron Wire
+
+tile.contenttweaker.burnt_wood.name=Burnt Wood
+tile.contenttweaker.block_poor_charcoal.name=Block of Poor Charcoal
+tile.contenttweaker.compressed_chest.name=Compressed Chest
+tile.contenttweaker.regolith.name=Asteroid Regolith

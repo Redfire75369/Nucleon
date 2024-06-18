@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/gas_circuit",
+    "layer1": "contenttweaker:overlays/ae2_circuit_tier4"
+  }
+}

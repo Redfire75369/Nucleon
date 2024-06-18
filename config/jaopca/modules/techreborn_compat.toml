@@ -1,7 +1,7 @@
 
 [general]
 	#The material blacklist of this module.
-	materialBlacklist = []
+	materialBlacklist = ["*"]
 
 [recipes]
 	#The materials that should not have grinder material to dust recipes added.

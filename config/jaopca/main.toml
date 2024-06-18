@@ -8,7 +8,7 @@
 	#Should the mod find crystal materials with ores.
 	crystal = true
 	#Should the mod find dust materials with ores.
-	dust = true
+	dust = false
 	#Should the mod find ingot materials without ores.
 	ingotPlain = true
 	#Should the mod find gem materials without ores.
@@ -34,7 +34,7 @@
 #Configurations related to item selection.
 [itemSelection]
 	#List of mods that are preferred when selecting items in recipes.
-	preferredMods = ["minecraft", "techreborn", "nuclearcraft", "mekanism", "jaopca"]
+	preferredMods = ["minecraft", "techreborn", "nuclearcraft", "mekanism", "embers", "jaopca"]
 
 #Configurations related to the ore dictionary.
 [oredict]
