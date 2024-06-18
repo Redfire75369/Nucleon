@@ -1,5 +1,5 @@
 #loader mekatweaker
-#priority -0100
+#priority -0
 
 import mods.mekatweaker.InfuserType;
 

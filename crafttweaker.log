@@ -1,144 +1,180 @@
 [PREINITIALIZATION][CLIENT][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
-NickT
-embeddedt
+Jonathan McManus
+Phillip Swearingain
 Hooley
-Genryu
-Ncc1702
-Quaternary
-Peregrinus11
+Spencer Gilbert
+Jessie Sims
 NerdyWhiteGuy
-Jellycraft
-Pongo Sapiens
+NickT
 Zuniroa
 Ivy_
-Phillip Swearingain
-Spencer Gilbert
+Pongo Sapiens
+Peregrinus11
 Belathus
-Jessie Sims
+Quaternary
+Ncc1702
 DreamThorn
-Lucas
+Jellycraft
+embeddedt
 Jordan Pineo
-Jonathan McManus
+Genryu
+Lucas
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [preinit]
-[PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: 00_ContentTweaker\00_Builders.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[-1:contenttweaker]: 00_ContentTweaker\01_CreativeTab.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[-2:contenttweaker]: 00_ContentTweaker\02_QuestRewards.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[-3:contenttweaker]: 00_ContentTweaker\03_MekAE2.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[-4:contenttweaker]: 00_ContentTweaker\04_Items.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[-5:contenttweaker]: 00_ContentTweaker\05_Blocks.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[-100:mekatweaker]: 01_MekaTweaker\00_InfuseMaterial.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[-101:crafttweaker|reloadable]: 01_MekaTweaker\01_InfuseObject.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[-200:crafttweaker|reloadable]: 02_Utilities\00_FluidUtils.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[-300:crafttweaker|reloadable]: 03_OreDictionary\00_Globals.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[-301:crafttweaker|reloadable]: 03_OreDictionary\01_UniDict.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[-302:crafttweaker|reloadable]: 03_OreDictionary\02_RecipeRemoval.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 13ms
+[PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: common.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\removal.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\unidict.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[1:contenttweaker]: contenttweaker\common.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker\blocks.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker\items.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker\quest_rewards.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: mekanism\infuser_types.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:mekatweaker]: mekatweaker\infuser_types.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\minecraft.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[-401:crafttweaker|reloadable]: stage0\embers.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[-401:crafttweaker|reloadable]: stage0\rustichromia.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 19ms
 [PREINITIALIZATION][CLIENT][INFO] Hey! Here is ZenUtils.
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [contenttweaker]
-[PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: 00_ContentTweaker\00_Builders.zs}
-[PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Loading Script: {[-1:contenttweaker]: 00_ContentTweaker\01_CreativeTab.zs}
+[PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: common.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\removal.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\unidict.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Loading Script: {[1:contenttweaker]: contenttweaker\common.zs}
 [PREINITIALIZATION][CLIENT][INFO] Item <item:contenttweaker:nuclear_coin_platinum:0> has not been found, trying to use a ghost representative. This message will only be printed once, all subsequent missing items will be handled the same way.
-[PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Loading Script: {[-2:contenttweaker]: 00_ContentTweaker\02_QuestRewards.zs}
-[PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Loading Script: {[-3:contenttweaker]: 00_ContentTweaker\03_MekAE2.zs}
-[PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Loading Script: {[-4:contenttweaker]: 00_ContentTweaker\04_Items.zs}
-[PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Loading Script: {[-5:contenttweaker]: 00_ContentTweaker\05_Blocks.zs}
-[PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[-100:mekatweaker]: 01_MekaTweaker\00_InfuseMaterial.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[-101:crafttweaker|reloadable]: 01_MekaTweaker\01_InfuseObject.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[-200:crafttweaker|reloadable]: 02_Utilities\00_FluidUtils.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[-300:crafttweaker|reloadable]: 03_OreDictionary\00_Globals.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[-301:crafttweaker|reloadable]: 03_OreDictionary\01_UniDict.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[-302:crafttweaker|reloadable]: 03_OreDictionary\02_RecipeRemoval.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 1417ms
+[PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: contenttweaker\blocks.zs}
+[PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: contenttweaker\items.zs}
+[PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: contenttweaker\quest_rewards.zs}
+[PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: mekanism\infuser_types.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:mekatweaker]: mekatweaker\infuser_types.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\minecraft.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[-401:crafttweaker|reloadable]: stage0\embers.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[-401:crafttweaker|reloadable]: stage0\rustichromia.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 2034ms
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker], [finalize_contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [finalize_contenttweaker]
-[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: 00_ContentTweaker\00_Builders.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[-1:contenttweaker]: 00_ContentTweaker\01_CreativeTab.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[-2:contenttweaker]: 00_ContentTweaker\02_QuestRewards.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[-3:contenttweaker]: 00_ContentTweaker\03_MekAE2.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[-4:contenttweaker]: 00_ContentTweaker\04_Items.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[-5:contenttweaker]: 00_ContentTweaker\05_Blocks.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[-100:mekatweaker]: 01_MekaTweaker\00_InfuseMaterial.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[-101:crafttweaker|reloadable]: 01_MekaTweaker\01_InfuseObject.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[-200:crafttweaker|reloadable]: 02_Utilities\00_FluidUtils.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[-300:crafttweaker|reloadable]: 03_OreDictionary\00_Globals.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[-301:crafttweaker|reloadable]: 03_OreDictionary\01_UniDict.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[-302:crafttweaker|reloadable]: 03_OreDictionary\02_RecipeRemoval.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 3ms
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: common.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\removal.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\unidict.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[1:contenttweaker]: contenttweaker\common.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker\blocks.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker\items.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker\quest_rewards.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: mekanism\infuser_types.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[0:mekatweaker]: mekatweaker\infuser_types.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\minecraft.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[-401:crafttweaker|reloadable]: stage0\embers.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[-401:crafttweaker|reloadable]: stage0\rustichromia.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 5ms
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker], [finalize_contenttweaker], [mekatweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [mekatweaker]
-[PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: 00_ContentTweaker\00_Builders.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[-1:contenttweaker]: 00_ContentTweaker\01_CreativeTab.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[-2:contenttweaker]: 00_ContentTweaker\02_QuestRewards.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[-3:contenttweaker]: 00_ContentTweaker\03_MekAE2.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[-4:contenttweaker]: 00_ContentTweaker\04_Items.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[-5:contenttweaker]: 00_ContentTweaker\05_Blocks.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Loading Script: {[-100:mekatweaker]: 01_MekaTweaker\00_InfuseMaterial.zs}
-[PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[-101:crafttweaker|reloadable]: 01_MekaTweaker\01_InfuseObject.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[-200:crafttweaker|reloadable]: 02_Utilities\00_FluidUtils.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[-300:crafttweaker|reloadable]: 03_OreDictionary\00_Globals.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[-301:crafttweaker|reloadable]: 03_OreDictionary\01_UniDict.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[-302:crafttweaker|reloadable]: 03_OreDictionary\02_RecipeRemoval.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 5ms
+[PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: common.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\removal.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\unidict.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[1:contenttweaker]: contenttweaker\common.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker\blocks.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker\items.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker\quest_rewards.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: mekanism\infuser_types.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Loading Script: {[0:mekatweaker]: mekatweaker\infuser_types.zs}
+[PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\minecraft.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[-401:crafttweaker|reloadable]: stage0\embers.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[-401:crafttweaker|reloadable]: stage0\rustichromia.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 8ms
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker], [finalize_contenttweaker], [mekatweaker], [nc_preinit]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [nc_preinit]
-[PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: 00_ContentTweaker\00_Builders.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[-1:contenttweaker]: 00_ContentTweaker\01_CreativeTab.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[-2:contenttweaker]: 00_ContentTweaker\02_QuestRewards.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[-3:contenttweaker]: 00_ContentTweaker\03_MekAE2.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[-4:contenttweaker]: 00_ContentTweaker\04_Items.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[-5:contenttweaker]: 00_ContentTweaker\05_Blocks.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[-100:mekatweaker]: 01_MekaTweaker\00_InfuseMaterial.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[-101:crafttweaker|reloadable]: 01_MekaTweaker\01_InfuseObject.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[-200:crafttweaker|reloadable]: 02_Utilities\00_FluidUtils.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[-300:crafttweaker|reloadable]: 03_OreDictionary\00_Globals.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[-301:crafttweaker|reloadable]: 03_OreDictionary\01_UniDict.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[-302:crafttweaker|reloadable]: 03_OreDictionary\02_RecipeRemoval.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 3ms
+[PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: common.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\removal.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\unidict.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[1:contenttweaker]: contenttweaker\common.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker\blocks.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker\items.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker\quest_rewards.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: mekanism\infuser_types.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:mekatweaker]: mekatweaker\infuser_types.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\minecraft.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[-401:crafttweaker|reloadable]: stage0\embers.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[-401:crafttweaker|reloadable]: stage0\rustichromia.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 5ms
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker], [finalize_contenttweaker], [mekatweaker], [nc_preinit], [recipeevent | crafttweaker]]
 [INITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
-[INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: 00_ContentTweaker\00_Builders.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Skipping file {[-1:contenttweaker]: 00_ContentTweaker\01_CreativeTab.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Skipping file {[-2:contenttweaker]: 00_ContentTweaker\02_QuestRewards.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Skipping file {[-3:contenttweaker]: 00_ContentTweaker\03_MekAE2.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Skipping file {[-4:contenttweaker]: 00_ContentTweaker\04_Items.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Skipping file {[-5:contenttweaker]: 00_ContentTweaker\05_Blocks.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Skipping file {[-100:mekatweaker]: 01_MekaTweaker\00_InfuseMaterial.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-101:crafttweaker|reloadable]: 01_MekaTweaker\01_InfuseObject.zs}
-[INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-200:crafttweaker|reloadable]: 02_Utilities\00_FluidUtils.zs}
-[INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-300:crafttweaker|reloadable]: 03_OreDictionary\00_Globals.zs}
+[INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[3:crafttweaker|reloadable]: common.zs}
+[INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[2:crafttweaker|reloadable]: oredict\removal.zs}
+[INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[2:crafttweaker|reloadable]: oredict\unidict.zs}
+[INITIALIZATION][CLIENT][INFO] Trying to remove Crafting Table recipes for kind: block
+[INITIALIZATION][CLIENT][INFO] Trying to create a Shaped Recipe Template for kind: block
+[INITIALIZATION][CLIENT][INFO] Trying to remove Crafting Table recipes for kind: ingot
+[INITIALIZATION][CLIENT][INFO] Trying to create a Shaped Recipe Template for kind: ingot
+[INITIALIZATION][CLIENT][INFO] Trying to create a Shaped Recipe Template for kind: ingot
+[INITIALIZATION][CLIENT][INFO] Trying to remove Crafting Table recipes for kind: nugget
+[INITIALIZATION][CLIENT][INFO] Trying to create a Shaped Recipe Template for kind: nugget
+[INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Skipping file {[1:contenttweaker]: contenttweaker\common.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker\blocks.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker\items.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker\quest_rewards.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: mekanism\infuser_types.zs}
 [INITIALIZATION][CLIENT][INFO] Adding Compressed Dragon's Breath to ore dictionary entry itemCompressedDragonBreath
 [INITIALIZATION][CLIENT][INFO] Adding Compressed Ember to ore dictionary entry itemCompressedEmber
 [INITIALIZATION][CLIENT][INFO] Adding Compressed Lapis Lazuli to ore dictionary entry itemCompressedLapis
 [INITIALIZATION][CLIENT][INFO] Adding Compressed Silicon to ore dictionary entry itemCompressedSilicon
-[INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-301:crafttweaker|reloadable]: 03_OreDictionary\01_UniDict.zs}
-[INITIALIZATION][CLIENT][INFO] Trying to remove Crafting Table recipes for kind: block
-[INITIALIZATION][CLIENT][INFO] Trying to create a Shapeless Recipe Template for kind: block
-[INITIALIZATION][CLIENT][INFO] Trying to remove Crafting Table recipes for kind: ingot
-[INITIALIZATION][CLIENT][INFO] Trying to create a Shapeless Recipe Template for kind: ingot
-[INITIALIZATION][CLIENT][INFO] Trying to create a Shapeless Recipe Template for kind: ingot
-[INITIALIZATION][CLIENT][INFO] Trying to remove Crafting Table recipes for kind: nugget
-[INITIALIZATION][CLIENT][INFO] Trying to create a Shapeless Recipe Template for kind: nugget
-[INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-302:crafttweaker|reloadable]: 03_OreDictionary\02_RecipeRemoval.zs}
-[INITIALIZATION][CLIENT][TRACE] Completed script loading in: 389ms
+[INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:mekatweaker]: mekatweaker\infuser_types.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-1:crafttweaker|reloadable]: stage0\minecraft.zs}
+[INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-401:crafttweaker|reloadable]: stage0\embers.zs}
+[INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-401:crafttweaker|reloadable]: stage0\rustichromia.zs}
+[INITIALIZATION][CLIENT][TRACE] Completed script loading in: 656ms
 [INITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker], [finalize_contenttweaker], [mekatweaker], [nc_preinit], [crafttweaker | recipeevent], [multiblocked]]
 [INITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [multiblocked]
-[INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: 00_ContentTweaker\00_Builders.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[-1:contenttweaker]: 00_ContentTweaker\01_CreativeTab.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[-2:contenttweaker]: 00_ContentTweaker\02_QuestRewards.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[-3:contenttweaker]: 00_ContentTweaker\03_MekAE2.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[-4:contenttweaker]: 00_ContentTweaker\04_Items.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[-5:contenttweaker]: 00_ContentTweaker\05_Blocks.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[-100:mekatweaker]: 01_MekaTweaker\00_InfuseMaterial.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[-101:crafttweaker|reloadable]: 01_MekaTweaker\01_InfuseObject.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[-200:crafttweaker|reloadable]: 02_Utilities\00_FluidUtils.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[-300:crafttweaker|reloadable]: 03_OreDictionary\00_Globals.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[-301:crafttweaker|reloadable]: 03_OreDictionary\01_UniDict.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[-302:crafttweaker|reloadable]: 03_OreDictionary\02_RecipeRemoval.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: common.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\removal.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\unidict.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[1:contenttweaker]: contenttweaker\common.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker\blocks.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker\items.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker\quest_rewards.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: mekanism\infuser_types.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[0:mekatweaker]: mekatweaker\infuser_types.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\minecraft.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[-401:crafttweaker|reloadable]: stage0\embers.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[-401:crafttweaker|reloadable]: stage0\rustichromia.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][TRACE] Completed script loading in: 4ms
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for item.bucket with name bucket
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for tile.furnace with name furnace
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tinker's Hammer with name tinker_hammer
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for item.contenttweaker.reinforced_stone_gear with name reinforced_stone_gear
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for item.contenttweaker.sealant with name sealant
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for item.contenttweaker.mech_archaic_circuit with name mechanical_archaic_circuit
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Shoddy Piston with name shoddy_piston
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for item.magneticraft.crafting_string_fabric with name string_mesh
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Plywood with name plywood
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Windmill Blade with name windmill_blade_rustichromia
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for item.gear_wood with name plywood_gear
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Windmill with name windmill_rc
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Quern with name quern
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for tile.gin with name gin
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for tile.assembler1 with name single_assembler
+[POSTINITIALIZATION][CLIENT][INFO] Removing Quern recipe: rustichromia:log_to_dust
+[POSTINITIALIZATION][CLIENT][INFO] Removing Quern recipe: rustichromia:plank_to_dust
+[POSTINITIALIZATION][CLIENT][INFO] Removing Quern recipe: rustichromia:slab_to_dust
+[POSTINITIALIZATION][CLIENT][INFO] Removing Quern recipe: rustichromia:cobblestone_to_gravel
+[POSTINITIALIZATION][CLIENT][INFO] Removing Quern recipe: rustichromia:gravel_to_sand
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:sawdust
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:gravel
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:sand
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:regolith
+[POSTINITIALIZATION][CLIENT][INFO] Adding Gin recipe: crafttweaker:copper_wire
+[POSTINITIALIZATION][CLIENT][INFO] Removing Assembler recipe: rustichromia:gear_iron
+[POSTINITIALIZATION][CLIENT][INFO] Removing Assembler recipe: rustichromia:stick_wood
+[POSTINITIALIZATION][CLIENT][INFO] Adding Assembler recipe: crafttweaker:plywood
+[POSTINITIALIZATION][CLIENT][INFO] Removing Assembler recipe: rustichromia:gear_wood
+[POSTINITIALIZATION][CLIENT][INFO] Adding Assembler recipe: crafttweaker:plywood_gear
+[POSTINITIALIZATION][CLIENT][INFO] Adding Assembler recipe: crafttweaker:windmill_big
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <contenttweaker:compressed_dragon_breath>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <contenttweaker:compressed_ember>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <contenttweaker:compressed_ember>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <contenttweaker:compressed_lapis>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 2 Mekanism Enrichment Chamber Recipe(s) for <contenttweaker:compressed_silicon>, <contenttweaker:compressed_silicon>

@@ -1,5 +1,5 @@
 #loader crafttweaker reloadable
-#priority -0302
+#priority 2
 
 // Furnace: Ore -> Ingot
 // Embers Melter: Ore -> Molten
@@ -40,7 +40,4 @@
 // Embers Melter: Plate -> Molten
 // TR Grinder: Plate -> Dust
 
-
-
-
-// IR Lathe: Iron/Steel Ingot -> Rod
+// IR Lathe: Ingot -> Rod

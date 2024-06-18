@@ -1,5 +1,5 @@
 #loader contenttweaker
-#priority -0000
+#priority 1
 
 import mods.contenttweaker.Block;
 import mods.contenttweaker.BlockMaterial;
@@ -11,11 +11,11 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.VanillaFactory;
 
 
-global create_item as function(string)void = function (name as string) as void {
+function create_item(name as string) {
 	val item = VanillaFactory.createItem(name) as Item;
 	item.setCreativeTab(<creativetab:other>);
 	item.register();
-};
+}
 
 zenClass BlockBuilder {
 	zenConstructor() {}
@@ -72,5 +72,8 @@ zenClass FluidBuilder {
     }
 }
 
-global block_builder as BlockBuilder = BlockBuilder() as BlockBuilder;
-global fluid_builder as FluidBuilder = FluidBuilder() as FluidBuilder;
+static block_builder as BlockBuilder = BlockBuilder();
+static fluid_builder as FluidBuilder = FluidBuilder();
+
+VanillaFactory.createCreativeTab("coins", <item:contenttweaker:nuclear_coin_platinum>).register();
+VanillaFactory.createCreativeTab("other", <item:contenttweaker:regolith>).register();
