@@ -22,7 +22,7 @@ usernamecache.json
 
 ## Mod-Specific ##
 backups/**
-crafttweaker_dumps/**
+crafttweaker_dump/**
 EnderStorage/**
 generated/**
 patchouli_books/**

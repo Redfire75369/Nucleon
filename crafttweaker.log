@@ -1,24 +1,24 @@
 [PREINITIALIZATION][CLIENT][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
-Jonathan McManus
-Phillip Swearingain
-Hooley
-Spencer Gilbert
-Jessie Sims
-NerdyWhiteGuy
-NickT
-Zuniroa
-Ivy_
-Pongo Sapiens
-Peregrinus11
-Belathus
-Quaternary
-Ncc1702
-DreamThorn
-Jellycraft
-embeddedt
-Jordan Pineo
-Genryu
 Lucas
+NerdyWhiteGuy
+embeddedt
+Hooley
+Peregrinus11
+Genryu
+Belathus
+Jordan Pineo
+Quaternary
+DreamThorn
+Zuniroa
+Ncc1702
+Spencer Gilbert
+Pongo Sapiens
+Ivy_
+Phillip Swearingain
+Jessie Sims
+Jellycraft
+Jonathan McManus
+NickT
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit]]
@@ -35,7 +35,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\minecraft.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[-401:crafttweaker|reloadable]: stage0\embers.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[-401:crafttweaker|reloadable]: stage0\rustichromia.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 19ms
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 18ms
 [PREINITIALIZATION][CLIENT][INFO] Hey! Here is ZenUtils.
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [contenttweaker]
@@ -52,7 +52,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\minecraft.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[-401:crafttweaker|reloadable]: stage0\embers.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[-401:crafttweaker|reloadable]: stage0\rustichromia.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 2034ms
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 1851ms
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker], [finalize_contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [finalize_contenttweaker]
 [PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: common.zs} as we are currently loading with a different loader
@@ -82,7 +82,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\minecraft.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[-401:crafttweaker|reloadable]: stage0\embers.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[-401:crafttweaker|reloadable]: stage0\rustichromia.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 8ms
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 4ms
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker], [finalize_contenttweaker], [mekatweaker], [nc_preinit]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [nc_preinit]
 [PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: common.zs} as we are currently loading with a different loader
@@ -97,7 +97,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\minecraft.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[-401:crafttweaker|reloadable]: stage0\embers.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[-401:crafttweaker|reloadable]: stage0\rustichromia.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 5ms
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 3ms
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker], [finalize_contenttweaker], [mekatweaker], [nc_preinit], [recipeevent | crafttweaker]]
@@ -125,7 +125,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-1:crafttweaker|reloadable]: stage0\minecraft.zs}
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-401:crafttweaker|reloadable]: stage0\embers.zs}
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-401:crafttweaker|reloadable]: stage0\rustichromia.zs}
-[INITIALIZATION][CLIENT][TRACE] Completed script loading in: 656ms
+[INITIALIZATION][CLIENT][TRACE] Completed script loading in: 374ms
 [INITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker], [finalize_contenttweaker], [mekatweaker], [nc_preinit], [crafttweaker | recipeevent], [multiblocked]]
 [INITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [multiblocked]
 [INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: common.zs} as we are currently loading with a different loader
@@ -140,7 +140,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\minecraft.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[-401:crafttweaker|reloadable]: stage0\embers.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[-401:crafttweaker|reloadable]: stage0\rustichromia.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][TRACE] Completed script loading in: 4ms
+[INITIALIZATION][CLIENT][TRACE] Completed script loading in: 5ms
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for item.bucket with name bucket
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for tile.furnace with name furnace

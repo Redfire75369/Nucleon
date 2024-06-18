@@ -1,0 +1,296 @@
+Sulfur
+	dustSulfur
+
+Thorium
+	chunkThorium
+	dustSmallThorium
+	rodThorium
+	nuggetThorium
+	plateThorium
+	oreThorium
+	blockThorium
+	ingotThorium
+	dustThorium
+
+Tungstensteel
+	rodTungstensteel
+	nuggetTungstensteel
+	plateTungstensteel
+	blockTungstensteel
+	ingotTungstensteel
+	dustTungstensteel
+
+Coal
+	dustCoal
+
+Chrome
+	dustSmallChrome
+	rodChrome
+	nuggetChrome
+	plateChrome
+	blockChrome
+	ingotChrome
+	dustChrome
+
+Tin
+	gearTin
+	chunkTin
+	dustSmallTin
+	rodTin
+	nuggetTin
+	plateTin
+	oreTin
+	blockTin
+	ingotTin
+	dustTin
+
+Nickel
+	gearNickel
+	chunkNickel
+	dustSmallNickel
+	rodNickel
+	nuggetNickel
+	plateNickel
+	blockNickel
+	ingotNickel
+	dustNickel
+
+Invar
+	dustSmallInvar
+	rodInvar
+	nuggetInvar
+	plateInvar
+	blockInvar
+	ingotInvar
+	dustInvar
+
+Mithril
+	chunkMithril
+	rodMithril
+	nuggetMithril
+	plateMithril
+	blockMithril
+	ingotMithril
+	dustMithril
+
+Salt
+	dustSalt
+
+Tungsten
+	chunkTungsten
+	dustSmallTungsten
+	rodTungsten
+	nuggetTungsten
+	plateTungsten
+	oreTungsten
+	blockTungsten
+	ingotTungsten
+	dustTungsten
+
+Steel
+	chunkSteel
+	dustSmallSteel
+	nuggetSteel
+	plateSteel
+	blockSteel
+	ingotSteel
+	dustSteel
+
+Stone
+	gearStone
+
+RefinedIron
+	rodRefinedIron
+	nuggetRefinedIron
+	plateRefinedIron
+	blockRefinedIron
+	ingotRefinedIron
+	dustRefinedIron
+
+Cobalt
+	chunkCobalt
+	rodCobalt
+	nuggetCobalt
+	plateCobalt
+	oreCobalt
+	blockCobalt
+	ingotCobalt
+	dustCobalt
+
+Zinc
+	chunkZinc
+	dustSmallZinc
+	rodZinc
+	nuggetZinc
+	plateZinc
+	blockZinc
+	ingotZinc
+	dustZinc
+
+Wood
+	gearWood
+
+NetherQuartz
+	dustNetherQuartz
+
+Electrum
+	gearElectrum
+	dustSmallElectrum
+	rodElectrum
+	nuggetElectrum
+	plateElectrum
+	blockElectrum
+	ingotElectrum
+	dustElectrum
+
+Iron
+	gearIron
+	chunkIron
+	dustSmallIron
+	nuggetIron
+	plateIron
+	oreIron
+	blockIron
+	ingotIron
+	dustIron
+
+Obsidian
+	dustObsidian
+
+Aluminum
+	gearAluminum
+	chunkAluminum
+	dustSmallAluminum
+	rodAluminum
+	nuggetAluminum
+	plateAluminum
+	blockAluminum
+	ingotAluminum
+	dustAluminum
+
+Bronze
+	gearBronze
+	dustSmallBronze
+	rodBronze
+	nuggetBronze
+	plateBronze
+	blockBronze
+	ingotBronze
+	dustBronze
+
+Osmium
+	chunkOsmium
+	rodOsmium
+	nuggetOsmium
+	plateOsmium
+	oreOsmium
+	blockOsmium
+	ingotOsmium
+	dustOsmium
+
+Plutonium
+	dustSmallPlutonium
+	rodPlutonium
+	nuggetPlutonium
+	platePlutonium
+	blockPlutonium
+	ingotPlutonium
+	dustPlutonium
+
+Iridium
+	chunkIridium
+	dustSmallIridium
+	rodIridium
+	nuggetIridium
+	plateIridium
+	oreIridium
+	blockIridium
+	ingotIridium
+	dustIridium
+
+Brass
+	dustSmallBrass
+	rodBrass
+	nuggetBrass
+	plateBrass
+	blockBrass
+	ingotBrass
+	dustBrass
+
+Uranium
+	chunkUranium
+	dustSmallUranium
+	rodUranium
+	nuggetUranium
+	plateUranium
+	oreUranium
+	blockUranium
+	ingotUranium
+	dustUranium
+
+Platinum
+	dustSmallPlatinum
+	rodPlatinum
+	nuggetPlatinum
+	platePlatinum
+	blockPlatinum
+	ingotPlatinum
+	dustPlatinum
+
+Titanium
+	dustSmallTitanium
+	rodTitanium
+	nuggetTitanium
+	plateTitanium
+	blockTitanium
+	ingotTitanium
+	dustTitanium
+
+Silver
+	gearSilver
+	chunkSilver
+	dustSmallSilver
+	rodSilver
+	nuggetSilver
+	plateSilver
+	oreSilver
+	blockSilver
+	ingotSilver
+	dustSilver
+
+Lead
+	gearLead
+	chunkLead
+	dustSmallLead
+	rodLead
+	nuggetLead
+	plateLead
+	oreLead
+	blockLead
+	ingotLead
+	dustLead
+
+Gold
+	gearGold
+	chunkGold
+	dustSmallGold
+	rodGold
+	nuggetGold
+	plateGold
+	oreGold
+	blockGold
+	ingotGold
+	dustGold
+
+Copper
+	gearCopper
+	chunkCopper
+	dustSmallCopper
+	rodCopper
+	nuggetCopper
+	plateCopper
+	oreCopper
+	blockCopper
+	ingotCopper
+	dustCopper
+

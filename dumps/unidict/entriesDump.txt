@@ -1,0 +1,2107 @@
+DepletedLECm245TRISO
+	ingotDepletedLECm245TRISO
+
+MIX241
+	ingotMIX241
+
+LECf249Nitride
+	ingotLECf249Nitride
+
+Plutonium242
+	blockPlutonium242
+	ingotPlutonium242
+
+Plutonium241
+	ingotPlutonium241
+
+DepletedHEP239Oxide
+	ingotDepletedHEP239Oxide
+
+Curium247ZA
+	ingotCurium247ZA
+
+DepletedHEP241Oxide
+	ingotDepletedHEP241Oxide
+
+Uranium233Oxide
+	ingotUranium233Oxide
+
+Xen
+	gemXen
+	oreXen
+	blockXen
+	ingotXen
+
+MIX239
+	ingotMIX239
+
+DepletedTBUOxide
+	ingotDepletedTBUOxide
+
+Plutonium239
+	ingotPlutonium239
+
+Plutonium238
+	ingotPlutonium238
+
+LEA242
+	ingotLEA242
+
+HECm243ZA
+	ingotHECm243ZA
+
+Curium243All
+	ingotCurium243All
+
+HECm247ZA
+	ingotHECm247ZA
+
+Neptunium237Oxide
+	ingotNeptunium237Oxide
+
+HEU235TRISO
+	ingotHEU235TRISO
+
+HEP241Nitride
+	ingotHEP241Nitride
+
+LEU235Carbide
+	ingotLEU235Carbide
+
+Curium247Oxide
+	ingotCurium247Oxide
+
+LEP239Oxide
+	ingotLEP239Oxide
+
+LECm245Oxide
+	ingotLECm245Oxide
+
+Chrome
+	dustSmallChrome
+	rodChrome
+	stickChrome
+	nuggetChrome
+	plateChrome
+	blockChrome
+	ingotChrome
+	dustChrome
+
+DepletedHECm243Oxide
+	ingotDepletedHECm243Oxide
+
+DepletedHEP239Nitride
+	ingotDepletedHEP239Nitride
+
+Curium243Nitride
+	ingotCurium243Nitride
+
+HECm245Oxide
+	ingotHECm245Oxide
+
+DepletedHEP241TRISO
+	ingotDepletedHEP241TRISO
+
+DepletedLECf251Nitride
+	ingotDepletedLECf251Nitride
+
+HEN236Nitride
+	ingotHEN236Nitride
+
+LEU235ZA
+	ingotLEU235ZA
+
+LEU235Oxide
+	ingotLEU235Oxide
+
+MIX241Carbide
+	ingotMIX241Carbide
+
+Plutonium
+	dustSmallPlutonium
+	rodPlutonium
+	stickPlutonium
+	nuggetPlutonium
+	platePlutonium
+	blockPlutonium
+	ingotPlutonium
+	dustPlutonium
+
+Curium246All
+	ingotCurium246All
+
+TBU
+	ingotTBU
+
+Plutonium242All
+	ingotPlutonium242All
+
+ElectricalSteel
+	rodElectricalSteel
+	stickElectricalSteel
+	ballElectricalSteel
+	nuggetElectricalSteel
+	plateElectricalSteel
+	blockElectricalSteel
+	ingotElectricalSteel
+	dustElectricalSteel
+
+Magnesium
+	clumpMagnesium
+	dustDirtyMagnesium
+	rockyChunkMagnesium
+	crystalMagnesium
+	chunkMagnesium
+	shardMagnesium
+	dustSmallMagnesium
+	rodMagnesium
+	stickMagnesium
+	nuggetMagnesium
+	plateMagnesium
+	oreMagnesium
+	blockMagnesium
+	ingotMagnesium
+	dustMagnesium
+
+DepletedHEA242Oxide
+	ingotDepletedHEA242Oxide
+
+CosmicNeutronium
+
+Plutonium238Oxide
+	ingotPlutonium238Oxide
+
+HardCarbon
+	rodHardCarbon
+	stickHardCarbon
+	nuggetHardCarbon
+	plateHardCarbon
+	blockHardCarbon
+	ingotHardCarbon
+	dustHardCarbon
+
+HEU235Nitride
+	ingotHEU235Nitride
+
+LECm245TRISO
+	ingotLECm245TRISO
+
+Thermoconducting
+	rodThermoconducting
+	stickThermoconducting
+	nuggetThermoconducting
+	plateThermoconducting
+	blockThermoconducting
+	ingotThermoconducting
+	dustThermoconducting
+
+CrystallineAlloy
+	rodCrystallineAlloy
+	stickCrystallineAlloy
+	ballCrystallineAlloy
+	nuggetCrystallineAlloy
+	plateCrystallineAlloy
+	blockCrystallineAlloy
+	ingotCrystallineAlloy
+	dustCrystallineAlloy
+
+HECm245TRISO
+	ingotHECm245TRISO
+
+DepletedLEP241Nitride
+	ingotDepletedLEP241Nitride
+
+HEU233ZA
+	ingotHEU233ZA
+
+LEU235TRISO
+	ingotLEU235TRISO
+
+HEA242ZA
+	ingotHEA242ZA
+
+Plutonium241Oxide
+	ingotPlutonium241Oxide
+
+LECm245ZA
+	ingotLECm245ZA
+
+HEB248
+	ingotHEB248
+
+HSLASteel
+	rodHSLASteel
+	stickHSLASteel
+	nuggetHSLASteel
+	plateHSLASteel
+	blockHSLASteel
+	ingotHSLASteel
+	dustHSLASteel
+
+LEA242Nitride
+	ingotLEA242Nitride
+
+LECm247TRISO
+	ingotLECm247TRISO
+
+Graphite
+	rodGraphite
+	stickGraphite
+	nuggetGraphite
+	plateGraphite
+	blockGraphite
+	ingotGraphite
+	dustGraphite
+
+LECf249Carbide
+	ingotLECf249Carbide
+
+HEN236ZA
+	ingotHEN236ZA
+
+Plutonium242ZA
+	ingotPlutonium242ZA
+
+DepletedLEB248Oxide
+	ingotDepletedLEB248Oxide
+
+DepletedLEN236Nitride
+	ingotDepletedLEN236Nitride
+
+DepletedHECm243Nitride
+	ingotDepletedHECm243Nitride
+
+DepletedLECf251Oxide
+	ingotDepletedLECf251Oxide
+
+Californium250ZA
+	ingotCalifornium250ZA
+
+DepletedMIX239Oxide
+	ingotDepletedMIX239Oxide
+
+HEA242Oxide
+	ingotHEA242Oxide
+
+DepletedHECf251Oxide
+	ingotDepletedHECf251Oxide
+
+Californium252
+	blockCalifornium252
+	ingotCalifornium252
+
+Californium251
+	ingotCalifornium251
+
+Californium250
+	ingotCalifornium250
+
+Manasteel
+
+Californium249Oxide
+	ingotCalifornium249Oxide
+
+Americium243Nitride
+	ingotAmericium243Nitride
+
+DepletedLEU235Nitride
+	ingotDepletedLEU235Nitride
+
+DepletedLECm245ZA
+	ingotDepletedLECm245ZA
+
+StellarAlloy
+	rodStellarAlloy
+	stickStellarAlloy
+	ballStellarAlloy
+	nuggetStellarAlloy
+	plateStellarAlloy
+	blockStellarAlloy
+	ingotStellarAlloy
+	dustStellarAlloy
+
+Berkelium248Nitride
+	ingotBerkelium248Nitride
+
+LEU233Carbide
+	ingotLEU233Carbide
+
+Californium249
+	ingotCalifornium249
+
+Plutonium239Nitride
+	ingotPlutonium239Nitride
+
+VividAlloy
+	rodVividAlloy
+	stickVividAlloy
+	ballVividAlloy
+	nuggetVividAlloy
+	plateVividAlloy
+	blockVividAlloy
+	ingotVividAlloy
+	dustVividAlloy
+
+LEP239TRISO
+	ingotLEP239TRISO
+
+DepletedLECf251TRISO
+	ingotDepletedLECf251TRISO
+
+Plutonium239ZA
+	ingotPlutonium239ZA
+
+Berkelium247Oxide
+	ingotBerkelium247Oxide
+
+Chocolate
+	ingotChocolate
+
+PulsatingIron
+	rodPulsatingIron
+	stickPulsatingIron
+	ballPulsatingIron
+	nuggetPulsatingIron
+	platePulsatingIron
+	blockPulsatingIron
+	ingotPulsatingIron
+	dustPulsatingIron
+
+DepletedMIX239TRISO
+	ingotDepletedMIX239TRISO
+
+HEA242TRISO
+	ingotHEA242TRISO
+
+DepletedHECf251TRISO
+	ingotDepletedHECf251TRISO
+
+Neptunium236Oxide
+	ingotNeptunium236Oxide
+
+RefinedIron
+	rodRefinedIron
+	stickRefinedIron
+	nuggetRefinedIron
+	plateRefinedIron
+	blockRefinedIron
+	ingotRefinedIron
+	dustRefinedIron
+
+Extreme
+	rodExtreme
+	stickExtreme
+	nuggetExtreme
+	plateExtreme
+	blockExtreme
+	ingotExtreme
+	dustExtreme
+
+LEP239
+	ingotLEP239
+
+DepletedHEP239TRISO
+	ingotDepletedHEP239TRISO
+
+DepletedHECm243ZA
+	ingotDepletedHECm243ZA
+
+ManganeseDioxide
+	ingotManganeseDioxide
+	dustManganeseDioxide
+
+Boron11
+	ingotBoron11
+
+Boron10
+	ingotBoron10
+
+HEU233Nitride
+	ingotHEU233Nitride
+
+LEP241
+	ingotLEP241
+
+UnsweetenedChocolate
+	ingotUnsweetenedChocolate
+
+Curium247Nitride
+	ingotCurium247Nitride
+
+DepletedHEP239ZA
+	ingotDepletedHEP239ZA
+
+MIX241Oxide
+	ingotMIX241Oxide
+
+Berkelium247Nitride
+	ingotBerkelium247Nitride
+
+ManganeseOxide
+	ingotManganeseOxide
+	dustManganeseOxide
+
+LECf251TRISO
+	ingotLECf251TRISO
+
+Iridium
+	clumpIridium
+	dustDirtyIridium
+	rockyChunkIridium
+	crystalIridium
+	chunkIridium
+	shardIridium
+	dustSmallIridium
+	rodIridium
+	stickIridium
+	nuggetIridium
+	plateIridium
+	oreIridium
+	blockIridium
+	ingotIridium
+	dustIridium
+
+HECf251Oxide
+	ingotHECf251Oxide
+
+Berkelium247All
+	ingotBerkelium247All
+
+Plutonium238Nitride
+	ingotPlutonium238Nitride
+
+Uranium235Nitride
+	ingotUranium235Nitride
+
+Californium249ZA
+	ingotCalifornium249ZA
+
+HEP241Oxide
+	ingotHEP241Oxide
+
+Osmium
+	clumpOsmium
+	dustDirtyOsmium
+	rockyChunkOsmium
+	crystalOsmium
+	chunkOsmium
+	shardOsmium
+	rodOsmium
+	stickOsmium
+	nuggetOsmium
+	plateOsmium
+	oreOsmium
+	blockOsmium
+	ingotOsmium
+	dustOsmium
+
+Lithium
+	clumpLithium
+	dustDirtyLithium
+	rockyChunkLithium
+	crystalLithium
+	chunkLithium
+	shardLithium
+	rodLithium
+	stickLithium
+	nuggetLithium
+	plateLithium
+	oreLithium
+	blockLithium
+	ingotLithium
+	dustLithium
+
+Plutonium239Oxide
+	ingotPlutonium239Oxide
+
+LEP239Nitride
+	ingotLEP239Nitride
+
+DepletedMIX241TRISO
+	ingotDepletedMIX241TRISO
+
+DepletedHEA242ZA
+	ingotDepletedHEA242ZA
+
+FluixSteel
+	ingotFluixSteel
+
+Americium243
+	blockAmericium243
+	ingotAmericium243
+
+Americium242
+	ingotAmericium242
+
+Americium241
+	ingotAmericium241
+
+HECf251TRISO
+	ingotHECf251TRISO
+
+DepletedHEP241Nitride
+	ingotDepletedHEP241Nitride
+
+LEU233ZA
+	ingotLEU233ZA
+
+Berkelium247ZA
+	ingotBerkelium247ZA
+
+TBUOxide
+	ingotTBUOxide
+
+DepletedLECf249Oxide
+	ingotDepletedLECf249Oxide
+
+Plutonium242Oxide
+	ingotPlutonium242Oxide
+
+Uranium238
+	blockUranium238
+	ingotUranium238
+
+HEN236
+	ingotHEN236
+
+Uranium235
+	ingotUranium235
+
+DepletedLEU233Nitride
+	ingotDepletedLEU233Nitride
+
+Uranium233
+	ingotUranium233
+
+Neptunium237All
+	ingotNeptunium237All
+
+Titanium
+	dustSmallTitanium
+	rodTitanium
+	stickTitanium
+	nuggetTitanium
+	plateTitanium
+	blockTitanium
+	ingotTitanium
+	dustTitanium
+
+LECm247
+	ingotLECm247
+
+LEN236ZA
+	ingotLEN236ZA
+
+LECm245
+	ingotLECm245
+
+LECm243
+	ingotLECm243
+
+Americium242All
+	ingotAmericium242All
+
+DepletedHECm247Nitride
+	ingotDepletedHECm247Nitride
+
+CrudeSteel
+	rodCrudeSteel
+	stickCrudeSteel
+	ballCrudeSteel
+	nuggetCrudeSteel
+	plateCrudeSteel
+	blockCrudeSteel
+	ingotCrudeSteel
+	dustCrudeSteel
+
+Neptunium237
+	blockNeptunium237
+	ingotNeptunium237
+
+Neptunium236
+	ingotNeptunium236
+
+Neptunium237ZA
+	ingotNeptunium237ZA
+
+HECm247
+	ingotHECm247
+
+HECm245
+	ingotHECm245
+
+HECm243
+	ingotHECm243
+
+DepletedLECm247Oxide
+	ingotDepletedLECm247Oxide
+
+IronCompressed
+	gearIronCompressed
+	blockIronCompressed
+	ingotIronCompressed
+
+Ferroboron
+	rodFerroboron
+	stickFerroboron
+	nuggetFerroboron
+	plateFerroboron
+	blockFerroboron
+	ingotFerroboron
+	dustFerroboron
+
+MixedMetal
+	ingotMixedMetal
+
+TBUTRISO
+	ingotTBUTRISO
+
+LECm243ZA
+	ingotLECm243ZA
+
+DepletedLECf249TRISO
+	ingotDepletedLECf249TRISO
+
+DepletedHEU235Nitride
+	ingotDepletedHEU235Nitride
+
+Beryllium
+	rodBeryllium
+	stickBeryllium
+	nuggetBeryllium
+	plateBeryllium
+	blockBeryllium
+	ingotBeryllium
+	dustBeryllium
+
+Curium247All
+	ingotCurium247All
+
+HEU233Carbide
+	ingotHEU233Carbide
+
+CocoaButter
+	ingotCocoaButter
+
+Enderium
+	itemGrindingBallEnderium
+
+MIX239Nitride
+	ingotMIX239Nitride
+
+Californium249Carbide
+	ingotCalifornium249Carbide
+
+Americium242Carbide
+	ingotAmericium242Carbide
+
+Americium241Oxide
+	ingotAmericium241Oxide
+
+Plutonium241ZA
+	ingotPlutonium241ZA
+
+Zirconium
+	rodZirconium
+	stickZirconium
+	nuggetZirconium
+	plateZirconium
+	blockZirconium
+	ingotZirconium
+	dustZirconium
+
+Plutonium238Carbide
+	ingotPlutonium238Carbide
+
+Bronze
+	gearBronze
+	dustSmallBronze
+	rodBronze
+	stickBronze
+	nuggetBronze
+	plateBronze
+	blockBronze
+	ingotBronze
+	dustBronze
+
+Berkelium248Oxide
+	ingotBerkelium248Oxide
+
+Californium251All
+	ingotCalifornium251All
+
+DepletedLEA242Nitride
+	ingotDepletedLEA242Nitride
+
+Curium243ZA
+	ingotCurium243ZA
+
+Tin
+	gearTin
+	clumpTin
+	dustDirtyTin
+	rockyChunkTin
+	crystalTin
+	chunkTin
+	shardTin
+	dustSmallTin
+	rodTin
+	stickTin
+	nuggetTin
+	plateTin
+	oreTin
+	blockTin
+	ingotTin
+	dustTin
+
+Curium245ZA
+	ingotCurium245ZA
+
+LECf249Oxide
+	ingotLECf249Oxide
+
+Uranium235Oxide
+	ingotUranium235Oxide
+
+Uranium233Nitride
+	ingotUranium233Nitride
+
+Silver
+	gearSilver
+	clumpSilver
+	dustDirtySilver
+	rockyChunkSilver
+	crystalSilver
+	chunkSilver
+	shardSilver
+	dustSmallSilver
+	rodSilver
+	stickSilver
+	nuggetSilver
+	plateSilver
+	oreSilver
+	blockSilver
+	ingotSilver
+	dustSilver
+
+Uranium235ZA
+	ingotUranium235ZA
+
+DepletedHECm243TRISO
+	ingotDepletedHECm243TRISO
+
+DepletedLECm243ZA
+	ingotDepletedLECm243ZA
+
+MIX239Oxide
+	ingotMIX239Oxide
+
+HECm245ZA
+	ingotHECm245ZA
+
+Berkelium248
+	ingotBerkelium248
+
+Berkelium247
+	blockBerkelium247
+	ingotBerkelium247
+
+HECf249Oxide
+	ingotHECf249Oxide
+
+Curium243Oxide
+	ingotCurium243Oxide
+
+Polonium
+	dustPolonium
+
+LEB248Oxide
+	ingotLEB248Oxide
+
+LEB248
+	ingotLEB248
+
+LECm247Nitride
+	ingotLECm247Nitride
+
+DepletedHEP241ZA
+	ingotDepletedHEP241ZA
+
+ElvenElementium
+
+Plutonium241Nitride
+	ingotPlutonium241Nitride
+
+DepletedLEP239ZA
+	ingotDepletedLEP239ZA
+
+LECm247Oxide
+	ingotLECm247Oxide
+
+DepletedHECm245Oxide
+	ingotDepletedHECm245Oxide
+
+LEB248TRISO
+	ingotLEB248TRISO
+
+Americium241Carbide
+	ingotAmericium241Carbide
+
+HECm247Oxide
+	ingotHECm247Oxide
+
+LECf249TRISO
+	ingotLECf249TRISO
+
+Californium249All
+	ingotCalifornium249All
+
+MIX239TRISO
+	ingotMIX239TRISO
+
+Uranium235All
+	ingotUranium235All
+
+HECf249TRISO
+	ingotHECf249TRISO
+
+DepletedLEB248TRISO
+	ingotDepletedLEB248TRISO
+
+HEP241TRISO
+	ingotHEP241TRISO
+
+Iron
+	platerefinedIron
+	barsIron
+	spongeIron
+	heavyPlateIron
+	lightPlateIron
+	gearIron
+	clumpIron
+	dustDirtyIron
+	rockyChunkIron
+	crystalIron
+	chunkIron
+	shardIron
+	dustSmallIron
+	stickIron
+	fenceIron
+	nuggetIron
+	plateIron
+	oreIron
+	blockIron
+	ingotIron
+	dustIron
+
+IridiumAlloy
+	plateIridiumAlloy
+	ingotIridiumAlloy
+
+LEB248ZA
+	ingotLEB248ZA
+
+DepletedHECm245Nitride
+	ingotDepletedHECm245Nitride
+
+DepletedHECf249ZA
+	ingotDepletedHECf249ZA
+
+HEP239TRISO
+	ingotHEP239TRISO
+
+LEN236Carbide
+	ingotLEN236Carbide
+
+DepletedLEA242ZA
+	ingotDepletedLEA242ZA
+
+Uranium
+	clumpUranium
+	dustDirtyUranium
+	rockyChunkUranium
+	crystalUranium
+	chunkUranium
+	shardUranium
+	dustSmallUranium
+	rodUranium
+	stickUranium
+	nuggetUranium
+	plateUranium
+	oreUranium
+	blockUranium
+	ingotUranium
+	dustUranium
+
+DepletedHECm245TRISO
+	ingotDepletedHECm245TRISO
+
+HECf251
+	ingotHECf251
+
+Plutonium238All
+	ingotPlutonium238All
+
+Californium251Nitride
+	ingotCalifornium251Nitride
+
+DepletedLEU235Oxide
+	ingotDepletedLEU235Oxide
+
+ConstructionAlloy
+	rodConstructionAlloy
+	stickConstructionAlloy
+	ballConstructionAlloy
+	nuggetConstructionAlloy
+	plateConstructionAlloy
+	blockConstructionAlloy
+	ingotConstructionAlloy
+	dustConstructionAlloy
+
+Californium250Oxide
+	ingotCalifornium250Oxide
+
+Americium243Carbide
+	ingotAmericium243Carbide
+
+DepletedHEU233Oxide
+	ingotDepletedHEU233Oxide
+
+MIX239Carbide
+	ingotMIX239Carbide
+
+DepletedHEU233Nitride
+	ingotDepletedHEU233Nitride
+
+Thaumium
+
+LEB248Carbide
+	ingotLEB248Carbide
+
+SiCSiCCMC
+	ingotSiCSiCCMC
+
+Curium245Carbide
+	ingotCurium245Carbide
+
+Uranium238Nitride
+	ingotUranium238Nitride
+
+HECm247Nitride
+	ingotHECm247Nitride
+
+DepletedHEB248Oxide
+	ingotDepletedHEB248Oxide
+
+DepletedHEU235ZA
+	ingotDepletedHEU235ZA
+
+Marshmallow
+	ingotMarshmallow
+
+LEP241Oxide
+	ingotLEP241Oxide
+
+Uranium233Carbide
+	ingotUranium233Carbide
+
+DepletedLEU235TRISO
+	ingotDepletedLEU235TRISO
+
+DepletedHEU233TRISO
+	ingotDepletedHEU233TRISO
+
+Uranium238All
+	ingotUranium238All
+
+Californium250Nitride
+	ingotCalifornium250Nitride
+
+DarkSteel
+	rodDarkSteel
+	stickDarkSteel
+	ballDarkSteel
+	nuggetDarkSteel
+	plateDarkSteel
+	blockDarkSteel
+	ingotDarkSteel
+	dustDarkSteel
+
+HEB248Nitride
+	ingotHEB248Nitride
+
+MIX239ZA
+	ingotMIX239ZA
+
+HECm243Nitride
+	ingotHECm243Nitride
+
+Antimony
+	gearAntimony
+	ingotAntimony
+
+Berkelium248ZA
+	ingotBerkelium248ZA
+
+SiliconCarbide
+	fiberSiliconCarbide
+	rodSiliconCarbide
+	stickSiliconCarbide
+	nuggetSiliconCarbide
+	plateSiliconCarbide
+	blockSiliconCarbide
+	ingotSiliconCarbide
+	dustSiliconCarbide
+
+ZirconiumMolybdenum
+	rodZirconiumMolybdenum
+	stickZirconiumMolybdenum
+	nuggetZirconiumMolybdenum
+	plateZirconiumMolybdenum
+	blockZirconiumMolybdenum
+	ingotZirconiumMolybdenum
+	dustZirconiumMolybdenum
+
+DepletedHEB248TRISO
+	ingotDepletedHEB248TRISO
+
+DepletedTBUZA
+	ingotDepletedTBUZA
+
+DepletedLEU233Oxide
+	ingotDepletedLEU233Oxide
+
+Lithium6Deuteride
+	ingotLithium6Deuteride
+
+Neptunium237Nitride
+	ingotNeptunium237Nitride
+
+LEU235Nitride
+	ingotLEU235Nitride
+
+HECf251Carbide
+	ingotHECf251Carbide
+
+DepletedLECm247Nitride
+	ingotDepletedLECm247Nitride
+
+LECm243Nitride
+	ingotLECm243Nitride
+
+LECf249ZA
+	ingotLECf249ZA
+
+DepletedLEN236Oxide
+	ingotDepletedLEN236Oxide
+
+Californium251ZA
+	ingotCalifornium251ZA
+
+HEU233
+	ingotHEU233
+
+LEN236
+	ingotLEN236
+
+DepletedLEP241ZA
+	ingotDepletedLEP241ZA
+
+MIX241Nitride
+	ingotMIX241Nitride
+
+Californium251Carbide
+	ingotCalifornium251Carbide
+
+Terrasteel
+
+Tungsten
+	heavyPlateTungsten
+	lightPlateTungsten
+	clumpTungsten
+	dustDirtyTungsten
+	rockyChunkTungsten
+	crystalTungsten
+	chunkTungsten
+	shardTungsten
+	dustSmallTungsten
+	rodTungsten
+	stickTungsten
+	nuggetTungsten
+	plateTungsten
+	oreTungsten
+	blockTungsten
+	ingotTungsten
+	dustTungsten
+
+DepletedLEU233TRISO
+	ingotDepletedLEU233TRISO
+
+HECf249Carbide
+	ingotHECf249Carbide
+
+Uranium238ZA
+	ingotUranium238ZA
+
+DepletedMIX239Nitride
+	ingotDepletedMIX239Nitride
+
+HEP241Carbide
+	ingotHEP241Carbide
+
+Uranium233ZA
+	ingotUranium233ZA
+
+ConductiveIron
+	rodConductiveIron
+	stickConductiveIron
+	ballConductiveIron
+	nuggetConductiveIron
+	plateConductiveIron
+	blockConductiveIron
+	ingotConductiveIron
+	dustConductiveIron
+
+Uranium238Carbide
+	ingotUranium238Carbide
+
+Berkelium248All
+	ingotBerkelium248All
+
+Nickel
+	gearNickel
+	rockyChunkNickel
+	chunkNickel
+	dustSmallNickel
+	rodNickel
+	stickNickel
+	nuggetNickel
+	plateNickel
+	blockNickel
+	ingotNickel
+	dustNickel
+
+Platinum
+	dustSmallPlatinum
+	rodPlatinum
+	stickPlatinum
+	nuggetPlatinum
+	platePlatinum
+	blockPlatinum
+	ingotPlatinum
+	dustPlatinum
+
+DepletedLECf249ZA
+	ingotDepletedLECf249ZA
+
+DepletedHEN236Oxide
+	ingotDepletedHEN236Oxide
+
+DepletedHECf251ZA
+	ingotDepletedHECf251ZA
+
+Curium243Carbide
+	ingotCurium243Carbide
+
+DepletedLEA242Oxide
+	ingotDepletedLEA242Oxide
+
+HECm245Nitride
+	ingotHECm245Nitride
+
+HEN236Carbide
+	ingotHEN236Carbide
+
+Curium247
+	ingotCurium247
+
+Curium246
+	blockCurium246
+	ingotCurium246
+
+Curium245
+	ingotCurium245
+
+Curium243
+	ingotCurium243
+
+LithiumManganeseDioxide
+	ingotLithiumManganeseDioxide
+
+Gold
+	heavyPlateGold
+	lightPlateGold
+	gearGold
+	clumpGold
+	dustDirtyGold
+	rockyChunkGold
+	crystalGold
+	chunkGold
+	shardGold
+	dustSmallGold
+	rodGold
+	stickGold
+	nuggetGold
+	plateGold
+	oreGold
+	blockGold
+	ingotGold
+	dustGold
+
+MelodicAlloy
+	rodMelodicAlloy
+	stickMelodicAlloy
+	ballMelodicAlloy
+	nuggetMelodicAlloy
+	plateMelodicAlloy
+	blockMelodicAlloy
+	ingotMelodicAlloy
+	dustMelodicAlloy
+
+HEB248Oxide
+	ingotHEB248Oxide
+
+Californium251Oxide
+	ingotCalifornium251Oxide
+
+Invar
+	dustSmallInvar
+	rodInvar
+	stickInvar
+	nuggetInvar
+	plateInvar
+	blockInvar
+	ingotInvar
+	dustInvar
+
+Curium246Carbide
+	ingotCurium246Carbide
+
+Californium250Carbide
+	ingotCalifornium250Carbide
+
+HEB248Carbide
+	ingotHEB248Carbide
+
+HEU235Carbide
+	ingotHEU235Carbide
+
+DepletedHECf249Nitride
+	ingotDepletedHECf249Nitride
+
+DepletedHEN236TRISO
+	ingotDepletedHEN236TRISO
+
+Curium246ZA
+	ingotCurium246ZA
+
+DepletedLEA242TRISO
+	ingotDepletedLEA242TRISO
+
+LeadPlatinum
+	ingotLeadPlatinum
+
+Aluminum
+	gearAluminum
+	rockyChunkAluminum
+	chunkAluminum
+	dustSmallAluminum
+	rodAluminum
+	stickAluminum
+	nuggetAluminum
+	plateAluminum
+	blockAluminum
+	ingotAluminum
+	dustAluminum
+
+Neptunium237Carbide
+	ingotNeptunium237Carbide
+
+DepletedLEU235ZA
+	ingotDepletedLEU235ZA
+
+DepletedLECm243Oxide
+	ingotDepletedLECm243Oxide
+
+LECm243Carbide
+	ingotLECm243Carbide
+
+Americium243All
+	ingotAmericium243All
+
+LEU233Nitride
+	ingotLEU233Nitride
+
+LEA242Carbide
+	ingotLEA242Carbide
+
+DepletedLECm243Nitride
+	ingotDepletedLECm243Nitride
+
+DepletedLECm245Nitride
+	ingotDepletedLECm245Nitride
+
+Steel
+	heavyPlateSteel
+	lightPlateSteel
+	rockyChunkSteel
+	chunkSteel
+	dustSmallSteel
+	stickSteel
+	nuggetSteel
+	plateSteel
+	blockSteel
+	ingotSteel
+	dustSteel
+
+RedAlloy
+	rodRedAlloy
+	stickRedAlloy
+	nuggetRedAlloy
+	plateRedAlloy
+	blockRedAlloy
+	ingotRedAlloy
+	dustRedAlloy
+
+DepletedMIX239ZA
+	ingotDepletedMIX239ZA
+
+Zinc
+	rockyChunkZinc
+	chunkZinc
+	dustSmallZinc
+	rodZinc
+	stickZinc
+	nuggetZinc
+	plateZinc
+	blockZinc
+	ingotZinc
+	dustZinc
+
+HEP239ZA
+	ingotHEP239ZA
+
+MIX241ZA
+	ingotMIX241ZA
+
+HEU233Oxide
+	ingotHEU233Oxide
+
+HEB248ZA
+	ingotHEB248ZA
+
+Americium243Oxide
+	ingotAmericium243Oxide
+
+DepletedHEU233ZA
+	ingotDepletedHEU233ZA
+
+DepletedLECm243TRISO
+	ingotDepletedLECm243TRISO
+
+Soularium
+	rodSoularium
+	stickSoularium
+	ballSoularium
+	nuggetSoularium
+	plateSoularium
+	blockSoularium
+	ingotSoularium
+	dustSoularium
+
+DepletedLEP241Oxide
+	ingotDepletedLEP241Oxide
+
+Berkelium248Carbide
+	ingotBerkelium248Carbide
+
+LECf251ZA
+	ingotLECf251ZA
+
+Neptunium236Carbide
+	ingotNeptunium236Carbide
+
+HEP239Oxide
+	ingotHEP239Oxide
+
+DepletedLEN236TRISO
+	ingotDepletedLEN236TRISO
+
+HEA242Nitride
+	ingotHEA242Nitride
+
+DepletedHEN236ZA
+	ingotDepletedHEN236ZA
+
+AdvancedAlloy
+	rodAdvancedAlloy
+	stickAdvancedAlloy
+	nuggetAdvancedAlloy
+	plateAdvancedAlloy
+	blockAdvancedAlloy
+	ingotAdvancedAlloy
+	dustAdvancedAlloy
+
+DepletedHECf249Oxide
+	ingotDepletedHECf249Oxide
+
+HECm245Carbide
+	ingotHECm245Carbide
+
+DepletedLEB248Nitride
+	ingotDepletedLEB248Nitride
+
+HEU235
+	ingotHEU235
+
+HEU233TRISO
+	ingotHEU233TRISO
+
+Americium242ZA
+	ingotAmericium242ZA
+
+DepletedHEN236Nitride
+	ingotDepletedHEN236Nitride
+
+Curium245Oxide
+	ingotCurium245Oxide
+
+Shibuichi
+	ingotShibuichi
+
+LECm243Oxide
+	ingotLECm243Oxide
+
+HECm247TRISO
+	ingotHECm247TRISO
+
+DepletedLEP241TRISO
+	ingotDepletedLEP241TRISO
+
+DepletedHECm247Oxide
+	ingotDepletedHECm247Oxide
+
+HECm243Oxide
+	ingotHECm243Oxide
+
+Curium245All
+	ingotCurium245All
+
+Plutonium241All
+	ingotPlutonium241All
+
+DepletedHEB248Nitride
+	ingotDepletedHEB248Nitride
+
+HEB248TRISO
+	ingotHEB248TRISO
+
+LEU233Oxide
+	ingotLEU233Oxide
+
+Plutonium242Nitride
+	ingotPlutonium242Nitride
+
+Tungstensteel
+	rodTungstensteel
+	stickTungstensteel
+	nuggetTungstensteel
+	plateTungstensteel
+	blockTungstensteel
+	ingotTungstensteel
+	dustTungstensteel
+
+Infinity
+	gearIronInfinity
+
+DepletedHECf249TRISO
+	ingotDepletedHECf249TRISO
+
+DepletedLECf251ZA
+	ingotDepletedLECf251ZA
+
+Plutonium239Carbide
+	ingotPlutonium239Carbide
+
+Neptunium236Nitride
+	ingotNeptunium236Nitride
+
+Berkelium247Carbide
+	ingotBerkelium247Carbide
+
+Boron
+	clumpBoron
+	dustDirtyBoron
+	rockyChunkBoron
+	crystalBoron
+	chunkBoron
+	shardBoron
+	rodBoron
+	stickBoron
+	nuggetBoron
+	plateBoron
+	oreBoron
+	blockBoron
+	ingotBoron
+	dustBoron
+
+LECf251Carbide
+	ingotLECf251Carbide
+
+LECm243TRISO
+	ingotLECm243TRISO
+
+Uranium235Carbide
+	ingotUranium235Carbide
+
+DepletedHECm247TRISO
+	ingotDepletedHECm247TRISO
+
+Americium241ZA
+	ingotAmericium241ZA
+
+HECm243TRISO
+	ingotHECm243TRISO
+
+Americium243ZA
+	ingotAmericium243ZA
+
+HEA242
+	ingotHEA242
+
+LEU233TRISO
+	ingotLEU233TRISO
+
+Californium252Oxide
+	ingotCalifornium252Oxide
+
+LEP239Carbide
+	ingotLEP239Carbide
+
+DepletedHEU235Oxide
+	ingotDepletedHEU235Oxide
+
+DepletedLECm247ZA
+	ingotDepletedLECm247ZA
+
+Plutonium239All
+	ingotPlutonium239All
+
+Plutonium238ZA
+	ingotPlutonium238ZA
+
+HECf249ZA
+	ingotHECf249ZA
+
+DepletedHECm247ZA
+	ingotDepletedHECm247ZA
+
+HEN236Oxide
+	ingotHEN236Oxide
+
+Lithium7
+	ingotLithium7
+
+Lithium6
+	ingotLithium6
+
+LEA242Oxide
+	ingotLEA242Oxide
+
+HEA242Carbide
+	ingotHEA242Carbide
+
+VibrantAlloy
+	rodVibrantAlloy
+	stickVibrantAlloy
+	ballVibrantAlloy
+	nuggetVibrantAlloy
+	plateVibrantAlloy
+	blockVibrantAlloy
+	ingotVibrantAlloy
+	dustVibrantAlloy
+
+LECf251Oxide
+	ingotLECf251Oxide
+
+Californium249Nitride
+	ingotCalifornium249Nitride
+
+Americium242Nitride
+	ingotAmericium242Nitride
+
+DepletedMIX241ZA
+	ingotDepletedMIX241ZA
+
+LECm245Nitride
+	ingotLECm245Nitride
+
+DepletedHEU235TRISO
+	ingotDepletedHEU235TRISO
+
+HEP241ZA
+	ingotHEP241ZA
+
+LEP239ZA
+	ingotLEP239ZA
+
+DepletedHEB248ZA
+	ingotDepletedHEB248ZA
+
+HECm243Carbide
+	ingotHECm243Carbide
+
+DepletedLEP239Oxide
+	ingotDepletedLEP239Oxide
+
+HEP239Nitride
+	ingotHEP239Nitride
+
+Zircaloy
+	rodZircaloy
+	stickZircaloy
+	nuggetZircaloy
+	plateZircaloy
+	blockZircaloy
+	ingotZircaloy
+	dustZircaloy
+
+LECm247Carbide
+	ingotLECm247Carbide
+
+MagnesiumDiboride
+	nuggetMagnesiumDiboride
+	rodMagnesiumDiboride
+	stickMagnesiumDiboride
+	solenoidMagnesiumDiboride
+	plateMagnesiumDiboride
+	blockMagnesiumDiboride
+	ingotMagnesiumDiboride
+	dustMagnesiumDiboride
+
+DepletedHECf251Nitride
+	ingotDepletedHECf251Nitride
+
+DepletedLEU233ZA
+	ingotDepletedLEU233ZA
+
+Void
+
+HEN236TRISO
+	ingotHEN236TRISO
+
+LEA242TRISO
+	ingotLEA242TRISO
+
+Plutonium242Carbide
+	ingotPlutonium242Carbide
+
+LECf251Nitride
+	ingotLECf251Nitride
+
+DepletedLECf249Nitride
+	ingotDepletedLECf249Nitride
+
+Uranium233All
+	ingotUranium233All
+
+DepletedTBUNitride
+	ingotDepletedTBUNitride
+
+TBUCarbide
+	ingotTBUCarbide
+
+LECf251
+	ingotLECf251
+
+DepletedLEN236ZA
+	ingotDepletedLEN236ZA
+
+Gold198
+	ingotGold198
+	dustGold198
+
+Mithril
+	rockyChunkMithril
+	chunkMithril
+	rodMithril
+	stickMithril
+	nuggetMithril
+	plateMithril
+	blockMithril
+	ingotMithril
+	dustMithril
+
+LEA242ZA
+	ingotLEA242ZA
+
+Uranium238Oxide
+	ingotUranium238Oxide
+
+DepletedLEP239TRISO
+	ingotDepletedLEP239TRISO
+
+Lead
+	heavyPlateLead
+	lightPlateLead
+	gearLead
+	clumpLead
+	dustDirtyLead
+	rockyChunkLead
+	crystalLead
+	chunkLead
+	shardLead
+	dustSmallLead
+	rodLead
+	stickLead
+	nuggetLead
+	plateLead
+	oreLead
+	blockLead
+	ingotLead
+	dustLead
+
+EnergeticAlloy
+	rodEnergeticAlloy
+	stickEnergeticAlloy
+	ballEnergeticAlloy
+	nuggetEnergeticAlloy
+	plateEnergeticAlloy
+	blockEnergeticAlloy
+	ingotEnergeticAlloy
+	dustEnergeticAlloy
+
+EndSteel
+	rodEndSteel
+	stickEndSteel
+	ballEndSteel
+	nuggetEndSteel
+	plateEndSteel
+	blockEndSteel
+	ingotEndSteel
+	dustEndSteel
+
+LECf249
+	ingotLECf249
+
+Curium247Carbide
+	ingotCurium247Carbide
+
+Americium241Nitride
+	ingotAmericium241Nitride
+
+LEN236Oxide
+	ingotLEN236Oxide
+
+Curium246Nitride
+	ingotCurium246Nitride
+
+Curium246Oxide
+	ingotCurium246Oxide
+
+ElectrotineAlloy
+	rodElectrotineAlloy
+	stickElectrotineAlloy
+	nuggetElectrotineAlloy
+	plateElectrotineAlloy
+	blockElectrotineAlloy
+	ingotElectrotineAlloy
+	dustElectrotineAlloy
+
+LEP241Nitride
+	ingotLEP241Nitride
+
+DepletedTBUTRISO
+	ingotDepletedTBUTRISO
+
+HECf249
+	ingotHECf249
+
+Dawnstone
+	gearDawnstone
+	rodDawnstone
+	stickDawnstone
+	nuggetDawnstone
+	plateDawnstone
+	blockDawnstone
+	ingotDawnstone
+	dustDawnstone
+
+TBUNitride
+	ingotTBUNitride
+
+DepletedLEP239Nitride
+	ingotDepletedLEP239Nitride
+
+Californium252Carbide
+	ingotCalifornium252Carbide
+
+Californium252Nitride
+	ingotCalifornium252Nitride
+
+EnergeticSilver
+	rodEnergeticSilver
+	stickEnergeticSilver
+	ballEnergeticSilver
+	nuggetEnergeticSilver
+	plateEnergeticSilver
+	blockEnergeticSilver
+	ingotEnergeticSilver
+	dustEnergeticSilver
+
+Aluminium
+	gearAluminium
+	rockyChunkAluminium
+	chunkAluminium
+	rodAluminium
+	stickAluminium
+	nuggetAluminium
+	plateAluminium
+	blockAluminium
+	ingotAluminium
+	dustAluminium
+
+Neptunium236ZA
+	ingotNeptunium236ZA
+
+LEN236Nitride
+	ingotLEN236Nitride
+
+RefinedObsidian
+	rodRefinedObsidian
+	stickRefinedObsidian
+	nuggetRefinedObsidian
+	plateRefinedObsidian
+	blockRefinedObsidian
+	ingotRefinedObsidian
+	dustRefinedObsidian
+
+HEU235ZA
+	ingotHEU235ZA
+
+HECf249Nitride
+	ingotHECf249Nitride
+
+Plutonium241Carbide
+	ingotPlutonium241Carbide
+
+LECm247ZA
+	ingotLECm247ZA
+
+DepletedLECm247TRISO
+	ingotDepletedLECm247TRISO
+
+Copper
+	solenoidCopper
+	heavyPlateCopper
+	lightPlateCopper
+	gearCopper
+	clumpCopper
+	dustDirtyCopper
+	rockyChunkCopper
+	crystalCopper
+	chunkCopper
+	shardCopper
+	dustSmallCopper
+	rodCopper
+	stickCopper
+	nuggetCopper
+	plateCopper
+	oreCopper
+	blockCopper
+	ingotCopper
+	dustCopper
+
+LEN236TRISO
+	ingotLEN236TRISO
+
+Californium252All
+	ingotCalifornium252All
+
+DepletedHEA242Nitride
+	ingotDepletedHEA242Nitride
+
+LEB248Nitride
+	ingotLEB248Nitride
+
+LECm245Carbide
+	ingotLECm245Carbide
+
+DepletedMIX241Nitride
+	ingotDepletedMIX241Nitride
+
+MIX241TRISO
+	ingotMIX241TRISO
+
+TinSilver
+	ingotTinSilver
+
+Brass
+	dustSmallBrass
+	rodBrass
+	stickBrass
+	nuggetBrass
+	plateBrass
+	blockBrass
+	ingotBrass
+	dustBrass
+
+Curium245Nitride
+	ingotCurium245Nitride
+
+Californium252ZA
+	ingotCalifornium252ZA
+
+HEP239Carbide
+	ingotHEP239Carbide
+
+Electrum
+	gearElectrum
+	dustSmallElectrum
+	rodElectrum
+	stickElectrum
+	nuggetElectrum
+	plateElectrum
+	blockElectrum
+	ingotElectrum
+	dustElectrum
+
+Americium242Oxide
+	ingotAmericium242Oxide
+
+Neptunium236All
+	ingotNeptunium236All
+
+Thorium
+	clumpThorium
+	dustDirtyThorium
+	rockyChunkThorium
+	crystalThorium
+	chunkThorium
+	shardThorium
+	dustSmallThorium
+	rodThorium
+	stickThorium
+	nuggetThorium
+	plateThorium
+	oreThorium
+	blockThorium
+	ingotThorium
+	dustThorium
+
+CrystalMatrix
+
+HECf251ZA
+	ingotHECf251ZA
+
+LEP241TRISO
+	ingotLEP241TRISO
+
+Manganese
+	dustSmallManganese
+	rodManganese
+	stickManganese
+	dustCarbonManganese
+	nuggetManganese
+	plateManganese
+	blockManganese
+	ingotManganese
+	dustManganese
+
+Americium241All
+	ingotAmericium241All
+
+TBUZA
+	ingotTBUZA
+
+HEP241
+	ingotHEP241
+
+Cobalt
+	clumpCobalt
+	dustDirtyCobalt
+	rockyChunkCobalt
+	crystalCobalt
+	chunkCobalt
+	shardCobalt
+	rodCobalt
+	stickCobalt
+	nuggetCobalt
+	plateCobalt
+	oreCobalt
+	blockCobalt
+	ingotCobalt
+	dustCobalt
+
+RefinedGlowstone
+	rodRefinedGlowstone
+	stickRefinedGlowstone
+	nuggetRefinedGlowstone
+	plateRefinedGlowstone
+	blockRefinedGlowstone
+	ingotRefinedGlowstone
+	dustRefinedGlowstone
+
+LEU235
+	ingotLEU235
+
+DepletedHEA242TRISO
+	ingotDepletedHEA242TRISO
+
+LEU233
+	ingotLEU233
+
+DepletedLECm245Oxide
+	ingotDepletedLECm245Oxide
+
+HotTungstensteel
+	nuggetHotTungstensteel
+	ingotHotTungstensteel
+
+HEP239
+	ingotHEP239
+
+Tough
+	rodTough
+	stickTough
+	nuggetTough
+	plateTough
+	blockTough
+	ingotTough
+	dustTough
+
+LEP241ZA
+	ingotLEP241ZA
+
+DarkChocolate
+	ingotDarkChocolate
+
+DepletedLEB248ZA
+	ingotDepletedLEB248ZA
+
+HECm247Carbide
+	ingotHECm247Carbide
+
+LEP241Carbide
+	ingotLEP241Carbide
+
+Polonium210
+
+HEU235Oxide
+	ingotHEU235Oxide
+
+HECf251Nitride
+	ingotHECf251Nitride
+
+DepletedMIX241Oxide
+	ingotDepletedMIX241Oxide
+
+DepletedHECm245ZA
+	ingotDepletedHECm245ZA
+
+Californium250All
+	ingotCalifornium250All
+
+PyrolyticCarbon
+	ingotPyrolyticCarbon
+
