@@ -1,7 +1,7 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "contenttweaker:items/coin_bronze",
-        "layer1": "contenttweaker:overlays/coin_farming"
-    }
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/coin_bronze",
+    "layer1": "contenttweaker:overlays/coin_farming"
+  }
 }

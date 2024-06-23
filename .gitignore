@@ -25,6 +25,7 @@ backups/**
 crafttweaker_dump/**
 EnderStorage/**
 generated/**
+mputils/**
 patchouli_books/**
 vintagefix/**
 woot/**

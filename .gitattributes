@@ -1,9 +1,7 @@
 * text=auto eol=lf
 
 *.zip binary
-
 *.png binary
 
-dumps/zenscript/*.* linguist-generated=true
-dumps/*.* linguist-generated=true
+dumps/**/*.* linguist-generated=true
 *.log linguist-generated=true
