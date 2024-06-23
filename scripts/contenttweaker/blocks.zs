@@ -16,7 +16,7 @@ regolith.toolClass = "shovel";
 regolith.toolLevel = 1;
 regolith.register();
 
-val compressed_chest = VanillaFactory.createBlock("compressed_chest", <blockmaterial:wood>) as Block;
+val compressed_chest = VanillaFactory.createDirectionalBlock("compressed_chest", <blockmaterial:wood>, "HORIZONTAL") as Block;
 compressed_chest.creativeTab = <creativetab:other>;
 compressed_chest.axisAlignedBB = AxisAlignedBB.create(1.0/16.0, 0.0, 1.0/16.0, 15.0/16.0, 14.0/16.0, 15.0/16.0);
 compressed_chest.fullBlock = false;

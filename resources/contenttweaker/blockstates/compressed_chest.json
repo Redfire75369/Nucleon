@@ -1,7 +1,21 @@
 {
-    "variants": {
-        "normal": {
-            "model": "contenttweaker:compressed_chest"
-        }
+  "forge_marker": 1,
+  "defaults": {
+    "model": "contenttweaker:compressed_chest"
+  },
+  "variants": {
+    "normal": [{}],
+    "facing": {
+      "north": {},
+      "south": {
+        "y": 180
+      },
+      "east": {
+        "y": 90
+      },
+      "west": {
+        "y": 270
+      }
     }
+  }
 }

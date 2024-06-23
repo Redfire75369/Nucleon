@@ -9,7 +9,7 @@ mods.unidict.api.newShapedRecipeTemplate("block", 1, [
 ]);
 
 mods.unidict.removalByKind.get("Crafting").remove("ingot");
-mods.unidict.api.newShapedRecipeTemplate("ingot", 9, [["block"]]);
+mods.unidict.api.newShapelessRecipeTemplate("ingot", 9, ["block"]);
 mods.unidict.api.newShapedRecipeTemplate("ingot", 1, [
     ["nugget", "nugget", "nugget"],
 	["nugget", "nugget", "nugget"],
@@ -17,4 +17,4 @@ mods.unidict.api.newShapedRecipeTemplate("ingot", 1, [
 ]);
 
 mods.unidict.removalByKind.get("Crafting").remove("nugget");
-mods.unidict.api.newShapedRecipeTemplate("nugget", 9, [["ingot"]]);
+mods.unidict.api.newShapelessRecipeTemplate("nugget", 9, ["ingot"]);
