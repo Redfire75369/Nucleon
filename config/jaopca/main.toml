@@ -34,7 +34,7 @@
 #Configurations related to item selection.
 [itemSelection]
 	#List of mods that are preferred when selecting items in recipes.
-	preferredMods = ["minecraft", "techreborn", "nuclearcraft", "mekanism", "embers", "jaopca"]
+	preferredMods = ["minecraft", "qmd", "techreborn", "nuclearcraft", "mekanism", "embers", "jaopca"]
 
 #Configurations related to the ore dictionary.
 [oredict]

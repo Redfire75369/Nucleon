@@ -23,15 +23,6 @@ Tungstensteel
 Coal
 	dustCoal
 
-Chrome
-	dustSmallChrome
-	rodChrome
-	nuggetChrome
-	plateChrome
-	blockChrome
-	ingotChrome
-	dustChrome
-
 Tin
 	gearTin
 	chunkTin
@@ -167,6 +158,14 @@ Aluminum
 	blockAluminum
 	ingotAluminum
 	dustAluminum
+
+Chromium
+	rodChromium
+	nuggetChromium
+	plateChromium
+	blockChromium
+	ingotChromium
+	dustChromium
 
 Bronze
 	gearBronze

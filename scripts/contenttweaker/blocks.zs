@@ -7,7 +7,6 @@ import mods.contenttweaker.VanillaFactory;
 import scripts.contenttweaker.common.block_builder;
 
 block_builder.add_block("burnt_wood", <blockmaterial:wood>, <creativetab:other>, "axe", 0);
-block_builder.add_block("block_poor_charcoal", <blockmaterial:wood>);
 
 val regolith = VanillaFactory.createBlock("regolith", <blockmaterial:sand>) as Block;
 regolith.creativeTab = <creativetab:other>;

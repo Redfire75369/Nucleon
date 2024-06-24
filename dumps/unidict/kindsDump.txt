@@ -1,4 +1,5 @@
 heavyPlate
+wireGold
 lightPlate
 chunk
 rod
@@ -8,6 +9,7 @@ gem
 dustSmall
 ball
 bars
+wasteSpallation
 block
 gearIron
 rockyChunk
@@ -27,5 +29,6 @@ ore
 clump
 fence
 crystal
+magnet
 platerefined
 plate

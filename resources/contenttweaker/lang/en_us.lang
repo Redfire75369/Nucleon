@@ -22,12 +22,10 @@ item.contenttweaker.gas_circuit_tier4.name=Gas Circuit IV
 item.contenttweaker.copper_thread.name=Copper Thread
 item.contenttweaker.grinding_head_iron.name=Iron Grinding Head
 item.contenttweaker.grinding_head_refined_iron.name=Refined Iron Grinding Head
-item.contenttweaker.poor_charcoal.name=Poor Charcoal
 item.contenttweaker.mech_archaic_circuit.name=Mechanical Archaic Circuit
 item.contenttweaker.sealant.name=Sealant
 item.contenttweaker.shoddy_piston.name=Shoddy Piston
 item.contenttweaker.reinforced_stone_gear.name=Reinforced Stone Gear
-item.contenttweaker.wood_pile.name=Pile of Wood
 
 item.contenttweaker.compressed_dragon_breath.name=Compressed Dragon's Breath
 item.contenttweaker.compressed_ember.name=Compressed Ember
@@ -39,6 +37,5 @@ item.contenttweaker.reinforced_leather.name=Reinforced Leather
 item.contenttweaker.wire_refined_iron.name=Refined Iron Wire
 
 tile.contenttweaker.burnt_wood.name=Burnt Wood
-tile.contenttweaker.block_poor_charcoal.name=Block of Poor Charcoal
 tile.contenttweaker.compressed_chest.name=Compressed Chest
 tile.contenttweaker.regolith.name=Asteroid Regolith

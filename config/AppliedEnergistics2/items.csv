@@ -2455,6 +2455,61 @@ pressure:canister:0, Canister - Gasoline
 pressure:canister:0, Canister - Kerosene
 pressure:canister:0, Canister - Diesel
 pressure:canister:0, Canister - Lubricant
+pressure:canister:0, Canister - Hydrochloric Acid
+pressure:canister:0, Canister - Nitric Acid
+pressure:canister:0, Canister - Sodium Chloride Solution
+pressure:canister:0, Canister - Sodium Nitrate Solution
+pressure:canister:0, Canister - Lead Nitrate Solution
+pressure:canister:0, Canister - Sodium Tungstate Solution
+pressure:canister:0, Canister - Lead Tungstate Solution
+pressure:canister:0, Canister - Liquid Hydrogen
+pressure:canister:0, Canister - Liquid Argon
+pressure:canister:0, Canister - Liquid Neon
+pressure:canister:0, Canister - Liquid Oxygen
+pressure:canister:0, Canister - Mercury
+pressure:canister:0, Canister - Hot Mercury
+pressure:canister:0, Canister - Liquid Iodine
+pressure:canister:0, Canister - Argon
+pressure:canister:0, Canister - Neon
+pressure:canister:0, Canister - Chlorine
+pressure:canister:0, Canister - Nitric Oxide
+pressure:canister:0, Canister - Nitrogen Dioxide
+pressure:canister:0, Canister - Compressed Air
+pressure:canister:0, Canister - Molten Silicon
+pressure:canister:0, Canister - Molten Yttrium Aluminum Garnet
+pressure:canister:0, Canister - Molten Neodymium Doped YAG
+pressure:canister:0, Canister - Molten Tungsten
+pressure:canister:0, Canister - Molten Niobium
+pressure:canister:0, Canister - Molten Chromium
+pressure:canister:0, Canister - Molten Titanium
+pressure:canister:0, Canister - Molten Cobalt
+pressure:canister:0, Canister - Molten Hafnium
+pressure:canister:0, Canister - Molten Zinc
+pressure:canister:0, Canister - Molten Osmium
+pressure:canister:0, Canister - Molten Iridium
+pressure:canister:0, Canister - Molten Platinum
+pressure:canister:0, Canister - Molten Calcium
+pressure:canister:0, Canister - Molten Strontium
+pressure:canister:0, Canister - Molten Yttrium
+pressure:canister:0, Canister - Molten Neodymium
+pressure:canister:0, Canister - Molten Samarium
+pressure:canister:0, Canister - Molten Terbium
+pressure:canister:0, Canister - Molten Erbium
+pressure:canister:0, Canister - Molten Ytterbium
+pressure:canister:0, Canister - Molten Bismuth
+pressure:canister:0, Canister - Molten Polonium
+pressure:canister:0, Canister - Molten Radium
+pressure:canister:0, Canister - Sublimated Carbon
+pressure:canister:0, Canister - Molten Sodium Chloride
+pressure:canister:0, Canister - Anti-Hydrogen
+pressure:canister:0, Canister - Anti-Deuterium
+pressure:canister:0, Canister - Anti-Tritium
+pressure:canister:0, Canister - Anti-Helium-3
+pressure:canister:0, Canister - Anti-Helium
+pressure:canister:0, Canister - Positronium
+pressure:canister:0, Canister - Muonium
+pressure:canister:0, Canister - Tauonium
+pressure:canister:0, Canister - Glueballs
 pressure:canister:0, Canister - Boiling Wheat Wort
 pressure:canister:0, Canister - Boiling Potato Juice
 pressure:canister:0, Canister - Boiling Verdigris
@@ -2469,9 +2524,6 @@ pressure:canister:0, Canister - Molten Antimony
 pressure:canister:0, Canister - Molten TNT
 pressure:canister:0, Canister - Molten Baratol
 pressure:canister:0, Canister - Witherite Water
-pressure:canister:0, Canister - Nitric Oxide
-pressure:canister:0, Canister - Nitrogen Dioxide
-pressure:canister:0, Canister - Nitric Acid
 pressure:canister:0, Canister - Barium Nitrate Solution
 pressure:canister:0, Canister - Deuterium-Tritium Mixture
 pressure:canister:0, Canister - Nutrient Distillation
@@ -2501,7 +2553,6 @@ pressure:canister:0, Canister - Molten Brass
 pressure:canister:0, Canister - Molten Certus Quartz
 pressure:canister:0, Canister - Molten Charcoal
 pressure:canister:0, Canister - Molten Chrome
-pressure:canister:0, Canister - Molten Cobalt
 pressure:canister:0, Canister - Molten Conductive Iron
 pressure:canister:0, Canister - Molten Iron Alloy
 pressure:canister:0, Canister - Molten Crude Steel
@@ -2518,13 +2569,14 @@ pressure:canister:0, Canister - Molten Fluix
 pressure:canister:0, Canister - Molten Graphite
 pressure:canister:0, Canister - Molten HSLA Steel
 pressure:canister:0, Canister - Molten Invar
-pressure:canister:0, Canister - Molten Iridium
 pressure:canister:0, Canister - Molten Magnesium Diboride Alloy
 pressure:canister:0, Canister - Molten Melodic Alloy
 pressure:canister:0, Canister - Molten Mithril
-pressure:canister:0, Canister - Molten Osmium
+pressure:canister:0, Canister - Molten Nichrome
+pressure:canister:0, Canister - Molten Niobium-Tin
+pressure:canister:0, Canister - Molten Niobium-Titanium
+pressure:canister:0, Canister - Molten Osmiridium
 pressure:canister:0, Canister - Molten Peridot
-pressure:canister:0, Canister - Molten Platinum
 pressure:canister:0, Canister - Molten Plutonium
 pressure:canister:0, Canister - Molten Pulsating Iron
 pressure:canister:0, Canister - Molten Red Alloy
@@ -2538,17 +2590,17 @@ pressure:canister:0, Canister - Molten Ruby
 pressure:canister:0, Canister - Molten Sapphire
 pressure:canister:0, Canister - Molten Silicon Carbide
 pressure:canister:0, Canister - Molten Soularium
+pressure:canister:0, Canister - Molten Stainless Steel
 pressure:canister:0, Canister - Molten Stellar Alloy
+pressure:canister:0, Canister - Molten Super Alloy
 pressure:canister:0, Canister - Molten Thermoconducting Alloy
-pressure:canister:0, Canister - Molten Titanium
 pressure:canister:0, Canister - Molten Trinitite
-pressure:canister:0, Canister - Molten Tungsten
+pressure:canister:0, Canister - Molten Tungsten Carbide
 pressure:canister:0, Canister - Molten Tungstensteel
 pressure:canister:0, Canister - Molten Vibrant Alloy
 pressure:canister:0, Canister - Molten Vivid Alloy
 pressure:canister:0, Canister - Molten Witherite
 pressure:canister:0, Canister - Molten Yellow Garnet
-pressure:canister:0, Canister - Molten Zinc
 pressure:canister:0, Canister - Molten Zircaloy
 pressure:canister:0, Canister - Molten Zirconium-Molybdenum Alloy
 pressure:configurator, Fluid Filter Configurator
@@ -2730,6 +2782,341 @@ projectred-fabrication:ic_machine:1, IC Printer
 projectred-fabrication:ic_blueprint, IC Blueprint
 projectred-fabrication:ic_chip:0, IC Chip
 projectred-fabrication:ic_chip:1, Creative Mode IC Chip
+qmd:beamline, Beamline Pipe
+qmd:linear_accelerator_controller, Linear Accelerator Controller
+qmd:ring_accelerator_controller, Synchrotron Accelerator Controller
+qmd:accelerator_beam, Accelerator Beam Block
+qmd:accelerator_casing, Accelerator Casing
+qmd:accelerator_computer_port, Accelerator Computer Port
+qmd:accelerator_redstone_port, Accelerator Redstone Port
+qmd:accelerator_port, Accelerator Ion Source Port
+qmd:accelerator_glass, Accelerator Glass
+qmd:accelerator_vent, Accelerator Coolant Vent
+qmd:accelerator_beam_port, Accelerator Beam Port
+qmd:accelerator_synchrotron_port, Accelerator Synchrotron Port
+qmd:accelerator_cavity:0, Copper RF Cavity
+qmd:accelerator_cavity:1, Magnesium Diboride RF Cavity
+qmd:accelerator_cavity:2, Niobium-Tin RF Cavity
+qmd:accelerator_cavity:3, Niobium-Titanium RF Cavity
+qmd:accelerator_cavity:4, BSCCO RF Cavity
+qmd:accelerator_magnet:0, Copper Accelerator Electromagnet
+qmd:accelerator_magnet:1, Magnesium Diboride Accelerator Electromagnet
+qmd:accelerator_magnet:2, Niobium-Tin Accelerator Electromagnet
+qmd:accelerator_magnet:3, Niobium-Titanium Accelerator Electromagnet
+qmd:accelerator_magnet:4, BSCCO Accelerator Electromagnet
+qmd:accelerator_yoke, Accelerator Electromagnet Yoke
+qmd:accelerator_cooler1:0, Water Accelerator Cooler
+qmd:accelerator_cooler1:1, Iron Accelerator Cooler
+qmd:accelerator_cooler1:2, Redstone Accelerator Cooler
+qmd:accelerator_cooler1:3, Quartz Accelerator Cooler
+qmd:accelerator_cooler1:4, Obsidian Accelerator Cooler
+qmd:accelerator_cooler1:5, Nether Brick Accelerator Cooler
+qmd:accelerator_cooler1:6, Glowstone Accelerator Cooler
+qmd:accelerator_cooler1:7, Lapis Accelerator Cooler
+qmd:accelerator_cooler1:8, Gold Accelerator Cooler
+qmd:accelerator_cooler1:9, Prismarine Accelerator Cooler
+qmd:accelerator_cooler1:10, Slime Accelerator Cooler
+qmd:accelerator_cooler1:11, End Stone Accelerator Cooler
+qmd:accelerator_cooler1:12, Purpur Accelerator Cooler
+qmd:accelerator_cooler1:13, Diamond Accelerator Cooler
+qmd:accelerator_cooler1:14, Emerald Accelerator Cooler
+qmd:accelerator_cooler1:15, Copper Accelerator Cooler
+qmd:accelerator_cooler2:0, Tin Accelerator Cooler
+qmd:accelerator_cooler2:1, Lead Accelerator Cooler
+qmd:accelerator_cooler2:2, Boron Accelerator Cooler
+qmd:accelerator_cooler2:3, Lithium Accelerator Cooler
+qmd:accelerator_cooler2:4, Magnesium Accelerator Cooler
+qmd:accelerator_cooler2:5, Manganese Accelerator Cooler
+qmd:accelerator_cooler2:6, Aluminum Accelerator Cooler
+qmd:accelerator_cooler2:7, Silver Accelerator Cooler
+qmd:accelerator_cooler2:8, Fluorite Accelerator Cooler
+qmd:accelerator_cooler2:9, Villiaumite Accelerator Cooler
+qmd:accelerator_cooler2:10, Carobbiite Accelerator Cooler
+qmd:accelerator_cooler2:11, Arsenic Accelerator Cooler
+qmd:accelerator_cooler2:12, Liquid Nitrogen Accelerator Cooler
+qmd:accelerator_cooler2:13, Liquid Helium Accelerator Cooler
+qmd:accelerator_cooler2:14, Enderium Accelerator Cooler
+qmd:accelerator_cooler2:15, Cryotheum Accelerator Cooler
+qmd:accelerator_source, Accelerator Ion Source
+qmd:accelerator_energy_port, Accelerator Energy Port
+qmd:beam_diverter_controller, Beam Diverter Controller
+qmd:beam_splitter_controller, Beam Splitter Controller
+qmd:decelerator_controller, Decelerator Controller
+qmd:mass_spectrometer_controller, Mass Spectrometer Controller
+qmd:accelerator_laser_ion_source, Accelerator Laser Ion Source
+qmd:accelerator_ion_collector, Accelerator Ion Collector
+qmd:target_chamber_controller, Target Chamber Controller
+qmd:decay_chamber_controller, Decay Chamber Controller
+qmd:beam_dump_controller, Beam Dump Controller
+qmd:collision_chamber_controller, Collision Chamber Controller
+qmd:particle_chamber_beam, Particle Chamber Beam Block
+qmd:particle_chamber_casing, Particle Chamber Casing
+qmd:particle_chamber_glass, Particle Chamber Glass
+qmd:particle_chamber_beam_port, Particle Chamber Beam Port
+qmd:particle_chamber_detector:0, Bubble Chamber Detector
+qmd:particle_chamber_detector:1, Silicon Tracker Detector
+qmd:particle_chamber_detector:2, Wire Chamber Detector
+qmd:particle_chamber_detector:3, Electromagnetic Calorimeter Detector
+qmd:particle_chamber_detector:4, Hadron Calorimeter Detector
+qmd:particle_chamber_energy_port, Particle Chamber Energy Port
+qmd:particle_chamber, Particle Chamber
+qmd:particle_chamber_port, Particle Chamber Item Port
+qmd:particle_chamber_fluid_port, Particle Chamber Fluid Port
+qmd:ore_leacher, Ore Leacher
+qmd:irradiator, Irradiator
+qmd:atmosphere_collector, Atmosphere Collector
+qmd:fission_reflector:0, Tungsten Carbide Neutron Reflector
+qmd:fission_shield:0, Hafnium Fission Neutron Shield
+qmd:rtg_strontium, Strontium RTG
+qmd:discharge_lamp:0, Discharge Lamp
+qmd:discharge_lamp:1, Hydrogen Discharge Lamp
+qmd:discharge_lamp:2, Helium Discharge Lamp
+qmd:discharge_lamp:3, Nitrogen Discharge Lamp
+qmd:discharge_lamp:4, Oxygen Discharge Lamp
+qmd:discharge_lamp:5, Neon Discharge Lamp
+qmd:discharge_lamp:6, Argon Discharge Lamp
+qmd:discharge_lamp2:0, Sodium Discharge Lamp
+qmd:discharge_lamp2:1, Mercury Discharge Lamp
+qmd:neutral_containment_controller, Exotic Containment Chamber Controller
+qmd:nucleosynthesis_chamber_controller, Nucleosynthesis Chamber Controller
+qmd:containment_casing, Vacuum Chamber Casing
+qmd:containment_glass, Vacuum Chamber Glass
+qmd:containment_port, Vacuum Chamber Item Port
+qmd:containment_beam_port, Vacuum Chamber Beam Port
+qmd:containment_vent, Vacuum Chamber Coolant Vent
+qmd:containment_energy_port, Vacuum Chamber Energy Port
+qmd:vacuum_chamber_fluid_port, Vacuum Chamber Fluid Port
+qmd:containment_coil, Vacuum Chamber Coil
+qmd:containment_laser, Vacuum Chamber Laser
+qmd:vacuum_chamber_beam, Vacuum Chamber Beam
+qmd:vacuum_chamber_plasma_glass, Vacuum Chamber Plasma Glass
+qmd:vacuum_chamber_plasma_nozzle, Vacuum Chamber Plasma Nozzle
+qmd:vacuum_chamber_heater:0, Iron Vacuum Chamber Heater
+qmd:vacuum_chamber_heater:1, Redstone Vacuum Chamber Heater
+qmd:vacuum_chamber_heater:2, Quartz Vacuum Chamber Heater
+qmd:vacuum_chamber_heater:3, Obsidian Vacuum Chamber Heater
+qmd:vacuum_chamber_heater:4, Glowstone Vacuum Chamber Heater
+qmd:vacuum_chamber_heater:5, Lapis Vacuum Chamber Heater
+qmd:vacuum_chamber_heater:6, Gold Vacuum Chamber Heater
+qmd:vacuum_chamber_heater:7, Diamond Vacuum Chamber Heater
+qmd:vacuum_chamber_heater_vent, Vacuum Chamber Heater Vent
+qmd:vacuum_chamber_redstone_port, Vacuum Chamber Redstone Port
+qmd:strontium_90_block, Strontium-90 Block
+qmd:block_green_luminous_paint, tile.qmd.block_green_luminous_paint.name
+qmd:block_blue_luminous_paint, tile.qmd.block_blue_luminous_paint.name
+qmd:block_orange_luminous_paint, tile.qmd.block_orange_luminous_paint.name
+qmd:creative_particle_source, Creative Particle Source
+qmd:turbine_blade_super_alloy, Super Alloy Turbine Rotor Blade
+qmd:dust:0, Tungsten Dust
+qmd:dust:1, Niobium Dust
+qmd:dust:2, Chromium Dust
+qmd:dust:3, Titanium Dust
+qmd:dust:4, Cobalt Dust
+qmd:dust:5, Nickel Dust
+qmd:dust:6, Hafnium Dust
+qmd:dust:7, Zinc Dust
+qmd:dust:8, Osmium Dust
+qmd:dust:9, Iridium Dust
+qmd:dust:10, Platinum Dust
+qmd:dust:11, Sodium Dust
+qmd:dust:12, Potassium Dust
+qmd:dust:13, Calcium Dust
+qmd:dust:14, Strontium Dust
+qmd:dust2:0, Yttrium Dust
+qmd:dust2:1, Neodymium Dust
+qmd:dust2:2, Iodine Dust
+qmd:dust2:3, Samarium Dust
+qmd:dust2:4, Terbium Dust
+qmd:dust2:5, Erbium Dust
+qmd:dust2:6, Ytterbium Dust
+qmd:ingot:0, Tungsten Ingot
+qmd:ingot:1, Niobium Ingot
+qmd:ingot:2, Chromium Ingot
+qmd:ingot:3, Titanium Ingot
+qmd:ingot:4, Cobalt Ingot
+qmd:ingot:5, Nickel Ingot
+qmd:ingot:6, Hafnium Ingot
+qmd:ingot:7, Zinc Ingot
+qmd:ingot:8, Osmium Ingot
+qmd:ingot:9, Iridium Ingot
+qmd:ingot:10, Platinum Ingot
+qmd:ingot:11, Sodium Ingot
+qmd:ingot:12, Potassium Ingot
+qmd:ingot:13, Calcium Ingot
+qmd:ingot:14, Strontium Ingot
+qmd:ingot2:0, Yttrium Ingot
+qmd:ingot2:1, Neodymium Ingot
+qmd:ingot2:2, Mercury (Legacy Item)
+qmd:ingot_alloy:0, Tungsten Carbide Ingot
+qmd:ingot_alloy:1, Niobium-Tin Ingot
+qmd:ingot_alloy:2, Stainless Steel Ingot
+qmd:ingot_alloy:3, Niobium-Titanium Ingot
+qmd:ingot_alloy:4, Osmiridium Ingot
+qmd:ingot_alloy:5, Nichrome Ingot
+qmd:ingot_alloy:6, Super Alloy Ingot
+qmd:source:0, Tungsten Filament
+qmd:source:1, Sodium-22 Source
+qmd:source:2, Cobalt-60 Source
+qmd:source:3, Iridium-192 Source
+qmd:source:4, Calcium-48 Source
+qmd:isotope:0, Sodium-22
+qmd:isotope:1, Beryllium-7
+qmd:isotope:2, Magnesium-24
+qmd:isotope:3, Magnesium-26
+qmd:isotope:4, Uranium-234
+qmd:isotope:5, Protactinium-231 Dust
+qmd:isotope:6, Cobalt-60
+qmd:isotope:7, Iridium-192
+qmd:isotope:8, Calcium-48
+qmd:part:0, Empty Cooler
+qmd:part:1, Empty Detector Casing
+qmd:part:2, Lead Tungstate Scintillator
+qmd:part:3, Plastic Scintillator
+qmd:part:4, BSCCO Wire
+qmd:part:5, Neodymium Doped YAG Rod
+qmd:part:6, Gold Plated Tungsten Wire
+qmd:part:7, Empty Wire Chamber
+qmd:part:8, Neodymium Magnet
+qmd:part:9, Accelerating Barrel
+qmd:part:10, Laser Assembly
+qmd:semiconductor:0, P-Type Doped Silicon
+qmd:semiconductor:1, N-Type Doped Silicon
+qmd:semiconductor:2, Silicon Boule
+qmd:semiconductor:3, Silicon Wafer
+qmd:semiconductor:4, Basic Processor
+qmd:semiconductor:5, Advanced Processor
+qmd:semiconductor:6, Elite Processor
+qmd:chemical_dust:0, Tungsten Oxide
+qmd:chemical_dust:1, BSCCO Dust
+qmd:chemical_dust:2, Sodium Nitrate
+qmd:chemical_dust:3, Sodium Chloride
+qmd:chemical_dust:4, Copper Oxide
+qmd:chemical_dust:5, Hafnium Oxide
+qmd:chemical_dust:6, Strontium Chloride
+qmd:chemical_dust:7, Zinc Sulfide
+qmd:waste_fission:0, Light Fission Waste
+qmd:waste_fission:1, Heavy Fission Waste
+qmd:waste_spallation:0, Californium Spallation Waste
+qmd:waste_spallation:1, Berkelium Spallation Waste
+qmd:waste_spallation:2, Curium Spallation Waste
+qmd:waste_spallation:3, Americium Spallation Waste
+qmd:waste_spallation:4, Plutonium Spallation Waste
+qmd:waste_spallation:5, Neptunium Spallation Waste
+qmd:waste_spallation:6, Uranium Spallation Waste
+qmd:waste_spallation:7, Protactinium Spallation Waste
+qmd:waste_spallation:8, Thorium Spallation Waste
+qmd:waste_spallation:9, Radium Spallation Waste
+qmd:waste_spallation:10, Polonium Spallation Waste
+qmd:waste_spallation:11, Bismuth Spallation Waste
+qmd:waste_spallation:12, Lead Spallation Waste
+qmd:waste_spallation:13, Gold Spallation Waste
+qmd:waste_spallation:14, Platinum Spallation Waste
+qmd:waste_spallation:15, Iridium Spallation Waste
+qmd:waste_spallation2:0, Osmium Spallation Waste
+qmd:waste_spallation2:1, Tungsten Spallation Waste
+qmd:waste_spallation2:2, Hafnium Spallation Waste
+qmd:waste_spallation2:3, Mercury Spallation Waste
+qmd:sword_tungsten_carbide, Tungsten Carbide Sword
+qmd:pickaxe_tungsten_carbide, Tungsten Carbide Pickaxe
+qmd:shovel_tungsten_carbide, Tungsten Carbide Shovel
+qmd:axe_tungsten_carbide, Tungsten Carbide Axe
+qmd:hoe_tungsten_carbide, Tungsten Carbide Hoe
+qmd:flesh, Not So Rotten Flesh
+qmd:potassium_iodine_tablet, Potassium Iodine Tablet
+qmd:luminous_paint:0, Green Radioluminescent Paint
+qmd:luminous_paint:1, Blue Radioluminescent Paint
+qmd:luminous_paint:2, Orange Radioluminescent Paint
+qmd:cell:0, Empty Cell
+qmd:cell:1, Anti-Hydrogen Cell
+qmd:cell:2, Anti-Deuterium Cell
+qmd:cell:3, Anti-Tritium Cell
+qmd:cell:4, Anti-Helium-3 Cell
+qmd:cell:5, Anti-Helium Cell
+qmd:cell:6, Positronium Cell
+qmd:cell:7, Muonium Cell
+qmd:cell:8, Tauonium Cell
+qmd:cell:9, Glueball Cell
+qmd:lepton_cannon, Lepton Cannon
+qmd:gluon_gun, Gluon Gun
+qmd:antimatter_launcher, Antimatter Launcher
+qmd:beam_meter, Beam Meter
+qmd:drill_basic, Electric Mining Drill
+qmd:drill_advanced, Advanced Electric Mining Drill
+qmd:copernicium:0, Copernicium-291
+qmd:copernicium:1, Copernicium-291 Carbide
+qmd:copernicium:2, Copernicium-291 Oxide
+qmd:copernicium:3, Copernicium-291 Nitride
+qmd:copernicium:4, Copernicium-291-Zirconium Alloy
+qmd:pellet_copernicium:0, MIX-291
+qmd:pellet_copernicium:1, MIX-291 Carbide
+qmd:fuel_copernicium:0, MTRISO-291 Fuel Pebble
+qmd:fuel_copernicium:1, MOX-291 Oxide Fuel Pellet
+qmd:fuel_copernicium:2, MNI-291 Fuel Pellet
+qmd:fuel_copernicium:3, MZA-291 Fuel Pellet
+qmd:depleted_fuel_copernicium:0, Depleted MTRISO-291 Fuel Pebble
+qmd:depleted_fuel_copernicium:1, Depleted MOX-291 Fuel Pellet
+qmd:depleted_fuel_copernicium:2, Depleted MNI-291 Fuel Pellet
+qmd:depleted_fuel_copernicium:3, Depleted MZA-291 Fuel Pellet
+qmd:helm_hev, HEV Helmet
+qmd:chest_hev, HEV Chestplate
+qmd:legs_hev, HEV Leggings
+qmd:boots_hev, HEV Boots
+qmd:fluid_hydrochloric_acid, Hydrochloric Acid
+qmd:fluid_nitric_acid, Nitric Acid
+qmd:fluid_sodium_chloride_solution, Sodium Chloride Solution
+qmd:fluid_sodium_nitrate_solution, Sodium Nitrate Solution
+qmd:fluid_lead_nitrate_solution, Lead Nitrate Solution
+qmd:fluid_sodium_tungstate_solution, Sodium Tungstate Solution
+qmd:fluid_lead_tungstate_solution, Lead Tungstate Solution
+qmd:fluid_liquid_hydrogen, Liquid Hydrogen
+qmd:fluid_liquid_argon, Liquid Argon
+qmd:fluid_liquid_neon, Liquid Neon
+qmd:fluid_liquid_oxygen, Liquid Oxygen
+qmd:fluid_mercury, Mercury
+qmd:fluid_hot_mercury, Hot Mercury
+qmd:fluid_iodine, Liquid Iodine
+qmd:fluid_argon, Argon
+qmd:fluid_neon, Neon
+qmd:fluid_chlorine, Chlorine
+qmd:fluid_nitric_oxide, Nitric Oxide
+qmd:fluid_nitrogen_dioxide, Nitrogen Dioxide
+qmd:fluid_compressed_air, Compressed Air
+qmd:fluid_silicon, Molten Silicon
+qmd:fluid_yag, Molten Yttrium Aluminum Garnet
+qmd:fluid_nd_yag, Molten Neodymium Doped YAG
+qmd:fluid_tungsten, Molten Tungsten
+qmd:fluid_niobium, Molten Niobium
+qmd:fluid_chromium, Molten Chromium
+qmd:fluid_titanium, Molten Titanium
+qmd:fluid_cobalt, Molten Cobalt
+qmd:fluid_nickel, Molten Nickel
+qmd:fluid_hafnium, Molten Hafnium
+qmd:fluid_zinc, Molten Zinc
+qmd:fluid_osmium, Molten Osmium
+qmd:fluid_iridium, Molten Iridium
+qmd:fluid_platinum, Molten Platinum
+qmd:fluid_calcium, Molten Calcium
+qmd:fluid_strontium, Molten Strontium
+qmd:fluid_yttrium, Molten Yttrium
+qmd:fluid_neodymium, Molten Neodymium
+qmd:fluid_samarium, Molten Samarium
+qmd:fluid_terbium, Molten Terbium
+qmd:fluid_erbium, Molten Erbium
+qmd:fluid_ytterbium, Molten Ytterbium
+qmd:fluid_bismuth, Molten Bismuth
+qmd:fluid_polonium, Molten Polonium
+qmd:fluid_radium, Molten Radium
+qmd:fluid_carbon, Sublimated Carbon
+qmd:fluid_sodium_chloride, Molten Sodium Chloride
+qmd:fluid_antihydrogen, Anti-Hydrogen
+qmd:fluid_antideuterium, Anti-Deuterium
+qmd:fluid_antitritium, Anti-Tritium
+qmd:fluid_antihelium3, Anti-Helium-3
+qmd:fluid_antihelium, Anti-Helium
+qmd:fluid_positronium, Positronium
+qmd:fluid_muonium, Muonium
+qmd:fluid_tauonium, Tauonium
+qmd:fluid_glueballs, Glueballs
 tce:tce_torch_lvl1, §9Torcherino lvl 1
 tce:tce_torch_lvl2, §aTorcherino lvl 2
 tce:tce_torch_lvl3, §cTorcherino lvl 3
@@ -3215,40 +3602,6 @@ chisel:block_coal1:14, Block of Coal
 chisel:block_coal1:15, Block of Coal
 chisel:block_coal2:0, Block of Coal
 chisel:block_coal2:1, Block of Coal
-chisel:block_coal_coke:0, Block of Coal Coke
-chisel:block_coal_coke:1, Block of Coal Coke
-chisel:block_coal_coke:2, Block of Coal Coke
-chisel:block_coal_coke:3, Block of Coal Coke
-chisel:block_coal_coke:4, Block of Coal Coke
-chisel:block_coal_coke:5, Block of Coal Coke
-chisel:block_coal_coke:6, Block of Coal Coke
-chisel:block_coal_coke:7, Block of Coal Coke
-chisel:block_coal_coke:8, Block of Coal Coke
-chisel:block_coal_coke:9, Block of Coal Coke
-chisel:block_coal_coke:10, Block of Coal Coke
-chisel:block_coal_coke:11, Block of Coal Coke
-chisel:block_coal_coke:12, Block of Coal Coke
-chisel:block_coal_coke:13, Block of Coal Coke
-chisel:block_coal_coke:14, Block of Coal Coke
-chisel:block_coal_coke:15, Block of Coal Coke
-chisel:block_coal_coke1:0, Block of Coal Coke
-chisel:block_coal_coke1:1, Block of Coal Coke
-chisel:block_coal_coke1:2, Block of Coal Coke
-chisel:block_coal_coke1:3, Block of Coal Coke
-chisel:block_coal_coke1:4, Block of Coal Coke
-chisel:block_coal_coke1:5, Block of Coal Coke
-chisel:block_coal_coke1:6, Block of Coal Coke
-chisel:block_coal_coke1:7, Block of Coal Coke
-chisel:block_coal_coke1:8, Block of Coal Coke
-chisel:block_coal_coke1:9, Block of Coal Coke
-chisel:block_coal_coke1:10, Block of Coal Coke
-chisel:block_coal_coke1:11, Block of Coal Coke
-chisel:block_coal_coke1:12, Block of Coal Coke
-chisel:block_coal_coke1:13, Block of Coal Coke
-chisel:block_coal_coke1:14, Block of Coal Coke
-chisel:block_coal_coke1:15, Block of Coal Coke
-chisel:block_coal_coke2:0, Block of Coal Coke
-chisel:block_coal_coke2:1, Block of Coal Coke
 chisel:cobblestonemossy:0, Moss Stone
 chisel:cobblestonemossy:1, Moss Stone
 chisel:cobblestonemossy:2, Moss Stone
@@ -5655,6 +6008,17 @@ appliedenergistics2:facade:0, Cable Facade - Wasteland Earth
 appliedenergistics2:facade:0, Cable Facade - Wasteland Portal
 appliedenergistics2:facade:0, Cable Facade - Tritium Lamp
 appliedenergistics2:facade:0, Cable Facade - Solidified Corium
+appliedenergistics2:facade:0, Cable Facade - Tungsten Carbide Neutron Reflector
+appliedenergistics2:facade:0, Cable Facade - Discharge Lamp
+appliedenergistics2:facade:0, Cable Facade - Hydrogen Discharge Lamp
+appliedenergistics2:facade:0, Cable Facade - Helium Discharge Lamp
+appliedenergistics2:facade:0, Cable Facade - Nitrogen Discharge Lamp
+appliedenergistics2:facade:0, Cable Facade - Oxygen Discharge Lamp
+appliedenergistics2:facade:0, Cable Facade - Neon Discharge Lamp
+appliedenergistics2:facade:0, Cable Facade - Argon Discharge Lamp
+appliedenergistics2:facade:0, Cable Facade - Sodium Discharge Lamp
+appliedenergistics2:facade:0, Cable Facade - Mercury Discharge Lamp
+appliedenergistics2:facade:0, Cable Facade - Strontium-90 Block
 appliedenergistics2:facade:0, Cable Facade - Compression Charge
 appliedenergistics2:facade:0, Cable Facade - Baratol
 appliedenergistics2:facade:0, Cable Facade - Dirty Bomb
@@ -6192,40 +6556,6 @@ appliedenergistics2:facade:0, Cable Facade - Block of Coal
 appliedenergistics2:facade:0, Cable Facade - Block of Coal
 appliedenergistics2:facade:0, Cable Facade - Block of Coal
 appliedenergistics2:facade:0, Cable Facade - Block of Coal
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
 appliedenergistics2:facade:0, Cable Facade - Moss Stone
 appliedenergistics2:facade:0, Cable Facade - Moss Stone
 appliedenergistics2:facade:0, Cable Facade - Moss Stone
@@ -8120,7 +8450,6 @@ appliedenergistics2:facade:0, Cable Facade - Inverted Green Colored Lamp
 appliedenergistics2:facade:0, Cable Facade - Inverted Red Colored Lamp
 appliedenergistics2:facade:0, Cable Facade - Inverted Black Colored Lamp
 appliedenergistics2:facade:0, Cable Facade - Burnt Wood
-appliedenergistics2:facade:0, Cable Facade - Block of Poor Charcoal
 appliedenergistics2:facade:0, Cable Facade - Asteroid Regolith
 appliedenergistics2:facade:0, Cable Facade - Archaic Bricks
 appliedenergistics2:facade:0, Cable Facade - Archaic Edge
@@ -8136,15 +8465,15 @@ appliedenergistics2:facade:0, Cable Facade - Sealed Planks
 appliedenergistics2:facade:0, Cable Facade - Reinforced Sealed Planks
 appliedenergistics2:facade:0, Cable Facade - Dawnstone Block
 appliedenergistics2:facade:0, Cable Facade - Hydrogel Block
-appliedenergistics2:facade:0, Cable Facade - Chalcopyrite Ore (Copper)
-appliedenergistics2:facade:0, Cable Facade - Oil Source (Full)
-appliedenergistics2:facade:0, Cable Facade - Copper Block
 appliedenergistics2:facade:0, Cable Facade - Limestone
 appliedenergistics2:facade:0, Cable Facade - Burnt Limestone
 appliedenergistics2:facade:0, Cable Facade - Limestone Tiles
 appliedenergistics2:facade:0, Cable Facade - Machine Block
 appliedenergistics2:facade:0, Cable Facade - Support Column (Y axis)
 appliedenergistics2:facade:0, Cable Facade - Pumpjack Pipe
+appliedenergistics2:facade:0, Cable Facade - Chalcopyrite Ore (Copper)
+appliedenergistics2:facade:0, Cable Facade - Oil Source (Full)
+appliedenergistics2:facade:0, Cable Facade - Copper Block
 appliedenergistics2:facade:0, Cable Facade - Solid Steel [WIP]
 appliedenergistics2:facade:0, Cable Facade - Block of Thatch
 appliedenergistics2:facade:0, Cable Facade - Hay Feed
@@ -8161,6 +8490,7 @@ appliedenergistics2:facade:0, Cable Facade - Block of Advanced Alloy
 appliedenergistics2:facade:0, Cable Facade - Block of Boron Arsenide
 appliedenergistics2:facade:0, Cable Facade - Block of Boron Nitride
 appliedenergistics2:facade:0, Cable Facade - Block of Carobbiite
+appliedenergistics2:facade:0, Cable Facade - Block of Chromium
 appliedenergistics2:facade:0, Cable Facade - Block of Electrotine Alloy
 appliedenergistics2:facade:0, Cable Facade - Block of Extreme Alloy
 appliedenergistics2:facade:0, Cable Facade - Block of Ferroboron Alloy
@@ -8169,13 +8499,22 @@ appliedenergistics2:facade:0, Cable Facade - Block of HSLA Steel
 appliedenergistics2:facade:0, Cable Facade - Block of Hard Carbon Alloy
 appliedenergistics2:facade:0, Cable Facade - Block of Magnesium Diboride Alloy
 appliedenergistics2:facade:0, Cable Facade - Block of Mithril
+appliedenergistics2:facade:0, Cable Facade - Block of Neodymium
+appliedenergistics2:facade:0, Cable Facade - Block of Nichrome
+appliedenergistics2:facade:0, Cable Facade - Block of Niobium
+appliedenergistics2:facade:0, Cable Facade - Block of Niobium-Tin
+appliedenergistics2:facade:0, Cable Facade - Block of Niobium-Titanium
+appliedenergistics2:facade:0, Cable Facade - Block of Osmiridium
 appliedenergistics2:facade:0, Cable Facade - Block of Plutonium
 appliedenergistics2:facade:0, Cable Facade - Block of Red Alloy
 appliedenergistics2:facade:0, Cable Facade - Block of Refined Iron
 appliedenergistics2:facade:0, Cable Facade - Block of Rhodochrosite
 appliedenergistics2:facade:0, Cable Facade - Block of Silicon Carbide
+appliedenergistics2:facade:0, Cable Facade - Block of Stainless Steel
+appliedenergistics2:facade:0, Cable Facade - Block of Super Alloy
 appliedenergistics2:facade:0, Cable Facade - Block of Thermoconducting Alloy
 appliedenergistics2:facade:0, Cable Facade - Block of Tough Alloy
+appliedenergistics2:facade:0, Cable Facade - Block of Tungsten Carbide
 appliedenergistics2:facade:0, Cable Facade - Block of Villiaumite
 appliedenergistics2:facade:0, Cable Facade - Block of Witherite
 appliedenergistics2:facade:0, Cable Facade - Block of Zircaloy
@@ -10182,6 +10521,27 @@ energycontrol:item_component:1, Basic Circuit
 energycontrol:item_component:2, Machine Casing
 energycontrol:item_component:3, Radio Transmitter
 energycontrol:item_component:4, Strong String
+storagedrawers:upgrade_template, Upgrade Template
+storagedrawers:upgrade_storage:0, Storage Upgrade (I)
+storagedrawers:upgrade_storage:1, Storage Upgrade (II)
+storagedrawers:upgrade_storage:2, Storage Upgrade (III)
+storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
+storagedrawers:upgrade_storage:4, Storage Upgrade (V)
+storagedrawers:upgrade_one_stack, Storage Downgrade
+storagedrawers:upgrade_status:0, Status Upgrade (I)
+storagedrawers:upgrade_status:1, Status Upgrade (II)
+storagedrawers:upgrade_void, Void Upgrade
+storagedrawers:upgrade_conversion, Conversion Upgrade
+storagedrawers:upgrade_creative:0, Creative Storage Upgrade
+storagedrawers:upgrade_creative:1, Creative Vending Upgrade
+storagedrawers:upgrade_redstone:0, Redstone Upgrade
+storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
+storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
+storagedrawers:drawer_key, Drawer Key
+storagedrawers:shroud_key, Concealment Key
+storagedrawers:personal_key, Personal Key
+storagedrawers:quantify_key, Quantify Key
+storagedrawers:tape, Packing Tape
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
@@ -10232,27 +10592,6 @@ storagedrawers:customdrawers:3, Framed Half Drawers 1x2
 storagedrawers:customdrawers:4, Framed Half Drawers 2x2
 storagedrawers:customtrim, Framed Trim
 storagedrawers:framingtable, Framing Table
-storagedrawers:upgrade_template, Upgrade Template
-storagedrawers:upgrade_storage:0, Storage Upgrade (I)
-storagedrawers:upgrade_storage:1, Storage Upgrade (II)
-storagedrawers:upgrade_storage:2, Storage Upgrade (III)
-storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
-storagedrawers:upgrade_storage:4, Storage Upgrade (V)
-storagedrawers:upgrade_one_stack, Storage Downgrade
-storagedrawers:upgrade_status:0, Status Upgrade (I)
-storagedrawers:upgrade_status:1, Status Upgrade (II)
-storagedrawers:upgrade_void, Void Upgrade
-storagedrawers:upgrade_conversion, Conversion Upgrade
-storagedrawers:upgrade_creative:0, Creative Storage Upgrade
-storagedrawers:upgrade_creative:1, Creative Vending Upgrade
-storagedrawers:upgrade_redstone:0, Redstone Upgrade
-storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
-storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
-storagedrawers:drawer_key, Drawer Key
-storagedrawers:shroud_key, Concealment Key
-storagedrawers:personal_key, Personal Key
-storagedrawers:quantify_key, Quantify Key
-storagedrawers:tape, Packing Tape
 fluxnetworks:flux, Flux
 fluxnetworks:fluxcore, Flux Core
 fluxnetworks:fluxconfigurator, Flux Configurator
@@ -10531,6 +10870,7 @@ multiblocked:dummy_component:0, tile.multiblocked.dummy_component.name
 multiblocked:item.any:0, tile.multiblocked.item.any.name
 multiblocked:ember.any:0, tile.multiblocked.ember.any.name
 multiblocked:mm_mech_power.any:0, tile.multiblocked.mm_mech_power.any.name
+multiblocked:qmd_particle.any:0, tile.multiblocked.qmd_particle.any.name
 multiblocked:pneumatic_pressure.any:0, tile.multiblocked.pneumatic_pressure.any.name
 multiblocked:fluid.any:0, tile.multiblocked.fluid.any.name
 multiblocked:mek_heat.any:0, tile.multiblocked.mek_heat.any.name
@@ -10572,23 +10912,6 @@ pneumaticcraft:regulator_tube_module, Regulator Tube Module
 pneumaticcraft:charging_module, Charging Module
 pneumaticcraft:logistics_module, Logistics Module
 pneumaticcraft:redstone_module, Redstone Module
-pneumaticcraft:fluid.lpg, LPG
-pneumaticcraft:fluid.kerosene, Kerosene
-pneumaticcraft:fluid.diesel, Diesel
-pneumaticcraft:fluid.lubricant, Lubricant
-pneumaticcraft:fluid.oil, Oil
-pneumaticcraft:fluid.etchacid, Etching Acid
-pneumaticcraft:fluid.plastic, Plastic
-pneumaticcraft:fluid.fuel, Gasoline
-pneumaticcraft:logistic_frame_active_provider, Logistic Active Provider Frame
-pneumaticcraft:logistic_frame_passive_provider, Logistic Passive Provider Frame
-pneumaticcraft:logistic_frame_storage, Logistic Storage Frame
-pneumaticcraft:logistic_frame_default_storage, Logistic Default Storage Frame
-pneumaticcraft:logistic_frame_requester, Logistic Requester Frame
-pneumaticcraft:heat_frame, Heat Frame
-pneumaticcraft:spawner_agitator, Spawner Agitator
-pneumaticcraft:crop_support, Crop Support
-pneumaticcraft:transfer_gadget, Transfer Gadget
 pneumaticcraft:gps_tool, GPS Tool
 pneumaticcraft:gps_area_tool, GPS Area Tool
 pneumaticcraft:ingot_iron_compressed, Compressed Iron Ingot
@@ -10738,6 +11061,23 @@ pneumaticcraft:pneumatic_dynamo, Pneumatic Dynamo
 pneumaticcraft:fake_ice, tile.fake_ice.name
 pneumaticcraft:thermal_compressor, Thermal Compressor
 pneumaticcraft:drone_interface, Drone Interface
+pneumaticcraft:fluid.kerosene, Kerosene
+pneumaticcraft:fluid.plastic, Plastic
+pneumaticcraft:fluid.etchacid, Etching Acid
+pneumaticcraft:fluid.lubricant, Lubricant
+pneumaticcraft:fluid.lpg, LPG
+pneumaticcraft:fluid.oil, Oil
+pneumaticcraft:fluid.fuel, Gasoline
+pneumaticcraft:fluid.diesel, Diesel
+pneumaticcraft:logistic_frame_active_provider, Logistic Active Provider Frame
+pneumaticcraft:logistic_frame_passive_provider, Logistic Passive Provider Frame
+pneumaticcraft:logistic_frame_storage, Logistic Storage Frame
+pneumaticcraft:logistic_frame_default_storage, Logistic Default Storage Frame
+pneumaticcraft:logistic_frame_requester, Logistic Requester Frame
+pneumaticcraft:heat_frame, Heat Frame
+pneumaticcraft:spawner_agitator, Spawner Agitator
+pneumaticcraft:crop_support, Crop Support
+pneumaticcraft:transfer_gadget, Transfer Gadget
 temporaryblock:temporary_block, Temporary Block
 temporaryblock:temporary_block_placer, Temporary Block Placer
 progressivebosses:nether_star_shard, Nether Star Shard
@@ -11811,21 +12151,18 @@ coloredlights:pneumea_seed:13, Green Pneumea Seed
 coloredlights:pneumea_seed:14, Red Pneumea Seed
 coloredlights:pneumea_seed:15, Black Pneumea Seed
 contenttweaker:burnt_wood:0, Burnt Wood
-contenttweaker:block_poor_charcoal:0, Block of Poor Charcoal
 contenttweaker:regolith:0, Asteroid Regolith
 contenttweaker:compressed_chest:0, Compressed Chest
 contenttweaker:copper_thread, Copper Thread
 contenttweaker:grinding_head_iron, Iron Grinding Head
 contenttweaker:grinding_head_refined_iron, Refined Iron Grinding Head
 contenttweaker:mech_archaic_circuit, Mechanical Archaic Circuit
-contenttweaker:poor_charcoal, Poor Charcoal
 contenttweaker:sealant, Sealant
 contenttweaker:shoddy_piston, Shoddy Piston
 contenttweaker:reinforced_leather, Reinforced Leather
 contenttweaker:reinforced_stone_gear, Reinforced Stone Gear
 contenttweaker:refined_iron_bars, Refined Iron Bars
 contenttweaker:wire_refined_iron, Refined Iron Wire
-contenttweaker:wood_pile, Pile of Wood
 contenttweaker:compressed_dragon_breath, Compressed Dragon's Breath
 contenttweaker:compressed_ember, Compressed Ember
 contenttweaker:compressed_lapis, Compressed Lapis Lazuli
@@ -12468,6 +12805,18 @@ ae2fc:wireless_fluid_pattern_terminal, Wireless Fluid Pattern Terminal
 ae2fc:gas_drop, Gas Drop of %s
 ae2fc:gas_packet, Gas Packet
 ae2fc:part_trio_interface, ME Trio Interface
+threng:machine:0, Fluix Aggregator
+threng:machine:1, Pulse Centrifuge
+threng:machine:2, ME Circuit Etcher
+threng:machine:3, Preemptive Assembly Unit
+threng:machine:4, ME Level Maintainer
+threng:machine:5, Crystal Energizer
+threng:big_assembler:0, Mass Assembler Frame
+threng:big_assembler:1, Mass Assembler Vent
+threng:big_assembler:2, Mass Assembler Controller
+threng:big_assembler:3, MA Pattern Provider
+threng:big_assembler:4, MA Crafting Coprocessor
+threng:big_assembler:5, Mass Assembler IO Port
 threng:material:0, Fluix Steel Ingot
 threng:material:1, Carbonic Fluix Complex
 threng:material:2, Fluix-Plated Iron Ingot
@@ -12483,18 +12832,6 @@ threng:material:11, Speculation Core (16x)
 threng:material:12, Speculation Core (32x)
 threng:material:13, Speculation Core (64x)
 threng:material:14, Speculative Processor
-threng:machine:0, Fluix Aggregator
-threng:machine:1, Pulse Centrifuge
-threng:machine:2, ME Circuit Etcher
-threng:machine:3, Preemptive Assembly Unit
-threng:machine:4, ME Level Maintainer
-threng:machine:5, Crystal Energizer
-threng:big_assembler:0, Mass Assembler Frame
-threng:big_assembler:1, Mass Assembler Vent
-threng:big_assembler:2, Mass Assembler Controller
-threng:big_assembler:3, MA Pattern Provider
-threng:big_assembler:4, MA Crafting Coprocessor
-threng:big_assembler:5, Mass Assembler IO Port
 fluiddrawers:tank:0, Basic Tank
 fluiddrawers:tank_custom:0, Framed Tank
 hydrogel:hydrogel, Hydrogel Block
@@ -12775,6 +13112,36 @@ magneticraft:steel_gear, item.magneticraft.steel_gear.name
 magneticraft:tungsten_gear, item.magneticraft.tungsten_gear.name
 magneticraft:inserter_upgrade:0, Inserter Upgrade: Speed
 magneticraft:inserter_upgrade:1, Inserter Upgrade: Stack
+magneticraft:computer:0, Computer
+magneticraft:mining_robot:0, Mining Robot
+magneticraft:battery:0, Battery Block
+magneticraft:electric_furnace:0, Electric furnace
+magneticraft:infinite_energy:0, Infinite Energy
+magneticraft:air_bubble:0, Air Bubble
+magneticraft:airlock:0, Airlock
+magneticraft:thermopile:0, Thermopile
+magneticraft:wind_turbine:0, Wind turbine
+magneticraft:electric_heater:0, Electric Heater
+magneticraft:rf_heater:0, RF Heater
+magneticraft:rf_transformer:0, RF transformer
+magneticraft:electric_engine:0, Electric Engine
+magneticraft:limestone:0, Limestone
+magneticraft:limestone:1, Limestone Brick
+magneticraft:limestone:2, Limestone Cobble
+magneticraft:burnt_limestone:0, Burnt Limestone
+magneticraft:burnt_limestone:1, Burnt Limestone Brick
+magneticraft:burnt_limestone:2, Burnt Limestone Cobble
+magneticraft:tile_limestone:0, Limestone Tiles
+magneticraft:tile_limestone:1, Inverted Limestone Tiles
+magneticraft:tube_light:0, Tube Light
+magneticraft:connector:0, Electric Connector
+magneticraft:electric_pole:0, Electric Pole
+magneticraft:electric_cable:0, Electric cable
+magneticraft:tesla_tower:0, Tesla Tower
+magneticraft:energy_receiver:0, Energy Receiver
+magneticraft:electric_pole_transformer:0, Electric Pole Transformer
+magneticraft:small_tank:0, Small tank
+magneticraft:iron_pipe:0, Iron Pipe
 magneticraft:solar_panel:0, Solar Panel
 magneticraft:shelving_unit:0, Shelving Unit
 magneticraft:steam_engine:0, Small Steam Engine
@@ -12791,6 +13158,34 @@ magneticraft:big_combustion_chamber:0, Bigger Combustion Chamber
 magneticraft:big_steam_boiler:0, Bigger Steam Boiler
 magneticraft:steam_turbine:0, Steam Turbine
 magneticraft:big_electric_furnace:0, Bigger Electric Furnace
+magneticraft:conveyor_belt:0, Conveyor Belt
+magneticraft:inserter:0, Inserter
+magneticraft:water_generator:0, Water Generator
+magneticraft:feeding_trough:0, Wooden Feeding Trough
+magneticraft:pneumatic_tube:0, Pneumatic Tube
+magneticraft:pneumatic_restriction_tube:0, Restriction Pneumatic Tube
+magneticraft:relay:0, Relay
+magneticraft:filter:0, Filter
+magneticraft:transposer:0, Transposer
+magneticraft:box:0, Wooden Box
+magneticraft:crushing_table:0, Crushing Table
+magneticraft:sluice_box:0, Sluice Box
+magneticraft:fabricator:0, Fabricator
+magneticraft:combustion_chamber:0, Combustion Chamber
+magneticraft:steam_boiler:0, Boiler
+magneticraft:heat_pipe:0, Heat Pipe
+magneticraft:insulated_heat_pipe:0, Insulated Heat Pipe
+magneticraft:heat_sink:0, Heat sink
+magneticraft:gasification_unit:0, Gasification Unit
+magneticraft:brick_furnace:0, Brick furnace
+magneticraft:multiblock_parts:0, Machine Block
+magneticraft:multiblock_parts:1, Electrical Machine Block
+magneticraft:multiblock_parts:2, Iron Grate Machine Block
+magneticraft:multiblock_parts:3, Striped Machine Block
+magneticraft:multiblock_parts:4, Copper Coil Machine Block
+magneticraft:multiblock_parts:5, Corrugate Iron Machine Block
+magneticraft:multiblock_column:0, Support Column (Y axis)
+magneticraft:pumpjack_drill:0, Pumpjack Pipe
 magneticraft:ores:0, Chalcopyrite Ore (Copper)
 magneticraft:ores:1, Galena Ore (Lead)
 magneticraft:ores:2, Cobaltite Ore (Cobalt)
@@ -12803,64 +13198,6 @@ magneticraft:storage_blocks:1, Lead Block
 magneticraft:storage_blocks:2, Cobalt Block
 magneticraft:storage_blocks:3, Tungsten Block
 magneticraft:storage_blocks:4, Sulfur Block
-magneticraft:combustion_chamber:0, Combustion Chamber
-magneticraft:steam_boiler:0, Boiler
-magneticraft:heat_pipe:0, Heat Pipe
-magneticraft:insulated_heat_pipe:0, Insulated Heat Pipe
-magneticraft:heat_sink:0, Heat sink
-magneticraft:gasification_unit:0, Gasification Unit
-magneticraft:brick_furnace:0, Brick furnace
-magneticraft:computer:0, Computer
-magneticraft:mining_robot:0, Mining Robot
-magneticraft:box:0, Wooden Box
-magneticraft:crushing_table:0, Crushing Table
-magneticraft:sluice_box:0, Sluice Box
-magneticraft:fabricator:0, Fabricator
-magneticraft:conveyor_belt:0, Conveyor Belt
-magneticraft:inserter:0, Inserter
-magneticraft:water_generator:0, Water Generator
-magneticraft:feeding_trough:0, Wooden Feeding Trough
-magneticraft:pneumatic_tube:0, Pneumatic Tube
-magneticraft:pneumatic_restriction_tube:0, Restriction Pneumatic Tube
-magneticraft:relay:0, Relay
-magneticraft:filter:0, Filter
-magneticraft:transposer:0, Transposer
-magneticraft:limestone:0, Limestone
-magneticraft:limestone:1, Limestone Brick
-magneticraft:limestone:2, Limestone Cobble
-magneticraft:burnt_limestone:0, Burnt Limestone
-magneticraft:burnt_limestone:1, Burnt Limestone Brick
-magneticraft:burnt_limestone:2, Burnt Limestone Cobble
-magneticraft:tile_limestone:0, Limestone Tiles
-magneticraft:tile_limestone:1, Inverted Limestone Tiles
-magneticraft:tube_light:0, Tube Light
-magneticraft:battery:0, Battery Block
-magneticraft:electric_furnace:0, Electric furnace
-magneticraft:infinite_energy:0, Infinite Energy
-magneticraft:air_bubble:0, Air Bubble
-magneticraft:airlock:0, Airlock
-magneticraft:thermopile:0, Thermopile
-magneticraft:wind_turbine:0, Wind turbine
-magneticraft:electric_heater:0, Electric Heater
-magneticraft:rf_heater:0, RF Heater
-magneticraft:rf_transformer:0, RF transformer
-magneticraft:electric_engine:0, Electric Engine
-magneticraft:multiblock_parts:0, Machine Block
-magneticraft:multiblock_parts:1, Electrical Machine Block
-magneticraft:multiblock_parts:2, Iron Grate Machine Block
-magneticraft:multiblock_parts:3, Striped Machine Block
-magneticraft:multiblock_parts:4, Copper Coil Machine Block
-magneticraft:multiblock_parts:5, Corrugate Iron Machine Block
-magneticraft:multiblock_column:0, Support Column (Y axis)
-magneticraft:pumpjack_drill:0, Pumpjack Pipe
-magneticraft:connector:0, Electric Connector
-magneticraft:electric_pole:0, Electric Pole
-magneticraft:electric_cable:0, Electric cable
-magneticraft:tesla_tower:0, Tesla Tower
-magneticraft:energy_receiver:0, Energy Receiver
-magneticraft:electric_pole_transformer:0, Electric Pole Transformer
-magneticraft:small_tank:0, Small tank
-magneticraft:iron_pipe:0, Iron Pipe
 mech_crafting:mechanical_crafter, Mechanical Crafter
 mech_crafting:sturdy_gearbox, Sturdy Gearbox
 mech_crafting:mechanical_bellows, Mechanical Bellows
@@ -13114,6 +13451,7 @@ jaopca:block.advanced_alloy, block.jaopca.block.advanced_alloy.name
 jaopca:block.boron_arsenide, block.jaopca.block.boron_arsenide.name
 jaopca:block.boron_nitride, block.jaopca.block.boron_nitride.name
 jaopca:block.carobbiite, block.jaopca.block.carobbiite.name
+jaopca:block.chromium, block.jaopca.block.chromium.name
 jaopca:block.electrotine_alloy, block.jaopca.block.electrotine_alloy.name
 jaopca:block.extreme, block.jaopca.block.extreme.name
 jaopca:block.ferroboron, block.jaopca.block.ferroboron.name
@@ -13122,13 +13460,22 @@ jaopca:block.h_s_l_a_steel, block.jaopca.block.h_s_l_a_steel.name
 jaopca:block.hard_carbon, block.jaopca.block.hard_carbon.name
 jaopca:block.magnesium_diboride, block.jaopca.block.magnesium_diboride.name
 jaopca:block.mithril, block.jaopca.block.mithril.name
+jaopca:block.neodymium, block.jaopca.block.neodymium.name
+jaopca:block.nichrome, block.jaopca.block.nichrome.name
+jaopca:block.niobium, block.jaopca.block.niobium.name
+jaopca:block.niobium_tin, block.jaopca.block.niobium_tin.name
+jaopca:block.niobium_titanium, block.jaopca.block.niobium_titanium.name
+jaopca:block.osmiridium, block.jaopca.block.osmiridium.name
 jaopca:block.plutonium, block.jaopca.block.plutonium.name
 jaopca:block.red_alloy, block.jaopca.block.red_alloy.name
 jaopca:block.refined_iron, block.jaopca.block.refined_iron.name
 jaopca:block.rhodochrosite, block.jaopca.block.rhodochrosite.name
 jaopca:block.silicon_carbide, block.jaopca.block.silicon_carbide.name
+jaopca:block.stainless_steel, block.jaopca.block.stainless_steel.name
+jaopca:block.super_alloy, block.jaopca.block.super_alloy.name
 jaopca:block.thermoconducting, block.jaopca.block.thermoconducting.name
 jaopca:block.tough, block.jaopca.block.tough.name
+jaopca:block.tungsten_carbide, block.jaopca.block.tungsten_carbide.name
 jaopca:block.villiaumite, block.jaopca.block.villiaumite.name
 jaopca:block.witherite, block.jaopca.block.witherite.name
 jaopca:block.zircaloy, block.jaopca.block.zircaloy.name
@@ -13155,16 +13502,23 @@ jaopca:dust.h_s_l_a_steel, item.jaopca.dust.h_s_l_a_steel.name
 jaopca:dust.hard_carbon, item.jaopca.dust.hard_carbon.name
 jaopca:dust.magnesium_diboride, item.jaopca.dust.magnesium_diboride.name
 jaopca:dust.melodic_alloy, item.jaopca.dust.melodic_alloy.name
+jaopca:dust.nichrome, item.jaopca.dust.nichrome.name
+jaopca:dust.niobium_tin, item.jaopca.dust.niobium_tin.name
+jaopca:dust.niobium_titanium, item.jaopca.dust.niobium_titanium.name
+jaopca:dust.osmiridium, item.jaopca.dust.osmiridium.name
 jaopca:dust.pulsating_iron, item.jaopca.dust.pulsating_iron.name
 jaopca:dust.red_alloy, item.jaopca.dust.red_alloy.name
 jaopca:dust.redstone_alloy, item.jaopca.dust.redstone_alloy.name
 jaopca:dust.refined_glowstone, item.jaopca.dust.refined_glowstone.name
 jaopca:dust.refined_iron, item.jaopca.dust.refined_iron.name
 jaopca:dust.silicon_carbide, item.jaopca.dust.silicon_carbide.name
+jaopca:dust.stainless_steel, item.jaopca.dust.stainless_steel.name
 jaopca:dust.stellar_alloy, item.jaopca.dust.stellar_alloy.name
+jaopca:dust.super_alloy, item.jaopca.dust.super_alloy.name
 jaopca:dust.thermoconducting, item.jaopca.dust.thermoconducting.name
 jaopca:dust.tough, item.jaopca.dust.tough.name
 jaopca:dust.trinitite, item.jaopca.dust.trinitite.name
+jaopca:dust.tungsten_carbide, item.jaopca.dust.tungsten_carbide.name
 jaopca:dust.tungstensteel, item.jaopca.dust.tungstensteel.name
 jaopca:dust.vibrant_alloy, item.jaopca.dust.vibrant_alloy.name
 jaopca:dust.vivid_alloy, item.jaopca.dust.vivid_alloy.name
@@ -13222,6 +13576,7 @@ jaopca:nugget.boron_nitride, item.jaopca.nugget.boron_nitride.name
 jaopca:nugget.carobbiite, item.jaopca.nugget.carobbiite.name
 jaopca:nugget.certus_quartz, item.jaopca.nugget.certus_quartz.name
 jaopca:nugget.charcoal, item.jaopca.nugget.charcoal.name
+jaopca:nugget.chromium, item.jaopca.nugget.chromium.name
 jaopca:nugget.coal, item.jaopca.nugget.coal.name
 jaopca:nugget.electrotine_alloy, item.jaopca.nugget.electrotine_alloy.name
 jaopca:nugget.emerald, item.jaopca.nugget.emerald.name
@@ -13237,6 +13592,12 @@ jaopca:nugget.lithium, item.jaopca.nugget.lithium.name
 jaopca:nugget.magnesium, item.jaopca.nugget.magnesium.name
 jaopca:nugget.magnesium_diboride, item.jaopca.nugget.magnesium_diboride.name
 jaopca:nugget.manganese, item.jaopca.nugget.manganese.name
+jaopca:nugget.neodymium, item.jaopca.nugget.neodymium.name
+jaopca:nugget.nichrome, item.jaopca.nugget.nichrome.name
+jaopca:nugget.niobium, item.jaopca.nugget.niobium.name
+jaopca:nugget.niobium_tin, item.jaopca.nugget.niobium_tin.name
+jaopca:nugget.niobium_titanium, item.jaopca.nugget.niobium_titanium.name
+jaopca:nugget.osmiridium, item.jaopca.nugget.osmiridium.name
 jaopca:nugget.peridot, item.jaopca.nugget.peridot.name
 jaopca:nugget.plutonium, item.jaopca.nugget.plutonium.name
 jaopca:nugget.quartz, item.jaopca.nugget.quartz.name
@@ -13246,10 +13607,13 @@ jaopca:nugget.rhodochrosite, item.jaopca.nugget.rhodochrosite.name
 jaopca:nugget.ruby, item.jaopca.nugget.ruby.name
 jaopca:nugget.sapphire, item.jaopca.nugget.sapphire.name
 jaopca:nugget.silicon_carbide, item.jaopca.nugget.silicon_carbide.name
+jaopca:nugget.stainless_steel, item.jaopca.nugget.stainless_steel.name
+jaopca:nugget.super_alloy, item.jaopca.nugget.super_alloy.name
 jaopca:nugget.thermoconducting, item.jaopca.nugget.thermoconducting.name
 jaopca:nugget.thorium, item.jaopca.nugget.thorium.name
 jaopca:nugget.tough, item.jaopca.nugget.tough.name
 jaopca:nugget.trinitite, item.jaopca.nugget.trinitite.name
+jaopca:nugget.tungsten_carbide, item.jaopca.nugget.tungsten_carbide.name
 jaopca:nugget.uranium, item.jaopca.nugget.uranium.name
 jaopca:nugget.villiaumite, item.jaopca.nugget.villiaumite.name
 jaopca:nugget.witherite, item.jaopca.nugget.witherite.name
@@ -13265,6 +13629,7 @@ jaopca:plate.boron_nitride, item.jaopca.plate.boron_nitride.name
 jaopca:plate.carobbiite, item.jaopca.plate.carobbiite.name
 jaopca:plate.certus_quartz, item.jaopca.plate.certus_quartz.name
 jaopca:plate.charcoal, item.jaopca.plate.charcoal.name
+jaopca:plate.chromium, item.jaopca.plate.chromium.name
 jaopca:plate.cobalt, item.jaopca.plate.cobalt.name
 jaopca:plate.conductive_iron, item.jaopca.plate.conductive_iron.name
 jaopca:plate.construction_alloy, item.jaopca.plate.construction_alloy.name
@@ -13291,6 +13656,12 @@ jaopca:plate.magnesium_diboride, item.jaopca.plate.magnesium_diboride.name
 jaopca:plate.manganese, item.jaopca.plate.manganese.name
 jaopca:plate.melodic_alloy, item.jaopca.plate.melodic_alloy.name
 jaopca:plate.mithril, item.jaopca.plate.mithril.name
+jaopca:plate.neodymium, item.jaopca.plate.neodymium.name
+jaopca:plate.nichrome, item.jaopca.plate.nichrome.name
+jaopca:plate.niobium, item.jaopca.plate.niobium.name
+jaopca:plate.niobium_tin, item.jaopca.plate.niobium_tin.name
+jaopca:plate.niobium_titanium, item.jaopca.plate.niobium_titanium.name
+jaopca:plate.osmiridium, item.jaopca.plate.osmiridium.name
 jaopca:plate.osmium, item.jaopca.plate.osmium.name
 jaopca:plate.plutonium, item.jaopca.plate.plutonium.name
 jaopca:plate.pulsating_iron, item.jaopca.plate.pulsating_iron.name
@@ -13302,11 +13673,14 @@ jaopca:plate.refined_obsidian, item.jaopca.plate.refined_obsidian.name
 jaopca:plate.rhodochrosite, item.jaopca.plate.rhodochrosite.name
 jaopca:plate.silicon_carbide, item.jaopca.plate.silicon_carbide.name
 jaopca:plate.soularium, item.jaopca.plate.soularium.name
+jaopca:plate.stainless_steel, item.jaopca.plate.stainless_steel.name
 jaopca:plate.stellar_alloy, item.jaopca.plate.stellar_alloy.name
+jaopca:plate.super_alloy, item.jaopca.plate.super_alloy.name
 jaopca:plate.thermoconducting, item.jaopca.plate.thermoconducting.name
 jaopca:plate.thorium, item.jaopca.plate.thorium.name
 jaopca:plate.tough, item.jaopca.plate.tough.name
 jaopca:plate.trinitite, item.jaopca.plate.trinitite.name
+jaopca:plate.tungsten_carbide, item.jaopca.plate.tungsten_carbide.name
 jaopca:plate.uranium, item.jaopca.plate.uranium.name
 jaopca:plate.vibrant_alloy, item.jaopca.plate.vibrant_alloy.name
 jaopca:plate.villiaumite, item.jaopca.plate.villiaumite.name
@@ -13323,6 +13697,7 @@ jaopca:stick.boron, item.jaopca.stick.boron.name
 jaopca:stick.brass, item.jaopca.stick.brass.name
 jaopca:stick.bronze, item.jaopca.stick.bronze.name
 jaopca:stick.chrome, item.jaopca.stick.chrome.name
+jaopca:stick.chromium, item.jaopca.stick.chromium.name
 jaopca:stick.cobalt, item.jaopca.stick.cobalt.name
 jaopca:stick.conductive_iron, item.jaopca.stick.conductive_iron.name
 jaopca:stick.construction_alloy, item.jaopca.stick.construction_alloy.name
@@ -13353,7 +13728,13 @@ jaopca:stick.magnesium_diboride, item.jaopca.stick.magnesium_diboride.name
 jaopca:stick.manganese, item.jaopca.stick.manganese.name
 jaopca:stick.melodic_alloy, item.jaopca.stick.melodic_alloy.name
 jaopca:stick.mithril, item.jaopca.stick.mithril.name
+jaopca:stick.neodymium, item.jaopca.stick.neodymium.name
+jaopca:stick.nichrome, item.jaopca.stick.nichrome.name
 jaopca:stick.nickel, item.jaopca.stick.nickel.name
+jaopca:stick.niobium, item.jaopca.stick.niobium.name
+jaopca:stick.niobium_tin, item.jaopca.stick.niobium_tin.name
+jaopca:stick.niobium_titanium, item.jaopca.stick.niobium_titanium.name
+jaopca:stick.osmiridium, item.jaopca.stick.osmiridium.name
 jaopca:stick.osmium, item.jaopca.stick.osmium.name
 jaopca:stick.platinum, item.jaopca.stick.platinum.name
 jaopca:stick.plutonium, item.jaopca.stick.plutonium.name
@@ -13366,13 +13747,16 @@ jaopca:stick.refined_obsidian, item.jaopca.stick.refined_obsidian.name
 jaopca:stick.silicon_carbide, item.jaopca.stick.silicon_carbide.name
 jaopca:stick.silver, item.jaopca.stick.silver.name
 jaopca:stick.soularium, item.jaopca.stick.soularium.name
+jaopca:stick.stainless_steel, item.jaopca.stick.stainless_steel.name
 jaopca:stick.stellar_alloy, item.jaopca.stick.stellar_alloy.name
+jaopca:stick.super_alloy, item.jaopca.stick.super_alloy.name
 jaopca:stick.thermoconducting, item.jaopca.stick.thermoconducting.name
 jaopca:stick.thorium, item.jaopca.stick.thorium.name
 jaopca:stick.tin, item.jaopca.stick.tin.name
 jaopca:stick.titanium, item.jaopca.stick.titanium.name
 jaopca:stick.tough, item.jaopca.stick.tough.name
 jaopca:stick.tungsten, item.jaopca.stick.tungsten.name
+jaopca:stick.tungsten_carbide, item.jaopca.stick.tungsten_carbide.name
 jaopca:stick.tungstensteel, item.jaopca.stick.tungstensteel.name
 jaopca:stick.uranium, item.jaopca.stick.uranium.name
 jaopca:stick.vibrant_alloy, item.jaopca.stick.vibrant_alloy.name

@@ -1,22 +1,18 @@
 
-#Configurations for material Chrome.
+#Configurations for material Chromium.
 [general]
 	#The alternative names of this material.
-	alternativeNames = []
+	alternativeNames = ["Chrome"]
 	#The byproducts of this material.
 	extras = []
 	#Is the storage block of this material small (2x2).
 	isSmallStorageBlock = false
 	#The module blacklist of this material.
-	moduleBlacklist = ["*"]
+	moduleBlacklist = []
 	#Should items of this material have the enchanted glow.
 	hasEffect = false
 	#The model type of the material.
 	modelType = "metallic"
 	#The color of this material.
-	color = 14010314
-
-[molten]
-	#The temperature of this molten fluid.
-	temperature = 1000
+	color = 12040119
 

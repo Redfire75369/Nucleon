@@ -23,6 +23,7 @@ static nuggets as IOreDictEntry[string] = {};
 static blocks as IOreDictEntry[string] = {};
 static dusts as IOreDictEntry[string] = {};
 static plates as IOreDictEntry[string] = {};
+static rods as IOreDictEntry[string] = {};
 
 function transformCase(name as string) as string {
 	return name[0].toLowerCase() ~ name.substring(1);
@@ -33,6 +34,7 @@ function std_oredict(material as Material, name as string) {
 	blocks[name] = material.getOreDictEntry("block");
 	dusts[name] = material.getOreDictEntry("dust");
 	plates[name] = material.getOreDictEntry("plate");
+	rods[name] = material.getOreDictEntry("rod");
 }
 
 for material in ingot_materials {

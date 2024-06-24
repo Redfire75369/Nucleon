@@ -4,6 +4,9 @@ DepletedLECm245TRISO
 MIX241
 	ingotMIX241
 
+Uranium234
+	ingotUranium234
+
 LECf249Nitride
 	ingotLECf249Nitride
 
@@ -27,10 +30,10 @@ Uranium233Oxide
 	ingotUranium233Oxide
 
 Xen
-	gemXen
 	oreXen
 	blockXen
 	ingotXen
+	gemXen
 
 MIX239
 	ingotMIX239
@@ -77,21 +80,14 @@ LEP239Oxide
 LECm245Oxide
 	ingotLECm245Oxide
 
-Chrome
-	dustSmallChrome
-	rodChrome
-	stickChrome
-	nuggetChrome
-	plateChrome
-	blockChrome
-	ingotChrome
-	dustChrome
-
 DepletedHECm243Oxide
 	ingotDepletedHECm243Oxide
 
 DepletedHEP239Nitride
 	ingotDepletedHEP239Nitride
+
+LEP239
+	ingotLEP239
 
 Curium243Nitride
 	ingotCurium243Nitride
@@ -118,6 +114,7 @@ MIX241Carbide
 	ingotMIX241Carbide
 
 Plutonium
+	wasteSpallationPlutonium
 	dustSmallPlutonium
 	rodPlutonium
 	stickPlutonium
@@ -127,6 +124,16 @@ Plutonium
 	ingotPlutonium
 	dustPlutonium
 
+Neodymium
+	rodNeodymium
+	stickNeodymium
+	magnetNeodymium
+	nuggetNeodymium
+	plateNeodymium
+	blockNeodymium
+	ingotNeodymium
+	dustNeodymium
+
 Curium246All
 	ingotCurium246All
 
@@ -135,6 +142,24 @@ TBU
 
 Plutonium242All
 	ingotPlutonium242All
+
+Tin
+	gearTin
+	clumpTin
+	dustDirtyTin
+	rockyChunkTin
+	crystalTin
+	chunkTin
+	shardTin
+	dustSmallTin
+	rodTin
+	stickTin
+	nuggetTin
+	plateTin
+	oreTin
+	blockTin
+	ingotTin
+	dustTin
 
 ElectricalSteel
 	rodElectricalSteel
@@ -388,6 +413,9 @@ RefinedIron
 	ingotRefinedIron
 	dustRefinedIron
 
+DepletedMIX291Oxide
+	ingotDepletedMIX291Oxide
+
 Extreme
 	rodExtreme
 	stickExtreme
@@ -397,8 +425,17 @@ Extreme
 	ingotExtreme
 	dustExtreme
 
-LEP239
-	ingotLEP239
+Copernicium291Carbide
+	ingotCopernicium291Carbide
+
+Nichrome
+	rodNichrome
+	stickNichrome
+	nuggetNichrome
+	plateNichrome
+	blockNichrome
+	ingotNichrome
+	dustNichrome
 
 DepletedHEP239TRISO
 	ingotDepletedHEP239TRISO
@@ -441,14 +478,12 @@ ManganeseOxide
 	ingotManganeseOxide
 	dustManganeseOxide
 
-LECf251TRISO
-	ingotLECf251TRISO
-
 Iridium
 	clumpIridium
 	dustDirtyIridium
 	rockyChunkIridium
 	crystalIridium
+	wasteSpallationIridium
 	chunkIridium
 	shardIridium
 	dustSmallIridium
@@ -470,6 +505,21 @@ Berkelium247All
 Plutonium238Nitride
 	ingotPlutonium238Nitride
 
+Copernicium291Oxide
+	ingotCopernicium291Oxide
+
+DepletedMIX291TRISO
+	ingotDepletedMIX291TRISO
+
+NiobiumTin
+	rodNiobiumTin
+	stickNiobiumTin
+	nuggetNiobiumTin
+	plateNiobiumTin
+	blockNiobiumTin
+	ingotNiobiumTin
+	dustNiobiumTin
+
 Uranium235Nitride
 	ingotUranium235Nitride
 
@@ -484,6 +534,7 @@ Osmium
 	dustDirtyOsmium
 	rockyChunkOsmium
 	crystalOsmium
+	wasteSpallationOsmium
 	chunkOsmium
 	shardOsmium
 	rodOsmium
@@ -517,6 +568,15 @@ Plutonium239Oxide
 LEP239Nitride
 	ingotLEP239Nitride
 
+StainlessSteel
+	rodStainlessSteel
+	stickStainlessSteel
+	nuggetStainlessSteel
+	plateStainlessSteel
+	blockStainlessSteel
+	ingotStainlessSteel
+	dustStainlessSteel
+
 DepletedMIX241TRISO
 	ingotDepletedMIX241TRISO
 
@@ -526,9 +586,8 @@ DepletedHEA242ZA
 FluixSteel
 	ingotFluixSteel
 
-Americium243
-	blockAmericium243
-	ingotAmericium243
+DepletedMIX291ZA
+	ingotDepletedMIX291ZA
 
 Americium242
 	ingotAmericium242
@@ -560,6 +619,16 @@ Plutonium242Oxide
 Uranium238
 	blockUranium238
 	ingotUranium238
+
+Invar
+	dustSmallInvar
+	rodInvar
+	stickInvar
+	nuggetInvar
+	plateInvar
+	blockInvar
+	ingotInvar
+	dustInvar
 
 HEN236
 	ingotHEN236
@@ -650,6 +719,9 @@ Ferroboron
 	ingotFerroboron
 	dustFerroboron
 
+Sodium22
+	ingotSodium22
+
 MixedMetal
 	ingotMixedMetal
 
@@ -710,6 +782,9 @@ Zirconium
 	ingotZirconium
 	dustZirconium
 
+Berkelium248ZA
+	ingotBerkelium248ZA
+
 Plutonium238Carbide
 	ingotPlutonium238Carbide
 
@@ -736,23 +811,8 @@ DepletedLEA242Nitride
 Curium243ZA
 	ingotCurium243ZA
 
-Tin
-	gearTin
-	clumpTin
-	dustDirtyTin
-	rockyChunkTin
-	crystalTin
-	chunkTin
-	shardTin
-	dustSmallTin
-	rodTin
-	stickTin
-	nuggetTin
-	plateTin
-	oreTin
-	blockTin
-	ingotTin
-	dustTin
+MIX291Carbide
+	ingotMIX291Carbide
 
 Curium245ZA
 	ingotCurium245ZA
@@ -813,6 +873,7 @@ Curium243Oxide
 	ingotCurium243Oxide
 
 Polonium
+	wasteSpallationPolonium
 	dustPolonium
 
 LEB248Oxide
@@ -868,6 +929,9 @@ HECf249TRISO
 DepletedLEB248TRISO
 	ingotDepletedLEB248TRISO
 
+MIX291Oxide
+	ingotMIX291Oxide
+
 HEP241TRISO
 	ingotHEP241TRISO
 
@@ -916,11 +980,15 @@ LEN236Carbide
 DepletedLEA242ZA
 	ingotDepletedLEA242ZA
 
+Copernicium291All
+	ingotCopernicium291All
+
 Uranium
 	clumpUranium
 	dustDirtyUranium
 	rockyChunkUranium
 	crystalUranium
+	wasteSpallationUranium
 	chunkUranium
 	shardUranium
 	dustSmallUranium
@@ -981,6 +1049,9 @@ LEB248Carbide
 SiCSiCCMC
 	ingotSiCSiCCMC
 
+MIX291TRISO
+	ingotMIX291TRISO
+
 Curium245Carbide
 	ingotCurium245Carbide
 
@@ -990,6 +1061,15 @@ Uranium238Nitride
 HECm247Nitride
 	ingotHECm247Nitride
 
+Chromium
+	rodChromium
+	stickChromium
+	nuggetChromium
+	plateChromium
+	blockChromium
+	ingotChromium
+	dustChromium
+
 DepletedHEB248Oxide
 	ingotDepletedHEB248Oxide
 
@@ -998,6 +1078,10 @@ DepletedHEU235ZA
 
 Marshmallow
 	ingotMarshmallow
+
+Calcium
+	ingotCalcium
+	dustCalcium
 
 LEP241Oxide
 	ingotLEP241Oxide
@@ -1010,6 +1094,10 @@ DepletedLEU235TRISO
 
 DepletedHEU233TRISO
 	ingotDepletedHEU233TRISO
+
+Strontium
+	ingotStrontium
+	dustStrontium
 
 Uranium238All
 	ingotUranium238All
@@ -1040,8 +1128,7 @@ Antimony
 	gearAntimony
 	ingotAntimony
 
-Berkelium248ZA
-	ingotBerkelium248ZA
+CrystalMatrix
 
 SiliconCarbide
 	fiberSiliconCarbide
@@ -1080,8 +1167,17 @@ Neptunium237Nitride
 LEU235Nitride
 	ingotLEU235Nitride
 
+DepletedHECf249Nitride
+	ingotDepletedHECf249Nitride
+
 HECf251Carbide
 	ingotHECf251Carbide
+
+Magnesium26
+	ingotMagnesium26
+
+Magnesium24
+	ingotMagnesium24
 
 DepletedLECm247Nitride
 	ingotDepletedLECm247Nitride
@@ -1098,9 +1194,6 @@ DepletedLEN236Oxide
 Californium251ZA
 	ingotCalifornium251ZA
 
-HEU233
-	ingotHEU233
-
 LEN236
 	ingotLEN236
 
@@ -1116,12 +1209,14 @@ Californium251Carbide
 Terrasteel
 
 Tungsten
+	wireGoldTungsten
 	heavyPlateTungsten
 	lightPlateTungsten
 	clumpTungsten
 	dustDirtyTungsten
 	rockyChunkTungsten
 	crystalTungsten
+	wasteSpallationTungsten
 	chunkTungsten
 	shardTungsten
 	dustSmallTungsten
@@ -1162,6 +1257,11 @@ ConductiveIron
 	ingotConductiveIron
 	dustConductiveIron
 
+Hafnium
+	wasteSpallationHafnium
+	ingotHafnium
+	dustHafnium
+
 Uranium238Carbide
 	ingotUranium238Carbide
 
@@ -1182,6 +1282,7 @@ Nickel
 	dustNickel
 
 Platinum
+	wasteSpallationPlatinum
 	dustSmallPlatinum
 	rodPlatinum
 	stickPlatinum
@@ -1228,6 +1329,15 @@ Curium243
 LithiumManganeseDioxide
 	ingotLithiumManganeseDioxide
 
+Niobium
+	rodNiobium
+	stickNiobium
+	nuggetNiobium
+	plateNiobium
+	blockNiobium
+	ingotNiobium
+	dustNiobium
+
 Gold
 	heavyPlateGold
 	lightPlateGold
@@ -1236,6 +1346,7 @@ Gold
 	dustDirtyGold
 	rockyChunkGold
 	crystalGold
+	wasteSpallationGold
 	chunkGold
 	shardGold
 	dustSmallGold
@@ -1264,15 +1375,8 @@ HEB248Oxide
 Californium251Oxide
 	ingotCalifornium251Oxide
 
-Invar
-	dustSmallInvar
-	rodInvar
-	stickInvar
-	nuggetInvar
-	plateInvar
-	blockInvar
-	ingotInvar
-	dustInvar
+Copernicium291
+	ingotCopernicium291
 
 Curium246Carbide
 	ingotCurium246Carbide
@@ -1286,8 +1390,8 @@ HEB248Carbide
 HEU235Carbide
 	ingotHEU235Carbide
 
-DepletedHECf249Nitride
-	ingotDepletedHECf249Nitride
+Cobalt60
+	ingotCobalt60
 
 DepletedHEN236TRISO
 	ingotDepletedHEN236TRISO
@@ -1326,6 +1430,15 @@ DepletedLECm243Oxide
 LECm243Carbide
 	ingotLECm243Carbide
 
+TungstenCarbide
+	rodTungstenCarbide
+	stickTungstenCarbide
+	nuggetTungstenCarbide
+	plateTungstenCarbide
+	blockTungstenCarbide
+	ingotTungstenCarbide
+	dustTungstenCarbide
+
 Americium243All
 	ingotAmericium243All
 
@@ -1334,6 +1447,10 @@ LEU233Nitride
 
 LEA242Carbide
 	ingotLEA242Carbide
+
+Potassium
+	ingotPotassium
+	dustPotassium
 
 DepletedLECm243Nitride
 	ingotDepletedLECm243Nitride
@@ -1399,6 +1516,13 @@ DepletedHEU233ZA
 DepletedLECm243TRISO
 	ingotDepletedLECm243TRISO
 
+Copernicium291Nitride
+	ingotCopernicium291Nitride
+
+Americium243
+	blockAmericium243
+	ingotAmericium243
+
 Soularium
 	rodSoularium
 	stickSoularium
@@ -1414,6 +1538,9 @@ DepletedLEP241Oxide
 
 Berkelium248Carbide
 	ingotBerkelium248Carbide
+
+Beryllium7
+	ingotBeryllium7
 
 LECf251ZA
 	ingotLECf251ZA
@@ -1457,8 +1584,11 @@ HEU235
 HEU233TRISO
 	ingotHEU233TRISO
 
-Americium242ZA
-	ingotAmericium242ZA
+HEU233
+	ingotHEU233
+
+HECf251ZA
+	ingotHECf251ZA
 
 DepletedHEN236Nitride
 	ingotDepletedHEN236Nitride
@@ -1475,6 +1605,10 @@ LECm243Oxide
 HECm247TRISO
 	ingotHECm247TRISO
 
+Yttrium
+	ingotYttrium
+	dustYttrium
+
 DepletedLEP241TRISO
 	ingotDepletedLEP241TRISO
 
@@ -1486,6 +1620,15 @@ HECm243Oxide
 
 Curium245All
 	ingotCurium245All
+
+Osmiridium
+	rodOsmiridium
+	stickOsmiridium
+	nuggetOsmiridium
+	plateOsmiridium
+	blockOsmiridium
+	ingotOsmiridium
+	dustOsmiridium
 
 Plutonium241All
 	ingotPlutonium241All
@@ -1511,6 +1654,9 @@ Tungstensteel
 	ingotTungstensteel
 	dustTungstensteel
 
+MIX291ZA
+	ingotMIX291ZA
+
 Infinity
 	gearIronInfinity
 
@@ -1525,6 +1671,15 @@ Plutonium239Carbide
 
 Neptunium236Nitride
 	ingotNeptunium236Nitride
+
+SuperAlloy
+	rodSuperAlloy
+	stickSuperAlloy
+	nuggetSuperAlloy
+	plateSuperAlloy
+	blockSuperAlloy
+	ingotSuperAlloy
+	dustSuperAlloy
 
 Berkelium247Carbide
 	ingotBerkelium247Carbide
@@ -1592,6 +1747,15 @@ Plutonium238ZA
 
 HECf249ZA
 	ingotHECf249ZA
+
+NiobiumTitanium
+	rodNiobiumTitanium
+	stickNiobiumTitanium
+	nuggetNiobiumTitanium
+	plateNiobiumTitanium
+	blockNiobiumTitanium
+	ingotNiobiumTitanium
+	dustNiobiumTitanium
 
 DepletedHECm247ZA
 	ingotDepletedHECm247ZA
@@ -1669,21 +1833,30 @@ Zircaloy
 LECm247Carbide
 	ingotLECm247Carbide
 
+Americium242ZA
+	ingotAmericium242ZA
+
 MagnesiumDiboride
-	nuggetMagnesiumDiboride
-	rodMagnesiumDiboride
 	stickMagnesiumDiboride
+	rodMagnesiumDiboride
 	solenoidMagnesiumDiboride
+	nuggetMagnesiumDiboride
 	plateMagnesiumDiboride
 	blockMagnesiumDiboride
 	ingotMagnesiumDiboride
 	dustMagnesiumDiboride
+
+MIX291Nitride
+	ingotMIX291Nitride
 
 DepletedHECf251Nitride
 	ingotDepletedHECf251Nitride
 
 DepletedLEU233ZA
 	ingotDepletedLEU233ZA
+
+DepletedMIX291Nitride
+	ingotDepletedMIX291Nitride
 
 Void
 
@@ -1699,8 +1872,8 @@ Plutonium242Carbide
 LECf251Nitride
 	ingotLECf251Nitride
 
-DepletedLECf249Nitride
-	ingotDepletedLECf249Nitride
+LECf251TRISO
+	ingotLECf251TRISO
 
 Uranium233All
 	ingotUranium233All
@@ -1749,6 +1922,7 @@ Lead
 	dustDirtyLead
 	rockyChunkLead
 	crystalLead
+	wasteSpallationLead
 	chunkLead
 	shardLead
 	dustSmallLead
@@ -1787,6 +1961,9 @@ LECf249
 Curium247Carbide
 	ingotCurium247Carbide
 
+Copernicium291ZA
+	ingotCopernicium291ZA
+
 Americium241Nitride
 	ingotAmericium241Nitride
 
@@ -1810,6 +1987,12 @@ ElectrotineAlloy
 
 LEP241Nitride
 	ingotLEP241Nitride
+
+DepletedLECf249Nitride
+	ingotDepletedLECf249Nitride
+
+Calcium48
+	ingotCalcium48
 
 DepletedTBUTRISO
 	ingotDepletedTBUTRISO
@@ -1915,6 +2098,9 @@ Copper
 LEN236TRISO
 	ingotLEN236TRISO
 
+MIX291
+	ingotMIX291
+
 Californium252All
 	ingotCalifornium252All
 
@@ -1977,6 +2163,7 @@ Thorium
 	dustDirtyThorium
 	rockyChunkThorium
 	crystalThorium
+	wasteSpallationThorium
 	chunkThorium
 	shardThorium
 	dustSmallThorium
@@ -1989,19 +2176,21 @@ Thorium
 	ingotThorium
 	dustThorium
 
-CrystalMatrix
+Iridium192
+	ingotIridium192
 
-HECf251ZA
-	ingotHECf251ZA
+Sodium
+	ingotSodium
+	dustSodium
 
 LEP241TRISO
 	ingotLEP241TRISO
 
 Manganese
 	dustSmallManganese
+	dustCarbonManganese
 	rodManganese
 	stickManganese
-	dustCarbonManganese
 	nuggetManganese
 	plateManganese
 	blockManganese
