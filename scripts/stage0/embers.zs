@@ -5,6 +5,7 @@ import scripts.common.ingots;
 import scripts.common.nuggets;
 import scripts.common.plates;
 import scripts.common.rods;
+import scripts.common.gears;
 
 recipes.remove(<item:embers:tinker_hammer>);
 recipes.addShaped("tinker_hammer", <item:embers:tinker_hammer>, [
@@ -32,7 +33,7 @@ recipes.addShapedMirrored("sealant", <item:contenttweaker:sealant>, [
 
 recipes.addShaped("mechanical_archaic_circuit", <item:contenttweaker:mech_archaic_circuit>, [
 	[null, <item:embers:archaic_brick>, null],
-	[<item:embers:archaic_brick>, <ore:gearCopper>, <item:embers:archaic_brick>],
+	[<item:embers:archaic_brick>, gears.copper, <item:embers:archaic_brick>],
 	[null, <item:embers:archaic_brick>, null],
 ]);
 
@@ -62,7 +63,7 @@ recipes.remove(<item:embers:ember_bore>);
 recipes.addShaped("ember_bore", <item:embers:ember_bore>, [
 	[<item:embers:block_caminite_brick>, <item:embers:mech_core>, <item:embers:block_caminite_brick>],
 	[<item:embers:archaic_bricks>, <item:embers:ancient_motive_core>, <item:embers:archaic_bricks>],
-	[<item:contenttweaker:grinding_head_iron>, <contenttweaker:grinding_head_iron>, <contenttweaker:grinding_head_iron>],
+	[<item:contenttweaker:grinding_head_iron>, <item:contenttweaker:grinding_head_iron>, <item:contenttweaker:grinding_head_iron>],
 ]);
 
 recipes.remove(<item:embers:block_furnace>);
@@ -102,8 +103,15 @@ recipes.addShaped("cinder_plinth", <item:embers:cinder_plinth>, [
 recipes.remove(<item:embers:mixer>);
 recipes.addShaped("mixer_centrifuge", <item:embers:mixer>, [
 	[plates.tin, <mysticalmechanics:axle_iron>, plates.tin],
-	[<item:embers:block_caminite_brick>, <ore:gearCopper>, <item:embers:block_caminite_brick>],
-	[<item:minecraft:furnace>, <ore:gearCopper>, <item:minecraft:furnace>],
+	[<item:embers:block_caminite_brick>, gears.copper, <item:embers:block_caminite_brick>],
+	[<item:minecraft:furnace>, gears.copper, <item:minecraft:furnace>],
+]);
+
+recipes.remove(<item:embers:breaker>);
+recipes.addShaped("automatic_breaker", [
+	[plates.iron, gears.bronze, plates.iron],
+	[ingots.lead, gears.iron, ingots.lead],
+	[ingots.lead, null, ingots.lead],
 ]);
 
 /* Stamps */
@@ -139,7 +147,7 @@ recipes.addShaped("stamp_rod_raw", <item:embers:stamp_rod_raw>, [
 ]);
 recipes.addShaped("stamp_gear_raw", <item:embers:stamp_gear_raw>, [
 	[blend, hammer, blend],
-	[null, <ore:gearIron>, null],
+	[null, gears.iron, null],
 	[blend, raw_flat_stamp, blend],
 ]);
 recipes.addShaped("stamp_round_raw", <item:embers:stamp_round_raw>, [
@@ -153,8 +161,130 @@ recipes.addShaped("stamp_nugget_raw", <soot:stamp_nugget_raw>, [
 	[blend, raw_flat_stamp, blend],
 ]);
 
+/* Transport */
+/** Items **/
+recipes.remove(<item:embers:item_pipe>);
+recipes.remove(<item:embers:item_pump>);
+
+recipes.addShaped("item_pipe", <item:embers:item_pipe> * 12, [
+	[ingots.iron, ingots.iron, ingots.iron],
+	[<item:embers:archaic_brick>, null, <item:embers:archaic_brick>],
+	[ingots.iron, ingots.iron, ingots.iron],
+]);
+recipes.addShaped("item_extractor", <item:embers:item_pump>, [
+	[null, plate, null],
+	[<item:embers:item_pipe>, <item:contenttweaker:reinforced_stone_gear>, <item:embers:item_pipe>],
+	[null, plate, null],
+]);
+
+recipes.remove(<item:embers:item_transfer>);
+recipes.remove(<item:embers:item_vacuum>);
+recipes.remove(<item:embers:item_dropper>);
+
+recipes.addShaped("item_transfer", <item:embers:item_transfer>, [
+	[<item:embers:item_pipe>, plates.lead, <item:embers:item_pipe>],
+	[plates.lead, <item:magneticraft:crafting:6>, plates.lead],
+	[ingots.iron, null, ingots.iron],
+]);
+recipes.addShaped("item_vacuum", <items:embers:vacuum>, [
+	[plates.iron, <ore:blockHopper>, plates.iron],
+	[plates.iron, <item:embers:item_transfer>, plates.iron],
+	[<ore:enderpearl>, <item:embers:item_pipe>, <ore:enderpearl>],
+]);
+recipes.addShaped("item_dropper", <items:embers:item_dropper>,
+	[null, <item:embers:item_pipe>, null],
+	[plates.iron, <item:embers:item_transfer>, plates.iron],
+]);
+
+/** Fluids **/
+recipes.remove(<item:embers:pipe>);
+recipes.remove(<item:embers:pump>);
+recipes.addShaped("fluid_pipe", <item:embers:pipe> * 12, [
+	[ingots.iron, ingots.iron, ingots.iron],
+	[null, <item:contenttweaker:sealant>, null],
+	[ingots.iron, ingots.iron, ingots.iron]
+]);
+recipes.addShaped("fluid_extractor", <item:embers:pump>, [
+	[null, <item:contenttweaker:sealant>, null],
+	[<items:embers:pipe>, <items:contenttweaker:reinforced_stone_gear>, <items:embers:pipe>],
+	[null, plate, null]
+]);
+
+recipes.remove(<item:embers:fluid_transfer>);
+recipes.addShaped("fluid_transfer", <item:embers:fluid_transfer>, [
+	[<item:embers:pipe>, ingots.lead, <item:embers:pipe>],
+	[plates.lead, <Item:magneticraft:crafting:6>, plates.lead],
+	[ingots.iron, <item:contenttweaker:sealant>, ingots.iron]
+]);
+
+/** Ember **/
+recipes.remove(<item:embers:ember_emitter>);
+recipes.remove(<item:embers:ember_receiver>);
+recipes.remove(<item:embers:ember_relay>);
+
+recipes.addShaped("ember_emitter", <item:embers:ember_emitter> * 2, [
+	[null, ingots.copper, null],
+	[null, ingots.copper, null],
+	[brick, gears.iron, brick],
+]);
+recipes.addShaped("ember_receptor", <item:embers:ember_receiver> * 2, [
+	[gears.stone, null, gears.stone],
+	[ingots.copper, <item:embers:archaic_circuit>, ingots.copper],
+]);
+recipes.addShaped("ember_relay", <item:embers:ember_relay> * 2, [
+	[null, ingots.copper, null],
+	[<item:embers:archaic_brick>, gears.stone, <item:embers:archaic_brick>],
+	[null, ingots.copper, null],
+]);
+recipes.addShaped("ember_relay_combination", <item:embers:ember_relay> * 8, [
+	[null, <item:embers:ember_emitter>, null],
+	[<item:embers:ember_receiver>, gears.stone, <item:embers:ember_receiver>],
+	[null, <item:embers:ember_emitter>, null],
+]);
+
+/* Storage */
+/** Items **/
+recipes.remove(<item:embers:bin>);
+recipes.addShaped("bin", <item:embers:bin>, [
+	[<item:embers:archaic_brick>, null, <item:embers:archaic_brick>],
+	[<item:embers:archaic_brick>, null, <item:embers:archaic_brick>],
+	[plates.iron, plates.iron, plates.iron],
+]);
+
+/** Fluids **/
+recipes.remove(<item:embers:block_tank>);
+recipes.addShaped("fluid_vessel", <item:embers:block_tank>, [
+	[brick, null, brick],
+	[<item:embers:archaic_brick>, null, <item:embers:archaic_brick>],
+	[plates.iron, <item:minecraft:bucket>, plates.iron],
+]);
+
+recipes.remove(<item:embers:large_tank>);
+recipes.remove(<item:embers:stone_edge>);
+recipes.addShaped("reservoir", <item:embers:large_tank>, [
+	[<item:embers:block_caminite_brick>, <item:embers:block_tank>, <item:embers:block_caminite_brick>],
+	[plates.lead, <item:embers:mech_core>, plates.lead],
+	[<item:embers:block_caminite_brick>, <item:embers:block_tank>, <item:embers:block_caminite_brick>]
+]);
+recipes.addShaped("caminite_ring", <item:embers:stone_edge>, [
+	[<item:embers:wall_caminite_brick>, <item:embers:wall_caminite_brick>, <item:embers:wall_caminite_brick>],
+	[plate, <item:minecraft:bucket>, plate],
+	[<item:embers:wall_caminite_brick>, <item:embers:wall_caminite_brick>, <item:embers:wall_caminite_brick>],
+]);
+recipes.addShaped("caminite_valve", <item:embers:stone_valve>, [
+	[<item:embers:pump>, <item:embers:stone_ring>, <item:embers:pump>],
+]);
+
+/** Ember **/
+recipes.remove(<item:embers:copper_cell>);
+recipes.addShaped("copper_cell", <item:embers:copper_cell>, [
+	[<item:embers:block_caminite_brick>, plates.copper, <item:embers:block_caminite_brick>],
+	[plates.copper, <item:embers:ancient_motive_core>, plates.copper],
+	[<item:embers:block_caminite_brick>, plates.copper, <item:embers:block_caminite_brick>],
+]);
+
 /* Others */
-recipes.remove(<item: 	embers:ember_detector>);
+recipes.remove(<item:embers:ember_detector>);
 recipes.addShaped("atmospheric_gauge", <item:embers:ember_detector>, [
 	[null, ingots.iron, null],
 	[ingots.copper, hammer, ingots.copper],
@@ -164,19 +294,25 @@ recipes.addShaped("atmospheric_gauge", <item:embers:ember_detector>, [
 recipes.remove(<item:embers:tinker_lens>);
 recipes.addShaped("tinker_lens", <item:embers:tinker_lens>, [
 	[ingots.iron, nuggets.iron, null],
-	[plates.iron, <ore:paneGlass>, nuggets.iron],
+	[plates.copper, <ore:paneGlass>, nuggets.iron],
 	[ingots.iron, nuggets.iron, null],
 ]);
 
 recipes.remove(<item:embers:ember_gauge>);
 recipes.remove(<item:embers:fluid_gauge>);
-recipes.addShaped("ember_dial", <item:embers:ember_gauge>, [
+
+recipes.addShaped("item_dial", <item:embers:item_gauge>, [
 	[null, hammer, null],
-	[ingots.copper, plate, ingots.copper],
-	[null, ingots.copper, null],
+	[ingots.lead, plate, ingots.lead],
+	[null, ingots.lead, null],
 ]);
 recipes.addShaped("fluid_dial", <item:embers:fluid_gauge>, [
 	[null, hammer, null],
 	[ingots.iron, plate, ingots.iron],
 	[null, ingots.iron, null],
+]);
+recipes.addShaped("ember_dial", <item:embers:ember_gauge>, [
+	[null, hammer, null],
+	[ingots.copper, plate, ingots.copper],
+	[null, ingots.copper, null],
 ]);
