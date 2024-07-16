@@ -108,7 +108,7 @@ recipes.addShaped("mixer_centrifuge", <item:embers:mixer>, [
 ]);
 
 recipes.remove(<item:embers:breaker>);
-recipes.addShaped("automatic_breaker", [
+recipes.addShaped("automatic_breaker", <item:embers:breaker>, [
 	[plates.iron, gears.bronze, plates.iron],
 	[ingots.lead, gears.iron, ingots.lead],
 	[ingots.lead, null, ingots.lead],
@@ -178,7 +178,7 @@ recipes.addShaped("item_extractor", <item:embers:item_pump>, [
 ]);
 
 recipes.remove(<item:embers:item_transfer>);
-recipes.remove(<item:embers:item_vacuum>);
+recipes.remove(<item:embers:vacuum>);
 recipes.remove(<item:embers:item_dropper>);
 
 recipes.addShaped("item_transfer", <item:embers:item_transfer>, [
@@ -186,12 +186,12 @@ recipes.addShaped("item_transfer", <item:embers:item_transfer>, [
 	[plates.lead, <item:magneticraft:crafting:6>, plates.lead],
 	[ingots.iron, null, ingots.iron],
 ]);
-recipes.addShaped("item_vacuum", <items:embers:vacuum>, [
+recipes.addShaped("item_vacuum", <item:embers:vacuum>, [
 	[plates.iron, <ore:blockHopper>, plates.iron],
 	[plates.iron, <item:embers:item_transfer>, plates.iron],
 	[<ore:enderpearl>, <item:embers:item_pipe>, <ore:enderpearl>],
 ]);
-recipes.addShaped("item_dropper", <items:embers:item_dropper>,
+recipes.addShaped("item_dropper", <item:embers:item_dropper>, [
 	[null, <item:embers:item_pipe>, null],
 	[plates.iron, <item:embers:item_transfer>, plates.iron],
 ]);
@@ -206,15 +206,20 @@ recipes.addShaped("fluid_pipe", <item:embers:pipe> * 12, [
 ]);
 recipes.addShaped("fluid_extractor", <item:embers:pump>, [
 	[null, <item:contenttweaker:sealant>, null],
-	[<items:embers:pipe>, <items:contenttweaker:reinforced_stone_gear>, <items:embers:pipe>],
+	[<item:embers:pipe>, <item:contenttweaker:reinforced_stone_gear>, <item:embers:pipe>],
 	[null, plate, null]
 ]);
 
 recipes.remove(<item:embers:fluid_transfer>);
+recipes.remove(<item:embers:fluid_dropper>);
 recipes.addShaped("fluid_transfer", <item:embers:fluid_transfer>, [
 	[<item:embers:pipe>, ingots.lead, <item:embers:pipe>],
 	[plates.lead, <Item:magneticraft:crafting:6>, plates.lead],
 	[ingots.iron, <item:contenttweaker:sealant>, ingots.iron]
+]);
+recipes.addShaped("fluid_dropper", <item:embers:fluid_dropper>, [
+	[<item:contenttweaker:sealant>, <item:embers:pipe>, <item:contenttweaker:sealant>],
+	[plates.lead, <item:embers:item_transfer>, plates.lead],
 ]);
 
 /** Ember **/
@@ -272,7 +277,7 @@ recipes.addShaped("caminite_ring", <item:embers:stone_edge>, [
 	[<item:embers:wall_caminite_brick>, <item:embers:wall_caminite_brick>, <item:embers:wall_caminite_brick>],
 ]);
 recipes.addShaped("caminite_valve", <item:embers:stone_valve>, [
-	[<item:embers:pump>, <item:embers:stone_ring>, <item:embers:pump>],
+	[<item:embers:pump>, <item:embers:stone_edge>, <item:embers:pump>],
 ]);
 
 /** Ember **/

@@ -24,7 +24,13 @@ static blocks as IOreDictEntry[string] = {};
 static dusts as IOreDictEntry[string] = {};
 static plates as IOreDictEntry[string] = {};
 static rods as IOreDictEntry[string] = {};
-static gears as IOreDictEntry[string] = {};
+static gears as IOreDictEntry[string] = {
+	bronze: <ore:gearBronze>,
+	copper: <ore:gearCopper>,
+	iron: <ore:gearIron>,
+	stone: <ore:gearStone>,
+	wood: <ore:gearWood>,
+};
 
 function transformCase(name as string) as string {
 	return name[0].toLowerCase() ~ name.substring(1);
@@ -71,12 +77,6 @@ for material in dust_plain_materials {
 	val name = transformCase(material.name);
 	dusts[name] = material.getOreDictEntry("dust");
 }
-
-gears.bronze = <ore:gearBronze>;
-gears.copper = <ore:gearCopper>;
-gears.iron = <ore:gearIron>;
-gears.stone = <ore:gearStone>;
-gears.wood = <ore:gearWood>;
 
 function get_fluid_container(fluid as ILiquidStack, container as string) as IItemStack {
 	if (container == "bucket" && fluid.name == <liquid:water>.name) {
