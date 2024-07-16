@@ -1,0 +1,15 @@
+{
+  "name": "Nucleon",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Redfire",
+  "overrides": [
+    "config",
+    "local",
+    "resources",
+    "scripts"
+  ],
+  "server_overrides": [],
+  "client_overrides": [],
+  "projects": {}
+}
