@@ -42,6 +42,7 @@ scripts/nc_script_addons/**
 .ReAuth.cfg
 hei_bookmarks.ini
 seen_buildersbag_addons.txt
+zs_export.json
 !crafttweaker.log
 
 ## Launcher ##

@@ -1,24 +1,24 @@
 [PREINITIALIZATION][CLIENT][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
-Spencer Gilbert
-Hooley
-Jessie Sims
-Jonathan McManus
-Lucas
-Ncc1702
-Jordan Pineo
-Jellycraft
-Peregrinus11
-Quaternary
-embeddedt
-Belathus
-Naomi Evans
-Pongo Sapiens
-Ivy_
 DreamThorn
 Phillip Swearingain
+Jonathan McManus
+Belathus
+Lucas
+Jordan Pineo
+NerdyWhiteGuy
+Spencer Gilbert
+embeddedt
+Jellycraft
 Genryu
-NickT
+Peregrinus11
+Jessie Sims
 Zuniroa
+Ivy_
+Hooley
+Naomi Evans
+Pongo Sapiens
+NickT
+Ncc1702
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit]]
@@ -38,7 +38,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\minecraft.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\mystical-mechanics.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\rustichromia.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 10ms
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 17ms
 [PREINITIALIZATION][CLIENT][INFO] Hey! Here is ZenUtils.
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [contenttweaker]
@@ -58,7 +58,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\minecraft.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\mystical-mechanics.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\rustichromia.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 1313ms
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 1747ms
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker], [finalize_contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [finalize_contenttweaker]
 [PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: common.zs} as we are currently loading with a different loader
@@ -76,7 +76,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\minecraft.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\mystical-mechanics.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\rustichromia.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 3ms
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 6ms
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker], [finalize_contenttweaker], [mekatweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [mekatweaker]
 [PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: common.zs} as we are currently loading with a different loader
@@ -94,7 +94,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\minecraft.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\mystical-mechanics.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\rustichromia.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 10ms
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 7ms
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker], [finalize_contenttweaker], [mekatweaker], [nc_preinit]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [nc_preinit]
 [PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: common.zs} as we are currently loading with a different loader
@@ -112,7 +112,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\minecraft.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\mystical-mechanics.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\rustichromia.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 2ms
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 5ms
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker], [finalize_contenttweaker], [mekatweaker], [nc_preinit], [recipeevent | crafttweaker]]
@@ -155,7 +155,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-1:crafttweaker|reloadable]: stage0\minecraft.zs}
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-1:crafttweaker|reloadable]: stage0\mystical-mechanics.zs}
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-1:crafttweaker|reloadable]: stage0\rustichromia.zs}
-[INITIALIZATION][CLIENT][TRACE] Completed script loading in: 714ms
+[INITIALIZATION][CLIENT][TRACE] Completed script loading in: 872ms
 [INITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker], [finalize_contenttweaker], [mekatweaker], [nc_preinit], [crafttweaker | recipeevent], [multiblocked]]
 [INITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [multiblocked]
 [INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: common.zs} as we are currently loading with a different loader
@@ -173,7 +173,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\minecraft.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\mystical-mechanics.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\rustichromia.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][TRACE] Completed script loading in: 4ms
+[INITIALIZATION][CLIENT][TRACE] Completed script loading in: 5ms
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Akashic Tome with name akashic_tome
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for item.tinker_hammer with name tinker_hammer
@@ -233,10 +233,10 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Quern with name quern
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for tile.gin with name gin
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for tile.assembler1 with name single_assembler
-[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: com.teamacronymcoders.contenttweaker.modules.vanilla.resources.GhostItemStack@48ce54fc
-[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: com.teamacronymcoders.contenttweaker.modules.vanilla.resources.GhostItemStack@48ce54fc
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: com.teamacronymcoders.contenttweaker.modules.vanilla.resources.GhostItemStack@23fcfb18
+[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: com.teamacronymcoders.contenttweaker.modules.vanilla.resources.GhostItemStack@23fcfb18
 [POSTINITIALIZATION][CLIENT][INFO] Adding furnace recipe for <ore:logWood>
-[POSTINITIALIZATION][CLIENT][INFO] Adding furnace recipe for com.teamacronymcoders.contenttweaker.modules.vanilla.resources.GhostItemStack@10c6f464
+[POSTINITIALIZATION][CLIENT][INFO] Adding furnace recipe for com.teamacronymcoders.contenttweaker.modules.vanilla.resources.GhostItemStack@58a6bc32
 [POSTINITIALIZATION][CLIENT][INFO] Removing Quern recipe: rustichromia:log_to_dust
 [POSTINITIALIZATION][CLIENT][INFO] Removing Quern recipe: rustichromia:plank_to_dust
 [POSTINITIALIZATION][CLIENT][INFO] Removing Quern recipe: rustichromia:slab_to_dust
@@ -2995,15 +2995,15 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "embers:block_dawnstone"})
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "extrabitmanipulation:bodypart_template"})
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "hydrogel:hydrogel"})
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "magneticraft:multiblock_parts"})
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "magneticraft:multiblock_column"})
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "magneticraft:pumpjack_drill"})
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "magneticraft:ores"})
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "magneticraft:oil_source"})
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "magneticraft:storage_blocks"})
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "magneticraft:limestone"})
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "magneticraft:burnt_limestone"})
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "magneticraft:tile_limestone"})
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "magneticraft:ores"})
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "magneticraft:oil_source"})
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "magneticraft:storage_blocks"})
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "magneticraft:multiblock_parts"})
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "magneticraft:multiblock_column"})
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "magneticraft:pumpjack_drill"})
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "rustichromia:block_steel"})
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "rustichromia:thatch_block"})
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "rustichromia:molten_hay"})
@@ -3057,6 +3057,6 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <chambers:enchant_chamber>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <chambers:fluid_chamber>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <chambers:fusion_chamber>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: com.teamacronymcoders.contenttweaker.modules.vanilla.resources.GhostItemStack@1075eb07
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: com.teamacronymcoders.contenttweaker.modules.vanilla.resources.GhostItemStack@439449a8
 [AVAILABLE][CLIENT][INFO] Adding <appliedenergistics2:facade>.withTag({damage: 0, item: "minecraft:stone"}) to JEI
 [AVAILABLE][CLIENT][INFO] Adding <akashictome:tome>.withTag({"akashictome:data": {industrialforegoing: {id: "industrialforegoing:book_manual", Count: 1, tag: {"akashictome:definedMod": "industrialforegoing"}, Damage: 0 as short}, pneumaticcraft: {id: "patchouli:guide_book", Count: 1, tag: {"akashictome:definedMod": "pneumaticcraft", "patchouli:book": "pneumaticcraft:book"}, Damage: 0 as short}, industrialrenewal: {id: "industrialrenewal:ir_manual", Count: 1, tag: {"akashictome:definedMod": "industrialrenewal"}, Damage: 0 as short}, opencomputers: {id: "opencomputers:tool", Count: 1, tag: {"akashictome:definedMod": "opencomputers"}, Damage: 4 as short}, qmd: {id: "patchouli:guide_book", Count: 1, tag: {"akashictome:definedMod": "pneumaticcraft", "patchouli:book": "qmd:guide"}, Damage: 0 as short}, woot: {id: "guideapi:woot-guide", Count: 1, tag: {"akashictome:definedMod": "woot"}, Damage: 0 as short}, embers: {id: "embers:codex", Count: 1, tag: {"akashictome:definedMod": "embers"}, Damage: 0 as short}, betterquesting: {id: "betterquesting:quest_book", Count: 1, tag: {"akashictome:definedMod": "betterquesting"}, Damage: 0 as short}, nuclearcraft: {id: "patchouli:guide_book", Count: 1, tag: {"akashictome:definedMod": "pneumaticcraft", "patchouli:book": "nuclearcraft:guide"}, Damage: 0 as short}, magneticraft: {id: "magneticraft:guide_book", Count: 1, tag: {"akashictome:definedMod": "magneticraft"}, Damage: 0 as short}}}) to JEI
