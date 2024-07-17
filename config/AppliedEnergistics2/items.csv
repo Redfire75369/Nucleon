@@ -8464,15 +8464,15 @@ appliedenergistics2:facade:0, Cable Facade - Sealed Planks
 appliedenergistics2:facade:0, Cable Facade - Reinforced Sealed Planks
 appliedenergistics2:facade:0, Cable Facade - Dawnstone Block
 appliedenergistics2:facade:0, Cable Facade - Hydrogel Block
-appliedenergistics2:facade:0, Cable Facade - Limestone
-appliedenergistics2:facade:0, Cable Facade - Burnt Limestone
-appliedenergistics2:facade:0, Cable Facade - Limestone Tiles
 appliedenergistics2:facade:0, Cable Facade - Chalcopyrite Ore (Copper)
 appliedenergistics2:facade:0, Cable Facade - Oil Source (Full)
 appliedenergistics2:facade:0, Cable Facade - Copper Block
 appliedenergistics2:facade:0, Cable Facade - Machine Block
 appliedenergistics2:facade:0, Cable Facade - Support Column (Y axis)
 appliedenergistics2:facade:0, Cable Facade - Pumpjack Pipe
+appliedenergistics2:facade:0, Cable Facade - Limestone
+appliedenergistics2:facade:0, Cable Facade - Burnt Limestone
+appliedenergistics2:facade:0, Cable Facade - Limestone Tiles
 appliedenergistics2:facade:0, Cable Facade - Solid Steel [WIP]
 appliedenergistics2:facade:0, Cable Facade - Block of Thatch
 appliedenergistics2:facade:0, Cable Facade - Hay Feed
@@ -10442,6 +10442,7 @@ enderio:item_stellar_alloy_helmet, Stellar Helmet
 enderio:item_stellar_alloy_boots, Stellar Boots
 enderio:item_stellar_alloy_chestplate, Stellar Chestplate
 enderio:item_stellar_alloy_leggings, Stellar Leggings
+enderio:item_fluid_conduit:0, Stellar Fluid Conduit
 danknull:dank_null_0, /dank/null/
 danknull:dank_null_1, /dank/null/MK II
 danknull:dank_null_2, /dank/null/MK III
@@ -10520,27 +10521,6 @@ energycontrol:item_component:1, Basic Circuit
 energycontrol:item_component:2, Machine Casing
 energycontrol:item_component:3, Radio Transmitter
 energycontrol:item_component:4, Strong String
-storagedrawers:upgrade_template, Upgrade Template
-storagedrawers:upgrade_storage:0, Storage Upgrade (I)
-storagedrawers:upgrade_storage:1, Storage Upgrade (II)
-storagedrawers:upgrade_storage:2, Storage Upgrade (III)
-storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
-storagedrawers:upgrade_storage:4, Storage Upgrade (V)
-storagedrawers:upgrade_one_stack, Storage Downgrade
-storagedrawers:upgrade_status:0, Status Upgrade (I)
-storagedrawers:upgrade_status:1, Status Upgrade (II)
-storagedrawers:upgrade_void, Void Upgrade
-storagedrawers:upgrade_conversion, Conversion Upgrade
-storagedrawers:upgrade_creative:0, Creative Storage Upgrade
-storagedrawers:upgrade_creative:1, Creative Vending Upgrade
-storagedrawers:upgrade_redstone:0, Redstone Upgrade
-storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
-storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
-storagedrawers:drawer_key, Drawer Key
-storagedrawers:shroud_key, Concealment Key
-storagedrawers:personal_key, Personal Key
-storagedrawers:quantify_key, Quantify Key
-storagedrawers:tape, Packing Tape
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
@@ -10591,6 +10571,27 @@ storagedrawers:customdrawers:3, Framed Half Drawers 1x2
 storagedrawers:customdrawers:4, Framed Half Drawers 2x2
 storagedrawers:customtrim, Framed Trim
 storagedrawers:framingtable, Framing Table
+storagedrawers:upgrade_template, Upgrade Template
+storagedrawers:upgrade_storage:0, Storage Upgrade (I)
+storagedrawers:upgrade_storage:1, Storage Upgrade (II)
+storagedrawers:upgrade_storage:2, Storage Upgrade (III)
+storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
+storagedrawers:upgrade_storage:4, Storage Upgrade (V)
+storagedrawers:upgrade_one_stack, Storage Downgrade
+storagedrawers:upgrade_status:0, Status Upgrade (I)
+storagedrawers:upgrade_status:1, Status Upgrade (II)
+storagedrawers:upgrade_void, Void Upgrade
+storagedrawers:upgrade_conversion, Conversion Upgrade
+storagedrawers:upgrade_creative:0, Creative Storage Upgrade
+storagedrawers:upgrade_creative:1, Creative Vending Upgrade
+storagedrawers:upgrade_redstone:0, Redstone Upgrade
+storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
+storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
+storagedrawers:drawer_key, Drawer Key
+storagedrawers:shroud_key, Concealment Key
+storagedrawers:personal_key, Personal Key
+storagedrawers:quantify_key, Quantify Key
+storagedrawers:tape, Packing Tape
 fluxnetworks:flux, Flux
 fluxnetworks:fluxcore, Flux Core
 fluxnetworks:fluxconfigurator, Flux Configurator
@@ -10859,11 +10860,13 @@ modularmachinery:blockmeitemoutputbus, ME Machinery Item Output Bus
 modularmachinery:blockmeiteminputbus, ME Machinery Item Input Bus
 modularmachinery:blockmefluidoutputbus, ME Machinery Fluid Output Bus
 modularmachinery:blockmefluidinputbus, ME Machinery Fluid Input Bus
+modularmachinery:blockmegasoutputbus, tile.modularmachinery.blockmegasoutputbus.name
+modularmachinery:blockmegasinputbus, tile.modularmachinery.blockmegasinputbus.name
 modularmachinery:blockmepatternprovider, ME Machinery Pattern Provider
 modularmachinery:iron_centrifuge_controller, tile.null.name
 modularmachinery:transformer_controller, tile.null.name
-modularmachinery:assembly_line_controller, tile.null.name
 modularmachinery:alloy_furnace_controller, tile.null.name
+modularmachinery:assembly_line_controller, tile.null.name
 modularmachinery:crushing_wheels:0, Crushing Wheels
 multiblocked:dummy_component:0, tile.multiblocked.dummy_component.name
 multiblocked:item.any:0, tile.multiblocked.item.any.name
@@ -10903,22 +10906,6 @@ openscreens:frontflatscreen3, §bFlatscreen (Front) (Tier 3)
 openscreens:holoscreen1, Holo Screen (Tier 1)
 openscreens:holoscreen2, §eHolo Screen (Tier 2)
 openscreens:holoscreen3, §bHolo Screen (Tier 3)
-pneumaticcraft:safety_tube_module, Safety Tube Module
-pneumaticcraft:pressure_gauge_module, Pressure Gauge Tube Module
-pneumaticcraft:flow_detector_module, Flow Detector Tube Module
-pneumaticcraft:air_grate_module, Air Grate Tube Module
-pneumaticcraft:regulator_tube_module, Regulator Tube Module
-pneumaticcraft:charging_module, Charging Module
-pneumaticcraft:logistics_module, Logistics Module
-pneumaticcraft:redstone_module, Redstone Module
-pneumaticcraft:fluid.diesel, Diesel
-pneumaticcraft:fluid.plastic, Plastic
-pneumaticcraft:fluid.kerosene, Kerosene
-pneumaticcraft:fluid.lpg, LPG
-pneumaticcraft:fluid.etchacid, Etching Acid
-pneumaticcraft:fluid.oil, Oil
-pneumaticcraft:fluid.lubricant, Lubricant
-pneumaticcraft:fluid.fuel, Gasoline
 pneumaticcraft:logistic_frame_active_provider, Logistic Active Provider Frame
 pneumaticcraft:logistic_frame_passive_provider, Logistic Passive Provider Frame
 pneumaticcraft:logistic_frame_storage, Logistic Storage Frame
@@ -10928,6 +10915,14 @@ pneumaticcraft:heat_frame, Heat Frame
 pneumaticcraft:spawner_agitator, Spawner Agitator
 pneumaticcraft:crop_support, Crop Support
 pneumaticcraft:transfer_gadget, Transfer Gadget
+pneumaticcraft:fluid.lpg, LPG
+pneumaticcraft:fluid.oil, Oil
+pneumaticcraft:fluid.kerosene, Kerosene
+pneumaticcraft:fluid.diesel, Diesel
+pneumaticcraft:fluid.lubricant, Lubricant
+pneumaticcraft:fluid.plastic, Plastic
+pneumaticcraft:fluid.fuel, Gasoline
+pneumaticcraft:fluid.etchacid, Etching Acid
 pneumaticcraft:gps_tool, GPS Tool
 pneumaticcraft:gps_area_tool, GPS Area Tool
 pneumaticcraft:ingot_iron_compressed, Compressed Iron Ingot
@@ -11077,6 +11072,14 @@ pneumaticcraft:pneumatic_dynamo, Pneumatic Dynamo
 pneumaticcraft:fake_ice, tile.fake_ice.name
 pneumaticcraft:thermal_compressor, Thermal Compressor
 pneumaticcraft:drone_interface, Drone Interface
+pneumaticcraft:safety_tube_module, Safety Tube Module
+pneumaticcraft:pressure_gauge_module, Pressure Gauge Tube Module
+pneumaticcraft:flow_detector_module, Flow Detector Tube Module
+pneumaticcraft:air_grate_module, Air Grate Tube Module
+pneumaticcraft:regulator_tube_module, Regulator Tube Module
+pneumaticcraft:charging_module, Charging Module
+pneumaticcraft:logistics_module, Logistics Module
+pneumaticcraft:redstone_module, Redstone Module
 temporaryblock:temporary_block, Temporary Block
 temporaryblock:temporary_block_placer, Temporary Block Placer
 progressivebosses:nether_star_shard, Nether Star Shard
@@ -12045,10 +12048,6 @@ architecturecraft:sawbench, Architect's Sawbench
 balancedclaytools:clay_pickaxe, Clay Pickaxe
 balancedclaytools:clay_axe, Clay Axe
 balancedclaytools:clay_shovel, Clay Shovel
-ematter:molecular_assembler_device:0, tile.ematter.molecular_assembler_device.basic.name
-ematter:molecular_assembler_device:1, tile.ematter.molecular_assembler_device.standard.name
-ematter:molecular_assembler_device:2, tile.ematter.molecular_assembler_device.advanced.name
-ematter:molecular_assembler_device:3, tile.ematter.molecular_assembler_device.elite.name
 base:wrench, Wrench
 coloredlights:colored_lamp:0, White Colored Lamp
 coloredlights:colored_lamp:1, Orange Colored Lamp
@@ -12804,8 +12803,6 @@ ae2fc:wireless_fluid_pattern_terminal, Wireless Fluid Pattern Terminal
 ae2fc:gas_drop, Gas Drop of %s
 ae2fc:gas_packet, Gas Packet
 ae2fc:part_trio_interface, ME Trio Interface
-fluiddrawers:tank:0, Basic Tank
-fluiddrawers:tank_custom:0, Framed Tank
 threng:machine:0, Fluix Aggregator
 threng:machine:1, Pulse Centrifuge
 threng:machine:2, ME Circuit Etcher
@@ -12833,6 +12830,8 @@ threng:material:11, Speculation Core (16x)
 threng:material:12, Speculation Core (32x)
 threng:material:13, Speculation Core (64x)
 threng:material:14, Speculative Processor
+fluiddrawers:tank:0, Basic Tank
+fluiddrawers:tank_custom:0, Framed Tank
 hydrogel:hydrogel, Hydrogel Block
 industrialforegoing:petrified_fuel_generator, Petrified Fuel Generator
 industrialforegoing:enchantment_refiner, Enchantment Sorter
@@ -13111,21 +13110,15 @@ magneticraft:steel_gear, item.magneticraft.steel_gear.name
 magneticraft:tungsten_gear, item.magneticraft.tungsten_gear.name
 magneticraft:inserter_upgrade:0, Inserter Upgrade: Speed
 magneticraft:inserter_upgrade:1, Inserter Upgrade: Stack
-magneticraft:limestone:0, Limestone
-magneticraft:limestone:1, Limestone Brick
-magneticraft:limestone:2, Limestone Cobble
-magneticraft:burnt_limestone:0, Burnt Limestone
-magneticraft:burnt_limestone:1, Burnt Limestone Brick
-magneticraft:burnt_limestone:2, Burnt Limestone Cobble
-magneticraft:tile_limestone:0, Limestone Tiles
-magneticraft:tile_limestone:1, Inverted Limestone Tiles
-magneticraft:tube_light:0, Tube Light
-magneticraft:box:0, Wooden Box
-magneticraft:crushing_table:0, Crushing Table
-magneticraft:sluice_box:0, Sluice Box
-magneticraft:fabricator:0, Fabricator
-magneticraft:small_tank:0, Small tank
-magneticraft:iron_pipe:0, Iron Pipe
+magneticraft:conveyor_belt:0, Conveyor Belt
+magneticraft:inserter:0, Inserter
+magneticraft:water_generator:0, Water Generator
+magneticraft:feeding_trough:0, Wooden Feeding Trough
+magneticraft:pneumatic_tube:0, Pneumatic Tube
+magneticraft:pneumatic_restriction_tube:0, Restriction Pneumatic Tube
+magneticraft:relay:0, Relay
+magneticraft:filter:0, Filter
+magneticraft:transposer:0, Transposer
 magneticraft:ores:0, Chalcopyrite Ore (Copper)
 magneticraft:ores:1, Galena Ore (Lead)
 magneticraft:ores:2, Cobaltite Ore (Cobalt)
@@ -13138,30 +13131,39 @@ magneticraft:storage_blocks:1, Lead Block
 magneticraft:storage_blocks:2, Cobalt Block
 magneticraft:storage_blocks:3, Tungsten Block
 magneticraft:storage_blocks:4, Sulfur Block
-magneticraft:conveyor_belt:0, Conveyor Belt
-magneticraft:inserter:0, Inserter
-magneticraft:water_generator:0, Water Generator
-magneticraft:feeding_trough:0, Wooden Feeding Trough
-magneticraft:pneumatic_tube:0, Pneumatic Tube
-magneticraft:pneumatic_restriction_tube:0, Restriction Pneumatic Tube
-magneticraft:relay:0, Relay
-magneticraft:filter:0, Filter
-magneticraft:transposer:0, Transposer
+magneticraft:box:0, Wooden Box
+magneticraft:crushing_table:0, Crushing Table
+magneticraft:sluice_box:0, Sluice Box
+magneticraft:fabricator:0, Fabricator
+magneticraft:multiblock_parts:0, Machine Block
+magneticraft:multiblock_parts:1, Electrical Machine Block
+magneticraft:multiblock_parts:2, Iron Grate Machine Block
+magneticraft:multiblock_parts:3, Striped Machine Block
+magneticraft:multiblock_parts:4, Copper Coil Machine Block
+magneticraft:multiblock_parts:5, Corrugate Iron Machine Block
+magneticraft:multiblock_column:0, Support Column (Y axis)
+magneticraft:pumpjack_drill:0, Pumpjack Pipe
+magneticraft:small_tank:0, Small tank
+magneticraft:iron_pipe:0, Iron Pipe
+magneticraft:computer:0, Computer
+magneticraft:mining_robot:0, Mining Robot
 magneticraft:connector:0, Electric Connector
 magneticraft:electric_pole:0, Electric Pole
 magneticraft:electric_cable:0, Electric cable
 magneticraft:tesla_tower:0, Tesla Tower
 magneticraft:energy_receiver:0, Energy Receiver
 magneticraft:electric_pole_transformer:0, Electric Pole Transformer
-magneticraft:computer:0, Computer
-magneticraft:mining_robot:0, Mining Robot
-magneticraft:combustion_chamber:0, Combustion Chamber
-magneticraft:steam_boiler:0, Boiler
-magneticraft:heat_pipe:0, Heat Pipe
-magneticraft:insulated_heat_pipe:0, Insulated Heat Pipe
-magneticraft:heat_sink:0, Heat sink
-magneticraft:gasification_unit:0, Gasification Unit
-magneticraft:brick_furnace:0, Brick furnace
+magneticraft:battery:0, Battery Block
+magneticraft:electric_furnace:0, Electric furnace
+magneticraft:infinite_energy:0, Infinite Energy
+magneticraft:air_bubble:0, Air Bubble
+magneticraft:airlock:0, Airlock
+magneticraft:thermopile:0, Thermopile
+magneticraft:wind_turbine:0, Wind turbine
+magneticraft:electric_heater:0, Electric Heater
+magneticraft:rf_heater:0, RF Heater
+magneticraft:rf_transformer:0, RF transformer
+magneticraft:electric_engine:0, Electric Engine
 magneticraft:solar_panel:0, Solar Panel
 magneticraft:shelving_unit:0, Shelving Unit
 magneticraft:steam_engine:0, Small Steam Engine
@@ -13178,25 +13180,22 @@ magneticraft:big_combustion_chamber:0, Bigger Combustion Chamber
 magneticraft:big_steam_boiler:0, Bigger Steam Boiler
 magneticraft:steam_turbine:0, Steam Turbine
 magneticraft:big_electric_furnace:0, Bigger Electric Furnace
-magneticraft:multiblock_parts:0, Machine Block
-magneticraft:multiblock_parts:1, Electrical Machine Block
-magneticraft:multiblock_parts:2, Iron Grate Machine Block
-magneticraft:multiblock_parts:3, Striped Machine Block
-magneticraft:multiblock_parts:4, Copper Coil Machine Block
-magneticraft:multiblock_parts:5, Corrugate Iron Machine Block
-magneticraft:multiblock_column:0, Support Column (Y axis)
-magneticraft:pumpjack_drill:0, Pumpjack Pipe
-magneticraft:battery:0, Battery Block
-magneticraft:electric_furnace:0, Electric furnace
-magneticraft:infinite_energy:0, Infinite Energy
-magneticraft:air_bubble:0, Air Bubble
-magneticraft:airlock:0, Airlock
-magneticraft:thermopile:0, Thermopile
-magneticraft:wind_turbine:0, Wind turbine
-magneticraft:electric_heater:0, Electric Heater
-magneticraft:rf_heater:0, RF Heater
-magneticraft:rf_transformer:0, RF transformer
-magneticraft:electric_engine:0, Electric Engine
+magneticraft:combustion_chamber:0, Combustion Chamber
+magneticraft:steam_boiler:0, Boiler
+magneticraft:heat_pipe:0, Heat Pipe
+magneticraft:insulated_heat_pipe:0, Insulated Heat Pipe
+magneticraft:heat_sink:0, Heat sink
+magneticraft:gasification_unit:0, Gasification Unit
+magneticraft:brick_furnace:0, Brick furnace
+magneticraft:limestone:0, Limestone
+magneticraft:limestone:1, Limestone Brick
+magneticraft:limestone:2, Limestone Cobble
+magneticraft:burnt_limestone:0, Burnt Limestone
+magneticraft:burnt_limestone:1, Burnt Limestone Brick
+magneticraft:burnt_limestone:2, Burnt Limestone Cobble
+magneticraft:tile_limestone:0, Limestone Tiles
+magneticraft:tile_limestone:1, Inverted Limestone Tiles
+magneticraft:tube_light:0, Tube Light
 mech_crafting:mechanical_crafter, Mechanical Crafter
 mech_crafting:sturdy_gearbox, Sturdy Gearbox
 mech_crafting:mechanical_bellows, Mechanical Bellows

@@ -3477,7 +3477,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "JAOPCA-1.12.2-2.3.10.23.jar",
+                    "file_name": "JAOPCA-1.12.2-2.3.10.24.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -3485,17 +3485,17 @@
                         "forge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/5467/181/JAOPCA-1.12.2-2.3.10.23.jar",
-                    "id": "5467181",
+                    "url": "https://edge.forgecdn.net/files/5520/331/JAOPCA-1.12.2-2.3.10.24.jar",
+                    "id": "5520331",
                     "parent_id": "266936",
                     "hashes": {
-                        "sha1": "384587ece026cf122553a3e275a9c7a9331b0e08",
-                        "md5": "c28aac3ad4f62b408b0882bd4ca923a6"
+                        "sha1": "3012dc0703949f09c1028744ad2ccf7cbf54cc19",
+                        "md5": "0e1f4cb5a568b86baa748254002076b4"
                     },
                     "required_dependencies": [
                         "275153"
                     ],
-                    "size": 1076352
+                    "size": 1076351
                 }
             ]
         },
@@ -4595,7 +4595,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "ModularMachinery-CE-2.0.0-pre6.jar",
+                    "file_name": "ModularMachinery-CE-2.0.0-pre7.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -4603,16 +4603,16 @@
                         "forge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/5375/642/ModularMachinery-CE-2.0.0-pre6.jar",
-                    "id": "5375642",
+                    "url": "https://edge.forgecdn.net/files/5527/355/ModularMachinery-CE-2.0.0-pre7.jar",
+                    "id": "5527355",
                     "parent_id": "817377",
                     "hashes": {
-                        "sha1": "351065fd8dc9a4b31157106db8da33b7bb43a4f7",
-                        "md5": "2e0c5b8a5f47b40a47b856dc2ff8893e"
+                        "sha1": "2bece942d05315e512b468301523136c1d79d8b7",
+                        "md5": "8a8181b2dc7013222fb8d90c58e3b56c"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 1902586
+                    "size": 1988543
                 }
             ]
         },
@@ -5620,7 +5620,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "PackagedAuto-1.12.2-1.0.13.49.jar",
+                    "file_name": "PackagedAuto-1.12.2-1.0.13.51.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -5628,16 +5628,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5398/860/PackagedAuto-1.12.2-1.0.13.49.jar",
-                    "id": "5398860",
+                    "url": "https://edge.forgecdn.net/files/5521/117/PackagedAuto-1.12.2-1.0.13.51.jar",
+                    "id": "5521117",
                     "parent_id": "308380",
                     "hashes": {
-                        "sha1": "2a202c760ff4439ea9c9d79ef3ce7890e7a1d120",
-                        "md5": "a7fcd69a798468efbdd6d9bc9de79f91"
+                        "sha1": "72144fd4b5d1d7514de16a1aedb3c4b4a51b9d29",
+                        "md5": "e978b6a2e49c3eb511daf9226d7c6b8a"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 316797
+                    "size": 316945
                 }
             ]
         },
@@ -6964,7 +6964,6 @@
                         "md5": "2f1b6704a44120de1663d562fc9f4e30"
                     },
                     "required_dependencies": [
-                        "405327"
                     ],
                     "size": 1477307
                 }
@@ -7550,7 +7549,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "UniversalTweaks-1.12.2-1.11.0.jar",
+                    "file_name": "UniversalTweaks-1.12.2-1.12.0.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -7558,18 +7557,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5350/889/UniversalTweaks-1.12.2-1.11.0.jar",
-                    "id": "5350889",
+                    "url": "https://edge.forgecdn.net/files/5529/764/UniversalTweaks-1.12.2-1.12.0.jar",
+                    "id": "5529764",
                     "parent_id": "705000",
                     "hashes": {
-                        "sha1": "5af4eb8faeb274190eb37842e541db8793466d29",
-                        "md5": "311a7cbeabfc7453b2072096a0ce15c5"
+                        "sha1": "f0b8472c0f8bea4e57f4643cda45e382662f94a9",
+                        "md5": "47c10d509ccc46b2d2093bc3541818a9"
                     },
                     "required_dependencies": [
-                        "870276",
-                        "419286"
+                        "419286",
+                        "870276"
                     ],
-                    "size": 1335215
+                    "size": 1434228
                 }
             ]
         },
@@ -7733,7 +7732,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "vintagefix-0.5.0.jar",
+                    "file_name": "vintagefix-0.5.1.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -7741,17 +7740,17 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5348/800/vintagefix-0.5.0.jar",
-                    "id": "5348800",
+                    "url": "https://edge.forgecdn.net/files/5536/276/vintagefix-0.5.1.jar",
+                    "id": "5536276",
                     "parent_id": "871198",
                     "hashes": {
-                        "sha1": "58de48f499916536581f5f2a9b29d70fd37c24c1",
-                        "md5": "06986df719f62fedfc6842c4fe1b3ed3"
+                        "sha1": "6cfbd3ded0d8d6c47e3e5aa822f38fb753ebae3e",
+                        "md5": "d9e71c0f2a09814dd22007b7a72675b0"
                     },
                     "required_dependencies": [
                         "419286"
                     ],
-                    "size": 828051
+                    "size": 1017716
                 }
             ]
         },

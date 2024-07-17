@@ -9,9 +9,6 @@ screenshots/**
 
 *.log
 *.dll
-*.jar
-*.jar.meta
-*.sqlite
 
 options.txt
 knownkeys.txt
@@ -45,3 +42,6 @@ seen_buildersbag_addons.txt
 
 ## Launcher ##
 .curseclient
+
+## Pakku ##
+build/**
