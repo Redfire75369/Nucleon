@@ -6,14 +6,6 @@ import mods.jei.JEI.addItem;
 
 val tome = <akashictome:tome>.withTag({
 	"akashictome:data": {
-		alet: {
-			id: "alet:little_manual",
-			Count: 1,
-			Damage: 0 as short,
-			tag: {
-				"akashictome:definedMod": "alet",
-			},
-		},
 		betterquesting: {
 			id: "betterquesting:quest_book",
 			Count: 1,
@@ -109,7 +101,6 @@ recipes.addShapeless("akashic_tome", tome, [
 ]);
 
 val manuals = [
-	<alet:little_manual>,
 	<betterquesting:quest_book>,
 	<embers:codex>,
 	<industrialforegoing:book_manual>,

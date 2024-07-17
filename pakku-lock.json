@@ -222,41 +222,38 @@
             ]
         },
         {
-            "pakku_id": "aPSxWf8Hofp9ImUE",
-            "pakku_links": [
-                "45jea9mWBqpp1yHZ"
-            ],
+            "pakku_id": "9iQr6md1aA9zMtrF",
             "type": "MOD",
             "slug": {
-                "curseforge": "ae2-network-visualiser"
+                "curseforge": "ae2-stuff-unofficial"
             },
             "name": {
-                "curseforge": "AE2 Network Visualiser"
+                "curseforge": "AE2 Stuff Unofficial"
             },
             "id": {
-                "curseforge": "321720"
+                "curseforge": "951064"
             },
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "AE-Net-Vis-Tool-1.12.2-1.0.3.0-universal.jar",
+                    "file_name": "ae2stuff-1.12.2-0.9.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/2711/427/AE-Net-Vis-Tool-1.12.2-1.0.3.0-universal.jar",
-                    "id": "2711427",
-                    "parent_id": "321720",
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5002/181/ae2stuff-1.12.2-0.9.jar",
+                    "id": "5002181",
+                    "parent_id": "951064",
                     "hashes": {
-                        "sha1": "bac9c21d2a1c12d46b97b115e5d1376901776ca5",
-                        "md5": "065931bbb6c1a413cccf61f1f4c2e877"
+                        "sha1": "496e74477ea7070f77eba1190d36c09bf35492f1",
+                        "md5": "7f4b736010da6ba3fcaa1b722500a5fe"
                     },
                     "required_dependencies": [
-                        "223794",
-                        "242818",
-                        "231382"
                     ],
-                    "size": 77203
+                    "size": 495515
                 }
             ]
         },
@@ -331,44 +328,6 @@
             ]
         },
         {
-            "pakku_id": "FHELSYKToGGPstLP",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "alet"
-            },
-            "name": {
-                "curseforge": "A Little Extra Tiles(Formerly LTPhoto)"
-            },
-            "id": {
-                "curseforge": "326330"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "A_Little_Extra_Tiles-1.1.0-pre029.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "alpha",
-                    "url": "https://edge.forgecdn.net/files/5239/7/A_Little_Extra_Tiles-1.1.0-pre029.jar",
-                    "id": "5239007",
-                    "parent_id": "326330",
-                    "hashes": {
-                        "sha1": "b280b4826714aa98fbf0fb7a1e3fbc2f814b402e",
-                        "md5": "f915485a2b640f28fe235279d36d1622"
-                    },
-                    "required_dependencies": [
-                        "257818",
-                        "257814"
-                    ],
-                    "size": 8690872
-                }
-            ]
-        },
-        {
             "pakku_id": "V2R8lPYjWRQqdSy8",
             "type": "MOD",
             "slug": {
@@ -403,42 +362,6 @@
                         "419286"
                     ],
                     "size": 69819
-                }
-            ]
-        },
-        {
-            "pakku_id": "sKVpI3VwV0aQhjg9",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "alfinivia"
-            },
-            "name": {
-                "curseforge": "Alfinivia"
-            },
-            "id": {
-                "curseforge": "289989"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "Alfinivia-0.4hotfix.jar",
-                    "mc_versions": [
-                        "1.12.1",
-                        "1.12",
-                        "1.12.2"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/2541/144/Alfinivia-0.4hotfix.jar",
-                    "id": "2541144",
-                    "parent_id": "289989",
-                    "hashes": {
-                        "sha1": "11d6ad71af6bb7938fe636fc432a553d1fa96932",
-                        "md5": "75cf10eb0a472ebafa098a9c87d1e868"
-                    },
-                    "required_dependencies": [
-                        "239197"
-                    ],
-                    "size": 69994
                 }
             ]
         },
@@ -1360,6 +1283,41 @@
             ]
         },
         {
+            "pakku_id": "BdUCvLiywdMEEgMf",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "chisels-bits"
+            },
+            "name": {
+                "curseforge": "Chisels & Bits - For Forge"
+            },
+            "id": {
+                "curseforge": "231095"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "chiselsandbits-14.33.jar",
+                    "mc_versions": [
+                        "1.12.1",
+                        "1.12",
+                        "1.12.2"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/2720/655/chiselsandbits-14.33.jar",
+                    "id": "2720655",
+                    "parent_id": "231095",
+                    "hashes": {
+                        "sha1": "0e6f159254e6899651087e5b1464bac91698d1d3",
+                        "md5": "e056e23559965f2ebabf47aad0fe51a3"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 737407
+                }
+            ]
+        },
+        {
             "pakku_id": "zEr4fplZBIDI35GM",
             "type": "MOD",
             "slug": {
@@ -1437,6 +1395,9 @@
         },
         {
             "pakku_id": "mvG1vlmVLmDUmYb9",
+            "pakku_links": [
+                "c4HqYvTMAIICv1YR"
+            ],
             "type": "MOD",
             "slug": {
                 "curseforge": "clipboard"
@@ -1856,42 +1817,6 @@
                     "required_dependencies": [
                     ],
                     "size": 1589227
-                }
-            ]
-        },
-        {
-            "pakku_id": "DwlgMKkoD9g2ogtA",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "creativecore"
-            },
-            "name": {
-                "curseforge": "CreativeCore"
-            },
-            "id": {
-                "curseforge": "257814"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "CreativeCore_v1.10.71_mc1.12.2.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/4722/163/CreativeCore_v1.10.71_mc1.12.2.jar",
-                    "id": "4722163",
-                    "parent_id": "257814",
-                    "hashes": {
-                        "sha1": "2c60a20ae9c9431a3b215a331c2b2af7fa3a060c",
-                        "md5": "df1051927921c2852946cc4fd20da86e"
-                    },
-                    "required_dependencies": [
-                    ],
-                    "size": 1321137
                 }
             ]
         },
@@ -2577,44 +2502,6 @@
             ]
         },
         {
-            "pakku_id": "nMduOIpC95Gr9skZ",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "entityculling"
-            },
-            "name": {
-                "curseforge": "Entity Culling Fabric/Forge"
-            },
-            "id": {
-                "curseforge": "448233"
-            },
-            "redistributable": false,
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "entityculling-1.12.2-1.6.3.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5170/009/entityculling-1.12.2-1.6.3.jar",
-                    "id": "5170009",
-                    "parent_id": "448233",
-                    "hashes": {
-                        "sha1": "fb22f03b297ca7b1bb7c6d5948e46c12e0a24446",
-                        "md5": "11228db94038fa97ddb5c28d47508f2d"
-                    },
-                    "required_dependencies": [
-                        "419286"
-                    ],
-                    "size": 41478
-                }
-            ]
-        },
-        {
             "pakku_id": "hHlJqfE8MS0eOmeB",
             "type": "MOD",
             "slug": {
@@ -2646,6 +2533,45 @@
                     "required_dependencies": [
                     ],
                     "size": 5315
+                }
+            ]
+        },
+        {
+            "pakku_id": "pSLXnqZjWgof6umv",
+            "pakku_links": [
+                "BdUCvLiywdMEEgMf"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "extra-bit-manipulation"
+            },
+            "name": {
+                "curseforge": "Extra Bit Manipulation"
+            },
+            "id": {
+                "curseforge": "240959"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ExtraBitManipulation-1.12.2-3.4.1.jar",
+                    "mc_versions": [
+                        "1.12.1",
+                        "1.12",
+                        "1.12.2"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/2630/81/ExtraBitManipulation-1.12.2-3.4.1.jar",
+                    "id": "2630081",
+                    "parent_id": "240959",
+                    "hashes": {
+                        "sha1": "b6b018634075e995bdaf1318a4ac7d0f6c1d2158",
+                        "md5": "0e748d7c4e9f5724ef8daa997334fa02"
+                    },
+                    "required_dependencies": [
+                        "231095"
+                    ],
+                    "size": 3834020
                 }
             ]
         },
@@ -2892,6 +2818,44 @@
                     "required_dependencies": [
                     ],
                     "size": 475994
+                }
+            ]
+        },
+        {
+            "pakku_id": "izyexzy2fwyu0HHg",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "forgelin-continuous"
+            },
+            "name": {
+                "curseforge": "Forgelin-Continuous"
+            },
+            "id": {
+                "curseforge": "456403"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Forgelin-Continuous-2.0.0.1.jar",
+                    "mc_versions": [
+                        "1.12.1",
+                        "1.12",
+                        "1.12.2"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/5519/319/Forgelin-Continuous-2.0.0.1.jar",
+                    "id": "5519319",
+                    "parent_id": "456403",
+                    "hashes": {
+                        "sha1": "26757ab3c773ac65863a1b91c5d4c9b87a6fe4bd",
+                        "md5": "18a8164d85a98ec7a59261c96cdb458b"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 7056006
                 }
             ]
         },
@@ -3965,42 +3929,6 @@
             ]
         },
         {
-            "pakku_id": "yl4H7otFc8HqR3nX",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "littletiles"
-            },
-            "name": {
-                "curseforge": "LittleTiles"
-            },
-            "id": {
-                "curseforge": "257818"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "LittleTiles_v1.5.87_mc1.12.2.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5180/387/LittleTiles_v1.5.87_mc1.12.2.jar",
-                    "id": "5180387",
-                    "parent_id": "257818",
-                    "hashes": {
-                        "sha1": "f77d34ddd13caeb4781908443f73e51b9118fe60",
-                        "md5": "023675857af8a09dd58d56960216336d"
-                    },
-                    "required_dependencies": [
-                    ],
-                    "size": 1994663
-                }
-            ]
-        },
-        {
             "pakku_id": "GfhEK0aZidIvlXqN",
             "type": "MOD",
             "slug": {
@@ -4723,40 +4651,6 @@
             ]
         },
         {
-            "pakku_id": "Ti3zZRoN2SoCgt53",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "morph-o-tool"
-            },
-            "name": {
-                "curseforge": "Morph-o-Tool"
-            },
-            "id": {
-                "curseforge": "245287"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "Morph-o-Tool-1.2-21.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/2658/176/Morph-o-Tool-1.2-21.jar",
-                    "id": "2658176",
-                    "parent_id": "245287",
-                    "hashes": {
-                        "sha1": "55a363ccd8e0614229991cd1f6bf831eaf874ff7",
-                        "md5": "a56d6a54721acef7fa4863d4efd20638"
-                    },
-                    "required_dependencies": [
-                        "250363"
-                    ],
-                    "size": 30619
-                }
-            ]
-        },
-        {
             "pakku_id": "zggPevxsL24y7uml",
             "type": "MOD",
             "slug": {
@@ -5432,6 +5326,42 @@
             ]
         },
         {
+            "pakku_id": "1KGvS2q2UvVmxDoa",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "omniwand"
+            },
+            "name": {
+                "curseforge": "Omniwand"
+            },
+            "id": {
+                "curseforge": "923677"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "omniwand-1.12.2-1.0.1.jar",
+                    "mc_versions": [
+                        "1.12.2"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4805/869/omniwand-1.12.2-1.0.1.jar",
+                    "id": "4805869",
+                    "parent_id": "923677",
+                    "hashes": {
+                        "sha1": "5c3a75b4efd047636c5715c8fc3245986df85048",
+                        "md5": "7f76615ba92998c39510ae472d5db715"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 46128
+                }
+            ]
+        },
+        {
             "pakku_id": "euvAOiGMDCehbiLS",
             "type": "MOD",
             "slug": {
@@ -5966,6 +5896,47 @@
             ]
         },
         {
+            "pakku_id": "ZP5KIICnoyS0nOgJ",
+            "pakku_links": [
+                "9z1gIGVgb53deBy6",
+                "IZJ5sizyBKIPv4Z5",
+                "45jea9mWBqpp1yHZ"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "project-intelligence"
+            },
+            "name": {
+                "curseforge": "Project Intelligence"
+            },
+            "id": {
+                "curseforge": "306028"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ProjectIntelligence-1.12.2-1.0.9.28-universal.jar",
+                    "mc_versions": [
+                        "1.12.2"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/2833/640/ProjectIntelligence-1.12.2-1.0.9.28-universal.jar",
+                    "id": "2833640",
+                    "parent_id": "306028",
+                    "hashes": {
+                        "sha1": "d6424c4111913a48f9c983199d07140136a12ee1",
+                        "md5": "96657f132afd609f2a92cf4994698e64"
+                    },
+                    "required_dependencies": [
+                        "242818",
+                        "270789",
+                        "231382"
+                    ],
+                    "size": 473948
+                }
+            ]
+        },
+        {
             "pakku_id": "xEZiwE9MLVqCf0Cc",
             "type": "MOD",
             "slug": {
@@ -6463,43 +6434,7 @@
             ]
         },
         {
-            "pakku_id": "qZnklED9PxTpysZf",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "shadowfacts-forgelin"
-            },
-            "name": {
-                "curseforge": "Shadowfacts' Forgelin"
-            },
-            "id": {
-                "curseforge": "248453"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "Forgelin-1.8.4.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/2785/465/Forgelin-1.8.4.jar",
-                    "id": "2785465",
-                    "parent_id": "248453",
-                    "hashes": {
-                        "sha1": "7a87553fcb808a45d9c7e03f113b355ac7fd10d7",
-                        "md5": "2da79fce72265eab0541e565636d389d"
-                    },
-                    "required_dependencies": [
-                    ],
-                    "size": 6278399
-                }
-            ]
-        },
-        {
-            "pakku_id": "66jidX60sGbrWQRg",
+            "pakku_id": "c4HqYvTMAIICv1YR",
             "type": "MOD",
             "slug": {
                 "curseforge": "shadowmc"
@@ -6639,6 +6574,42 @@
                     "required_dependencies": [
                     ],
                     "size": 97064
+                }
+            ]
+        },
+        {
+            "pakku_id": "7Fx2QRpbDPipjUSc",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "sledgehammer"
+            },
+            "name": {
+                "curseforge": "Sledgehammer"
+            },
+            "id": {
+                "curseforge": "319175"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Sledgehammer-1.12.2-2.0.26.jar",
+                    "mc_versions": [
+                        "1.12.2"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5264/329/Sledgehammer-1.12.2-2.0.26.jar",
+                    "id": "5264329",
+                    "parent_id": "319175",
+                    "hashes": {
+                        "sha1": "bdd413df8203a1af255231d2026907fe62700e25",
+                        "md5": "4a16cc73554e74aa86011eb5c185042e"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 2368416
                 }
             ]
         },
@@ -6784,6 +6755,48 @@
                         "419286"
                     ],
                     "size": 11244
+                }
+            ]
+        },
+        {
+            "pakku_id": "yiNtxRxRU0zdbwrQ",
+            "pakku_links": [
+                "2w84rryWmLW8ny8s",
+                "HbE3P8IjZQB5wXG1"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "stellarcore"
+            },
+            "name": {
+                "curseforge": "StellarCore"
+            },
+            "id": {
+                "curseforge": "1064321"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "StellarCore-1.1.2.jar",
+                    "mc_versions": [
+                        "1.12.2"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/5536/217/StellarCore-1.1.2.jar",
+                    "id": "5536217",
+                    "parent_id": "1064321",
+                    "hashes": {
+                        "sha1": "c5733445ecd29d4a4e5174afc4e58baaea791ecc",
+                        "md5": "dd361d783632d42e910ee250488f7633"
+                    },
+                    "required_dependencies": [
+                        "419286",
+                        "870276"
+                    ],
+                    "size": 393591
                 }
             ]
         },

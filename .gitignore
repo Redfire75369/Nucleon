@@ -27,6 +27,10 @@ patchouli_books/**
 vintagefix/**
 woot/**
 
+config/brandon3055/ProjectIntelligence/DocUpdater/Mods/**
+config/brandon3055/ProjectIntelligence/GuiStyle/ActiveStyle.json
+config/brandon3055/ProjectIntelligence/ModDocs/**
+config/brandon3055/ResourceCache/**
 config/jei/worldSettings.cfg
 config/unidict/dump/**
 config/tellme/**
