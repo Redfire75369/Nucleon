@@ -36,42 +36,49 @@ function transformCase(name as string) as string {
 	return name[0].toLowerCase() ~ name.substring(1);
 }
 
+function add_to_map(map as IOreDictEntry[string], name as string, material as Material, prefix as string) {
+	if (!isNull(material.getItemStack(prefix))) {
+		map[name] = material.getOreDictEntry(prefix);
+	}
+}
+
 function std_oredict(material as Material, name as string) {
-	nuggets[name] = material.getOreDictEntry("nugget");
-	blocks[name] = material.getOreDictEntry("block");
-	dusts[name] = material.getOreDictEntry("dust");
-	plates[name] = material.getOreDictEntry("plate");
-	rods[name] = material.getOreDictEntry("rod");
+	add_to_map(nuggets, name, material, "nugget");
+	add_to_map(blocks, name, material, "block");
+	add_to_map(dusts, name, material, "dust");
+	add_to_map(plates, name, material, "plate");
+	add_to_map(rods, name, material, "rod");
 }
 
 for material in ingot_materials {
 	val name = transformCase(material.name);
-	ores[name] = material.getOreDictEntry("ore");
-	ingots[name] = material.getOreDictEntry("ingot");
+	add_to_map(ores, name, material, "ore");
+	add_to_map(ingots, name, material, "ingot");
 	std_oredict(material, name);
 }
+
 for material in ingot_plain_materials {
 	val name = transformCase(material.name);
-	ingots[name] = material.getOreDictEntry("ingot");
+	add_to_map(ingots, name, material, "ingot");
 	std_oredict(material, name);
 }
 
 for material in gem_materials {
 	val name = transformCase(material.name);
-	ores[name] = material.getOreDictEntry("ore");
-	gems[name] = material.getOreDictEntry("gem");
+	add_to_map(ores, name, material, "ore");
+	add_to_map(gems, name, material, "gem");
 	std_oredict(material, name);
 }
 for material in gem_plain_materials {
 	val name = transformCase(material.name);
-	gems[name] = material.getOreDictEntry("gem");
+	add_to_map(gems, name, material, "gem");
 	std_oredict(material, name);
 }
 
 for material in dust_materials {
 	val name = transformCase(material.name);
-	ores[name] = material.getOreDictEntry("ore");
-	dusts[name] = material.getOreDictEntry("dust");
+	add_to_map(ores, name, material, "ore");
+	add_to_map(dusts, name, material, "dust");
 }
 for material in dust_plain_materials {
 	val name = transformCase(material.name);

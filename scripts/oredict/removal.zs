@@ -7,9 +7,7 @@
 // Mag Grinder: Ore -> Rocky Chunk
 // RC Quern: Ore -> Dust
 // TR Industrial Grinder: Ore -> Dust
-// TR Grinder: Ore -> Dust
-// Mek Crusher: Ore -> Dust
-// NC Manufactory: Ore -> Dust
+// Mek Enrichment Chamber: Ore -> Dust
 // NC Melter: Ore -> Melter
 // EIO SAG Mill: Ore -> Dust
 
@@ -19,17 +17,13 @@
 // Mag Hydraulic Press: Ingot -> Heavy Plate
 // Mag Hydraulic Press: Ingot -> Double Plate
 // Mag Hydraulic Press: Ingot -> Plate
-// TR Grinder: Ingot -> Dust
 // TR Plate Bending Machine: Ingot -> Plate
-// Mek Crusher: Ingot -> Dust
-// NC Manufactory: Ingot -> Dust
 // NC Melter: Ingot -> Molten
 // NC Pressurizer: Ingot -> Plate
 // EIO SAG Mill: Ingot -> Dust
 
 // Crating: Block -> Ingot
 // Mag Crushing Table: Block -> Double Plate
-// TR Grinder: Block -> Dust
 // NC Melter: Block -> Molten
 // EIO SAG Mill: Block -> Dust
 
@@ -38,6 +32,5 @@
 // NC Melter: Dust -> Molten
 
 // Embers Melter: Plate -> Molten
-// TR Grinder: Plate -> Dust
 
 // IR Lathe: Ingot -> Rod
