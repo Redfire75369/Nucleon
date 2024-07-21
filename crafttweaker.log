@@ -1,30 +1,31 @@
 [PREINITIALIZATION][CLIENT][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
-Spencer Gilbert
-NerdyWhiteGuy
-Genryu
 Hooley
-Jordan Pineo
-Ncc1702
-Phillip Swearingain
-Ivy_
-Quaternary
-Jellycraft
-Jonathan McManus
-Peregrinus11
-Belathus
-NickT
-Zuniroa
-Pongo Sapiens
 DreamThorn
-Lucas
+Ncc1702
+Spencer Gilbert
 Jessie Sims
+Peregrinus11
+Jellycraft
+Belathus
+Jordan Pineo
+Pongo Sapiens
+NickT
+Genryu
+Lucas
+Ivy_
+Zuniroa
+Phillip Swearingain
 embeddedt
+NerdyWhiteGuy
+Quaternary
+Jonathan McManus
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [preinit]
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: common.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: hei.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: oredict\common.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\dust.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\removal.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\unidict.zs} as we are currently loading with a different loader
@@ -39,12 +40,13 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\minecraft.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\mystical-mechanics.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\rustichromia.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 10ms
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 21ms
 [PREINITIALIZATION][CLIENT][INFO] Hey! Here is ZenUtils.
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [contenttweaker]
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: common.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: hei.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: oredict\common.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\dust.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\removal.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\unidict.zs} as we are currently loading with a different loader
@@ -60,11 +62,12 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\minecraft.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\mystical-mechanics.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\rustichromia.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 1119ms
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 1523ms
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker], [finalize_contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [finalize_contenttweaker]
 [PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: common.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: hei.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: oredict\common.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\dust.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\removal.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\unidict.zs} as we are currently loading with a different loader
@@ -79,11 +82,12 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\minecraft.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\mystical-mechanics.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\rustichromia.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 2ms
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 6ms
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker], [finalize_contenttweaker], [mekatweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [mekatweaker]
 [PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: common.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: hei.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: oredict\common.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\dust.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\removal.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\unidict.zs} as we are currently loading with a different loader
@@ -98,11 +102,12 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\minecraft.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\mystical-mechanics.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [mekatweaker | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\rustichromia.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 5ms
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 8ms
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker], [finalize_contenttweaker], [mekatweaker], [nc_preinit]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [nc_preinit]
 [PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: common.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: hei.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: oredict\common.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\dust.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\removal.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\unidict.zs} as we are currently loading with a different loader
@@ -117,7 +122,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\minecraft.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\mystical-mechanics.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [nc_preinit | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\rustichromia.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 4ms
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 10ms
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker], [finalize_contenttweaker], [mekatweaker], [nc_preinit], [recipeevent | crafttweaker]]
@@ -125,6 +130,8 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[3:crafttweaker|reloadable]: common.zs}
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[3:crafttweaker|reloadable]: hei.zs}
 [INITIALIZATION][CLIENT][INFO] Adding tooltip for <appliedenergistics2:facade>.withTag({damage: 0, item: "minecraft:stone"}): "Facades can be crafted from most blocks, and are hidden to remove clutter."
+[INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[3:crafttweaker|reloadable]: oredict\common.zs}
+[INITIALIZATION][CLIENT][INFO] Adding Blaze Rod to ore dictionary entry rodBlaze
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[2:crafttweaker|reloadable]: oredict\dust.zs}
 [INITIALIZATION][CLIENT][INFO] Removed all manufactory recipes
 [INITIALIZATION][CLIENT][INFO] Adding manufactory recipe: 1 x ore:dustVilliaumite -> 1 x nuclearcraft:compound:3
@@ -148,8 +155,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Adding manufactory recipe: 1 x nuclearcraft:roasted_cocoa_beans:0 -> 1 x nuclearcraft:ground_cocoa_nibs:0
 [INITIALIZATION][CLIENT][INFO] Adding manufactory recipe: 1 x minecraft:porkchop:0 -> 8 x nuclearcraft:gelatin:0
 [INITIALIZATION][CLIENT][INFO] Adding manufactory recipe: 1 x minecraft:fish:32767 -> 4 x nuclearcraft:gelatin:0
-[INITIALIZATION][CLIENT][ERROR] At least one NuclearCraft recipe addition method has errored - check the log for more details
-[INITIALIZATION][CLIENT][INFO] Failed to add manufactory recipe 1 x ore:itemBlazeRod -> 4 x minecraft:blaze_powder:0
+[INITIALIZATION][CLIENT][INFO] Adding manufactory recipe: 1 x ore:rodBlaze -> 4 x minecraft:blaze_powder:0
 [INITIALIZATION][CLIENT][INFO] Adding manufactory recipe: 1 x ore:bone -> 6 x minecraft:dye:15
 [INITIALIZATION][CLIENT][INFO] Adding manufactory recipe: 1 x minecraft:log:0 -> 6 x minecraft:planks:0
 [INITIALIZATION][CLIENT][INFO] Adding manufactory recipe: 1 x minecraft:log:1 -> 6 x minecraft:planks:1
@@ -160,31 +166,31 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Adding manufactory recipe: 1 x techreborn:rubber_log:0 -> 6 x techreborn:rubber_planks:0
 [INITIALIZATION][CLIENT][INFO] Adding manufactory recipe: 1 x ore:plankWood -> 4 x minecraft:stick:0
 [INITIALIZATION][CLIENT][INFO] Adding manufactory recipe: 1 x ore:bouleSilicon -> 1 x qmd:semiconductor:3
-[INITIALIZATION][CLIENT][INFO] Removing all recipes from reborncore.api.praescriptum.recipes.RecipeHandler@5946a229
-[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@4cdef2c6 for {1xitem.techreborn.dust@63}
-[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@328d57d3 for {1xitem.techreborn.dust@62}
-[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@97ecb86 for {1xitem.techreborn.dust@61}
-[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@55e516f for {1xitem.techreborn.dust@4}
-[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@1d419c11 for {1xitem.techreborn.dust@32}
-[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@45aa73a5 for {1xitem.techreborn.dust@33}
-[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@3a77a26d for {1xitem.techreborn.dust@21}
-[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@4dd54965 for {4xitem.techreborn.dust@35}
-[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@5ce5e5da for {4xitem.yellowDust@0}
-[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@4ac482b8 for {1xitem.techreborn.dust@12}
-[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@4da72547 for {1xitem.techreborn.dust@20}
-[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@2a5ed3f7 for {1xitem.techreborn.dust@19}
-[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@59e62853 for {1xtile.sand@0}
-[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@3759b095 for {1xitem.flint@0}
-[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@43a02624 for {1xtile.dirt@0}
-[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@1fbd84cc for {4xitem.magmaCream@0}
-[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@777183d8 for {4xitem.blazePowder@0}
-[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@d5658bb for {6xitem.dyePowder@15}
+[INITIALIZATION][CLIENT][INFO] Removing all recipes from reborncore.api.praescriptum.recipes.RecipeHandler@15c04d78
+[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@2b11c9bd for {1xitem.techreborn.dust@63}
+[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@74a87199 for {1xitem.techreborn.dust@62}
+[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@51511290 for {1xitem.techreborn.dust@61}
+[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@a0f9720 for {1xitem.techreborn.dust@4}
+[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@3d5eb688 for {1xitem.techreborn.dust@32}
+[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@acd2c03 for {1xitem.techreborn.dust@33}
+[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@53d16a58 for {1xitem.techreborn.dust@21}
+[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@25914195 for {4xitem.techreborn.dust@35}
+[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@6db34959 for {4xitem.yellowDust@0}
+[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@efdddd8 for {1xitem.techreborn.dust@12}
+[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@56a6e5f5 for {1xitem.techreborn.dust@20}
+[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@79149b5d for {1xitem.techreborn.dust@19}
+[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@e1aeca7 for {1xtile.sand@0}
+[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@6e69f3a1 for {1xitem.flint@0}
+[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@f812ad4 for {1xtile.dirt@0}
+[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@5292860a for {4xitem.magmaCream@0}
+[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@bb4272b for {4xitem.blazePowder@0}
+[INITIALIZATION][CLIENT][INFO] Adding reborncore.api.praescriptum.recipes.Recipe@2ae12907 for {6xitem.dyePowder@15}
 [INITIALIZATION][CLIENT][INFO] Removing Aluminium Dust from ore dictionary entry dustAluminum
 [INITIALIZATION][CLIENT][INFO] Removing Aluminum Dust from ore dictionary entry dustAluminum
 [INITIALIZATION][CLIENT][INFO] Removing Aluminium Dust from ore dictionary entry dustAluminum
 [INITIALIZATION][CLIENT][INFO] Removing Aluminium Dust from ore dictionary entry dustAluminium
 [INITIALIZATION][CLIENT][INFO] Removing Aluminum Dust from ore dictionary entry dustAluminium
-[INITIALIZATION][CLIENT][INFO] Adding Aluminium Dust to ore dictionary entry dustAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Aluminium Dust to ore dictionary entry dustAluminum
 [INITIALIZATION][CLIENT][INFO] Removing Chromium Dust from ore dictionary entry dustChromium
 [INITIALIZATION][CLIENT][INFO] Adding Chrome Dust to ore dictionary entry dustChromium
 [INITIALIZATION][CLIENT][INFO] Removing Coal Powder from ore dictionary entry dustCoal
@@ -199,6 +205,55 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Removing Ender Dust from ore dictionary entry dustEnderPearl
 [INITIALIZATION][CLIENT][INFO] Removing Flour from ore dictionary entry dustWheat
 [INITIALIZATION][CLIENT][INFO] Removing Flour from ore dictionary entry dustWheat
+[INITIALIZATION][CLIENT][INFO] Removing Gold Dust from ore dictionary entry dustGold
+[INITIALIZATION][CLIENT][INFO] Removing Gold Powder from ore dictionary entry dustGold
+[INITIALIZATION][CLIENT][INFO] Removing Gold Dust from ore dictionary entry dustGold
+[INITIALIZATION][CLIENT][INFO] Removing Gold Dust from ore dictionary entry dustGold
+[INITIALIZATION][CLIENT][INFO] Removing Iridium Dust from ore dictionary entry dustIridium
+[INITIALIZATION][CLIENT][INFO] Removing Iron Dust from ore dictionary entry dustIron
+[INITIALIZATION][CLIENT][INFO] Removing Iron Powder from ore dictionary entry dustIron
+[INITIALIZATION][CLIENT][INFO] Removing Iron Dust from ore dictionary entry dustIron
+[INITIALIZATION][CLIENT][INFO] Removing Iron Dust from ore dictionary entry dustIron
+[INITIALIZATION][CLIENT][INFO] Removing Lead Dust from ore dictionary entry dustLead
+[INITIALIZATION][CLIENT][INFO] Removing Lead Dust from ore dictionary entry dustLead
+[INITIALIZATION][CLIENT][INFO] Removing Lead Dust from ore dictionary entry dustLead
+[INITIALIZATION][CLIENT][INFO] Removing Lithium Dust from ore dictionary entry dustLithium
+[INITIALIZATION][CLIENT][INFO] Removing Magnesium Dust from ore dictionary entry dustMagnesium
+[INITIALIZATION][CLIENT][INFO] Removing Manganese Dust from ore dictionary entry dustManganese
+[INITIALIZATION][CLIENT][INFO] Removing Nether Quartz Dust from ore dictionary entry dustNetherQuartz
+[INITIALIZATION][CLIENT][INFO] Removing Quartz Powder from ore dictionary entry dustNetherQuartz
+[INITIALIZATION][CLIENT][INFO] Removing Nickel Dust from ore dictionary entry dustNickel
+[INITIALIZATION][CLIENT][INFO] Removing Nickel Dust from ore dictionary entry dustNickel
+[INITIALIZATION][CLIENT][INFO] Removing Obsidian Powder from ore dictionary entry dustObsidian
+[INITIALIZATION][CLIENT][INFO] Removing Obsidian Dust from ore dictionary entry dustObsidian
+[INITIALIZATION][CLIENT][INFO] Removing Crushed Obsidian from ore dictionary entry dustObsidian
+[INITIALIZATION][CLIENT][INFO] Removing Osmium Dust from ore dictionary entry dustOsmium
+[INITIALIZATION][CLIENT][INFO] Removing Osmium Dust from ore dictionary entry dustOsmium
+[INITIALIZATION][CLIENT][INFO] Removing Platinum Dust from ore dictionary entry dustPlatinum
+[INITIALIZATION][CLIENT][INFO] Removing Sodium Nitrate from ore dictionary entry dustNiter
+[INITIALIZATION][CLIENT][INFO] Removing Sodium Nitrate from ore dictionary entry dustSaltpeter
+[INITIALIZATION][CLIENT][INFO] Removing Sodium Nitrate from ore dictionary entry dustSodiumNitrate
+[INITIALIZATION][CLIENT][INFO] Adding Saltpeter Dust to ore dictionary entry dustNiter
+[INITIALIZATION][CLIENT][INFO] Adding Saltpeter Dust to ore dictionary entry dustSodiumNitrate
+[INITIALIZATION][CLIENT][INFO] Removing Silver Dust from ore dictionary entry dustSilver
+[INITIALIZATION][CLIENT][INFO] Removing Silver Dust from ore dictionary entry dustSilver
+[INITIALIZATION][CLIENT][INFO] Removing Silver Dust from ore dictionary entry dustSilver
+[INITIALIZATION][CLIENT][INFO] Removing Sulfur Crystal from ore dictionary entry dustSulfur
+[INITIALIZATION][CLIENT][INFO] Removing Sulfur Dust from ore dictionary entry dustSulfur
+[INITIALIZATION][CLIENT][INFO] Removing Sulfur from ore dictionary entry dustSulfur
+[INITIALIZATION][CLIENT][INFO] Removing Sulfur from ore dictionary entry dustSulfur
+[INITIALIZATION][CLIENT][INFO] Removing Steel Dust from ore dictionary entry dustSteel
+[INITIALIZATION][CLIENT][INFO] Removing Steel Dust from ore dictionary entry dustSteel
+[INITIALIZATION][CLIENT][INFO] Removing Thorium Dust from ore dictionary entry dustThorium
+[INITIALIZATION][CLIENT][INFO] Removing Tin Dust from ore dictionary entry dustTin
+[INITIALIZATION][CLIENT][INFO] Removing Tin Dust from ore dictionary entry dustTin
+[INITIALIZATION][CLIENT][INFO] Removing Tin Dust from ore dictionary entry dustTin
+[INITIALIZATION][CLIENT][INFO] Removing Titanium Dust from ore dictionary entry dustTitanium
+[INITIALIZATION][CLIENT][INFO] Removing Tungsten Dust from ore dictionary entry dustTungsten
+[INITIALIZATION][CLIENT][INFO] Removing Tungsten Dust from ore dictionary entry dustTungsten
+[INITIALIZATION][CLIENT][INFO] Removing Uranium Dust from ore dictionary entry dustUranium
+[INITIALIZATION][CLIENT][INFO] Removing Zinc Dust from ore dictionary entry dustZinc
+[INITIALIZATION][CLIENT][INFO] Removing Zinc Dust from ore dictionary entry dustZinc
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[2:crafttweaker|reloadable]: oredict\removal.zs}
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[2:crafttweaker|reloadable]: oredict\unidict.zs}
 [INITIALIZATION][CLIENT][INFO] Trying to remove Crafting Table recipes for kind: block
@@ -234,14 +289,26 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-1:crafttweaker|reloadable]: stage0\minecraft.zs}
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-1:crafttweaker|reloadable]: stage0\mystical-mechanics.zs}
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-1:crafttweaker|reloadable]: stage0\rustichromia.zs}
-[INITIALIZATION][CLIENT][TRACE] Completed script loading in: 720ms
+[INITIALIZATION][CLIENT][TRACE] Completed script loading in: 1576ms
 [INITIALIZATION][CLIENT][INFO] Removing GrinderRecipe(input=1xitem.magneticraft.ingots@7, primaryOutput=1xitem.magneticraft.dusts@7, secondaryOutput=1xtile.air@0, prob=0.0, ticks=50.0, oreDict=true)
 [INITIALIZATION][CLIENT][INFO] Removing GrinderRecipe(input=1xitem.magneticraft.ingots@4, primaryOutput=1xitem.magneticraft.dusts@4, secondaryOutput=1xtile.air@0, prob=0.0, ticks=50.0, oreDict=true)
 [INITIALIZATION][CLIENT][INFO] Removing GrinderRecipe(input=1xitem.magneticraft.ingots@2, primaryOutput=1xitem.magneticraft.dusts@2, secondaryOutput=1xtile.air@0, prob=0.0, ticks=50.0, oreDict=true)
+[INITIALIZATION][CLIENT][INFO] Removing GrinderRecipe(input=1xitem.ingotGold@0, primaryOutput=1xitem.magneticraft.dusts@1, secondaryOutput=1xtile.air@0, prob=0.0, ticks=50.0, oreDict=true)
+[INITIALIZATION][CLIENT][INFO] Removing GrinderRecipe(input=1xitem.ingotIron@0, primaryOutput=1xitem.magneticraft.dusts@0, secondaryOutput=1xtile.air@0, prob=0.0, ticks=50.0, oreDict=true)
+[INITIALIZATION][CLIENT][INFO] Removing GrinderRecipe(input=1xitem.magneticraft.ingots@3, primaryOutput=1xitem.magneticraft.dusts@3, secondaryOutput=1xtile.air@0, prob=0.0, ticks=50.0, oreDict=true)
+[INITIALIZATION][CLIENT][INFO] Removing GrinderRecipe(input=1xitem.magneticraft.ingots@9, primaryOutput=1xitem.magneticraft.dusts@9, secondaryOutput=1xtile.air@0, prob=0.0, ticks=50.0, oreDict=true)
+[INITIALIZATION][CLIENT][INFO] Removing GrinderRecipe(input=1xitem.magneticraft.ingots@10, primaryOutput=1xitem.magneticraft.dusts@10, secondaryOutput=1xtile.air@0, prob=0.0, ticks=50.0, oreDict=true)
+[INITIALIZATION][CLIENT][INFO] Removing GrinderRecipe(input=1xitem.magneticraft.ingots@12, primaryOutput=1xitem.magneticraft.dusts@12, secondaryOutput=1xtile.air@0, prob=0.0, ticks=50.0, oreDict=true)
+[INITIALIZATION][CLIENT][INFO] Removing GrinderRecipe(input=1xitem.blazeRod@0, primaryOutput=4xitem.blazePowder@0, secondaryOutput=1xitem.magneticraft.crafting@0, prob=0.5, ticks=50.0, oreDict=true)
+[INITIALIZATION][CLIENT][INFO] Removing GrinderRecipe(input=1xitem.magneticraft.ingots@6, primaryOutput=1xitem.magneticraft.dusts@6, secondaryOutput=1xtile.air@0, prob=0.0, ticks=50.0, oreDict=true)
+[INITIALIZATION][CLIENT][INFO] Removing GrinderRecipe(input=1xitem.magneticraft.ingots@13, primaryOutput=1xitem.magneticraft.dusts@13, secondaryOutput=1xtile.air@0, prob=0.0, ticks=50.0, oreDict=true)
+[INITIALIZATION][CLIENT][INFO] Removing GrinderRecipe(input=1xitem.magneticraft.ingots@5, primaryOutput=1xitem.magneticraft.dusts@5, secondaryOutput=1xtile.air@0, prob=0.0, ticks=50.0, oreDict=true)
+[INITIALIZATION][CLIENT][INFO] Removing GrinderRecipe(input=1xitem.magneticraft.ingots@14, primaryOutput=1xitem.magneticraft.dusts@14, secondaryOutput=1xtile.air@0, prob=0.0, ticks=50.0, oreDict=true)
 [INITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker], [finalize_contenttweaker], [mekatweaker], [nc_preinit], [crafttweaker | recipeevent], [multiblocked]]
 [INITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [multiblocked]
 [INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: common.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: hei.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[3:crafttweaker|reloadable]: oredict\common.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\dust.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\removal.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[2:crafttweaker|reloadable]: oredict\unidict.zs} as we are currently loading with a different loader
@@ -256,7 +323,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\minecraft.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\mystical-mechanics.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][TRACE] [multiblocked | SIDE_CLIENT]: Skipping file {[-1:crafttweaker|reloadable]: stage0\rustichromia.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][TRACE] Completed script loading in: 5ms
+[INITIALIZATION][CLIENT][TRACE] Completed script loading in: 6ms
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Akashic Tome with name akashic_tome
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for item.tinker_hammer with name tinker_hammer
@@ -316,10 +383,10 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Quern with name quern
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for tile.gin with name gin
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for tile.assembler1 with name single_assembler
-[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: com.teamacronymcoders.contenttweaker.modules.vanilla.resources.GhostItemStack@234077ae
-[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: com.teamacronymcoders.contenttweaker.modules.vanilla.resources.GhostItemStack@234077ae
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: com.teamacronymcoders.contenttweaker.modules.vanilla.resources.GhostItemStack@35db9d9d
+[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: com.teamacronymcoders.contenttweaker.modules.vanilla.resources.GhostItemStack@35db9d9d
 [POSTINITIALIZATION][CLIENT][INFO] Adding furnace recipe for <ore:logWood>
-[POSTINITIALIZATION][CLIENT][INFO] Adding furnace recipe for com.teamacronymcoders.contenttweaker.modules.vanilla.resources.GhostItemStack@5cda93a3
+[POSTINITIALIZATION][CLIENT][INFO] Adding furnace recipe for com.teamacronymcoders.contenttweaker.modules.vanilla.resources.GhostItemStack@1cf0b7a0
 [POSTINITIALIZATION][CLIENT][INFO] Removing Quern recipe: rustichromia:wheat_to_flour
 [POSTINITIALIZATION][CLIENT][INFO] Removing Quern recipe: rustichromia:log_to_dust
 [POSTINITIALIZATION][CLIENT][INFO] Removing Quern recipe: rustichromia:plank_to_dust
@@ -339,6 +406,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding Assembler recipe: crafttweaker:plywood_gear
 [POSTINITIALIZATION][CLIENT][INFO] Adding Assembler recipe: crafttweaker:windmill_big
 [POSTINITIALIZATION][CLIENT][INFO] Removed all recipes for Mekanism Crusher
+[POSTINITIALIZATION][CLIENT][INFO] Removed all recipes for Mekanism Enrichment Chamber
 [POSTINITIALIZATION][CLIENT][INFO] Adding 16 Mekanism Crusher Recipe(s) for <minecraft:string> * 4, <minecraft:string> * 4, <minecraft:string> * 4, <minecraft:string> * 4, <minecraft:string> * 4, <minecraft:string> * 4, <minecraft:string> * 4, <minecraft:string> * 4, <minecraft:string> * 4, <minecraft:string> * 4, <minecraft:string> * 4, <minecraft:string> * 4, <minecraft:string> * 4, <minecraft:string> * 4, <minecraft:string> * 4, <minecraft:string> * 4
 [POSTINITIALIZATION][CLIENT][INFO] Adding 8 Mekanism Crusher Recipe(s) for <mekanism:biofuel> * 2, <mekanism:biofuel> * 2, <mekanism:biofuel> * 2, <mekanism:biofuel> * 2, <mekanism:biofuel> * 2, <mekanism:biofuel> * 2, <mekanism:biofuel> * 2, <mekanism:biofuel> * 2
 [POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Crusher Recipe(s) for <mekanism:biofuel> * 2
@@ -359,6 +427,8 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Crusher Recipe(s) for <mekanism:biofuel> * 2
 [POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Crusher Recipe(s) for <mekanism:biofuel> * 6
 [POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Crusher Recipe(s) for <mekanism:biofuel> * 2
+[POSTINITIALIZATION][CLIENT][INFO] Adding 0 Mekanism Crusher Recipe(s) for Unknown item
+[POSTINITIALIZATION][CLIENT][INFO] Adding 2 Mekanism Crusher Recipe(s) for <enderio:item_material:5>, <enderio:item_material:5>
 [POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Crusher Recipe(s) for <minecraft:stonebrick>
 [POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Crusher Recipe(s) for <minecraft:stonebrick:2>
 [POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Crusher Recipe(s) for <minecraft:stone>
@@ -367,10 +437,49 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Crusher Recipe(s) for <minecraft:sand>
 [POSTINITIALIZATION][CLIENT][INFO] Adding 5 Mekanism Crusher Recipe(s) for <minecraft:sand> * 2, <minecraft:sand> * 2, <minecraft:sand> * 2, <minecraft:sand> * 2, <minecraft:sand> * 2
 [POSTINITIALIZATION][CLIENT][INFO] Adding 5 Mekanism Crusher Recipe(s) for <minecraft:sand:1> * 2, <minecraft:sand:1> * 2, <minecraft:sand:1> * 2, <minecraft:sand:1> * 2, <minecraft:sand:1> * 2
-[POSTINITIALIZATION][CLIENT][INFO] Adding 0 Mekanism Crusher Recipe(s) for Unknown item
-[POSTINITIALIZATION][CLIENT][INFO] Adding 2 Mekanism Crusher Recipe(s) for <enderio:item_material:5>, <enderio:item_material:5>
 [POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Crusher Recipe(s) for <buildinggadgets:construction_chunk_dense>
 [POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Crusher Recipe(s) for <buildinggadgets:constructionpaste>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <minecraft:coal:1>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 3 Mekanism Enrichment Chamber Recipe(s) for <minecraft:coal>, <minecraft:coal>, <minecraft:coal>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 2 Mekanism Enrichment Chamber Recipe(s) for <appliedenergistics2:material:10>, <appliedenergistics2:material:10>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <appliedenergistics2:material:10>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <appliedenergistics2:material:12>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 5 Mekanism Enrichment Chamber Recipe(s) for <minecraft:gunpowder>, <minecraft:gunpowder>, <minecraft:gunpowder>, <minecraft:gunpowder>, <minecraft:gunpowder>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 2 Mekanism Enrichment Chamber Recipe(s) for <minecraft:gunpowder>, <minecraft:gunpowder>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <minecraft:flint>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 2 Mekanism Enrichment Chamber Recipe(s) for <minecraft:coal:1>, <minecraft:coal:1>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <mekanism:compressedcarbon>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 2 Mekanism Enrichment Chamber Recipe(s) for <mekanism:compressedcarbon>, <mekanism:compressedcarbon>
+[POSTINITIALIZATION][CLIENT][INFO] Overwritten Mekanism Enrichment Chamber Recipe for <mekanism:compressedcarbon>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <mekanism:compressedredstone>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 3 Mekanism Enrichment Chamber Recipe(s) for <mekanism:compresseddiamond>, <mekanism:compresseddiamond>, <mekanism:compresseddiamond>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <mekanism:compressedobsidian>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <mekanism:polyethene:2>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 16 Mekanism Enrichment Chamber Recipe(s) for <techreborn:dust:35> * 4, <techreborn:dust:35> * 4, <techreborn:dust:35> * 4, <techreborn:dust:35> * 4, <techreborn:dust:35> * 4, <techreborn:dust:35> * 4, <techreborn:dust:35> * 4, <techreborn:dust:35> * 4, <techreborn:dust:35> * 4, <techreborn:dust:35> * 4, <techreborn:dust:35> * 4, <techreborn:dust:35> * 4, <techreborn:dust:35> * 4, <techreborn:dust:35> * 4, <techreborn:dust:35> * 4, <techreborn:dust:35> * 4
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <minecraft:glowstone_dust> * 4
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <minecraft:clay_ball> * 4
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <qmd:chemical_dust:3> * 4
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <minecraft:stonebrick>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <minecraft:stonebrick>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <minecraft:stonebrick:3>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <minecraft:stonebrick:2>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <minecraft:cobblestone>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <mekanism:slickplasticblock>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <mekanism:slickplasticblock:1>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <mekanism:slickplasticblock:2>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <mekanism:slickplasticblock:3>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <mekanism:slickplasticblock:4>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <mekanism:slickplasticblock:5>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <mekanism:slickplasticblock:6>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <mekanism:slickplasticblock:7>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <mekanism:slickplasticblock:8>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <mekanism:slickplasticblock:9>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <mekanism:slickplasticblock:10>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <mekanism:slickplasticblock:11>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <mekanism:slickplasticblock:12>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <mekanism:slickplasticblock:13>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <mekanism:slickplasticblock:14>
+[POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <mekanism:slickplasticblock:15>
 [POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <contenttweaker:compressed_dragon_breath>
 [POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <contenttweaker:compressed_ember>
 [POSTINITIALIZATION][CLIENT][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <contenttweaker:compressed_ember>
@@ -3112,15 +3221,15 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "embers:block_dawnstone"})
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "extrabitmanipulation:bodypart_template"})
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "hydrogel:hydrogel"})
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "magneticraft:multiblock_parts"})
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "magneticraft:multiblock_column"})
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "magneticraft:pumpjack_drill"})
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "magneticraft:limestone"})
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "magneticraft:burnt_limestone"})
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "magneticraft:tile_limestone"})
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "magneticraft:ores"})
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "magneticraft:oil_source"})
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "magneticraft:storage_blocks"})
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "magneticraft:multiblock_parts"})
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "magneticraft:multiblock_column"})
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "magneticraft:pumpjack_drill"})
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "rustichromia:block_steel"})
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "rustichromia:thatch_block"})
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <appliedenergistics2:facade>.withTag({damage: 0, item: "rustichromia:molten_hay"})
@@ -3174,6 +3283,6 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <chambers:enchant_chamber>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <chambers:fluid_chamber>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <chambers:fusion_chamber>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: com.teamacronymcoders.contenttweaker.modules.vanilla.resources.GhostItemStack@44f6c206
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: com.teamacronymcoders.contenttweaker.modules.vanilla.resources.GhostItemStack@222f305d
 [AVAILABLE][CLIENT][INFO] Adding <appliedenergistics2:facade>.withTag({damage: 0, item: "minecraft:stone"}) to JEI
 [AVAILABLE][CLIENT][INFO] Adding <akashictome:tome>.withTag({"akashictome:data": {industrialforegoing: {id: "industrialforegoing:book_manual", Count: 1, tag: {"akashictome:definedMod": "industrialforegoing"}, Damage: 0 as short}, pneumaticcraft: {id: "patchouli:guide_book", Count: 1, tag: {"akashictome:definedMod": "pneumaticcraft", "patchouli:book": "pneumaticcraft:book"}, Damage: 0 as short}, industrialrenewal: {id: "industrialrenewal:ir_manual", Count: 1, tag: {"akashictome:definedMod": "industrialrenewal"}, Damage: 0 as short}, opencomputers: {id: "opencomputers:tool", Count: 1, tag: {"akashictome:definedMod": "opencomputers"}, Damage: 4 as short}, qmd: {id: "patchouli:guide_book", Count: 1, tag: {"akashictome:definedMod": "pneumaticcraft", "patchouli:book": "qmd:guide"}, Damage: 0 as short}, woot: {id: "guideapi:woot-guide", Count: 1, tag: {"akashictome:definedMod": "woot"}, Damage: 0 as short}, embers: {id: "embers:codex", Count: 1, tag: {"akashictome:definedMod": "embers"}, Damage: 0 as short}, betterquesting: {id: "betterquesting:quest_book", Count: 1, tag: {"akashictome:definedMod": "betterquesting"}, Damage: 0 as short}, nuclearcraft: {id: "patchouli:guide_book", Count: 1, tag: {"akashictome:definedMod": "pneumaticcraft", "patchouli:book": "nuclearcraft:guide"}, Damage: 0 as short}, magneticraft: {id: "magneticraft:guide_book", Count: 1, tag: {"akashictome:definedMod": "magneticraft"}, Damage: 0 as short}}}) to JEI
