@@ -34,7 +34,7 @@
 #Configurations related to item selection.
 [itemSelection]
 	#List of mods that are preferred when selecting items in recipes.
-	preferredMods = ["minecraft", "qmd", "techreborn", "nuclearcraft", "mekanism", "embers", "jaopca"]
+	preferredMods = ["minecraft", "techreborn", "qmd", "nuclearcraft", "mekanism", "embers", "jaopca"]
 
 #Configurations related to the ore dictionary.
 [oredict]
@@ -43,7 +43,7 @@
 	#List of oredict modules that should not be registered.
 	moduleBlacklist = []
 	#List of custom oredict entries to add. Format: <mod:item@meta=oredict>
-	custom = []
+	custom = ["minecraft:blaze_rod=rodBlaze", "techreborn:dust@1=dustAluminum", "techreborn:dust@3=dustChromium", "techreborn:dust@44=dustNiter", "techreborn:dust@44=dustSaltpeter", "techreborn:ingot@3=ingotChromium", "techreborn:nuggets@3=nuggetChromium", "techreborn:plates@20=plateChromium", "techreborn:smalldust@10=dustSmallChromium", "techreborn:storage@3=blockChromium"]
 
 #Configurations related to recipes.
 [recipes]
